@@ -47,4 +47,29 @@ class CfgAmmo
 	{
 		caliber = 1.4;
 	};
+	
+	class rhs_ammo_556x45_Mk262_Ball : B_556x45_Ball
+	{
+		caliber = 0.87;
+	};
+	class rhs_ammo_556x45_Mk318_Ball : B_556x45_Ball
+	{
+		caliber = 0.87;
+	};
+	class rhs_ammo_556x45_M995_AP : B_556x45_Ball
+	{
+		caliber = 1.6;
+	};
+	class rhs_ammo_556x45_M193_Ball : B_556x45_Ball
+	{
+		caliber = 0.6;
+	};
+	class rhs_ammo_556x45_M855_Ball : B_556x45_Ball
+	{
+		caliber = 0.7;
+	};
+	class rhs_ammo_556x45_M885A1_Ball : B_556x45_Ball
+	{
+		caliber = 0.87;
+	};
 };
