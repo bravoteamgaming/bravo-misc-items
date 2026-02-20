@@ -1,0 +1,248 @@
+CfgWeapons
+"njt_acr_68_crew", Remington ACR 6.8mm (Compact)
+"njt_acr_68_rifle", Remington ACR 6.8mm
+"njt_acr_68_rifle_long", Remington ACR 6.8mm (Long)
+"njt_acr_68_carbine", Remington ACR 6.8mm (Carbine)
+"njt_acr_68_carbine_ugl", Remington ACR 6.8mm M203 (Carbine)
+"njt_hs50_20", Steyr HS-50/20
+"njt_sdar_762", RFB
+"njt_tavor_7", Tavor 7
+"njt_mk200_556", Stoner 99 LMG 556
+"njt_mk200_556_blk", Stoner 99 LMG 556 (Black)
+"njt_msbs_556", MSBS Grot-B 556
+"njt_msbs_556_camo", MSBS Grot-B 556 (Camo)
+"njt_msbs_556_black", MSBS Grot-B 556 (Black)
+"njt_msbs_556_sand", MSBS Grot-B 556 (Sand)
+"njt_msbs_556_mark", MSBS Grot-B 556 MR
+"njt_msbs_556_mark_camo", MSBS Grot-B 556 MR (Camo)
+"njt_msbs_556_mark_black", MSBS Grot-B 556 MR (Black)
+"njt_msbs_556_mark_sand", MSBS Grot-B 556 MR (Sand)
+"njt_msbs_556_gl", MSBS Grot-B 556 GL
+"njt_msbs_556_gl_camo", MSBS Grot-B 556 GL (Camo)
+"njt_msbs_556_gl_black", MSBS Grot-B 556 GL (Black)
+"njt_msbs_556_gl_sand", MSBS Grot-B 556 GL (Sand)
+"njt_msbs_556_ubs", MSBS Grot-B 556 SG
+"njt_msbs_556_ubs_camo", MSBS Grot-B 556 SG (Camo)
+"njt_msbs_556_ubs_black", MSBS Grot-B 556 SG (Black)
+"njt_msbs_556_ubs_sand", MSBS Grot-B 556 (Sand)
+"njt_mg34f2", MG 34F2
+"njt_mg34f1", MG 34F1
+"njt_carrier_nobelt_rf_blk", Carrier Lite Vest (Black)
+"njt_carrier_nobelt_rf_rgr", Carrier Lite Vest (Green)
+"njt_carrier_nobelt_rf_brn", Carrier Lite Vest (Brown)
+"njt_carrier_nobelt_rf_mtpdes", Carrier Lite Vest (Desert MTP)
+"njt_carrier_nobelt_rf_mtptrp", Carrier Lite Vest (Tropic MTP)
+"njt_carrier_nobelt_rf_mtpwdl", Carrier Lite Vest (Woodland MTP)
+"njt_carrier_nobelt_rf_win", Carrier Lite Vest (Winter)
+"njt_carrier_nobelt_rf_khk", Carrier Lite Vest (Khaki)
+"njt_carrier_nobelt_rf_des", Carrier Lite Vest (Desert)
+"njt_carrier_nobelt_ws_blk", CTRG Plate Carrier Rig (Black)
+"njt_carrier_nobelt_ws_brn", CTRG Plate Carrier Rig (Brown)
+"njt_carrier_nobelt_ws_rgr", CTRG Plate Carrier Rig (Green)
+"njt_carrier_nobelt_ws_win", CTRG Plate Carrier Rig (Winter)
+"njt_carrier_nobelt_ws_khk", CTRG Plate Carrier Rig (Khaki)
+"njt_carrier_nobelt_ws_des", CTRG Plate Carrier Rig (Desert)
+"njt_6sh122_gloves_olive", 6Sh122 (Olive/Gloves)
+"njt_cryeg3_bravocam", G3 Uniform (BravoCam)
+"njt_combatuniform_tactee_aaf_ws", Combat Fatigues [AAF] (Tee)
+"njt_combatuniform_tshirt_ion_dpm_ws", Combat Fatigues T-Shirt 03 [ION] (DPM)
+"njt_combatuniform_tshirt_ion_ddpm_ws", Combat Fatigues T-Shirt 03 [ION] (DDPM)
+"njt_combatuniform_tactee_ion_ddpm_ws", Combat Fatigues T-Shirt 02 [ION] (DDPM)
+"njt_combatuniform_tactee_ion_dpm_ws", Combat Fatigues T-Shirt 02 [ION] (DPM)
+"njt_combatuniform_tactee_ion_marpatwd_ws", Combat Fatigues T-Shirt 02 [ION] (MARPAT-WD)
+"njt_combatuniform_tactee_ion_marpatd_ws", Combat Fatigues T-Shirt 02 [ION] (MARPAT-D)
+"njt_combatuniform_tshirt_ion_marpatwd_ws", Combat Fatigues T-Shirt 03 [ION] (MARPAT-WD)
+"njt_combatuniform_tshirt_ion_marpatd_ws", Combat Fatigues T-Shirt 03 [ION] (MARPAT-D)
+"njt_combatuniform_tshirt_mtp_ws", Combat Uniform MTP T-Shirt [BAF]
+"njt_combatuniform_tactee_mtp_ws", Combat Uniform MTP Combat Shirt [BAF]
+"njt_combatuniform_tshirt_dpmtrop_ws", Combat Uniform DPM Trop T-Shirt [BAF]
+"njt_combatuniform_tshirt_dpmt_ws", Combat Uniform DPM Tmp T-Shirt [BAF]
+"njt_combatuniform_tshirt_dpmj_ws", Combat Uniform DPM Jun T-Shirt [BAF]
+"njt_combatuniform_tshirt_dpmw_ws", Combat Uniform DPM Wdl T-Shirt [BAF]
+"njt_combatuniform_tshirt_ddpm_ws", Combat Uniform DDPM T-Shirt [BAF]
+"njt_combatuniform_tactee_dpmtrop_ws", Combat Uniform DPM Trop Combat Shirt [BAF]
+"njt_combatuniform_tactee_dpmt_ws", Combat Uniform DPM Tmp Combat Shirt [BAF]
+"njt_combatuniform_tactee_dpmj_ws", Combat Uniform DPM Jun Combat Shirt [BAF]
+"njt_combatuniform_tactee_dpmw_ws", Combat Uniform DPM Wdl Combat Shirt [BAF]
+"njt_combatuniform_tactee_ddpm_ws", Combat Uniform DDPM Combat Shirt [BAF]
+"njt_combatuniform_tactee_ion_mtp_ws", Combat Fatigues T-Shirt 02 [ION] (MTP)
+"njt_combatuniform_tshirt_ion_mtp_ws", Combat Fatigues T-Shirt 03 [ION] (MTP)
+"njt_combatuniformn_tactee_ion_mtp", Combat Fatigues T-Shirt [ION] (MTP)
+"njt_combatuniformn_tactee_ion_mtpt", Combat Fatigues T-Shirt [ION] (Tropic MTP)
+"njt_combatuniformn_tactee_ion_mtpw", Combat Fatigues T-Shirt [ION] (Woodland MTP)
+"njt_combatuniformn_tactee_ion_mtpd", Combat Fatigues T-Shirt [ION] (Desert MTP)
+"njt_fast_fg_headset_medic", FAST Ballistic (Foliage Green Cover/Headset/Medic)
+"njt_fast_fg_headset_stupid", FAST Ballistic (Foliage Green Cover/Headset/Stupid)
+"njt_fast_coy_cover_headset", FAST Ballistic (Coyote Cover/Headset)
+"njt_fast_ut_headset_medic", FAST Ballistic (Urban Tan/Headset/Medic)
+"njt_fast_ut_headset_barvo", FAST Ballistic (Urban Tan/Headset/Barvo)
+"njt_fast_rg_cover_headset", FAST Ballistic (Ranger Green Cover/Headset)
+"njt_fast_flk_cover_headset", FAST Ballistic (Flecktarn Cover/Headset)
+"njt_fast_rg_cover_headset_red", FAST Ballistic (Ranger Green Cover/Headset/Red Team)
+"njt_fast_rg_cover_headset_blue", FAST Ballistic (Ranger Green Cover/Headset/Blue Team)
+"njt_fast_bk_headset_medic", FAST Ballistic (Black/Headset/Medic)
+"njt_fast_mc_cover_headset_red", FAST Ballistic (Multicam Cover/Headset/Red Team)
+"njt_fast_mc_cover_headset_blue", FAST Ballistic (Multicam Cover/Headset/Blue Team)
+"njt_6b27m_green_medic", 6B27M (Medic)
+"njt_6b27m_green_ess_medic", 6B27M (ESS/Medic)
+"njt_6b26_green_medic", 6B26 (Medic)
+"njt_6b26_green_ess_medic", 6B26 (ESS/Medic)
+"njt_ach_bare_headset_medic", ACH (Headset/Medic)
+"njt_ach_bare_headset_ess_medic", ACH (Headset/ESS/Medic)
+"njt_ach_bare_headset_ess_red", ACH (Headset/ESS/Red Team)
+"njt_ach_bare_headset_ess_blue", ACH (Headset/ESS/Blue Team)
+"njt_ach_bare_tan_headset_medic", ACH (Tan/Headset/Medic)
+"njt_ach_bare_tan_headset_ess_medic", ACH (Tan/Headset/ESS/Medic)
+"njt_ach_bare_tan_headset_ess_red", ACH (Tan/Headset/ESS/Red Team)
+"njt_ach_bare_tan_headset_ess_blue", ACH (Tan/Headset/ESS/Blue Team)
+"njt_mich_bare_noflag", MICH 2000 (No Flag)
+"njt_mich_bare_headset_noflag", MICH 2000 (Headset/No Flag)
+"njt_mich_bare_headset_red", MICH 2000 (Headset/Red Team)
+"njt_mich_bare_headset_blue", MICH 2000 (Headset/Blue Team)
+"njt_mich_bare_alt_noflag", MICH 2000 (Alt/No Flag)
+"njt_mich_bare_alt_medic", MICH 2000 (Alt/Medic)
+"njt_mich_bare_tan_noflag", MICH 2000 (Tan/No Flag)
+"njt_mich_bare_tan_headset_noflag", MICH 2000 (Tan/Headset/No Flag)
+"njt_mich_bare_tan_headset_red", MICH 2000 (Tan/Headset/Red Team)
+"njt_mich_bare_tan_headset_blue", MICH 2000 (Tan/Headset/Blue Team)
+"njt_mich_bare_alt_tan_noflag", MICH 2000 (Tan/Alt/No Flag)
+"njt_mich_bare_alt_tan_medic", MICH 2000 (Tan/Alt/Medic)
+"njt_mich_bare_norotos_arc_alt_tan_headset_red", MICH 2000 (Tan/Norotos/ARC/Headset/Red Team)
+"njt_mich_bare_norotos_arc_alt_tan_headset_blue", MICH 2000 (Tan/Norotos/ARC/Headset/Blue Team)
+"njt_mich_bare_norotos_arc_headset_red", MICH 2000 (Norotos/ARC/Headset/Red Team)
+"njt_mich_bare_norotos_arc_headset_blue", MICH 2000 (Norotos/ARC/Headset/Blue Team)
+"njt_m97_olive_medic", M97 (Olive/Medic)
+"njt_m97_olive_b2d", M97 (Olive/B2D)
+"njt_pasgt_tan_medic", PASGT Tan (Medic)
+"njt_pasgt_tan_ua", PASGT Tan (Ukraine)
+"njt_pasgt_tan_loss", PASGT Tan (Defeatist)
+"njt_helmetHBK_ear_olive", Advanced Modular Helmet (Olive/Ear Protectors)
+"njt_helmetHBK_ear_winter", Advanced Modular Helmet (Winter/Ear Protectors)
+"njt_helmetHBK_ear_tan", Advanced Modular Helmet (Tan/Ear Protectors)
+"njt_helmetHBK_ear_blue", Advanced Modular Helmet (Blue/Ear Protectors)
+"njt_helmetHBK_ear_multicam", Advanced Modular Helmet (Multicam/Ear Protectors)
+"njt_helmetHBK_chops_olive", Advanced Modular Helmet (Olive/Chops)
+"njt_helmetHBK_chops_winter", Advanced Modular Helmet (Winter/Chops)
+"njt_helmetHBK_chops_tan", Advanced Modular Helmet (Tan/Chops)
+"njt_helmetHBK_chops_blue", Advanced Modular Helmet (Blue/Chops)
+"njt_helmetHBK_chops_multicam", Advanced Modular Helmet (Multicam/Chops)
+"njt_helmetHBK_headset_olive", Advanced Modular Helmet (Olive/Headset)
+"njt_helmetHBK_headset_winter", Advanced Modular Helmet (Winter/Headset)
+"njt_helmetHBK_headset_tan", Advanced Modular Helmet (Tan/Headset)
+"njt_helmetHBK_headset_blue", Advanced Modular Helmet (Blue/Headset)
+"njt_helmetHBK_headset_multicam", Advanced Modular Helmet (Multicam/Headset)
+"njt_helmetHBK_winter", Advanced Modular Helmet (Winter)
+"njt_helmetHBK_tan", Advanced Modular Helmet (Tan)
+"njt_helmetHBK_blue", Advanced Modular Helmet (Blue)
+"njt_helmetHBK_multicam", Advanced Modular Helmet (Multicam)
+"njt_mich_bare_norotos_arc_alt_black", MICH 2000 (Black/Norotos/ARC/Alt)
+"njt_mich_bare_norotos_arc_black", MICH 2000 (Black/Norotos/ARC)
+"njt_mich_bare_black_alt_noflag", MICH 2000 (Black/Alt/No Flag)
+"njt_mich_bare_black_alt_medic", MICH 2000 (Black/Alt/Medic)
+"njt_mich_bare_black_noflag", MICH 2000 (Black/No Flag)
+"njt_mich_bare_black_headset_noflag", MICH 2000 (Black/Headset/No Flag)
+"njt_6b27m_green_d", 6B27M (Delta)
+"njt_6b27m_green_owo", 6B27M (OwO)
+"njt_6b27m_green_uwu", 6B27M (UwU)
+"njt_6b27m_green_ua", 6B27M (Ukraine)
+"njt_6b27m_green_blue", 6B27M (Blue Team)
+"njt_6b27m_green_red", 6B27M (Red Team)
+"njt_m97_olive_kilroy", M97 (Olive/Kilroy)
+"njt_ach_bare_tan_cool", ACH (Tan/Cool)
+"njt_fast_ut_headset_stickers", FAST Ballistic (Urban Tan/Headset/Stickers)
+"njt_fast_fg_headset_stickers", FAST Ballistic (Foliage Green/Headset/Stickers)
+"njt_m97_black_ess_starbuck", M97 (Black/Black ESS/Starbuck)
+"njt_m97_black_medic", M97 (Black/Medic)
+"njt_fast_win_cover_headset", FAST Ballistic (Winter Cover/Headset)
+"njt_fast_org_cover_headset", FAST Ballistic (Orange Cover/Headset)
+"njt_lwh_marpatwd_headset_ess_medic", LWH MARPAT-D (Headset/ESS/Medic)
+"njt_lwh_marpatd_headset_ess_medic", LWH MARPAT-WD (Headset/ESS/Medic)
+"njt_lwh_marpatd_fo", LWH MARPAT-D (Advisory)
+"njt_6b7_1m_ess_medic", 6B7-1M (ESS/Medic)
+"njt_6b7_1m_medic", 6B7-1M (Medic)
+"njt_6b7_1m_blue", 6B7-1M (Blue Team)
+"njt_6b7_1m_red", 6B7-1M (Red Team)
+"njt_cap_headphones_bravo", Rangemaster Cap (Bravo)
+"njt_6b7_1m_winter", 6B7-1M (Winter)
+"njt_6b7_1m_bala2_winter", 6B7-1M (Winter/Balaclava)
+"njt_helmetspecb_multicam", Enhanced Combat Helmet (Multicam)
+"njt_helmetspecb_green", Enhanced Combat Helmet (Green)
+"njt_helmetb_multicam", Combat Helmet (Multicam)
+"njt_helmetb_green", Combat Helmet (Green)
+
+CfgVehicles
+"njt_p601_sport", P601 RS
+"njt_p601_wrx", P601 WRX
+"njt_w123_hammer", W123 AMG Hammer Prototype
+"njt_zamak_dakar", KamAZ Dakar Flyer Special
+"njt_trapped_gun_mine_nato",
+"njt_trapped_gun_mine_natocw",
+"njt_trapped_gun_mine_ru",
+"njt_trapped_gun_mine_rucw",
+"njt_trapped_gun_mine_csat",
+"njt_trapped_gun_mine_ww2ger",
+"njt_trapped_gun_mine_ww2allied",
+"njt_module_trapped_gun_mine_nato",
+"njt_module_trapped_gun_mine_natocw",
+"njt_module_trapped_gun_mine_ru",
+"njt_module_trapped_gun_mine_rucw",
+"njt_module_trapped_gun_mine_csat",
+"njt_module_trapped_gun_mine_ww2ger",
+"njt_module_trapped_gun_mine_ww2allied",
+"njt_module_gbp", Toggle Global Grunt Birthday Party
+"njt_weaponholder_multinade",
+"njt_module_messengerAnon", [ACEPhone] Burner Phone
+"njt_B_SPE_US_Radio", US Radio, SCR300
+"njt_B_SPE_US_Radio_alt", US Radio, SCR300 (Bandoleer)
+"njt_B_SPE_US_Radio_packboard", US Packboard, 1943 (Musette, SCR300)
+"njt_B_SPE_US_Radio_packboard_light", US Packboard, 1943 (SCR300)
+
+CfgMagazines
+"njt_1rnd_40mm_gl_mine", 40 mm Proximity Mine
+"njt_1rnd_40mm_gl_mine_vog", 40 mm VOG Proximity Mine
+"njt_trapped_gun_mine_nato_mag",
+"njt_trapped_gun_mine_natocw_mag",
+"njt_trapped_gun_mine_ru_mag",
+"njt_trapped_gun_mine_rucw_mag",
+"njt_trapped_gun_mine_csat_mag",
+"njt_trapped_gun_mine_ww2ger_mag",
+"njt_trapped_gun_mine_ww2allied_mag",
+"njt_1rnd_84mm_delayfuze_he_impact", 84 mm FFV441 HE (Programmable, impact)
+"njt_1rnd_84mm_delayfuze_he_100",
+"njt_1rnd_84mm_delayfuze_he_125",
+"njt_1rnd_84mm_delayfuze_he_150",
+"njt_1rnd_84mm_delayfuze_he_175",
+"njt_1rnd_84mm_delayfuze_he_200",
+"njt_1rnd_84mm_delayfuze_he_225",
+"njt_1rnd_84mm_delayfuze_he_250",
+"njt_1rnd_84mm_delayfuze_he_300",
+"njt_1rnd_84mm_delayfuze_he_400",
+"njt_1rnd_84mm_delayfuze_he_500",
+"njt_1rnd_84mm_delayfuze_he2_impact", 84 mm FFV448 HE (Programmable, impact)
+"njt_1rnd_84mm_delayfuze_he2_100",
+"njt_1rnd_84mm_delayfuze_he2_125",
+"njt_1rnd_84mm_delayfuze_he2_150",
+"njt_1rnd_84mm_delayfuze_he2_175",
+"njt_1rnd_84mm_delayfuze_he2_200",
+"njt_1rnd_84mm_delayfuze_he2_225",
+"njt_1rnd_84mm_delayfuze_he2_250",
+"njt_1rnd_84mm_delayfuze_he2_300",
+"njt_1rnd_84mm_delayfuze_he2_400",
+"njt_1rnd_84mm_delayfuze_he2_500",
+"njt_1rnd_84mm_smoke", 84 mm FFV469 Smoke
+"njt_1rnd_40mm_gl_cuas", 40 mm Skylance C-UAS
+"njt_1rnd_40mm_gl_cuas_vog", 40 mm VOG-6G77 C-UAS
+"njt_30rnd_68_acr_fmj", 6.8 mm 30Rnd ACR FMJ
+"njt_30rnd_68_acr_fmj_tracer_red", 6.8 mm 30Rnd ACR FMJ Tracer (Red)
+"njt_30rnd_68_acr_ap", 6.8 mm 30Rnd ACR AP
+"njt_30rnd_68_acr_ap_tracer_red", 6.8 mm 30Rnd ACR AP Tracer (Red)
+"njt_50rnd_762x51_mg34", 7.62 mm 50Rnd MG 34F2
+"njt_50rnd_762x51_mg34_red", 7.62 mm 50Rnd MG 34F2 Tracer (Red)
+"njt_50rnd_762x63_mg34", .30-06 50Rnd MG 34F1
+"njt_50rnd_762x63_mg34_red", .30-06 50Rnd MG 34F1 Tracer (Red)
+"njt_3rnd_hs50_20_apds", 20 mm 3Rnd HS-50/20 APDS Magazine
+"njt_3rnd_hs50_20_he", 20 mm 3Rnd HS-50/20 HE Magazine
+"njt_1rnd_9x18mm_sp_pm", Go Fuck Yourself
+"njt_saxBomb", Sax Bomb
+"njt_randomNade", Grenade of Several Possibilities
+"njt_multiNade", Grenade of More Grenades

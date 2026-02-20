@@ -1,0 +1,42 @@
+2026-01-23
+- MUNITIONS: adjusted C-UAS function
+- GEAR MISC: fixed PASGT texture paths
+- MUNITIONS: changed trapped gun mine to delete the gun on detonation
+- BFT: adjusted BFT module to try to make the UI work
+- EXTRAS: changed Grenade of Several Possibilities function to improve response speed
+- EXTRAS: refactored Grunt Birthday Party system
+- PHONE: minor UI tweak
+- EXTRAS: improved some Grenade of Several Possibilities outcomes
+
+2026-01-24
+- BFT: updated module again
+- EXTRAS: updated GBP again
+- EXTRAS: tweaked Sax Bomb light handling
+- EXTRAS: refined Possibilities events more
+
+2026-01-25
+- MG34F2: added MG34F1 to CfgPatches weapons list
+
+2026-01-25 (2)
+- GEAR MISC: moved in config for 3CB and GM radio bag mass
+- MUNITIONS: fixed missing RF dependency
+- GEAR MISC: fixed missing classes in CfgPatches
+- BF RHS 6SH117 ARMORED: added to set
+
+2026-01-27
+- BFT: fixed old data being kept
+- PHONE: fixed wrong variable name
+- PHONE: changed to dialogs to fix ACE conflict
+
+2026-02-02
+- CBA RAILS: added patches for Tier 1 Weapons, RHS/3CB, GM, WS, RF, and vanilla, to better apply CBA attachment slots to weapons
+
+2026-02-03
+- PHONE: attempted fix for message list not auto-scrolling to latest message
+- L85 MAGS: fixed error on magwells when WS not loaded
+
+2026-02-07
+- L85 MAGS: REMOVED
+- MUNITIONS: fixed load order issue
+- CBA RAILS RHS3CB: moved L85 MAGS config in here
+- 6SH117: fixed load order issue

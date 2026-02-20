@@ -1,0 +1,16 @@
+class CfgPatches
+{
+	class njt_tavor_7
+	{
+		name = "Tavor 7";
+		author = "NikkoJT";
+		url = "https://github.com/nikkojt";
+		requiredVersion = 2.00;
+		requiredAddons[] = {"cba_jr", "rhssaf_c_weapons"};
+		units[] = {};
+		weapons[] = { "njt_tavor_7" };
+		skipWhenMissingDependencies = 1;
+	};
+};
+
+#include "cfgWeapons.hpp"

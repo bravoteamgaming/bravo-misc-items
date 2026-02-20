@@ -1,0 +1,228 @@
+contents:
+MSBS 5.56
+- Add 5.56mm versions of MSBS Grot
+
+RFB 7.62
+- Add 7.62mm version of RFB SDAR
+
+TAVOR 7
+- Add 7.62mm version of CTAR-21
+
+ACR 6.8
+- Add 6.8mm versions of Remington ACR
+
+TRABI SPORT
+- Add P601 RS
+- Add P601 WRX
+
+MUNITIONS
+- Add 40mm Skylance C-UAS (NATO) & 40mm VOG-6G77 C-UAS (RU)
+- Add 40mm Proximity Mine (NATO) & 40mm VOG Proximity Mine (RU)
+- Add 84mm FFV441 programmable HE round
+- Add 84mm FFV448 programmable HE round
+- Add 84mm FFV469 smoke round
+- Add Trapped Gun mine types
+
+EXTRAS
+- Add Steyr HS-50/20 (20mm conversion of 12.7mm HS-50)
+- Add Grunt Birthday Party module
+
+- Add special purpose magazine for Makarov
+- Add 0.5% chance of "my leg!" on ACE leg fracture
+- Add physics slap ZEN context menu action for units
+- Add Sax Bomb
+- Add Grenade of Several Possibilities
+- Add Grenade of More Grenades
+
+BFT
+- Add Force Tracker monitor system (displays Force Tracker markers if player has a GPS or is in a vehicle)
+- Add Zeus module to manage an object's Force Tracker data
+
+MG34F2
+- Add MG 34F2 (7.62x51mm NATO) and mags
+- Add MG 34F1 (.30-06 Springfield) and mags
+- Add 3CB BAF 7.62x51 belts to the CBA 7.62x51 belts magwell
+
+ZAMAK DAKAR
+- Add KamAZ Dakar Flyer Special
+
+W123 HAMMER
+- Add W123 AMG Hammer Prototype
+
+GEAR MISC
+- Change RF Glock mass
+- Hide Spearhead US SCR300 bags and add copies that can be saved in ACE loadouts
+- Add helmet variants:
+	6B26 ESS/Medic
+	6B26 Medic
+	6B27M ESS/Medic
+	6B27M Medic
+	6B27M Blue Team
+	6B27M Red Team
+	6B27M Ukraine
+	6B27M Delta
+	6B27M OwO
+	6B27M UwU
+	6B7-1M ESS/Medic
+	6B7-1M Medic
+	6B7-1M Blue Team
+	6B7-1M Red Team
+	6B7-1M Winter
+	6B7-1M Winter/Balaclava
+	ACH Headset/ESS/Blue Team
+	ACH Headset/ESS/Red Team
+	ACH Headset/ESS/Medic
+	ACH Headset/Medic
+	ACH Tan/Cool
+	ACH Tan/Headset/ESS/Blue Team
+	ACH Tan/Headset/ESS/Red Team
+	ACH Tan/Headset/ESS/Medic
+	ACH Tan/Headset/Medic
+	Advanced Modular Helmet Olive/Chops
+	Advanced Modular Helmet Olive/Ear Protectors
+	Advanced Modular Helmet Olive/Headset
+	Advanced Modular Helmet Tan
+	Advanced Modular Helmet Tan/Chops
+	Advanced Modular Helmet Tan/Ear Protectors
+	Advanced Modular Helmet Tan/Headset
+	Advanced Modular Helmet Winter
+	Advanced Modular Helmet Winter/Chops
+	Advanced Modular Helmet Winter/Ear Protectors
+	Advanced Modular Helmet Winter/Headset
+	Advanced Modular Helmet Blue
+	Advanced Modular Helmet Blue/Chops
+	Advanced Modular Helmet Blue/Ear Protectors
+	Advanced Modular Helmet Blue/Headset
+	Advanced Modular Helmet Multicam
+	Advanced Modular Helmet Multicam/Chops
+	Advanced Modular Helmet Multicam/Ear Protectors
+	Advanced Modular Helmet Multicam/Headset
+	FAST Ballistic Black/Headset/Medic
+	FAST Ballistic Blue Cover/Headset
+	FAST Ballistic Coyote Cover/Headset
+	FAST Ballistic DCU Cover/Headset
+	FAST Ballistic Flecktarn Cover/Headset
+	FAST Ballistic Foliage Green/Headset/Medic
+	FAST Ballistic Foliage Green/Headset/Stupid
+	FAST Ballistic Foliage Green/Headset/Stickers
+	FAST Ballistic Multicam Cover/Headset/Blue Team
+	FAST Ballistic Multicam Cover/Headset/Red Team
+	FAST Ballistic Orange Cover/Headset
+	FAST Ballistic Ranger Green Cover/Headset
+	FAST Ballistic Ranger Green Cover/Headset/Blue Team
+	FAST Ballistic Ranger Green Cover/Headset/Red Team
+	FAST Ballistic Urban Tan/Headset/Barvo
+	FAST Ballistic Urban Tan/Headset/Medic
+	FAST Ballistic Urban Tan/Headset/Stickers
+	FAST Ballistic Winter Cover/Headset
+	LWH MARPAT-D/Headset/ESS/Medic
+	LWH MARPAT-D/Advisory
+	LWH MARPAT-WD/Headset/Tan ESS/Medic
+	M97 Olive/Medic
+	M97 Olive/B2D
+	M97 Olive/Kilroy
+	M97 Black/Medic
+	M97 Black/ESS/Starbuck
+	MICH 2000 Alt/Medic
+	MICH 2000 Alt/No Flag
+	MICH 2000 Black/Alt/Medic
+	MICH 2000 Black/Alt/No Flag
+	MICH 2000 Black/No Flag
+	MICH 2000 Black/Norotos/ARC
+	MICH 2000 Black/Norotos/ARC/Alt
+	MICH 2000 Headset/Blue Team
+	MICH 2000 Headset/Red Team
+	MICH 2000 Headset/No Flag
+	MICH 2000 No Flag
+	MICH 2000 Norotos/ARC/Headset/Blue Team
+	MICH 2000 Norotos/ARC/Headset/Red Team
+	MICH 2000 Tan/Alt/Medic
+	MICH 2000 Tan/Alt/No Flag
+	MICH 2000 Tan/Headset/Blue Team
+	MICH 2000 Tan/Headset/Red Team
+	MICH 2000 Tan/Headset/No Flag
+	MICH 2000 Tan/Norotos/ARC/Headset/Blue Team
+	MICH 2000 Tan/Norotos/ARC/Headset/Red Team
+	PASGT Tan/Medic
+	PASGT Tan/Ukraine
+	PASGT Tan/Defeatist
+	Rangemaster Cap Bravo
+	Combat Helmet Multicam
+	Combat Helmet Green
+	Enhanced Combat Helmet Multicam
+	Enhanced Combat Helmet Green
+- Add vest variants:
+	CTRG Plate Carrier Rig (Black)
+	CTRG Plate Carrier Rig (Khaki)
+	CTRG Plate Carrier Rig (Desert)
+	CTRG Plate Carrier Rig (Brown)
+	CTRG Plate Carrier Rig (Green)
+	CTRG Plate Carrier Rig (Winter)
+	Carrier Lite Vest (Black)
+	Carrier Lite Vest (Brown)
+	Carrier Lite Vest (Khaki)
+	Carrier Lite Vest (Desert)
+	Carrier Lite Vest (Green)
+	Carrier Lite Vest (Desert MTP)
+	Carrier Lite Vest (Woodland MTP)
+	Carrier Lite Vest (Tropic MTP)
+	Carrier Lite Vest (Winter)
+- Enable hidden vest variants:
+	CTRG Carrier Mk. 1 (No Flag)
+	CTRG Carrier Mk. 2 (No Flag)
+- Add uniform variants:
+	6Sh122 (Olive/Gloves)
+	G3 Uniform (BravoCam)
+	Combat Uniform MTP Combat Shirt [BAF]
+	Combat Uniform MTP T-Shirt [BAF]
+	Combat Fatigues T-Shirt 02 [ION] (MARPAT-WD)
+	Combat Fatigues T-Shirt 02 [ION] (MARPAT-D)
+	Combat Fatigues T-Shirt 02 [ION] (DPM)
+	Combat Fatigues T-Shirt 02 [ION] (DDPM)
+	Combat Fatigues T-Shirt 03 [ION] (MARPAT-WD)
+	Combat Fatigues T-Shirt 03 [ION] (MARPAT-D)
+	Combat Fatigues T-Shirt 03 [ION] (DPM)
+	Combat Fatigues T-Shirt 03 [ION] (DDPM)
+	Combat Fatigues [AAF] (Tee)
+	Combat Uniform DDPM Combat Shirt [BAF]
+	Combat Uniform DDPM T-Shirt [BAF]
+	Combat Uniform DPM Wdl Combat Shirt [BAF]
+	Combat Uniform DPM Wdl T-Shirt [BAF]
+	Combat Uniform DPM Trp Combat Shirt [BAF]
+	Combat Uniform DPM Trp T-Shirt [BAF]
+	Combat Uniform DPM Jun Combat Shirt [BAF]
+	Combat Uniform DPM Jun T-Shirt [BAF]
+	Combat Uniform DPM Tmp Combat Shirt [BAF]
+	Combat Uniform DPM Tmp T-Shirt [BAF]
+	Combat Fatigues T-Shirt 02 [ION] (MTP)
+	Combat Fatigues T-Shirt 03 [ION] (MTP)
+	Combat Fatigues T-Shirt [ION] (MTP)
+	Combat Fatigues T-Shirt [ION] (Woodland MTP)
+	Combat Fatigues T-Shirt [ION] (Tropic MTP)
+	Combat Fatigues T-Shirt [ION] (Desert MTP)
+
+Phone
+- Add cellphone tool: Mk 42 Mod 0 ZDAS
+- Add cellphone tool: Messaging
+- Add Zeus module: burner phone
+
+MK200 556
+- Add 5.56mm NATO variant of the Mk200 (Stoner 99), using Minimi boxes
+
+CBA RAILS GM
+- Change GM weapons to make use of CBA attachment slots
+
+CBA RAILS RF
+- Change RF weapons to make use of CBA attachment slots
+
+CBA RAILS RHS3CB
+- Change RHS/3CB weapons to make use of CBA attachment slots and magwells
+
+CBA RAILS T1
+- Change Tier One weapons to make use of CBA attachment slots
+
+CBA RAILS VANILLA
+- Change vanilla weapons to make use of CBA attachment slots
+
+CBA RAILS WS
+- Change WS weapons to make use of CBA attachment slots
