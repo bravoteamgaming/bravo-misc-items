@@ -40,3 +40,7 @@
 - MUNITIONS: fixed load order issue
 - CBA RAILS RHS3CB: moved L85 MAGS config in here
 - 6SH117: fixed load order issue
+
+2026-02-20
+- ALL ADDONS: changed prefixes to Bravo
+- RHS AMMO: added in initial state
