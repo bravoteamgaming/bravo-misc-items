@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		name = "Tavor 7";
 		author = "NikkoJT";
-		url = "https://github.com/nikkojt";
+		url = "https://github.com/bravoteamgaming/bravo-misc-items";
 		requiredVersion = 2.00;
 		requiredAddons[] = {"cba_jr", "rhssaf_c_weapons"};
 		units[] = {};

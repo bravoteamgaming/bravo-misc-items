@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		name = "MG 34F2";
 		author = "NikkoJT";
-		url = "https://github.com/nikkojt";
+		url = "https://github.com/bravoteamgaming/bravo-misc-items";
 		requiredVersion = 2.00;
 		requiredAddons[] = {"WW2_SPE_Assets_c_Weapons_InfantryWeapons_c","gm_weapons_machineguns_mg3"};
 		units[] = {};

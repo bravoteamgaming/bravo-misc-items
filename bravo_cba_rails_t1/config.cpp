@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		name = "CBA Rails T1";
 		author = "NikkoJT";
-		url = "https://github.com/nikkojt";
+		url = "https://github.com/bravoteamgaming/bravo-misc-items";
 		requiredVersion = 2.00;
 		requiredAddons[] = {"cba_jr", "Tier1_Weapons_cfg"};
 		units[] = {};

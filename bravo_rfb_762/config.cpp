@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		name = "SDAR 7.62";
 		author = "NikkoJT";
-		url = "https://github.com/nikkojt";
+		url = "https://github.com/bravoteamgaming/bravo-misc-items";
 		requiredVersion = 2.00;
 		requiredAddons[] = {"cba_jr", "rhssaf_c_weapons", "WW2_SPEX_Assets_c_Weapons_Sounds_c"};
 		units[] = {};

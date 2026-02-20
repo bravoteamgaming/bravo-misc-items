@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		name = "Munitions";
 		author = "NikkoJT";
-		url = "https://github.com/nikkojt";
+		url = "https://github.com/bravoteamgaming/bravo-misc-items";
 		requiredVersion = 2.00;
 		requiredAddons[] = {"A3_Data_F_Decade_Loadorder", "UK3CB_BAF_Weapons_Ammo", "rhs_main_loadorder", "rf_data_loadorder"};
 		units[] = {

@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		name = "BFT";
 		author = "NikkoJT";
-		url = "https://github.com/nikkojt";
+		url = "https://github.com/bravoteamgaming/bravo-misc-items";
 		requiredVersion = 2.00;
 		requiredAddons[] = { "A3_Modules_F_Curator"};
 		units[] = {

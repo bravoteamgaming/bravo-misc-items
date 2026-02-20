@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		name = "CBA Rails RHS3CB";
 		author = "NikkoJT";
-		url = "https://github.com/nikkojt";
+		url = "https://github.com/bravoteamgaming/bravo-misc-items";
 		requiredVersion = 2.00;
 		requiredAddons[] = {"cba_jr", "po_factions_me", "rhs_main_loadorder", "rhsgref_main_loadorder", "rhssaf_main_loadorder", "rhsusf_main_loadorder", "uk3cb_baf_weapons_loadorder", "uk3cb_factions_weapons", "uk3cb_factions_weapons2"};
 		units[] = {};

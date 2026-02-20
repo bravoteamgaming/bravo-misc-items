@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		name = "MSBS 556";
 		author = "NikkoJT";
-		url = "https://github.com/nikkojt";
+		url = "https://github.com/bravoteamgaming/bravo-misc-items";
 		requiredVersion = 2.00;
 		requiredAddons[] = { "A3_Weapons_F_Enoch_Rifles_MSBS", "cba_jr"};
 		units[] = {};

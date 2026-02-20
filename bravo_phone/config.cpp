@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		name = "Phone";
 		author = "NikkoJT";
-		url = "https://github.com/nikkojt";
+		url = "https://github.com/bravoteamgaming/bravo-misc-items";
 		requiredVersion = 2.00;
 		requiredAddons[] = {"WW2_SPE_Core_c_ZZZ_LastLoaded_c", "ace_interaction"};
 		units[] = {"bravo_module_messengerAnon"};

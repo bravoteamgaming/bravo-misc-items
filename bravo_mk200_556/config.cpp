@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		name = "Mk200 5,56";
 		author = "NikkoJT";
-		url = "https://github.com/nikkojt";
+		url = "https://github.com/bravoteamgaming/bravo-misc-items";
 		requiredVersion = 2.00;
 		requiredAddons[] = {"A3_Weapons_F_Enoch_Machineguns_M200"};
 		units[] = {};

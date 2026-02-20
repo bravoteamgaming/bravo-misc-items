@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		name = "Remington ACR 6.8mm";
 		author = "NikkoJT";
-		url = "https://github.com/nikkojt";
+		url = "https://github.com/bravoteamgaming/bravo-misc-items";
 		requiredVersion = 2.00;
 		requiredAddons[] = {"cba_jr", "uk3cb_factions_weapons_acr"};
 		units[] = {};

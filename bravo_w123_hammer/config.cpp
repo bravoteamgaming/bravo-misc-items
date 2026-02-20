@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		name = "W123 Hammer";
 		author = "NikkoJT";
-		url = "https://github.com/nikkojt";
+		url = "https://github.com/bravoteamgaming/bravo-misc-items";
 		requiredVersion = 2.00;
 		requiredAddons[] = {"gm_vehicles_land_wheeled_w123_ge_civ_w123"};
 		units[] = {"bravo_w123_hammer"};

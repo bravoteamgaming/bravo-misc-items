@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		name = "Extras";
 		author = "NikkoJT";
-		url = "https://github.com/nikkojt";
+		url = "https://github.com/bravoteamgaming/bravo-misc-items";
 		requiredVersion = 2.00;
 		requiredAddons[] = { "gm_weapons_cannons_20mm_rh202", "A3_Weapons_F", "UK3CB_Factions_weapons"};
 		units[] = {
