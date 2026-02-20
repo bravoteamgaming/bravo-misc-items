@@ -3,6 +3,9 @@ class CfgAmmo
 	class BulletBase;
 	class B_762x51_Ball;
 	class B_556x45_Ball;
+	class B_762x54_Ball;
+	class B_127x99_Ball;
+	class B_127x99_SLAP;
 	
 	class rhs_B_545x39_Ball : B_556x45_Ball
 	{
@@ -71,5 +74,20 @@ class CfgAmmo
 	class rhs_ammo_556x45_M885A1_Ball : B_556x45_Ball
 	{
 		caliber = 0.87;
+	};
+	
+	class rhsusf_B_300winmag : B_762x54_Ball
+	{
+		caliber = 1.15;
+	};
+	
+	class rhsusf_ammo_127x99_M33_Ball : B_127x99_Ball
+	{
+		caliber = 2.6;
+	};
+	
+	class rhs_ammo_127x99_SLAP : B_127x99_SLAP
+	{
+		caliber = 3.4;
 	};
 };
