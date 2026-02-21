@@ -1,6 +1,3 @@
-#include "BIS_AddonInfo.hpp"
-#define _ARMA_
-
 class CfgPatches
 {
 	class BravoItems
