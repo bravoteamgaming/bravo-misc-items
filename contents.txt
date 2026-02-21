@@ -226,3 +226,6 @@ CBA RAILS VANILLA
 
 CBA RAILS WS
 - Change WS weapons to make use of CBA attachment slots
+
+RHS AMMO
+- Rebalance penetration and damage of RHS ammunition
