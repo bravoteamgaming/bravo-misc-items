@@ -6,6 +6,7 @@ class CfgAmmo
 	class B_762x54_Ball;
 	class B_127x99_Ball;
 	class B_127x99_SLAP;
+	class rhsusf_ammo_basic_penetrator;
 	
 	class rhs_B_545x39_Ball : B_556x45_Ball
 	{
@@ -89,5 +90,18 @@ class CfgAmmo
 	class rhs_ammo_127x99_SLAP : B_127x99_SLAP
 	{
 		caliber = 3.4;
+	};
+	
+	class rhs_ammo_M136_penetrator : rhsusf_ammo_basic_penetrator
+	{
+		hit = 370;
+	};
+	class rhs_ammo_maaws_HEAT_penetrator : rhsusf_ammo_basic_penetrator
+	{
+		hit = 450;
+	};
+	class rhs_ammo_M136_hedp_penetrator : rhs_ammo_M136_penetrator
+	{
+		hit = 450;
 	};
 };
