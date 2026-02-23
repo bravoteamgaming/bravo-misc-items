@@ -44,3 +44,7 @@
 2026-02-20
 - ALL ADDONS: changed prefixes to Bravo
 - RHS AMMO: added in initial state
+
+2026-02-23
+- BRAVO ITEMS: changed bag and radio bag weights
+- GEAR MISC: fixed wrong bag classname

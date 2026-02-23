@@ -200,6 +200,7 @@ GEAR MISC
 	Combat Fatigues T-Shirt [ION] (Woodland MTP)
 	Combat Fatigues T-Shirt [ION] (Tropic MTP)
 	Combat Fatigues T-Shirt [ION] (Desert MTP)
+- Change mass of 3CB and GM radio bags
 
 Phone
 - Add cellphone tool: Mk 42 Mod 0 ZDAS
@@ -229,3 +230,8 @@ CBA RAILS WS
 
 RHS AMMO
 - Rebalance penetration and damage of RHS ammunition
+
+ITEMS
+- Add Bravo insignias
+- Add Bravo flags
+- Add KitKat inventory item
