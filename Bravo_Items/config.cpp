@@ -15,78 +15,8 @@ class CfgPatches
 	};
 };
 
-
-class CfgWeapons {
-	class CBA_MiscItem;
-	class CBA_MiscItem_ItemInfo;
-	class VestItem;
-
-	class BVT_ItemCore: CBA_MiscItem
-	{
-		scope = 1;
-		displayName = "BVT Dummy Item";
-		picture = "\A3\characters_f\Data\UI\icon_H_Cap_khaki_specops_UK_CA.paa";
-		descriptionShort = "";
-		class ItemInfo: CBA_MiscItem_ItemInfo
-		{
-			mass = 1;
-		};
-	};
-	class BVT_Item_Intelligence: BVT_ItemCore
-	{
-		scope = 1;
-		displayName = "Intelligence";
-		descriptionShort = "A piece of intelligence.";
-	};
-	class BVT_Item_Kitkat: BVT_ItemCore
-	{
-		scope = 2;
-		displayName = "KitKat Bar";
-		picture = "\Bravo_Items\ico\kitkat";
-		descriptionShort = "A chocolate-covered wafer bar confection produced globally by Nestlé. 4 finger variety.";
-	};
-};
-
-
-class CfgVehicles
-{
-	class FlagPole_F; // inherit base class
-	class BVT_Flag_Orange: FlagPole_F
-	{
-		author = "Jason Olsen";
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "Flag (Bravo Orange)";
-		class EventHandlers
-		{
-			init = "(_this select 0) setFlagTexture '\Bravo_Items\tex\flags\orange.paa'";
-		};
-	};
-	class BVT_Flag_LogoLight: BVT_Flag_Orange
-	{
-		displayName = "Flag (Bravo Logo - Light)";
-		class EventHandlers
-		{
-			init = "(_this select 0) setFlagTexture '\Bravo_Items\tex\flags\logo_white.paa'";
-		};
-	};
-	class BVT_Flag_LogoDark: BVT_Flag_Orange
-	{
-		displayName = "Flag (Bravo Logo - Dark)";
-		class EventHandlers
-		{
-			init = "(_this select 0) setFlagTexture '\Bravo_Items\tex\flags\logo_dark.paa'";
-		};
-	};
-	class BVT_Flag_LogoCamo: BVT_Flag_Orange
-	{
-		displayName = "Flag (Bravo Logo - Camo)";
-		class EventHandlers
-		{
-			init = "(_this select 0) setFlagTexture '\Bravo_Items\tex\flags\logo_camo.paa'";
-		};
-	};
-};
+#include "cfgVehicles.hpp"
+#include "cfgWeapons.hpp"
 
 class CfgUnitInsignia
 {
