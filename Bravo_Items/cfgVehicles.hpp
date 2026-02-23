@@ -36,4 +36,10 @@ class CfgVehicles
 			init = "(_this select 0) setFlagTexture '\Bravo_Items\tex\flags\logo_camo.paa'";
 		};
 	};
+	
+	class bag_base;
+	class B_RadioBag_01_base_F : bag_base
+	{
+		mass = 60;
+	};
 };
