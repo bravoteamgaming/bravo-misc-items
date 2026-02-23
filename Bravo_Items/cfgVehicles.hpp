@@ -37,9 +37,17 @@ class CfgVehicles
 		};
 	};
 	
-	class bag_base;
-	class B_RadioBag_01_base_F : bag_base
+	class Bag_Base;
+	class B_RadioBag_01_base_F : Bag_Base
 	{
-		mass = 60;
+		mass = 50;
+	};
+	class B_Kitbag_base : Bag_Base
+	{
+		maximumLoad = 320;
+	};
+	class B_AssaultPack_Base : Bag_Base
+	{
+		maximumLoad = 320;
 	};
 };
