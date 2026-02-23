@@ -15,7 +15,7 @@ class cfgVehicles
 	{
 		mass = 50;
 	};
-	class gm_gc_backpackr105m_base : gm_backpack_base
+	class gm_gc_backpack_r105m_base : gm_backpack_base
 	{
 		mass = 50;
 	};
