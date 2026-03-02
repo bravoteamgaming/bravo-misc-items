@@ -1,6 +1,6 @@
 class CfgFunctions
 {
-	class njt
+	class bravo
 	{
 		class bft
 		{
