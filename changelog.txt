@@ -48,3 +48,9 @@
 2026-02-23
 - BRAVO ITEMS: changed bag and radio bag weights
 - GEAR MISC: fixed wrong bag classname
+
+2026-03-02
+- EXTRAS: fixed function names
+- PHONE: fixed function names
+- BFT: fixed function names
+- MUNITIONS - fixed function names
