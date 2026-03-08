@@ -10,6 +10,9 @@ class CfgFunctions
 			class messengerReceiveMessage{};
 			class messengerSendMessage{};
 			class messengerLoadList{};
+			class phoneFlashlight{};
+			class phoneFlashlightLocal{};
+			class phonePhoto{};
 		};
 	};
 };

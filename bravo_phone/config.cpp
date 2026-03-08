@@ -6,7 +6,7 @@ class CfgPatches
 		author = "NikkoJT";
 		url = "https://github.com/bravoteamgaming/bravo-misc-items";
 		requiredVersion = 2.00;
-		requiredAddons[] = {"WW2_SPE_Core_c_ZZZ_LastLoaded_c", "ace_interaction"};
+		requiredAddons[] = {"acre_sys_gestures", "ace_interaction"};
 		units[] = {"bravo_module_messengerAnon"};
 		weapons[] = {};
 		skipWhenMissingDependencies = 1;

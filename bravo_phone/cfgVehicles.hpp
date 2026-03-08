@@ -11,12 +11,12 @@ class cfgVehicles
 				condition = "[_target, 'ACE_Cellphone'] call ace_common_fnc_hasItem";
 				exceptions[] = {"isNotInside", "isNotSitting", "notOnMap", "isNotInZeus"};
 				icon = "\z\ace\addons\explosives\Data\UI\Cellphone_UI.paa";
-				statement = "";
+				statement = "private _display = createDialog ['bravo_messenger_display',false]; uiNamespace setVariable ['bravo_messenger_display', _display];";
 				
 				class bravo_zdas
 				{
 					displayName = "Mk 42 Mod 0 ZDAS";
-					condition = "[_target, 'ACE_Cellphone'] call ace_common_fnc_hasItem";
+					condition = "([_target, 'ACE_Cellphone'] call ace_common_fnc_hasItem) && {!(missionNamespace getVariable ['bravo_var_phoneInUse',false])}";
 					exceptions[] = {"isNotInside", "isNotSitting", "notOnMap", "isNotInZeus"};
 					icon = "";
 					statement = "private _display = createDialog ['bravo_zdas_display', false]; uiNamespace setVariable ['bravo_zdas_display', _display];";
@@ -29,6 +29,24 @@ class cfgVehicles
 					exceptions[] = {"isNotInside", "isNotSitting", "notOnMap", "isNotInZeus"};
 					icon = "";
 					statement = "private _display = createDialog ['bravo_messenger_display',false]; uiNamespace setVariable ['bravo_messenger_display', _display];";
+				};
+				
+				class bravo_flashlight
+				{
+					displayName = "Flashlight (10s)";
+					condition = "([_target, 'ACE_Cellphone'] call ace_common_fnc_hasItem) && {!(missionNamespace getVariable ['bravo_var_phoneInUse',false])}";
+					exceptions[] = {"isNotInside", "isNotSitting", "notOnMap", "isNotInZeus"};
+					icon = "";
+					statement = "0 spawn bravo_fnc_phoneFlashlight";
+				};
+				
+				class bravo_photo
+				{
+					displayName = "Photo with flash";
+					condition = "([_target, 'ACE_Cellphone'] call ace_common_fnc_hasItem) && {!(missionNamespace getVariable ['bravo_var_phoneInUse',false])}";
+					exceptions[] = {"isNotInside", "isNotSitting", "isNotInZeus"};
+					icon = "";
+					statement = "0 spawn bravo_fnc_phonePhoto";
 				};
 			};
 		};
