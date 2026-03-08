@@ -54,3 +54,9 @@
 - PHONE: fixed function names
 - BFT: fixed function names
 - MUNITIONS - fixed function names
+
+2026-03-08
+- PHONE: cleaned up some leftover files
+- PHONE: added flashlight (10s) and photo with flash features
+- PHONE: now depends on ACRE2 for animations instead of Spearhead
+- PHONE: messaging is now the default action when selecting the top-level ACE interaction

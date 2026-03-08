@@ -202,9 +202,11 @@ GEAR MISC
 	Combat Fatigues T-Shirt [ION] (Desert MTP)
 - Change mass of 3CB and GM radio bags
 
-Phone
+PHONE
 - Add cellphone tool: Mk 42 Mod 0 ZDAS
 - Add cellphone tool: Messaging
+- Add cellphone tool: Flashlight (10s)
+- Add cellphone tool: Photo with flash
 - Add Zeus module: burner phone
 
 MK200 556
