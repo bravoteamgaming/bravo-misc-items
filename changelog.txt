@@ -60,3 +60,5 @@
 - PHONE: added flashlight (10s) and photo with flash features
 - PHONE: now depends on ACRE2 for animations instead of Spearhead
 - PHONE: messaging is now the default action when selecting the top-level ACE interaction
+- ITEMS: added Scrape Hide Terrain Objects modules tool to Editor
+- ITEMS: added Paste Hide Terrain Objects Data module to Zeus
