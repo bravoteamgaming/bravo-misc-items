@@ -114,7 +114,7 @@ class bravo_pasteHideTerrainObjects_moduleDisplay : RscDisplayEmpty
 				};
 				class buttonOK : RscButton
 				{
-					onButtonClick = "(ctrlText (uiNamespace getVariable ['bravo_pasteHideTerrainObjects_dataBox', controlNull])) call bravo_fnc_pasteHideTerrainObjects";
+					onButtonClick = "(ctrlText (uiNamespace getVariable ['bravo_pasteHideTerrainObjects_dataBox', controlNull])) remoteExec ['bravo_fnc_pasteHideTerrainObjects',2]";
 					text = "OK";
 					idc = 1;
 					w = 7.5 * GUI_GRID_CENTER_W;
