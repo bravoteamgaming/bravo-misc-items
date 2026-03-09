@@ -50,4 +50,20 @@ class CfgVehicles
 	{
 		maximumLoad = 320;
 	};
+	
+	class Module_F;
+	class bravo_module_pasteHideTerrainObjects : module_f
+	{
+		scope = 1;
+		scopeCurator = 2;
+		displayName = "Paste Hide Terrain Objects data";
+		category = "Environment";
+		function = "";
+		isGlobal = 0;
+		isTriggerActivated = 0;
+		isDisposable = 1;
+		is3DEN = 0;
+		curatorCanAttach = 0;
+		curatorInfoType = "bravo_pasteHideTerrainObjects_moduleDisplay";
+	};
 };

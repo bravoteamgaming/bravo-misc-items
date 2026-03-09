@@ -5,10 +5,14 @@ class CfgPatches
 		name = "Bravo Team Misc Items";
 		author = "Jason Olsen";
 		url = "https://github.com/bravoteamgaming/bravo-misc-items";
-		version = 1.3;
-		requiredVersion = 0.1;
+		version = 1.5;
+		requiredVersion = 2.00;
 		units[] = {
-			"BVT_Flag_Orange","BVT_Flag_LogoLight","BVT_Flag_LogoDark","BVT_Flag_LogoCamo"
+			"BVT_Flag_Orange",
+			"BVT_Flag_LogoLight",
+			"BVT_Flag_LogoDark",
+			"BVT_Flag_LogoCamo",
+			"bravo_module_pasteHideTerrainObjects"
 		};
 		weapons[] = {"BVT_ItemCore","BVT_Item_Intelligence"};
 		requiredAddons[] = {"A3_Characters_F","A3_Weapons_F","cba_main"};
@@ -17,6 +21,8 @@ class CfgPatches
 
 #include "cfgVehicles.hpp"
 #include "cfgWeapons.hpp"
+#include "cfgFunctions.hpp"
+#include "ui.hpp"
 
 class CfgUnitInsignia
 {
