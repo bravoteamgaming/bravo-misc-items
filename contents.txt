@@ -239,3 +239,4 @@ ITEMS
 - Add KitKat inventory item
 - Add Scrape Hide Terrain Objects data tool to Editor
 - Add Paste Hide Terrain Objects Data module to Zeus
+- Add Splendid Camera module to Zeus

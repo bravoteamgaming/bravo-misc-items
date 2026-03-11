@@ -193,6 +193,7 @@ CfgVehicles
 "bravo_weaponholder_multinade",
 "bravo_module_messengerAnon", [ACEPhone] Burner Phone
 "bravo_module_pasteHideTerrainObjects", Paste Hide Terrain Objects data
+"bravo_module_zeusSplendidCam", Splendid Camera
 "bravo_B_SPE_US_Radio", US Radio, SCR300
 "bravo_B_SPE_US_Radio_alt", US Radio, SCR300 (Bandoleer)
 "bravo_B_SPE_US_Radio_packboard", US Packboard, 1943 (Musette, SCR300)

@@ -62,3 +62,6 @@
 - PHONE: messaging is now the default action when selecting the top-level ACE interaction
 - ITEMS: added Scrape Hide Terrain Objects modules tool to Editor
 - ITEMS: added Paste Hide Terrain Objects Data module to Zeus
+
+2026-03-11
+- ITEMS: added Splendid Camera Zeus module
