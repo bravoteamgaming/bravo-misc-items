@@ -12,7 +12,8 @@ class CfgPatches
 			"BVT_Flag_LogoLight",
 			"BVT_Flag_LogoDark",
 			"BVT_Flag_LogoCamo",
-			"bravo_module_pasteHideTerrainObjects"
+			"bravo_module_pasteHideTerrainObjects",
+			"bravo_module_zeusSplendidCam"
 		};
 		weapons[] = {"BVT_ItemCore","BVT_Item_Intelligence"};
 		requiredAddons[] = {"A3_Characters_F","A3_Weapons_F","cba_main"};

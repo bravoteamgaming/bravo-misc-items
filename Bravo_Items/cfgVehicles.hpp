@@ -66,4 +66,18 @@ class CfgVehicles
 		curatorCanAttach = 0;
 		curatorInfoType = "bravo_pasteHideTerrainObjects_moduleDisplay";
 	};
+	class bravo_module_zeusSplendidCam : module_f
+	{
+		scope = 1;
+		scopeCurator = 2;
+		displayName = "Splendid Camera";
+		category = "NO_CATEGORY";
+		function = "bravo_fnc_moduleSplendidCam";
+		isGlobal = 1;
+		isTriggerActivated = 0;
+		isDisposable = 1;
+		is3DEN = 0;
+		curatorCanAttach = 0;
+		curatorInfoType = "";
+	};
 };

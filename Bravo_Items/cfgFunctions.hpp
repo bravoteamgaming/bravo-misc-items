@@ -7,6 +7,7 @@ class CfgFunctions
 			file = "\bravo_items\functions";
 			class pasteHideTerrainObjects{};
 			class scrapeHideTerrainObjects{};
+			class moduleSplendidCam{};
 		};
 	};
 };
