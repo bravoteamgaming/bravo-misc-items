@@ -65,3 +65,10 @@
 
 2026-03-11
 - ITEMS: added Splendid Camera Zeus module
+
+2026-03-12
+- CBA RAILS RHS3CB: rebalanced flashlights
+- CBA RAILS T1: rebalanced flashlights
+- CBA RAILS WS: rebalanced flashlights
+- CBA RAILS VANILLA: rebalanced flashlights
+- CBA RAILS VANILLA: MX now uses CBA side rail slots

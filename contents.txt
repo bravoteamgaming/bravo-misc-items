@@ -220,15 +220,19 @@ CBA RAILS RF
 
 CBA RAILS RHS3CB
 - Change RHS/3CB weapons to make use of CBA attachment slots and magwells
+- Adjust flashlight properties
 
 CBA RAILS T1
 - Change Tier One weapons to make use of CBA attachment slots
+- Adjust flashlight properties
 
 CBA RAILS VANILLA
 - Change vanilla weapons to make use of CBA attachment slots
+- Adjust flashlight properties
 
 CBA RAILS WS
 - Change WS weapons to make use of CBA attachment slots
+- Adjust flashlight properties
 
 RHS AMMO
 - Rebalance penetration and damage of RHS ammunition
