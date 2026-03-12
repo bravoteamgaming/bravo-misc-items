@@ -8,7 +8,9 @@ class CfgPatches
 		requiredVersion = 2.00;
 		requiredAddons[] = {"cba_jr"};
 		units[] = {};
-		weapons[] = {};
+		weapons[] = {
+			"bravo_test_flashlight"
+		};
 		skipWhenMissingDependencies = 1;
 	};
 };

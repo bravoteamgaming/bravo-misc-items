@@ -151,4 +151,114 @@ class CfgWeapons
 			{};
 		};
 	};
+	
+	// =========
+	// Flashlights
+	class ItemCore;
+	class InventoryFlashLightItem_Base_F;
+	class acc_pointer_IR;
+	class acc_flashlight : ItemCore
+	{
+		class ItemInfo;
+	};
+	class rhs_acc_2dpzenit : acc_flashlight
+	{
+		class ItemInfo : ItemInfo
+		{
+			class FlashLight
+			{
+				outerAngle = 50;
+				innerAngle = 5;
+				coneFadeCoef = 3;
+				intensity = 270;
+				class Attenuation
+				{
+					start = 0;
+					constant = 0.2;
+					linear = 0.1;
+					quadratic = 0.2;
+					hardLimitStart = 27;
+					hardLimitEnd = 50;
+				};
+			};
+		};
+	};
+	
+	class rhs_acc_perst3;
+	class rhs_acc_perst3_2dp : rhs_acc_perst3
+	{
+		class ItemInfo;
+	};
+	class rhs_acc_perst3_2dp_light : rhs_acc_perst3_2dp
+	{
+		class ItemInfo : ItemInfo
+		{
+			class FlashLight
+			{
+				outerAngle = 50;
+				innerAngle = 5;
+				coneFadeCoef = 3;
+				intensity = 270;
+				class Attenuation
+				{
+					start = 0;
+					constant = 0.2;
+					linear = 0.1;
+					quadratic = 0.2;
+					hardLimitStart = 100;
+					hardLimitEnd = 150;
+				};
+			};
+		};
+	};
+	
+	class rhsusf_acc_anpeq15 : acc_pointer_IR
+	{
+		class ItemInfo;
+	};
+	class rhsusf_acc_anpeq15_light : rhsusf_acc_anpeq15
+	{
+		class ItemInfo : ItemInfo
+		{
+			class FlashLight
+			{
+				outerAngle = 35;
+				innerAngle = 5;
+				coneFadeCoef = 2;
+				// intensity = 80;
+				class Attenuation
+				{
+					start = 0;
+					constant = 0.2;
+					linear = 0.1;
+					quadratic = 0.2;
+					hardLimitStart = 100;
+					hardLimitEnd = 150;
+				};
+			};
+		};
+	};
+	
+	class UK3CB_BAF_LLM_Flashlight_Tan : ItemCore
+	{
+		class ItemInfo : InventoryFlashLightItem_Base_F
+		{
+			class FlashLight
+			{
+				outerAngle = 35;
+				innerAngle = 5;
+				coneFadeCoef = 2;
+				intensity = 30;
+				class Attenuation
+				{
+					start = 0;
+					constant = 0.2;
+					linear = 0.1;
+					quadratic = 0.2;
+					hardLimitStart = 100;
+					hardLimitEnd = 150;
+				};
+			};
+		};
+	};
 };

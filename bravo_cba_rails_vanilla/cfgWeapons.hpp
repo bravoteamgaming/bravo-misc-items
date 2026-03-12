@@ -35,6 +35,7 @@ class asdg_MuzzleSlot_762 : asdg_MuzzleSlot
 {};
 class asdg_MuzzleSlot_65 : asdg_MuzzleSlot
 {};
+
 class asdg_FrontSideRail;
 
 class CfgWeapons
@@ -115,6 +116,15 @@ class CfgWeapons
 		};
 	};
 	
+	class arifle_MX_Base_F : Rifle_Base_F
+	{
+		class WeaponSlotsInfo : WeaponSlotsInfo
+		{
+			class PointerSlot : asdg_FrontSideRail
+			{};
+		};
+	};
+	
 	class Rifle_Long_Base_F : Rifle_Base_F
 	{
 		class WeaponSlotsInfo : WeaponSlotsInfo
@@ -151,4 +161,56 @@ class CfgWeapons
 			{}
 		};
 	};
+	
+	
+	// ==================
+	// FLASHLIGHTS
+	
+	class ItemCore;
+	class InventoryFlashLightItem_Base_F;
+	class acc_flashlight : ItemCore
+	{
+		class ItemInfo : InventoryFlashLightItem_Base_F
+		{
+			class FlashLight
+			{
+				outerAngle = 50;
+				innerAngle = 5;
+				coneFadeCoef = 2;
+				class Attenuation
+				{
+					start = 0;
+					constant = 0.2;
+					linear = 0.1;
+					quadratic = 0.2;
+					hardLimitStart = 100;
+					hardLimitEnd = 150;
+				};
+			};
+		};
+	};
+	
+	class acc_flashlight_pistol : ItemCore
+	{
+		class ItemInfo : InventoryFlashLightItem_Base_F
+		{
+			class FlashLight
+			{
+				outerAngle = 50;
+				innerAngle = 5;
+				coneFadeCoef = 3;
+				intensity = 70;
+				class Attenuation
+				{
+					start = 0;
+					constant = 0.4;
+					linear = 0.2;
+					quadratic = 0.2;
+					hardLimitStart = 100;
+					hardLimitEnd = 150;
+				};
+			};
+		};
+	};
+
 };

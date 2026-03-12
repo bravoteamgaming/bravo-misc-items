@@ -106,4 +106,53 @@ class CfgWeapons
 			{};
 		};
 	};
+	
+	// ====================
+	// Flashlights
+	class acc_flashlight;
+	class InventoryFlashLightItem_Base_F;
+	class saber_light_lxWS : acc_flashlight
+	{
+		class ItemInfo : InventoryFlashLightItem_Base_F
+		{
+			class FlashLight
+			{
+				outerAngle = 40;
+				innerAngle = 5;
+				coneFadeCoef = 2;
+				intensity = 80;
+				class Attenuation
+				{
+					start = 0;
+					constant = 0.2;
+					linear = 0.1;
+					quadratic = 0.2;
+					hardLimitStart = 100;
+					hardLimitEnd = 150;
+				};
+			};
+		};
+	};
+	class saber_light_ir_lxWS : acc_flashlight
+	{
+		class ItemInfo : InventoryFlashLightItem_Base_F
+		{
+			class FlashLight
+			{
+				outerAngle = 40;
+				innerAngle = 5;
+				coneFadeCoef = 2;
+				intensity = 80;
+				class Attenuation
+				{
+					start = 0;
+					constant = 0.2;
+					linear = 0.1;
+					quadratic = 0.2;
+					hardLimitStart = 10;
+					hardLimitEnd = 150;
+				};
+			};
+		};
+	};
 };
