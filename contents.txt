@@ -200,6 +200,21 @@ GEAR MISC
 	Combat Fatigues T-Shirt [ION] (Woodland MTP)
 	Combat Fatigues T-Shirt [ION] (Tropic MTP)
 	Combat Fatigues T-Shirt [ION] (Desert MTP)
+- Add facewear variants:
+	Shemagh w/Goggles (Green/Clear)
+	Shemagh w/Goggles (Green/alt/Clear)
+	Shemagh w/Goggles (Tan/Clear)
+	Shemagh w/Goggles (Tan/alt/Clear)
+	Shemagh w/Goggles (OD/Clear)
+	Shemagh w/Goggles (OD/alt/Clear)
+	Shemagh w/Goggles (White/Clear)
+	Shemagh w/Goggles (White/alt/Clear)
+	Shemagh w/Goggles (Orange)
+	Shemagh w/Goggles (Orange/alt)
+	Shemagh w/Goggles (Orange/Clear)
+	Shemagh w/Goggles (Orange/alt/Clear)
+	Shemagh (Orange)
+	Shemagh (Orange/alt)
 - Change mass of 3CB and GM radio bags
 
 PHONE

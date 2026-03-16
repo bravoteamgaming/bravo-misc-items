@@ -193,3 +193,4 @@ class CfgPatches
 
 #include "cfgVehicles.hpp"
 #include "cfgWeapons.hpp"
+#include "cfgGlasses.hpp"
