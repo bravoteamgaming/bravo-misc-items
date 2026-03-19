@@ -185,7 +185,10 @@ class CfgPatches
 			"bravo_helmetspecb_multicam",
 			"bravo_helmetspecb_green",
 			"bravo_helmetb_multicam",
-			"bravo_helmetb_green"
+			"bravo_helmetb_green",
+			"bravo_vest_type18_oli",
+			"bravo_vest_type18_des",
+			"bravo_vest_type18_win"
 		};
 		skipWhenMissingDependencies = 1;
 	};

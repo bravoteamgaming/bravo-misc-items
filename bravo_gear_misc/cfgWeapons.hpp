@@ -1002,4 +1002,46 @@ class cfgWeapons
 			uniformClass = "bravo_combatuniform_tactee_dpmj_ws_unit";
 		};
 	};
+	
+	class gm_vest_armored_base;
+	class gm_ge_vest_type18_base : gm_vest_armored_base
+	{
+		class ItemInfo;
+	};
+	class bravo_vest_type18_oli : gm_ge_vest_type18_base
+	{
+		displayName = "Type 18 Vest (Olive)";
+		scope = 2;
+		scopeArsenal = 2;
+		picture = "\gm\gm_characters\gm_ge_characters\data\ui\picture_gm_ge_bgs_vest_type18_grn_ca";
+		hiddenSelectionsTextures[] = {"bravo_gear_misc\assets\bravo_ge_vest_type18_oli_co.paa"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"bravo_gear_misc\assets\bravo_ge_vest_type18_oli_co.paa"};
+		};
+	};
+	class bravo_vest_type18_win : gm_ge_vest_type18_base
+	{
+		displayName = "Type 18 Vest (White)";
+		scope = 2;
+		scopeArsenal = 2;
+		picture = "\gm\gm_characters\gm_ge_characters\data\ui\picture_gm_ge_bgs_vest_type18_grn_ca";
+		hiddenSelectionsTextures[] = {"bravo_gear_misc\assets\bravo_ge_vest_type18_win_co.paa"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"bravo_gear_misc\assets\bravo_ge_vest_type18_win_co.paa"};
+		};
+	};
+	class bravo_vest_type18_des : gm_ge_vest_type18_base
+	{
+		displayName = "Type 18 Vest (Tan)";
+		scope = 2;
+		scopeArsenal = 2;
+		picture = "\gm\gm_characters\gm_ge_characters\data\ui\picture_gm_ge_bgs_vest_type18_grn_ca";
+		hiddenSelectionsTextures[] = {"bravo_gear_misc\assets\bravo_ge_vest_type18_des_co.paa"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"bravo_gear_misc\assets\bravo_ge_vest_type18_des_co.paa"};
+		};
+	};
 };
