@@ -76,3 +76,6 @@
 2026-03-16
 - GEAR MISC: added orange variants of RHS shemaghs
 - GEAR MISC: added clear goggles variants of RHS shemags
+
+2026-03-19
+- GEAR MISC: added colour variants of GM Type 18 vest

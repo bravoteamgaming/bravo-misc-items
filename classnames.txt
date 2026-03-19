@@ -169,6 +169,9 @@ CfgWeapons
 "bravo_helmetspecb_green", Enhanced Combat Helmet (Green)
 "bravo_helmetb_multicam", Combat Helmet (Multicam)
 "bravo_helmetb_green", Combat Helmet (Green)
+"bravo_vest_type18_oli", Type 18 Vest (Olive)
+"bravo_vest_type18_des", Type 18 Vest (Tan)
+"bravo_vest_type18_win", Type 18 Vest (White)
 
 CfgVehicles
 "bravo_p601_sport", P601 RS

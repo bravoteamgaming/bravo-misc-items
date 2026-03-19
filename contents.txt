@@ -167,6 +167,9 @@ GEAR MISC
 	Carrier Lite Vest (Woodland MTP)
 	Carrier Lite Vest (Tropic MTP)
 	Carrier Lite Vest (Winter)
+	Type 18 Vest (Olive)
+	Type 18 Vest (Tan)
+	Type 18 Vest (White)
 - Enable hidden vest variants:
 	CTRG Carrier Mk. 1 (No Flag)
 	CTRG Carrier Mk. 2 (No Flag)
