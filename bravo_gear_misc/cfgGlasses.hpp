@@ -112,4 +112,14 @@ class CfgGlasses
 		displayName = "Shemagh (Orange)";
 		scope = 2;
 	};
+	
+	class G_WirelessEarpiece_F;
+	class bravo_facewear_prr : G_WirelessEarpiece_F
+	{
+		displayName = "Headset PRR";
+		author = "3 Commando Brigade";
+		picture = "\UK3CB_BAF_Equipment\bowman\data\ui\gear_bowman_ca.paa";
+		mass = 2;
+		model = "\uk3cb_baf_equipment\bowman\Bowman_headset.p3d";
+	};
 };

@@ -1044,4 +1044,528 @@ class cfgWeapons
 			hiddenSelectionsTextures[] = {"bravo_gear_misc\assets\bravo_ge_vest_type18_des_co.paa"};
 		};
 	};
+	
+	class nomex_toq_addon;
+	class bravo_nvg_swdg44_helmet : nomex_toq_addon
+	{
+		displayName = "(US) M-1944 SWDG (Helmet)";
+		author = "sim-kar98-dough";
+		descriptionShort = "Dust goggles";
+		model = "simc_uaf_44\swdg_face.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {};
+		picture = "\simc_uaf_44_preview\icons\SWDG.paa";
+		class ItemInfo
+		{
+			mass = 1;
+			modelOff = "simc_uaf_44\swdg_face.p3d";
+			uniformModel = "simc_uaf_44\swdg_face.p3d";
+			hmdType = 0;
+			type = 616;
+			hiddenSelections[] = {"camo"};
+			hiddenSelectionsTextures[] = {};
+		};
+	};
+	class bravo_nvg_swdg44_low : nomex_toq_addon
+	{
+		displayName = "(US) M-1944 SWDG (Low)";
+		author = "sim-kar98-dough";
+		descriptionShort = "Dust goggles";
+		model = "simc_uaf_44\swdg_face.p3d";
+		picture = "\simc_uaf_44_preview\icons\SWDG.paa";
+		hiddenSelections[] = {"glass","jewgel"};
+		hiddenSelectionsTextures[] = {"\simc_uaf_44\jewgel\glass_green_ca.paa",""};
+		class ItemInfo
+		{
+			mass = 1;
+			modelOff = "simc_uaf_44\swdg.p3d";
+			uniformModel = "simc_uaf_44\swdg.p3d";
+			hmdType = 0;
+			type = 616;
+			hiddenSelections[] = {"glass","jewgel"};
+			hiddenSelectionsTextures[] = {"\simc_uaf_44\jewgel\glass_green_ca.paa",""};
+		};
+	};
+	
+	class bravo_nvg_helmetband : nomex_toq_addon
+	{
+		displayname = "(US) Helmet Band (IFA3)";
+		author = "bigstone";
+		descriptionShort = "Helmet band";
+		model = "simc_uaf_44\helmet_band.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {};
+		picture = "\simc_uaf_44_preview\icons\band_ca.paa";
+		class ItemInfo
+		{
+			mass = 2;
+			modelOff = "simc_uaf_44\helmet_band.p3d";
+			uniformModel = "simc_uaf_44\helmet_band.p3d";
+			hmdType = 0;
+			type = 616;
+			hiddenSelections[] = {"camo"};
+			hiddenSelectionsTextures[] = {};
+		};
+	};
+	
+	class UK3CB_Earpiece_NVG;
+	class bravo_nvg_prr : UK3CB_Earpiece_NVG
+	{
+		displayName = "Headset PRR";
+		author = "3 Commando Brigade";
+		picture = "\UK3CB_BAF_Equipment\bowman\data\ui\gear_bowman_ca.paa";
+		hiddenSelections[] = {""};
+		hiddenSelectionsTextures[] = {""};
+		model = "\uk3cb_baf_equipment\bowman\Bowman_headset.p3d";
+		class ItemInfo
+		{
+			mass = 2;
+			modelOff = "\uk3cb_baf_equipment\bowman\Bowman_headset.p3d";
+			uniformModel = "\uk3cb_baf_equipment\bowman\Bowman_headset.p3d";
+			hmdType = 0;
+			type = 616;
+			hiddenSelections[] = {""};
+			hiddenSelectionsTextures[] = {""};
+		};
+	};
+	class bravo_nvg_wsheadset : UK3CB_Earpiece_NVG
+	{
+		displayName = "Military Headset";
+		author = "Rotators Collective";
+		DLC = "ws";
+		picture = "\lxws\characters_f_lxws\headgear\pmc\data\ui\gear_x_headpiece_CA.paa";
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {"lxws\characters_f_lxws\headgear\pmc\data\HeadMic_CO.paa"};
+		model = "lxws\characters_f_lxws\headgear\pmc\HeadMic.p3d";
+		class ItemInfo
+		{
+			mass = 2;
+			modelOff = "lxws\characters_f_lxws\headgear\pmc\HeadMic.p3d";
+			uniformModel = "lxws\characters_f_lxws\headgear\pmc\HeadMic.p3d";
+			hmdType = 0;
+			type = 616;
+			hiddenSelections[] = {"Camo"};
+			hiddenSelectionsTextures[] = {"lxws\characters_f_lxws\headgear\pmc\data\HeadMic_CO.paa"};
+		};
+	};
+	class bravo_nvg_gmgrasscamo1 : UK3CB_Earpiece_NVG
+	{
+		displayName = "Grass Helmet Camo 1";
+		author = "Global Mobilization";
+		DLC = "gm";
+		picture = "\gm\gm_core\gm_core_characters\data\ui\picture_gm_hmd_foliage_summer_grass_01_ca.paa";
+		model = "gm\gm_core\gm_core_characters\gm_headgear_foliage_summer_grass_01";
+		class ItemInfo
+		{
+			mass = 1;
+			modelOff = "gm\gm_core\gm_core_characters\gm_headgear_foliage_summer_grass_01";
+			uniformModel = "gm\gm_core\gm_core_characters\gm_headgear_foliage_summer_grass_01";
+			hmdType = 0;
+			type = 616;
+		};
+	};
+	class bravo_nvg_gmgrasscamo2 : UK3CB_Earpiece_NVG
+	{
+		displayName = "Grass Helmet Camo 2";
+		author = "Global Mobilization";
+		DLC = "gm";
+		picture = "\gm\gm_core\gm_core_characters\data\ui\picture_gm_hmd_foliage_summer_grass_01_ca.paa";
+		model = "gm\gm_core\gm_core_characters\gm_headgear_foliage_summer_grass_02";
+		class ItemInfo
+		{
+			mass = 1;
+			modelOff = "gm\gm_core\gm_core_characters\gm_headgear_foliage_summer_grass_02";
+			uniformModel = "gm\gm_core\gm_core_characters\gm_headgear_foliage_summer_grass_02";
+			hmdType = 0;
+			type = 616;
+		};
+	};
+	class bravo_nvg_gmgrasscamo3 : UK3CB_Earpiece_NVG
+	{
+		displayName = "Grass Helmet Camo 3";
+		author = "Global Mobilization";
+		DLC = "gm";
+		picture = "\gm\gm_core\gm_core_characters\data\ui\picture_gm_hmd_foliage_summer_grass_01_ca.paa";
+		model = "gm\gm_core\gm_core_characters\gm_headgear_foliage_summer_grass_03";
+		class ItemInfo
+		{
+			mass = 1;
+			modelOff = "gm\gm_core\gm_core_characters\gm_headgear_foliage_summer_grass_03";
+			uniformModel = "gm\gm_core\gm_core_characters\gm_headgear_foliage_summer_grass_03";
+			hmdType = 0;
+			type = 616;
+		};
+	};
+	class bravo_nvg_gmgrasscamo4 : UK3CB_Earpiece_NVG
+	{
+		displayName = "Grass Helmet Camo 4";
+		author = "Global Mobilization";
+		DLC = "gm";
+		picture = "\gm\gm_core\gm_core_characters\data\ui\picture_gm_hmd_foliage_summer_grass_01_ca.paa";
+		model = "gm\gm_core\gm_core_characters\gm_headgear_foliage_summer_grass_04";
+		class ItemInfo
+		{
+			mass = 1;
+			modelOff = "gm\gm_core\gm_core_characters\gm_headgear_foliage_summer_grass_04";
+			uniformModel = "gm\gm_core\gm_core_characters\gm_headgear_foliage_summer_grass_04";
+			hmdType = 0;
+			type = 616;
+		};
+	};
+	class bravo_nvg_gmforestcamo1 : UK3CB_Earpiece_NVG
+	{
+		displayName = "Forest Helmet Camo 1";
+		author = "Global Mobilization";
+		DLC = "gm";
+		picture = "\gm\gm_core\gm_core_characters\data\ui\picture_gm_hmd_foliage_summer_forest_01_ca.paa";
+		model = "gm\gm_core\gm_core_characters\gm_headgear_foliage_summer_forest_01";
+		class ItemInfo
+		{
+			mass = 1;
+			modelOff = "gm\gm_core\gm_core_characters\gm_headgear_foliage_summer_forest_01";
+			uniformModel = "gm\gm_core\gm_core_characters\gm_headgear_foliage_summer_forest_01";
+			hmdType = 0;
+			type = 616;
+		};
+	};
+	class bravo_nvg_gmforestcamo2 : UK3CB_Earpiece_NVG
+	{
+		displayName = "Forest Helmet Camo 2";
+		author = "Global Mobilization";
+		DLC = "gm";
+		picture = "\gm\gm_core\gm_core_characters\data\ui\picture_gm_hmd_foliage_summer_forest_01_ca.paa";
+		model = "gm\gm_core\gm_core_characters\gm_headgear_foliage_summer_forest_02";
+		class ItemInfo
+		{
+			mass = 1;
+			modelOff = "gm\gm_core\gm_core_characters\gm_headgear_foliage_summer_forest_02";
+			uniformModel = "gm\gm_core\gm_core_characters\gm_headgear_foliage_summer_forest_02";
+			hmdType = 0;
+			type = 616;
+		};
+	};
+	class bravo_nvg_gmforestcamo3 : UK3CB_Earpiece_NVG
+	{
+		displayName = "Forest Helmet Camo 3";
+		author = "Global Mobilization";
+		DLC = "gm";
+		picture = "\gm\gm_core\gm_core_characters\data\ui\picture_gm_hmd_foliage_summer_forest_01_ca.paa";
+		model = "gm\gm_core\gm_core_characters\gm_headgear_foliage_summer_forest_03";
+		class ItemInfo
+		{
+			mass = 1;
+			modelOff = "gm\gm_core\gm_core_characters\gm_headgear_foliage_summer_forest_03";
+			uniformModel = "gm\gm_core\gm_core_characters\gm_headgear_foliage_summer_forest_03";
+			hmdType = 0;
+			type = 616;
+		};
+	};
+	class bravo_nvg_gmforestcamo3 : UK3CB_Earpiece_NVG
+	{
+		displayName = "Forest Helmet Camo 4";
+		author = "Global Mobilization";
+		DLC = "gm";
+		picture = "\gm\gm_core\gm_core_characters\data\ui\picture_gm_hmd_foliage_summer_forest_01_ca.paa";
+		model = "gm\gm_core\gm_core_characters\gm_headgear_foliage_summer_forest_04";
+		class ItemInfo
+		{
+			mass = 1;
+			modelOff = "gm\gm_core\gm_core_characters\gm_headgear_foliage_summer_forest_04";
+			uniformModel = "gm\gm_core\gm_core_characters\gm_headgear_foliage_summer_forest_04";
+			hmdType = 0;
+			type = 616;
+		};
+	};
+	class bravo_nvg_gmdustglasses_relaxed : UK3CB_Earpiece_NVG
+	{
+		displayName = "Dust Glasses (Relaxed)";
+		author = "Global Mobilization";
+		DLC = "gm";
+		picture = "\gm\gm_characters\gm_ge_characters\data\ui\picture_gm_ge_facewear_dustglasses_ca";
+		model = "\gm\gm_characters\gm_ge_characters\gm_ge_facewear_dustglasses_relaxed";
+		class ItemInfo
+		{
+			mass = 1;
+			modelOff = "\gm\gm_characters\gm_ge_characters\gm_ge_facewear_dustglasses_relaxed";
+			uniformModel = "\gm\gm_characters\gm_ge_characters\gm_ge_facewear_dustglasses_relaxed";
+			hmdType = 0;
+			type = 616;
+		};
+	};
+	class bravo_nvg_wirelessearpiece : UK3CB_Earpiece_NVG
+	{
+		displayName = "Wireless Earpiece";
+		author = "Bohemia Interactive";
+		DLC = "orange";
+		picture = "\A3\Characters_F_Orange\Headgear\Data\UI\icon_H_WirelessEarpiece_CA.paa";
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {"\A3\Characters_F_Orange\Headgear\Data\H_WirelessEarpiece_co.paa"};
+		model = "\A3\Characters_F_Orange\Headgear\H_WirelessEarpiece_F.p3d";
+		class ItemInfo
+		{
+			mass = 1;
+			modelOff = "\A3\Characters_F_Orange\Headgear\H_WirelessEarpiece_F.p3d";
+			uniformModel = "\A3\Characters_F_Orange\Headgear\H_WirelessEarpiece_F.p3d";
+			hmdType = 0;
+			type = 616;
+			hiddenSelections[] = {"Camo"};
+			hiddenSelectionsTextures[] = {"\A3\Characters_F_Orange\Headgear\Data\H_WirelessEarpiece_co.paa"};
+		};
+	};
+	
+	class gm_ge_vest_armor_90_rifleman_flk;
+	class bravo_gm_ge_vest_armor_90_rifleman_oli : gm_ge_vest_armor_90_rifleman_flk
+	{
+		displayName = "Flak Vest, Rifleman (Olive)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_oli_co.paa"};
+	};
+	class bravo_gm_ge_vest_armor_90_rifleman_des : gm_ge_vest_armor_90_rifleman_flk
+	{
+		displayName = "Flak Vest, Rifleman (Tan)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_des_co.paa"};
+	};
+	class bravo_gm_ge_vest_armor_90_rifleman_khk : gm_ge_vest_armor_90_rifleman_flk
+	{
+		displayName = "Flak Vest, Rifleman (Khaki)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa"};
+	};
+	
+	class gm_ge_vest_armor_90_machinegunner_flk;
+	class bravo_gm_ge_vest_armor_90_machinegunner_oli : gm_ge_vest_armor_90_machinegunner_flk
+	{
+		displayName = "Flak Vest, Machinegunner (Olive)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_oli_co.paa","\gm\gm_characters\gm_ge_characters\data\vest\gm_ge_vest_02_80_co"};
+	};
+	class bravo_gm_ge_vest_armor_90_machinegunner_des : gm_ge_vest_armor_90_machinegunner_flk
+	{
+		displayName = "Flak Vest, Machinegunner (Tan)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_des_co.paa","\gm\gm_characters\gm_ge_characters\data\vest\gm_ge_vest_02_80_co"};
+	};
+	class bravo_gm_ge_vest_armor_90_machinegunner_khk : gm_ge_vest_armor_90_machinegunner_flk
+	{
+		displayName = "Flak Vest, Machinegunner (Khaki)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa","\gm\gm_characters\gm_ge_characters\data\vest\gm_ge_vest_02_80_co"};
+	};
+	
+	class gm_ge_vest_armor_90_medic_flk;
+	class bravo_gm_ge_vest_armor_90_medic_oli : gm_ge_vest_armor_90_medic_flk
+	{
+		displayName = "Flak Vest, Medic (Olive)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_oli_co.paa","\gm\gm_characters\gm_ge_characters\data\vest\gm_ge_vest_02_80_co"};
+	};
+	class bravo_gm_ge_vest_armor_90_medic_des : gm_ge_vest_armor_90_medic_flk
+	{
+		displayName = "Flak Vest, Medic (Tan)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_des_co.paa","\gm\gm_characters\gm_ge_characters\data\vest\gm_ge_vest_02_80_co"};
+	};
+	class bravo_gm_ge_vest_armor_90_medic_khk : gm_ge_vest_armor_90_medic_flk
+	{
+		displayName = "Flak Vest, Medic (Khaki)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa","\gm\gm_characters\gm_ge_characters\data\vest\gm_ge_vest_02_80_co"};
+	};
+	
+	class gm_ge_vest_armor_90_demolition_flk;
+	class bravo_gm_ge_vest_armor_90_demolition_oli : gm_ge_vest_armor_90_demolition_flk
+	{
+		displayName = "Flak Vest, Demolition (Olive)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_oli_co.paa","\gm\gm_characters\gm_ge_characters\data\vest\gm_ge_vest_02_80_co"};
+	};
+	class bravo_gm_ge_vest_armor_90_demolition_des : gm_ge_vest_armor_90_demolition_flk
+	{
+		displayName = "Flak Vest, Demolition (Tan)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_des_co.paa","\gm\gm_characters\gm_ge_characters\data\vest\gm_ge_vest_02_80_co"};
+	};
+	class bravo_gm_ge_vest_armor_90_demolition_khk : gm_ge_vest_armor_90_demolition_flk
+	{
+		displayName = "Flak Vest, Demolition (Khaki)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa","\gm\gm_characters\gm_ge_characters\data\vest\gm_ge_vest_02_80_co"};
+	};
+	
+	class gm_ge_vest_armor_90_leader_flk;
+	class bravo_gm_ge_vest_armor_90_leader_oli : gm_ge_vest_armor_90_leader_flk
+	{
+		displayName = "Flak Vest, Leader (Olive)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_oli_co.paa"};
+	};
+	class bravo_gm_ge_vest_armor_90_leader_des : gm_ge_vest_armor_90_leader_flk
+	{
+		displayName = "Flak Vest, Leader (Tan)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_des_co.paa"};
+	};
+	class bravo_gm_ge_vest_armor_90_leader_khk : gm_ge_vest_armor_90_leader_flk
+	{
+		displayName = "Flak Vest, Leader (Khaki)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa"};
+	};
+	
+	class gm_ge_vest_armor_90_crew_flk;
+	class bravo_gm_ge_vest_armor_90_crew_oli : gm_ge_vest_armor_90_crew_flk
+	{
+		displayName = "Flak Vest, Crew (Olive)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_oli_co.paa"};
+	};
+	class bravo_gm_ge_vest_armor_90_crew_des : gm_ge_vest_armor_90_crew_flk
+	{
+		displayName = "Flak Vest, Crew (Tan)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_des_co.paa"};
+	};
+	class bravo_gm_ge_vest_armor_90_crew_khk : gm_ge_vest_armor_90_crew_flk
+	{
+		displayName = "Flak Vest, Crew (Khaki)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa"};
+	};
+	
+	class gm_ge_vest_armor_90_flk;
+	class bravo_gm_ge_vest_armor_90_oli : gm_ge_vest_armor_90_flk
+	{
+		displayName = "Flak Vest (Olive)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_oli_co"};
+	};
+	class bravo_gm_ge_vest_armor_90_des : gm_ge_vest_armor_90_flk
+	{
+		displayName = "Flak Vest (Tan)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co"};
+	};
+	class bravo_gm_ge_vest_armor_90_khk : gm_ge_vest_armor_90_flk
+	{
+		displayName = "Flak Vest (Khaki)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co"};
+	};
+	
+	class gm_ge_vest_armor_90_officer_flk;
+	class bravo_gm_ge_vest_armor_90_officer_oli : gm_ge_vest_armor_90_officer_flk
+	{
+		displayName = "Flak Vest, Officer (Olive)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_oli_co.paa"};
+	};
+	class bravo_gm_ge_vest_armor_90_officer_des : gm_ge_vest_armor_90_officer_flk
+	{
+		displayName = "Flak Vest, Officer (Tan)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_des_co.paa"};
+	};
+	class bravo_gm_ge_vest_armor_90_officer_khk : gm_ge_vest_armor_90_officer_flk
+	{
+		displayName = "Flak Vest, Officer (Khaki)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa"};
+	};
+	
+	
+	class gm_ge_vest_90_rifleman_flk;
+	class bravo_gm_ge_vest_90_rifleman_oli : gm_ge_vest_90_rifleman_flk
+	{
+		displayName = "Belt Rig, Rifleman (Olive)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_vest_90_oli_co.paa"};
+	};
+	class bravo_gm_ge_vest_90_rifleman_des : gm_ge_vest_90_rifleman_flk
+	{
+		displayName = "Belt Rig, Rifleman (Tan)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_vest_90_des_co.paa"};
+	};
+	class bravo_gm_ge_vest_90_rifleman_khk : gm_ge_vest_90_rifleman_flk
+	{
+		displayName = "Belt Rig, Rifleman (Khaki)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa"};
+	};
+	
+	class gm_ge_vest_90_machinegunner_flk;
+	class bravo_gm_ge_vest_90_machinegunner_oli : gm_ge_vest_90_machinegunner_flk
+	{
+		displayName = "Belt Rig, Machinegunner (Olive)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_vest_90_oli_co.paa","\gm\gm_characters\gm_ge_characters\data\vest\gm_ge_vest_02_80_co"};
+	};
+	class bravo_gm_ge_vest_90_machinegunner_des : gm_ge_vest_90_machinegunner_flk
+	{
+		displayName = "Belt Rig, Machinegunner (Tan)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_vest_90_des_co.paa","\gm\gm_characters\gm_ge_characters\data\vest\gm_ge_vest_02_80_co"};
+	};
+	class bravo_gm_ge_vest_90_machinegunner_khk : gm_ge_vest_90_machinegunner_flk
+	{
+		displayName = "Belt Rig, Machinegunner (Khaki)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa","\gm\gm_characters\gm_ge_characters\data\vest\gm_ge_vest_02_80_co"};
+	};
+	
+	class gm_ge_vest_90_medic_flk;
+	class bravo_gm_ge_vest_90_medic_oli : gm_ge_vest_90_medic_flk
+	{
+		displayName = "Belt Rig, Medic (Olive)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_vest_90_oli_co.paa","\gm\gm_characters\gm_ge_characters\data\vest\gm_ge_vest_02_80_co"};
+	};
+	class bravo_gm_ge_vest_90_medic_des : gm_ge_vest_90_medic_flk
+	{
+		displayName = "Belt Rig, Medic (Tan)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_vest_90_des_co.paa","\gm\gm_characters\gm_ge_characters\data\vest\gm_ge_vest_02_80_co"};
+	};
+	class bravo_gm_ge_vest_90_medic_khk : gm_ge_vest_90_medic_flk
+	{
+		displayName = "Belt Rig, Medic (Khaki)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa","\gm\gm_characters\gm_ge_characters\data\vest\gm_ge_vest_02_80_co"};
+	};
+	
+	class gm_ge_vest_90_demolition_flk;
+	class bravo_gm_ge_vest_90_demolition_oli : gm_ge_vest_90_demolition_flk
+	{
+		displayName = "Belt Rig, Demolition (Olive)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_vest_90_oli_co.paa","\gm\gm_characters\gm_ge_characters\data\vest\gm_ge_vest_02_80_co"};
+	};
+	class bravo_gm_ge_vest_90_demolition_des : gm_ge_vest_90_demolition_flk
+	{
+		displayName = "Belt Rig, Demolition (Tan)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_vest_90_des_co.paa","\gm\gm_characters\gm_ge_characters\data\vest\gm_ge_vest_02_80_co"};
+	};
+	class bravo_gm_ge_vest_90_demolition_khk : gm_ge_vest_90_demolition_flk
+	{
+		displayName = "Belt Rig, Demolition (Khaki)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa","\gm\gm_characters\gm_ge_characters\data\vest\gm_ge_vest_02_80_co"};
+	};
+	
+	class gm_ge_vest_90_leader_flk;
+	class bravo_gm_ge_vest_90_leader_oli : gm_ge_vest_90_leader_flk
+	{
+		displayName = "Belt Rig, Leader (Olive)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_vest_90_oli_co.paa"};
+	};
+	class bravo_gm_ge_vest_90_leader_des : gm_ge_vest_90_leader_flk
+	{
+		displayName = "Belt Rig, Leader (Tan)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_vest_90_des_co.paa"};
+	};
+	class bravo_gm_ge_vest_90_leader_khk : gm_ge_vest_90_leader_flk
+	{
+		displayName = "Belt Rig, Leader (Khaki)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa"};
+	};
+	
+	class gm_ge_vest_90_crew_flk;
+	class bravo_gm_ge_vest_90_crew_oli : gm_ge_vest_90_crew_flk
+	{
+		displayName = "Belt Rig, Crew (Olive)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_vest_90_oli_co.paa"};
+	};
+	class bravo_gm_ge_vest_90_crew_des : gm_ge_vest_90_crew_flk
+	{
+		displayName = "Belt Rig, Crew (Tan)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_vest_90_des_co.paa"};
+	};
+	class bravo_gm_ge_vest_90_crew_khk : gm_ge_vest_90_crew_flk
+	{
+		displayName = "Belt Rig, Crew (Khaki)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa"};
+	};
+	
+	class gm_ge_vest_90_officer_flk;
+	class bravo_gm_ge_vest_90_officer_oli : gm_ge_vest_90_officer_flk
+	{
+		displayName = "Belt Rig, Officer (Olive)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_vest_90_oli_co.paa"};
+	};
+	class bravo_gm_ge_vest_90_officer_des : gm_ge_vest_90_officer_flk
+	{
+		displayName = "Belt Rig, Officer (Tan)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_vest_90_des_co.paa"};
+	};
+	class bravo_gm_ge_vest_90_officer_khk : gm_ge_vest_90_officer_flk
+	{
+		displayName = "Belt Rig, Officer (Khaki)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa"};
+	};
 };
