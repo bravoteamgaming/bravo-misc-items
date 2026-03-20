@@ -170,6 +170,45 @@ GEAR MISC
 	Type 18 Vest (Olive)
 	Type 18 Vest (Tan)
 	Type 18 Vest (White)
+	Flak Vest, Rifleman (Olive)
+	Flak Vest, Rifleman (Tan)
+	Flak Vest, Rifleman (Khaki)
+	Flak Vest, Leader (Olive)
+	Flak Vest, Leader (Tan)
+	Flak Vest, Leader (Khaki)
+	Flak Vest, Machinegunner (Olive)
+	Flak Vest, Machinegunner (Tan)
+	Flak Vest, Machinegunner (Khaki)
+	Flak Vest, Demolition (Olive)
+	Flak Vest, Demolition (Tan)
+	Flak Vest, Demolition (Khaki)
+	Flak Vest, Officer (Olive)
+	Flak Vest, Officer (Tan)
+	Flak Vest, Officer (Khaki)
+	Flak Vest, Medic (Olive)
+	Flak Vest, Medic (Tan)
+	Flak Vest, Medic (Khaki)
+	Flak Vest (Olive)
+	Flak Vest (Tan)
+	Flak Vest (Khaki)
+	Belt Rig, Rifleman (Olive)
+	Belt Rig, Rifleman (Tan)
+	Belt Rig, Rifleman (Khaki)
+	Belt Rig, Leader (Olive)
+	Belt Rig, Leader (Tan)
+	Belt Rig, Leader (Khaki)
+	Belt Rig, Machinegunner (Olive)
+	Belt Rig, Machinegunner (Tan)
+	Belt Rig, Machinegunner (Khaki)
+	Belt Rig, Demolition (Olive)
+	Belt Rig, Demolition (Tan)
+	Belt Rig, Demolition (Khaki)
+	Belt Rig, Officer (Olive)
+	Belt Rig, Officer (Tan)
+	Belt Rig, Officer (Khaki)
+	Belt Rig, Medic (Olive)
+	Belt Rig, Medic (Tan)
+	Belt Rig, Medic (Khaki)
 - Enable hidden vest variants:
 	CTRG Carrier Mk. 1 (No Flag)
 	CTRG Carrier Mk. 2 (No Flag)
@@ -218,6 +257,23 @@ GEAR MISC
 	Shemagh w/Goggles (Orange/alt/Clear)
 	Shemagh (Orange)
 	Shemagh (Orange/alt)
+	Headset PRR
+- Add NVG slot variants:
+	(US) M-1944 SWDG (Low)
+	(US) M-1944 SWDG (Helmet)
+	(US) Helmet Band (IFA)
+	Dust Glasses (Relaxed)
+	Wireless Earpiece
+	Headset PRR
+	Military Headset
+	Forest Helmet Camo 1
+	Forest Helmet Camo 2
+	Forest Helmet Camo 3
+	Forest Helmet Camo 4
+	Grass Helmet Camo 1
+	Grass Helmet Camo 2
+	Grass Helmet Camo 3
+	Grass Helmet Camo 4
 - Change mass of 3CB and GM radio bags
 
 PHONE

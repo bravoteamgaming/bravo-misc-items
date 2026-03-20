@@ -172,6 +172,66 @@ CfgWeapons
 "bravo_vest_type18_oli", Type 18 Vest (Olive)
 "bravo_vest_type18_des", Type 18 Vest (Tan)
 "bravo_vest_type18_win", Type 18 Vest (White)
+"bravo_nvg_wsheadset",
+"bravo_nvg_prr", Headset PRR
+"bravo_nvg_swdg44_low", (US) M-1944 SWDG (Low)
+"bravo_nvg_helmetband", (US) Helmet Band (IFA)
+"bravo_nvg_swdg44_helmet", (US) M-1944 SWDG (Helmet)
+"bravo_nvg_gmgrasscamo1", Grass Helmet Camo 1
+"bravo_nvg_gmgrasscamo2", Grass Helmet Camo 2
+"bravo_nvg_gmgrasscamo3", Grass Helmet Camo 3
+"bravo_nvg_gmgrasscamo4", Grass Helmet Camo 4
+"bravo_nvg_gmforestcamo1", Forest Helmet Camo 1
+"bravo_nvg_gmforestcamo2", Forest Helmet Camo 2
+"bravo_nvg_gmforestcamo3", Forest Helmet Camo 3
+"bravo_nvg_gmforestcamo4", Forest Helmet Camo 4
+"bravo_nvg_wirelessearpiece", Wireless Earpiece
+"bravo_nvg_gmdustglasses_relaxed", Dust Glasses (Relaxed)
+"bravo_gm_ge_vest_armor_90_oli", Flak Vest (Olive)
+"bravo_gm_ge_vest_armor_90_rifleman_oli", Flak Vest, Rifleman (Olive)
+"bravo_gm_ge_vest_armor_90_demolition_oli", Flak Vest, Demolition (Olive)
+"bravo_gm_ge_vest_armor_90_leader_oli", Flak Vest, Leader (Olive)
+"bravo_gm_ge_vest_armor_90_medic_oli", Flak Vest, Medic (Olive)
+"bravo_gm_ge_vest_armor_90_machinegunner_oli", Flak Vest, Machinegunner (Olive)
+"bravo_gm_ge_vest_armor_90_crew_oli", Flak Vest, Crew (Olive)
+"bravo_gm_ge_vest_armor_90_officer_oli", Flak Vest, Officer (Olive)
+"bravo_gm_ge_vest_armor_90_des", Flak Vest (Tan)
+"bravo_gm_ge_vest_armor_90_rifleman_des", Flak Vest, Rifleman (Tan)
+"bravo_gm_ge_vest_armor_90_demolition_des", Flak Vest, Demolition (Tan)
+"bravo_gm_ge_vest_armor_90_leader_des", Flak Vest, Leader (Tan)
+"bravo_gm_ge_vest_armor_90_medic_des", Flak Vest, Medic (Tan)
+"bravo_gm_ge_vest_armor_90_machinegunner_des", Flak Vest, Machinegunner (Tan)
+"bravo_gm_ge_vest_armor_90_crew_des", Flak Vest, Crew (Tan)
+"bravo_gm_ge_vest_armor_90_officer_des", Flak Vest, Officer (Tan)
+"bravo_gm_ge_vest_armor_90_khk", Flak Vest (Khaki)
+"bravo_gm_ge_vest_armor_90_rifleman_khk", Flak Vest, Rifleman (Khaki)
+"bravo_gm_ge_vest_armor_90_demolition_khk", Flak Vest, Demolition (Khaki)
+"bravo_gm_ge_vest_armor_90_leader_khk", Flak Vest, Leader (Khaki)
+"bravo_gm_ge_vest_armor_90_medic_khk", Flak Vest, Medic (Khaki)
+"bravo_gm_ge_vest_armor_90_machinegunner_khk", Flak Vest, Machinegunner (Khaki)
+"bravo_gm_ge_vest_armor_90_crew_khk", Flak Vest, Crew (Khaki)
+"bravo_gm_ge_vest_armor_90_officer_khk", Flak Vest, Officer (Khaki)
+"bravo_gm_ge_vest_90_rifleman_oli", Belt Rig, Rifleman (Olive)
+"bravo_gm_ge_vest_90_demolition_oli", Belt Rig, Demolition (Olive)
+"bravo_gm_ge_vest_90_leader_oli", Belt Rig, Leader (Olive)
+"bravo_gm_ge_vest_90_medic_oli", Belt Rig, Medic (Olive)
+"bravo_gm_ge_vest_90_machinegunner_oli", Belt Rig, Machinegunner (Olive)
+"bravo_gm_ge_vest_90_crew_oli", Belt Rig, Crew (Olive)
+"bravo_gm_ge_vest_90_officer_oli", Belt Rig, Officer (Olive)
+"bravo_gm_ge_vest_90_rifleman_des", Belt Rig, Rifleman (Tan)
+"bravo_gm_ge_vest_90_demdestion_des", Belt Rig, Demolition (Tan)
+"bravo_gm_ge_vest_90_leader_des", Belt Rig, Leader (Tan)
+"bravo_gm_ge_vest_90_medic_des", Belt Rig, Medic (Tan)
+"bravo_gm_ge_vest_90_machinegunner_des", Belt Rig, Machinegunner (Tan)
+"bravo_gm_ge_vest_90_crew_des", Belt Rig, Crew (Tan)
+"bravo_gm_ge_vest_90_officer_des", Belt Rig, Officer (Tan)
+"bravo_gm_ge_vest_90_rifleman_khk", Belt Rig, Rifleman (Khaki)
+"bravo_gm_ge_vest_90_demkhktion_khk", Belt Rig, Demolition (Khaki)
+"bravo_gm_ge_vest_90_leader_khk", Belt Rig, Leader (Khaki)
+"bravo_gm_ge_vest_90_medic_khk", Belt Rig, Medic (Khaki)
+"bravo_gm_ge_vest_90_machinegunner_khk", Belt Rig, Machinegunner (Khaki)
+"bravo_gm_ge_vest_90_crew_khk", Belt Rig, Crew (Khaki)
+"bravo_gm_ge_vest_90_officer_khk", Belt Rig, Officer (Khaki)
 
 CfgVehicles
 "bravo_p601_sport", P601 RS
@@ -251,3 +311,20 @@ CfgMagazines
 "bravo_saxBomb", Sax Bomb
 "bravo_randomNade", Grenade of Several Possibilities
 "bravo_multiNade", Grenade of More Grenades
+
+CfgGlasses
+"bravo_facewear_prr", Headset PRR
+"bravo_rhsusf_shemagh_org", Shemagh (Orange)
+"bravo_rhsusf_shemagh2_org", Shemagh (Orange/alt)
+"bravo_rhsusf_shemagh2_gogg_org_clr", Shemagh w/Goggles (Orange/alt/Clear)
+"bravo_rhsusf_shemagh2_gogg_org", Shemagh w/Goggles (Orange/alt)
+"bravo_rhsusf_shemagh_gogg_org_clr", Shemagh w/Goggles (Orange/Clear)
+"bravo_rhsusf_shemagh_gogg_org", Shemagh w/Goggles (Orange)
+"bravo_rhsusf_shemagh_gogg_tan_clr", Shemagh w/Goggles (Tan/Clear)
+"bravo_rhsusf_shemagh2_gogg_tan_clr", Shemagh w/Goggles (Tan/alt/Clear)
+"bravo_rhsusf_shemagh_gogg_od_clr", Shemagh w/Goggles (OD/Clear)
+"bravo_rhsusf_shemagh2_gogg_od_clr", Shemagh w/Goggles (OD/alt/Clear)
+"bravo_rhsusf_shemagh_gogg_white_clr", Shemagh w/Goggles (White/Clear)
+"bravo_rhsusf_shemagh2_gogg_white_clr", Shemagh w/Goggles (White/alt/Clear)
+"bravo_rhsusf_shemagh_gogg_grn_clr", Shemagh w/Goggles (Green/Clear)
+"bravo_rhsusf_shemagh2_gogg_grn_clr", Shemagh w/Goggles (Green/alt/Clear)
