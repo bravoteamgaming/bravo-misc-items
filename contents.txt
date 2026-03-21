@@ -52,6 +52,9 @@ W123 HAMMER
 GEAR MISC
 - Change RF Glock mass
 - Hide Spearhead US SCR300 bags and add copies that can be saved in ACE loadouts
+- Add backpack variants:
+	Combat Backpack (Tan)
+	Combat Backpack (Khaki)
 - Add helmet variants:
 	6B26 ESS/Medic
 	6B26 Medic
@@ -151,6 +154,14 @@ GEAR MISC
 	Combat Helmet Green
 	Enhanced Combat Helmet Multicam
 	Enhanced Combat Helmet Green
+	Helmet M92 (Tan A)
+	Helmet M92 (Tan B)
+	Helmet M92 (Khaki A)
+	Helmet M92 (Khaki B)
+	Helmet M92 (Goggles, Tan A)
+	Helmet M92 (Goggles, Tan B)
+	Helmet M92 (Goggles, Khaki A)
+	Helmet M92 (Goggles, Khaki B)
 - Add vest variants:
 	CTRG Plate Carrier Rig (Black)
 	CTRG Plate Carrier Rig (Khaki)

@@ -232,6 +232,14 @@ CfgWeapons
 "bravo_gm_ge_vest_90_machinegunner_khk", Belt Rig, Machinegunner (Khaki)
 "bravo_gm_ge_vest_90_crew_khk", Belt Rig, Crew (Khaki)
 "bravo_gm_ge_vest_90_officer_khk", Belt Rig, Officer (Khaki)
+"bravo_ge_headgear_m92_cover_des", Helmet M92 (Tan B)
+"bravo_ge_headgear_m92_cover_khk", Helmet M92 (Khaki B)
+"bravo_ge_headgear_m92_cover_glasses_des", Helmet M92 (Goggles, Tan B)
+"bravo_ge_headgear_m92_cover_glasses_khk", Helmet M92 (Goggles, Khaki B)
+"bravo_ge_headgear_m92_des", Helmet M92 (Tan A)
+"bravo_ge_headgear_m92_khk", Helmet M92 (Khaki A)
+"bravo_ge_headgear_m92_glasses_des", Helmet M92 (Goggles, Tan A)
+"bravo_ge_headgear_m92_glasses_khk", Helmet M92 (Goggles, Khaki A)
 
 CfgVehicles
 "bravo_p601_sport", P601 RS
@@ -261,6 +269,8 @@ CfgVehicles
 "bravo_B_SPE_US_Radio_alt", US Radio, SCR300 (Bandoleer)
 "bravo_B_SPE_US_Radio_packboard", US Packboard, 1943 (Musette, SCR300)
 "bravo_B_SPE_US_Radio_packboard_light", US Packboard, 1943 (SCR300)
+"bravo_ge_army_backpack_90_khk", Combat Backpack (Khaki)
+"bravo_ge_army_backpack_90_des", Combat Backpack (Tan)
 
 CfgMagazines
 "bravo_1rnd_40mm_gl_mine", 40 mm Proximity Mine

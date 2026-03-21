@@ -83,3 +83,6 @@
 2026-03-20
 - GEAR MISC: added colour variants of GM Flak Vest and Belt Rig
 - GEAR MISC: ported a number of facewear items to the NVG slot
+
+2026-03-21
+- GEAR MISC: added colour variants of GM Helmet M92 and Combat Backpack
