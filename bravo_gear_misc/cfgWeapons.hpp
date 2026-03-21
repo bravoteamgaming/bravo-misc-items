@@ -1568,4 +1568,100 @@ class cfgWeapons
 		displayName = "Belt Rig, Officer (Khaki)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa"};
 	};
+	
+	class gm_ge_headgear_m92_cover_base;
+	class gm_ge_headgear_m92_cover_glasses_base;
+	class gm_ge_headgear_m92_cover_glasses_oli : gm_ge_headgear_m92_cover_glasses_base
+	{
+		class ItemInfo;
+	};
+	class gm_ge_headgear_m92_cover_oli : gm_ge_headgear_m92_cover_base
+	{
+		class ItemInfo;
+	};
+	class bravo_ge_headgear_m92_cover_glasses_khk : gm_ge_headgear_m92_cover_glasses_oli
+	{
+		displayName = "Helmet M92 (Goggles, Khaki B)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co"};
+		};
+	};
+	class bravo_ge_headgear_m92_cover_khk : gm_ge_headgear_m92_cover_oli
+	{
+		displayName = "Helmet M92 (Khaki B)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co"};
+		};
+	};
+	
+	class bravo_ge_headgear_m92_cover_glasses_des : gm_ge_headgear_m92_cover_glasses_oli
+	{
+		displayName = "Helmet M92 (Goggles, Tan B)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co"};
+		};
+	};
+	class bravo_ge_headgear_m92_cover_des : gm_ge_headgear_m92_cover_oli
+	{
+		displayName = "Helmet M92 (Tan B)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co"};
+		};
+	};
+	
+	class gm_ge_headgear_m92_base;
+	class gm_ge_headgear_m92_glasses_base;
+	class gm_ge_headgear_m92_glasses_flk : gm_ge_headgear_m92_glasses_base
+	{
+		class ItemInfo;
+	};
+	class gm_ge_headgear_m92_flk : gm_ge_headgear_m92_base
+	{
+		class ItemInfo;
+	};
+	class bravo_ge_headgear_m92_glasses_khk : gm_ge_headgear_m92_glasses_flk
+	{
+		displayName = "Helmet M92 (Goggles, Khaki A)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co"};
+		};
+	};
+	class bravo_ge_headgear_m92_khk : gm_ge_headgear_m92_flk
+	{
+		displayName = "Helmet M92 (Khaki A)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co"};
+		};
+	};
+	
+	class bravo_ge_headgear_m92_glasses_des : gm_ge_headgear_m92_glasses_flk
+	{
+		displayName = "Helmet M92 (Goggles, Tan A)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co"};
+		};
+	};
+	class bravo_ge_headgear_m92_des : gm_ge_headgear_m92_flk
+	{
+		displayName = "Helmet M92 (Tan A)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co"};
+		};
+	};
 };

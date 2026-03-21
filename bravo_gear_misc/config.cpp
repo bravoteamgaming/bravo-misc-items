@@ -40,7 +40,9 @@ class CfgPatches
 			"bravo_B_SPE_US_Radio",
 			"bravo_B_SPE_US_Radio_alt",
 			"bravo_B_SPE_US_Radio_packboard",
-			"bravo_B_SPE_US_Radio_packboard_light"
+			"bravo_B_SPE_US_Radio_packboard_light",
+			"bravo_ge_army_backpack_90_khk",
+			"bravo_ge_army_backpack_90_des"
 		};
 		weapons[] = {
 			"bravo_carrier_nobelt_rf_blk",
@@ -248,7 +250,15 @@ class CfgPatches
 			"bravo_gm_ge_vest_90_medic_khk",
 			"bravo_gm_ge_vest_90_machinegunner_khk",
 			"bravo_gm_ge_vest_90_crew_khk",
-			"bravo_gm_ge_vest_90_officer_khk"
+			"bravo_gm_ge_vest_90_officer_khk",
+			"bravo_ge_headgear_m92_cover_des",
+			"bravo_ge_headgear_m92_cover_khk",
+			"bravo_ge_headgear_m92_cover_glasses_des",
+			"bravo_ge_headgear_m92_cover_glasses_khk",
+			"bravo_ge_headgear_m92_des",
+			"bravo_ge_headgear_m92_khk",
+			"bravo_ge_headgear_m92_glasses_des",
+			"bravo_ge_headgear_m92_glasses_khk"
 		};
 		skipWhenMissingDependencies = 1;
 	};
