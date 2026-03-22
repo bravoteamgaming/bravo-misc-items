@@ -210,4 +210,76 @@ class cfgVehicles
 		displayName = "Combat Backpack (Tan)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co"};
 	};
+	
+	class gm_xx_army_rifleman_80_oli;
+	class bravo_gm_bdu_des_unit : gm_xx_army_rifleman_80_oli
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_des_co"};
+	};
+	class bravo_gm_bdu_khk_unit : gm_xx_army_rifleman_80_oli
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_khk_co"};
+	};
+	
+	class gm_xx_army_rifleman_nogloves_80_oli;
+	class bravo_gm_bdu_nogloves_des_unit : gm_xx_army_rifleman_nogloves_80_oli
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_des_co"};
+	};
+	class bravo_gm_bdu_nogloves_khk_unit : gm_xx_army_rifleman_nogloves_80_oli
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_khk_co"};
+	};
+	
+	class gm_xx_army_rifleman_rolled_80_oli;
+	class bravo_gm_bdu_rolled_des_unit : gm_xx_army_rifleman_rolled_80_oli
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_des_co"};
+	};
+	class bravo_gm_bdu_rolled_khk_unit : gm_xx_army_rifleman_rolled_80_oli
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_khk_co"};
+	};
+	
+	class gm_ge_army_soldier_rolled_90_trp;
+	class bravo_gm_ge_uniform_rolled_90_des_unit : gm_ge_army_soldier_rolled_90_trp
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_des_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_des_co"};
+	};
+	
+	class gm_ge_army_soldier_rolled_90_flk;
+	class bravo_gm_ge_uniform_rolled_90_khk_unit : gm_ge_army_soldier_rolled_90_flk
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_khk_co"};
+	};
+	class bravo_gm_ge_uniform_rolled_90_win_unit : gm_ge_army_soldier_rolled_90_flk
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_win_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_win_co"};
+	};
+	
+	class gm_ge_army_rifleman_90_flk;
+	class bravo_gm_ge_uniform_90_khk_unit : gm_ge_army_rifleman_90_flk
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_khk_co"};
+	};
+	class bravo_gm_ge_uniform_90_win_unit : gm_ge_army_rifleman_90_flk
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_win_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_win_co"};
+	};
+	
+	class gm_ge_army_rifleman_90_trp;
+	class bravo_gm_ge_uniform_90_des_unit : gm_ge_army_rifleman_90_trp
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_des_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_des_co"};
+	};
+	
+	class gm_ge_army_soldier_tshirt_90_oli;
+	class bravo_gm_ge_uniform_tshirt_90_khk_unit : gm_ge_army_soldier_tshirt_90_oli
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_khk_co"};
+	};
+	class bravo_gm_ge_uniform_tshirt_90_des_unit : gm_ge_army_soldier_tshirt_90_oli
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_des_co"};
+	};
 };
