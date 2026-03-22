@@ -284,7 +284,9 @@ class CfgPatches
 			"bravo_ge_uniform_rolled_90_des",
 			"bravo_ge_uniform_90_des",
 			"bravo_ge_uniform_90_win",
-			"bravo_ge_uniform_rolled_90_win"
+			"bravo_ge_uniform_rolled_90_win",
+			"bravo_ge_uniform_tshirt_90_khk",
+			"bravo_ge_uniform_tshirt_90_tan"
 		};
 		skipWhenMissingDependencies = 1;
 	};
