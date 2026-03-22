@@ -86,3 +86,6 @@
 
 2026-03-21
 - GEAR MISC: added colour variants of GM Helmet M92 and Combat Backpack
+
+2026-03-22
+- GEAR MISC: added colour variants of GM BDU and Combat Suit

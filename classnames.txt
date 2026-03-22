@@ -240,6 +240,16 @@ CfgWeapons
 "bravo_ge_headgear_m92_khk", Helmet M92 (Khaki A)
 "bravo_ge_headgear_m92_glasses_des", Helmet M92 (Goggles, Tan A)
 "bravo_ge_headgear_m92_glasses_khk", Helmet M92 (Goggles, Khaki A)
+"bravo_gm_bdu_rolled_khk", Battle Dress Uniform (Rolled, Khaki)
+"bravo_gm_bdu_rolled_des", Battle Dress Uniform (Rolled, Tan)
+"bravo_gm_bdu_nogloves_khk", Battle Dress Uniform (Khaki)
+"bravo_gm_bdu_nogloves_des", Battle Dress Uniform (Tan)
+"bravo_gm_bdu_khk", Battle Dress Uniform (Gloves, Khaki)
+"bravo_gm_bdu_des", Battle Dress Uniform (Gloves, Tan)
+"bravo_ge_uniform_rolled_90_khk", Combat Suit (Rolled, Khaki)
+"bravo_ge_uniform_90_khk", Combat Suit (Khaki)
+"bravo_ge_uniform_rolled_90_des", Combat Suit (Rolled, Tan)
+"bravo_ge_uniform_90_des", Combat Suit (Tan)
 
 CfgVehicles
 "bravo_p601_sport", P601 RS
