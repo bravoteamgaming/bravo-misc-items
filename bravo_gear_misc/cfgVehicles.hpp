@@ -282,4 +282,16 @@ class cfgVehicles
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_des_co"};
 	};
+	
+	/*
+	class gm_ge_army_rifleman_parka_80_ols;
+	class bravo_gm_ge_uniform_parka_80_des_unit : gm_ge_army_rifleman_parka_80_ols
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_parka_80_des_co"};
+	};
+	class bravo_gm_ge_uniform_parka_80_khk_unit : gm_ge_army_rifleman_parka_80_ols
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_parka_80_khk_co"};
+	};
+	*/
 };

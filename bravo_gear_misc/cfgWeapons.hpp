@@ -1827,4 +1827,30 @@ class cfgWeapons
 			uniformClass = "bravo_gm_ge_uniform_tshirt_90_des_unit";
 		};
 	};
+	
+	/*
+	class gm_ge_uniform_soldier_parka_80_base;
+	class gm_ge_army_uniform_soldier_parka_80_ols : gm_ge_uniform_soldier_parka_80_base
+	{
+		class ItemInfo;
+	};
+	class bravo_gm_ge_uniform_parka_80_des : gm_ge_army_uniform_soldier_parka_80_ols
+	{
+		displayName = "Field Parka (Tan)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_parka_80_des_co"};
+			uniformClass = "bravo_gm_ge_uniform_parka_80_des_unit";
+		};
+	};
+	class bravo_gm_ge_uniform_parka_80_khk : gm_ge_army_uniform_soldier_parka_80_ols
+	{
+		displayName = "Field Parka (Khaki)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_parka_80_khk_co"};
+			uniformClass = "bravo_gm_ge_uniform_parka_80_khk_unit";
+		};
+	};
+	*/
 };
