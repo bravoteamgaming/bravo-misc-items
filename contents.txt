@@ -335,6 +335,7 @@ CBA RAILS WS
 
 RHS AMMO
 - Rebalance penetration and damage of RHS ammunition
+- Rebalance penetration of 3CB Dragon and add more Dragon ammo types
 
 ITEMS
 - Add Bravo insignias

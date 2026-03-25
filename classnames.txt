@@ -331,6 +331,8 @@ CfgMagazines
 "bravo_saxBomb", Sax Bomb
 "bravo_randomNade", Grenade of Several Possibilities
 "bravo_multiNade", Grenade of More Grenades
+"bravo_m47_dragon2_missile", M47 Dragon II
+"bravo_m47_dragon3_missile", M47 Dragon III
 
 CfgGlasses
 "bravo_facewear_prr", Headset PRR
