@@ -7,6 +7,7 @@ class CfgAmmo
 	class B_127x99_Ball;
 	class B_127x99_SLAP;
 	class rhsusf_ammo_basic_penetrator;
+	class MissileBase;
 	
 	class rhs_B_545x39_Ball : B_556x45_Ball
 	{
@@ -104,4 +105,31 @@ class CfgAmmo
 	{
 		hit = 450;
 	};
+	
+	class UK3CB_M47_AT : MissileBase
+	{
+		submunitionAmmo = "rhs_ammo_M136_penetrator";
+		submunitionDirectionType = "SubmunitionModelDirection";
+		submunitionInitialOffset[] = {0,0,-0.1};
+		submunitionInitSpeed = 1053;
+		submunitionParentSpeedCoef = 0;
+		triggerOnImpact = 1;
+		warheadName = "HEAT";
+		fuseDistance = 50;
+		maxControlRange = 1000;
+		maxSpeed = 90;
+	};
+	class bravo_m47_dragon2_ammo : UK3CB_M47_AT
+	{
+		submunitionAmmo = "rhs_ammo_M136_hp_penetrator";
+		maxSpeed = 150;
+	};
+	class bravo_m47_dragon3_ammo : UK3CB_M47_AT
+	{
+		submunitionAmmo = "rhs_ammo_ITOW_AT_penetrator";
+		warheadName = "TandemHEAT";
+		maxSpeed = 200;
+		maxControlRange = 1500;
+	};
+	
 };
