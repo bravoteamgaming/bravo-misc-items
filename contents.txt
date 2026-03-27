@@ -49,6 +49,9 @@ ZAMAK DAKAR
 W123 HAMMER
 - Add W123 AMG Hammer Prototype
 
+DUI CUSTOMINFO PERSIST
+- Add automatic per-server persistence framework for DUI nametags custom info
+
 GEAR MISC
 - Change RF Glock mass
 - Hide Spearhead US SCR300 bags and add copies that can be saved in ACE loadouts

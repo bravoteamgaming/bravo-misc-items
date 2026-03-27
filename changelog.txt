@@ -93,3 +93,6 @@
 2026-03-25
 - RHS AMMO: rebalanced M47 Dragon weights and capabilities
 - RHS AMMO: added M47 Dragon II and M47 Dragon III ammo and magazines
+
+2026-03-27
+- DUI CUSTOMINFO PERSIST: new addon
