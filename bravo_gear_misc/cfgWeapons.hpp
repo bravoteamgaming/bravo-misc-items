@@ -1260,7 +1260,7 @@ class cfgWeapons
 			type = 616;
 		};
 	};
-	class bravo_nvg_gmforestcamo3 : UK3CB_Earpiece_NVG
+	class bravo_nvg_gmforestcamo4 : UK3CB_Earpiece_NVG
 	{
 		displayName = "Forest Helmet Camo 4";
 		author = "Global Mobilization";

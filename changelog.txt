@@ -99,3 +99,4 @@
 
 2026-03-30
 - EXTRAS: added a secret weapon
+- GEAR MISC: fix forest helmet camo 4 nvg
