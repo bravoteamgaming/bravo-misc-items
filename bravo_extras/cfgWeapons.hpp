@@ -55,4 +55,14 @@ class CfgWeapons
 		{};
 	};
 	*/
+
+	class gm_rpg7_wud;
+	class bravo_rpg7_jamsheed : gm_rpg7_wud
+	{
+		scope = 1;
+		displayName = "Jamsheed's RPG-7";
+		descriptionShort = "Blessed anti-tank weapon used by a true hero.";
+		magazineWell[] += {"bravo_rpg7_jamsheed"};
+		maxRange = 1000;
+	};
 };

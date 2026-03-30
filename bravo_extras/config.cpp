@@ -12,7 +12,8 @@ class CfgPatches
 			"bravo_weaponholder_multinade"
 		};
 		weapons[] = {
-			"bravo_hs50_20"
+			"bravo_hs50_20",
+			"bravo_rpg7_jamsheed"
 		};
 		skipWhenMissingDependencies = 1;
 	};

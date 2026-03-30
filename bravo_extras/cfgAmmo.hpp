@@ -157,4 +157,29 @@ class CfgAmmo
 			};
 		};
 	};
+	
+	class gm_rocket_40mm_heat_pg7v;
+	class bravo_rocket_40mm_heat_pg7v_jamsheed : gm_rocket_40mm_heat_pg7v
+	{
+		manualControl = 1;
+		maxSpeed = 300;
+		thrust = 50;
+		thrustTime = 2;
+		maxControlRange = 1000;
+		simulation = "shotMissile";
+		ace_frag_charge = 300;
+		ace_frag_classes[] = {"ace_frag_tiny_hd", "ace_frag_small_hd", "ace_frag_tiny", "ace_frag_small"};
+		ace_frag_gurney_c = 2600;
+		ace_frag_gurney_k = 0.4;
+		ace_frag_metal = 200;
+		timeToLive = 8;
+		trackLead = 1;
+		trackOversteer = 1;
+		maneuvrability = 8;
+		sideAirFriction = 0.3;
+		missileManualControlCone = 40;
+		missileKeepLockedCone = 90;
+		missileLockCone = 90;
+		submunitionAmmo = "rhs_ammo_TOW2_AT_penetrator";
+	};
 };

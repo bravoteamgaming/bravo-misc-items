@@ -148,6 +148,12 @@ private _baseTypes = [
 		["UK3CB_UN_I_T55", {createVehicleCrew _this; _this setDir random 360}]
 	],
 	[
+		["Land_MetalCase_01_medium_F", {
+			_this addWeaponCargoGlobal ["bravo_rpg7_jamsheed", 1];
+			_this addMagazineCargoGlobal ["bravo_1rnd_40mm_heat_pg7v_jamsheed", 3];
+		}]
+	],
+	[
 		["cup_winter_obj_snowman", {_this setDir random 360}, false, true]
 	],
 	[

@@ -63,11 +63,24 @@ class CfgMagazines
 		descriptionShort = "This is getting out of hand!";
 		ammo = "bravo_multiNade_ammo";
 	};
+	
+	class gm_1Rnd_40mm_heat_pg7v_rpg7;
+	class bravo_1rnd_40mm_heat_pg7v_jamsheed : gm_1Rnd_40mm_heat_pg7v_rpg7
+	{
+		initSpeed = 300;
+		displayName = "Legendary PG-7V";
+		ammo = "bravo_rocket_40mm_heat_pg7v_jamsheed";
+		descriptionShort = "Blessed anti-tank rocket that hits exactly what the fuck you're aiming at, inshallah.";
+	};
 };
 class CfgMagazineWells
 {
 	class cba_9x18_pm
 	{
 		bravo_extras_mags[] = {"bravo_1rnd_9x18mm_sp_pm"};
+	};
+	class bravo_rpg7_jamsheed
+	{
+		bravo_extras_mags[] = {"bravo_1rnd_40mm_heat_pg7v_jamsheed"};
 	};
 };
