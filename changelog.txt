@@ -96,3 +96,6 @@
 
 2026-03-27
 - DUI CUSTOMINFO PERSIST: new addon
+
+2026-03-30
+- EXTRAS: added a secret weapon
