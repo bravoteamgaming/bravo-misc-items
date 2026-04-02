@@ -1853,4 +1853,78 @@ class cfgWeapons
 		};
 	};
 	*/
+	class gm_gc_uniform_soldier_90_base;
+	class gm_gc_army_uniform_soldier_90_str : gm_gc_uniform_soldier_90_base
+	{
+		class ItemInfo;
+	};
+	class bravo_gm_gc_army_uniform_soldier_90_des : gm_gc_army_uniform_soldier_90_str
+	{
+		displayName = "Field Service Uniform (UTV, Tan)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_des_co"};
+			uniformClass = "bravo_gm_gc_army_uniform_soldier_90_des_unit";
+		};
+	};
+	
+	class gm_gc_army_uniform_soldier_rolled_90_str : gm_gc_uniform_soldier_90_base
+	{
+		class ItemInfo;
+	};
+	class bravo_gm_gc_army_uniform_soldier_rolled_90_des : gm_gc_army_uniform_soldier_rolled_90_str
+	{
+		displayName = "Field Service Uniform (UTV, Rolled, Tan)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_des_co"};
+			uniformClass = "bravo_gm_gc_army_uniform_soldier_rolled_90_des_unit";
+		};
+	};
+	
+	class gm_gc_army_uniform_soldier_90_sgr : gm_gc_uniform_soldier_90_base
+	{
+		class ItemInfo;
+	};
+	class bravo_gm_gc_army_uniform_soldier_90_khk : gm_gc_army_uniform_soldier_90_sgr
+	{
+		displayName = "Field Service Uniform (UTV, Khaki)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_khk_co"};
+			uniformClass = "bravo_gm_gc_army_uniform_soldier_90_khk_unit";
+		};
+	};
+	class bravo_gm_gc_army_uniform_soldier_90_win : gm_gc_army_uniform_soldier_90_sgr
+	{
+		displayName = "Field Service Uniform (UTV, White)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_win_co"};
+			uniformClass = "bravo_gm_gc_army_uniform_soldier_90_win_unit";
+		};
+	};
+	
+	class gm_gc_army_uniform_soldier_rolled_90_sgr : gm_gc_uniform_soldier_90_base
+	{
+		class ItemInfo;
+	};
+	class bravo_gm_gc_army_uniform_soldier_rolled_90_khk : gm_gc_army_uniform_soldier_rolled_90_sgr
+	{
+		displayName = "Field Service Uniform (UTV, Rolled, Khaki)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_khk_co"};
+			uniformClass = "bravo_gm_gc_army_uniform_soldier_rolled_90_khk_unit";
+		};
+	};
+	class bravo_gm_gc_army_uniform_soldier_rolled_90_win : gm_gc_army_uniform_soldier_rolled_90_sgr
+	{
+		displayName = "Field Service Uniform (UTV, Rolled, White)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_win_co"};
+			uniformClass = "bravo_gm_gc_army_uniform_soldier_rolled_90_win_unit";
+		};
+	};
 };

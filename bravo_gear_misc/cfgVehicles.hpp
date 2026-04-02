@@ -294,4 +294,36 @@ class cfgVehicles
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_parka_80_khk_co"};
 	};
 	*/
+	
+	class gm_gc_army_rifleman_90_sgr;
+	class bravo_gm_gc_army_uniform_soldier_90_khk_unit : gm_gc_army_rifleman_90_sgr
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_khk_co"};
+	};
+	class bravo_gm_gc_army_uniform_soldier_90_win_unit : gm_gc_army_rifleman_90_sgr
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_win_co"};
+	};
+	
+	class gm_gc_army_rifleman_rolled_90_sgr;
+	class bravo_gm_gc_army_uniform_soldier_rolled_90_khk_unit : gm_gc_army_rifleman_rolled_90_sgr
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_khk_co"};
+	};
+	class bravo_gm_gc_army_uniform_soldier_rolled_90_win_unit : gm_gc_army_rifleman_rolled_90_sgr
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_win_co"};
+	};
+	
+	class gm_gc_army_rifleman_90_str;
+	class bravo_gm_gc_army_uniform_soldier_90_des_unit : gm_gc_army_rifleman_90_str
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_des_co"};
+	};
+	
+	class gm_gc_army_rifleman_rolled_90_str;
+	class bravo_gm_gc_army_uniform_soldier_rolled_90_des_unit : gm_gc_army_rifleman_rolled_90_str
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_des_co"};
+	};
 };

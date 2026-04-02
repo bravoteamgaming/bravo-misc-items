@@ -56,7 +56,13 @@ class CfgPatches
 			"bravo_gm_ge_uniform_90_khk_unit",
 			"bravo_gm_ge_uniform_90_win_unit",
 			"bravo_gm_ge_uniform_tshirt_90_des_unit",
-			"bravo_gm_ge_uniform_tshirt_90_khk_unit"
+			"bravo_gm_ge_uniform_tshirt_90_khk_unit",
+			"bravo_gm_gc_army_uniform_soldier_90_khk_unit",
+			"bravo_gm_gc_army_uniform_soldier_90_des_unit",
+			"bravo_gm_gc_army_uniform_soldier_90_win_unit",
+			"bravo_gm_gc_army_uniform_soldier_rolled_90_khk_unit",
+			"bravo_gm_gc_army_uniform_soldier_rolled_90_des_unit",
+			"bravo_gm_gc_army_uniform_soldier_rolled_90_win_unit"
 		};
 		weapons[] = {
 			"bravo_carrier_nobelt_rf_blk",
@@ -286,7 +292,13 @@ class CfgPatches
 			"bravo_ge_uniform_90_win",
 			"bravo_ge_uniform_rolled_90_win",
 			"bravo_ge_uniform_tshirt_90_khk",
-			"bravo_ge_uniform_tshirt_90_tan"
+			"bravo_ge_uniform_tshirt_90_tan",
+			"bravo_gm_gc_army_uniform_soldier_90_khk",
+			"bravo_gm_gc_army_uniform_soldier_90_des",
+			"bravo_gm_gc_army_uniform_soldier_90_win",
+			"bravo_gm_gc_army_uniform_soldier_rolled_90_khk",
+			"bravo_gm_gc_army_uniform_soldier_rolled_90_des",
+			"bravo_gm_gc_army_uniform_soldier_rolled_90_win"
 		};
 		skipWhenMissingDependencies = 1;
 	};
