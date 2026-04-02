@@ -62,7 +62,8 @@ class CfgPatches
 			"bravo_gm_gc_army_uniform_soldier_90_win_unit",
 			"bravo_gm_gc_army_uniform_soldier_rolled_90_khk_unit",
 			"bravo_gm_gc_army_uniform_soldier_rolled_90_des_unit",
-			"bravo_gm_gc_army_uniform_soldier_rolled_90_win_unit"
+			"bravo_gm_gc_army_uniform_soldier_rolled_90_win_unit",
+			"bravo_dk_army_uniform_soldier_84_oli_noflag_unit"
 		};
 		weapons[] = {
 			"bravo_carrier_nobelt_rf_blk",
@@ -298,7 +299,8 @@ class CfgPatches
 			"bravo_gm_gc_army_uniform_soldier_90_win",
 			"bravo_gm_gc_army_uniform_soldier_rolled_90_khk",
 			"bravo_gm_gc_army_uniform_soldier_rolled_90_des",
-			"bravo_gm_gc_army_uniform_soldier_rolled_90_win"
+			"bravo_gm_gc_army_uniform_soldier_rolled_90_win",
+			"bravo_dk_army_uniform_soldier_84_oli_noflag"
 		};
 		skipWhenMissingDependencies = 1;
 	};

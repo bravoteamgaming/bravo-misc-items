@@ -326,4 +326,10 @@ class cfgVehicles
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_des_co"};
 	};
+	
+	class gm_dk_army_crew_84_oli;
+	class bravo_dk_army_uniform_soldier_84_oli_noflag_unit : gm_dk_army_crew_84_oli
+	{
+		hiddenSelectionsTextures[] = {"\gm\gm_characters\gm_dk_characters\data\uniform\gm_dk_uniform_soldier_84_oli_co",""};
+	};
 };

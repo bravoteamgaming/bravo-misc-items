@@ -1927,4 +1927,19 @@ class cfgWeapons
 			uniformClass = "bravo_gm_gc_army_uniform_soldier_rolled_90_win_unit";
 		};
 	};
+	
+	class gm_dk_uniform_soldier_84_base;
+	class gm_dk_army_uniform_soldier_84_oli : gm_dk_uniform_soldier_84_base
+	{
+		class ItemInfo;
+	};
+	class bravo_dk_army_uniform_soldier_84_oli_noflag : gm_dk_army_uniform_soldier_84_oli
+	{
+		displayName = "Combat Uniform M/84 (Olive, no flag)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\gm\gm_characters\gm_dk_characters\data\uniform\gm_dk_uniform_soldier_84_oli_co",""};
+			uniformClass = "bravo_dk_army_uniform_soldier_84_oli_noflag_unit";
+		};
+	};
 };
