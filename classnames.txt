@@ -250,6 +250,12 @@ CfgWeapons
 "bravo_ge_uniform_90_khk", Combat Suit (Khaki)
 "bravo_ge_uniform_rolled_90_des", Combat Suit (Rolled, Tan)
 "bravo_ge_uniform_90_des", Combat Suit (Tan)
+"bravo_gm_gc_army_uniform_soldier_90_khk", Field Uniform (UTV, Khaki)
+"bravo_gm_gc_army_uniform_soldier_90_des", Field Uniform (UTV, Tan)
+"bravo_gm_gc_army_uniform_soldier_90_win", Field Uniform (UTV, White)
+"bravo_gm_gc_army_uniform_soldier_rolled_90_khk", Field Uniform (UTV, Rolled, Khaki)
+"bravo_gm_gc_army_uniform_soldier_rolled_90_des", Field Uniform (UTV, Rolled, Tan)
+"bravo_gm_gc_army_uniform_soldier_rolled_90_win", Field Uniform (UTV, Rolled, White)
 
 CfgVehicles
 "bravo_p601_sport", P601 RS

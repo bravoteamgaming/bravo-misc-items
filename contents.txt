@@ -270,6 +270,12 @@ GEAR MISC
 	Battle Dress Uniform (Tan)
 	Battle Dress Uniform (Rolled, Tan)
 	Battle Dress Uniform (Gloves, Tan)
+	Field Uniform (UTV, Khaki)
+	Field Uniform (UTV, Tan)
+	Field Uniform (UTV, White)
+	Field Uniform (UTV, Rolled, Khaki)
+	Field Uniform (UTV, Rolled, Tan)
+	Field Uniform (UTV, Rolled, White)
 - Add facewear variants:
 	Shemagh w/Goggles (Green/Clear)
 	Shemagh w/Goggles (Green/alt/Clear)
