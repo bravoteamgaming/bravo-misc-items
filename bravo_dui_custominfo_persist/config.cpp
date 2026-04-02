@@ -13,3 +13,11 @@ class CfgPatches
 	};
 };
 #include "cfgFunctions.hpp"
+
+class Extended_PreInit_EventHandlers
+{
+	class bravo_dui_xeh
+	{
+		init = "call bravo_fnc_duiInitSettings";
+	};
+};
