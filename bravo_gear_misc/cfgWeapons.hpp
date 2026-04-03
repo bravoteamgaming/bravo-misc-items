@@ -1734,7 +1734,7 @@ class cfgWeapons
 	{
 		class ItemInfo;
 	};
-	class bravo_ge_uniform_90_khk : gm_ge_uniform_soldier_90_flk
+	class bravo_gm_ge_uniform_90_khk : gm_ge_uniform_soldier_90_flk
 	{
 		displayName = "Combat Suit (Khaki)";
 		class ItemInfo : ItemInfo
@@ -1743,7 +1743,7 @@ class cfgWeapons
 			uniformClass = "bravo_gm_ge_uniform_90_khk_unit";
 		};
 	};
-	class bravo_ge_uniform_90_win : gm_ge_uniform_soldier_90_flk
+	class bravo_gm_ge_uniform_90_win : gm_ge_uniform_soldier_90_flk
 	{
 		displayName = "Combat Suit (White)";
 		class ItemInfo : ItemInfo
@@ -1757,7 +1757,7 @@ class cfgWeapons
 	{
 		class ItemInfo;
 	};
-	class bravo_ge_uniform_rolled_90_khk : gm_ge_uniform_soldier_rolled_90_flk
+	class bravo_gm_ge_uniform_rolled_90_khk : gm_ge_uniform_soldier_rolled_90_flk
 	{
 		displayName = "Combat Suit (Rolled, Khaki)";
 		class ItemInfo : ItemInfo
@@ -1766,7 +1766,7 @@ class cfgWeapons
 			uniformClass = "bravo_gm_ge_uniform_rolled_90_khk_unit";
 		};
 	};
-	class bravo_ge_uniform_rolled_90_win : gm_ge_uniform_soldier_rolled_90_flk
+	class bravo_gm_ge_uniform_rolled_90_win : gm_ge_uniform_soldier_rolled_90_flk
 	{
 		displayName = "Combat Suit (Rolled, White)";
 		class ItemInfo : ItemInfo
@@ -1780,7 +1780,7 @@ class cfgWeapons
 	{
 		class ItemInfo;
 	};
-	class bravo_ge_uniform_90_des : gm_ge_uniform_soldier_90_trp
+	class bravo_gm_ge_uniform_90_des : gm_ge_uniform_soldier_90_trp
 	{
 		displayName = "Combat Suit (Tan)";
 		class ItemInfo : ItemInfo
@@ -1794,7 +1794,7 @@ class cfgWeapons
 	{
 		class ItemInfo;
 	};
-	class bravo_ge_uniform_rolled_90_des : gm_ge_uniform_soldier_rolled_90_trp
+	class bravo_gm_ge_uniform_rolled_90_des : gm_ge_uniform_soldier_rolled_90_trp
 	{
 		displayName = "Combat Suit (Rolled, Tan)";
 		class ItemInfo : ItemInfo
