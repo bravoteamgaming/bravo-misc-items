@@ -105,3 +105,9 @@
 - DUI CUSTOMINFO PERSIST: changed to use client-based CBA settings
 - GEAR MISC: added colour variants of GM UTV uniform
 - GEAR MISC: added variant of the olive M/84 uniform without DK tab
+
+2026-04-03
+- GEAR MISC: matched classnames of some Combat Suit variants
+- GEAR MISC: added white and black Combat Suit and BDU variants
+- GEAR MISC: added black Field Uniform UTV variants
+- GEAR MISC: added orange t-shirt Combat Suit variants
