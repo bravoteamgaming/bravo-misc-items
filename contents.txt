@@ -298,6 +298,10 @@ GEAR MISC
 	Field Uniform (UTV, Rolled, Black)
 	Mixed Fatigues (Jeans, DBDU)
 	Mixed Fatigues (Jeans, DCU)
+	Mixed Fatigues (Jeans, Tan)
+	Mixed Fatigues (Jeans, Khaki)
+	Mixed Fatigues (Jeans, White)
+	Mixed Fatigues (Jeans, Black)
 - Add facewear variants:
 	Shemagh w/Goggles (Green/Clear)
 	Shemagh w/Goggles (Green/alt/Clear)

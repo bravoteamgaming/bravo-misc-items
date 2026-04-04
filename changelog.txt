@@ -114,4 +114,4 @@
 
 2026-04-04
 - GEAR MISC: added DBDU and DCU BDU
-- GEAR MISC: added DBDU and DCU mixed jeans
+- GEAR MISC: added tan, khaki, black, white, DBDU and DCU mixed jeans
