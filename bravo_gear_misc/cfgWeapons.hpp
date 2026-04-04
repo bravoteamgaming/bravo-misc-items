@@ -1715,6 +1715,15 @@ class cfgWeapons
 			uniformClass = "bravo_gm_bdu_dbdu_unit";
 		};
 	};
+	class bravo_gm_bdu_dcu : gm_xx_uniform_soldier_bdu_80_oli
+	{
+		displayName = "Battle Dress Uniform (Gloves, DCU)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_dcu_co"};
+			uniformClass = "bravo_gm_bdu_dcu_unit";
+		};
+	};
 	
 	class bravo_gm_bdu_nogloves_des : bravo_gm_bdu_des
 	{
@@ -1754,6 +1763,14 @@ class cfgWeapons
 		class ItemInfo : ItemInfo
 		{
 			uniformClass = "bravo_gm_bdu_nogloves_dbdu_unit";
+		};
+	};
+	class bravo_gm_bdu_nogloves_dcu : bravo_gm_bdu_dbdu
+	{
+		displayName = "Battle Dress Uniform (DCU)";
+		class ItemInfo : ItemInfo
+		{
+			uniformClass = "bravo_gm_bdu_nogloves_dcu_unit";
 		};
 	};
 	
@@ -1805,6 +1822,15 @@ class cfgWeapons
 		{
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_dbdu_co"};
 			uniformClass = "bravo_gm_bdu_rolled_dbdu_unit";
+		};
+	};
+	class bravo_gm_bdu_rolled_dcu : gm_xx_uniform_soldier_bdu_rolled_80_oli
+	{
+		displayName = "Battle Dress Uniform (Rolled, DCU)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_dcu_co"};
+			uniformClass = "bravo_gm_bdu_rolled_dcu_unit";
 		};
 	};
 	
