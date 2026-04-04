@@ -2143,4 +2143,40 @@ class cfgWeapons
 			uniformClass = "bravo_gm_mixed_jeans_dcu_unit";
 		};
 	};
+	class bravo_gm_mixed_jeans_des : gm_xx_army_uniform_fighter_02_oli
+	{
+		displayName = "Mixed Fatigues (Jeans, Tan)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_des_co","gm\gm_characters\gm_xx_characters\data\uniform\gm_xx_civ_uniform_man_01_80_blu_co"};
+			uniformClass = "bravo_gm_mixed_jeans_des_unit";
+		};
+	};
+	class bravo_gm_mixed_jeans_khk : gm_xx_army_uniform_fighter_02_oli
+	{
+		displayName = "Mixed Fatigues (Jeans, Khaki)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_khk_co","gm\gm_characters\gm_xx_characters\data\uniform\gm_xx_civ_uniform_man_01_80_blu_co"};
+			uniformClass = "bravo_gm_mixed_jeans_khk_unit";
+		};
+	};
+	class bravo_gm_mixed_jeans_blk : gm_xx_army_uniform_fighter_02_oli
+	{
+		displayName = "Mixed Fatigues (Jeans, Black)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_blk_co","gm\gm_characters\gm_xx_characters\data\uniform\gm_xx_civ_uniform_man_01_80_blu_co"};
+			uniformClass = "bravo_gm_mixed_jeans_blk_unit";
+		};
+	};
+	class bravo_gm_mixed_jeans_win : gm_xx_army_uniform_fighter_02_oli
+	{
+		displayName = "Mixed Fatigues (Jeans, White)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_win_co","gm\gm_characters\gm_xx_characters\data\uniform\gm_xx_civ_uniform_man_01_80_blu_co"};
+			uniformClass = "bravo_gm_mixed_jeans_win_unit";
+		};
+	};
 };

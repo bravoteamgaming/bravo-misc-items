@@ -85,7 +85,11 @@ class CfgPatches
 			"bravo_gm_gc_army_uniform_soldier_rolled_90_blk_unit",
 			"bravo_dk_army_uniform_soldier_84_oli_noflag_unit",
 			"bravo_gm_mixed_jeans_dcu_unit",
-			"bravo_gm_mixed_jeans_dbdu_unit"
+			"bravo_gm_mixed_jeans_dbdu_unit",
+			"bravo_gm_mixed_jeans_des_unit",
+			"bravo_gm_mixed_jeans_khk_unit",
+			"bravo_gm_mixed_jeans_win_unit",
+			"bravo_gm_mixed_jeans_blk_unit"
 		};
 		weapons[] = {
 			"bravo_carrier_nobelt_rf_blk",
@@ -343,7 +347,11 @@ class CfgPatches
 			"bravo_gm_gc_army_uniform_soldier_rolled_90_blk",
 			"bravo_dk_army_uniform_soldier_84_oli_noflag",
 			"bravo_gm_mixed_jeans_dcu",
-			"bravo_gm_mixed_jeans_dbdu"
+			"bravo_gm_mixed_jeans_dbdu",
+			"bravo_gm_mixed_jeans_des",
+			"bravo_gm_mixed_jeans_khk",
+			"bravo_gm_mixed_jeans_blk",
+			"bravo_gm_mixed_jeans_win"
 		};
 		skipWhenMissingDependencies = 1;
 	};
