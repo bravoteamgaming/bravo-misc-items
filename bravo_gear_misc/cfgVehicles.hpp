@@ -410,6 +410,19 @@ class cfgVehicles
 	class gm_dk_army_crew_84_oli;
 	class bravo_dk_army_uniform_soldier_84_oli_noflag_unit : gm_dk_army_crew_84_oli
 	{
+		scope = 1;
 		hiddenSelectionsTextures[] = {"\gm\gm_characters\gm_dk_characters\data\uniform\gm_dk_uniform_soldier_84_oli_co",""};
+	};
+	
+	class gm_xx_army_antitank_hk53a2_rpg7_80_oli;
+	class bravo_gm_mixed_jeans_dcu_unit : gm_xx_army_antitank_hk53a2_rpg7_80_oli
+	{
+		scope = 1;
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_dcu_co","gm\gm_characters\gm_xx_characters\data\uniform\gm_xx_civ_uniform_man_01_80_blu_co"};
+	};
+	class bravo_gm_mixed_jeans_dbdu_unit : gm_xx_army_antitank_hk53a2_rpg7_80_oli
+	{
+		scope = 1;
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_dbdu_co","gm\gm_characters\gm_xx_characters\data\uniform\gm_xx_civ_uniform_man_01_80_blu_co"};
 	};
 };

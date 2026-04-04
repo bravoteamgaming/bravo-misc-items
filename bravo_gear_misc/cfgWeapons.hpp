@@ -2119,4 +2119,28 @@ class cfgWeapons
 			uniformClass = "bravo_dk_army_uniform_soldier_84_oli_noflag_unit";
 		};
 	};
+	
+	class gm_xx_army_uniform_fighter_01_base;
+	class gm_xx_army_uniform_fighter_02_oli : gm_xx_army_uniform_fighter_01_base
+	{
+		class ItemInfo;
+	};
+	class bravo_gm_mixed_jeans_dbdu : gm_xx_army_uniform_fighter_02_oli
+	{
+		displayName = "Mixed Fatigues (Jeans, DBDU)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_dbdu_co","gm\gm_characters\gm_xx_characters\data\uniform\gm_xx_civ_uniform_man_01_80_blu_co"};
+			uniformClass = "bravo_gm_mixed_jeans_dbdu_unit";
+		};
+	};
+	class bravo_gm_mixed_jeans_dcu : gm_xx_army_uniform_fighter_02_oli
+	{
+		displayName = "Mixed Fatigues (Jeans, DCU)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_dcu_co","gm\gm_characters\gm_xx_characters\data\uniform\gm_xx_civ_uniform_man_01_80_blu_co"};
+			uniformClass = "bravo_gm_mixed_jeans_dcu_unit";
+		};
+	};
 };
