@@ -111,3 +111,6 @@
 - GEAR MISC: added white and black Combat Suit and BDU variants
 - GEAR MISC: added black Field Uniform UTV variants
 - GEAR MISC: added orange t-shirt Combat Suit variants
+
+2026-04-04
+- GEAR MISC: added DBDU BDU
