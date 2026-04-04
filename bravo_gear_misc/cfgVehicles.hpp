@@ -228,6 +228,10 @@ class cfgVehicles
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_win_co"};
 	};
+	class bravo_gm_bdu_dbdu_unit : gm_xx_army_rifleman_80_oli
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_dbdu_co"};
+	};
 	
 	class gm_xx_army_rifleman_nogloves_80_oli;
 	class bravo_gm_bdu_nogloves_des_unit : gm_xx_army_rifleman_nogloves_80_oli
@@ -246,6 +250,10 @@ class cfgVehicles
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_win_co"};
 	};
+	class bravo_gm_bdu_nogloves_dbdu_unit : gm_xx_army_rifleman_nogloves_80_oli
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_dbdu_co"};
+	};
 	
 	class gm_xx_army_rifleman_rolled_80_oli;
 	class bravo_gm_bdu_rolled_des_unit : gm_xx_army_rifleman_rolled_80_oli
@@ -263,6 +271,10 @@ class cfgVehicles
 	class bravo_gm_bdu_rolled_win_unit : gm_xx_army_rifleman_rolled_80_oli
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_win_co"};
+	};
+	class bravo_gm_bdu_rolled_dbdu_unit : gm_xx_army_rifleman_rolled_80_oli
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_dbdu_win_co"};
 	};
 	
 	class gm_ge_army_soldier_rolled_90_trp;

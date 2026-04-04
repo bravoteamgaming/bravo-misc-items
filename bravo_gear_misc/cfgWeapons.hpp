@@ -1706,6 +1706,15 @@ class cfgWeapons
 			uniformClass = "bravo_gm_bdu_win_unit";
 		};
 	};
+	class bravo_gm_bdu_dbdu : gm_xx_uniform_soldier_bdu_80_oli
+	{
+		displayName = "Battle Dress Uniform (Gloves, DBDU)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_dbdu_co"};
+			uniformClass = "bravo_gm_bdu_dbdu_unit";
+		};
+	};
 	
 	class bravo_gm_bdu_nogloves_des : bravo_gm_bdu_des
 	{
@@ -1723,7 +1732,7 @@ class cfgWeapons
 			uniformClass = "bravo_gm_bdu_nogloves_khk_unit";
 		};
 	};
-	class bravo_gm_bdu_nogloves_blk : bravo_gm_bdu_khk
+	class bravo_gm_bdu_nogloves_blk : bravo_gm_bdu_blk
 	{
 		displayName = "Battle Dress Uniform (Black)";
 		class ItemInfo : ItemInfo
@@ -1731,12 +1740,20 @@ class cfgWeapons
 			uniformClass = "bravo_gm_bdu_nogloves_blk_unit";
 		};
 	};
-	class bravo_gm_bdu_nogloves_win : bravo_gm_bdu_khk
+	class bravo_gm_bdu_nogloves_win : bravo_gm_bdu_win
 	{
 		displayName = "Battle Dress Uniform (White)";
 		class ItemInfo : ItemInfo
 		{
 			uniformClass = "bravo_gm_bdu_nogloves_win_unit";
+		};
+	};
+	class bravo_gm_bdu_nogloves_dbdu : bravo_gm_bdu_dbdu
+	{
+		displayName = "Battle Dress Uniform (DBDU)";
+		class ItemInfo : ItemInfo
+		{
+			uniformClass = "bravo_gm_bdu_nogloves_dbdu_unit";
 		};
 	};
 	
@@ -1779,6 +1796,15 @@ class cfgWeapons
 		{
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_win_co"};
 			uniformClass = "bravo_gm_bdu_rolled_win_unit";
+		};
+	};
+	class bravo_gm_bdu_rolled_dbdu : gm_xx_uniform_soldier_bdu_rolled_80_oli
+	{
+		displayName = "Battle Dress Uniform (Rolled, DBDU)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_dbdu_co"};
+			uniformClass = "bravo_gm_bdu_rolled_dbdu_unit";
 		};
 	};
 	
