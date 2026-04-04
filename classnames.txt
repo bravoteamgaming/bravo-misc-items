@@ -281,6 +281,8 @@ CfgWeapons
 "bravo_gm_gc_army_uniform_soldier_rolled_90_win", Field Uniform (UTV, Rolled, White)
 "bravo_gm_gc_army_uniform_soldier_rolled_90_blk", Field Uniform (UTV, Rolled, Black)
 "bravo_dk_army_uniform_soldier_84_oli_noflag", Combat Uniform M/84 (Olive, no flag)
+"bravo_gm_mixed_jeans_dcu", Mixed Fatigues (Jeans, DBDU)
+"bravo_gm_mixed_jeans_dcu", Mixed Fatigues (Jeans, DCU)
 
 CfgVehicles
 "bravo_p601_sport", P601 RS

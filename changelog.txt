@@ -114,3 +114,4 @@
 
 2026-04-04
 - GEAR MISC: added DBDU and DCU BDU
+- GEAR MISC: added DBDU and DCU mixed jeans
