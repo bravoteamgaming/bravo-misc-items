@@ -1607,6 +1607,15 @@ class cfgWeapons
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co"};
 		};
 	};
+	class bravo_ge_headgear_m92_cover_glasses_egy : gm_ge_headgear_m92_cover_glasses_oli
+	{
+		displayName = "Helmet M92 (Goggles, Egyptian Desert Rocks)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_egy_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_egy_co"};
+		};
+	};
 	class bravo_ge_headgear_m92_cover_des : gm_ge_headgear_m92_cover_oli
 	{
 		displayName = "Helmet M92 (Tan B)";
@@ -1614,6 +1623,15 @@ class cfgWeapons
 		class ItemInfo : ItemInfo
 		{
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co"};
+		};
+	};
+	class bravo_ge_headgear_m92_cover_egy : gm_ge_headgear_m92_cover_oli
+	{
+		displayName = "Helmet M92 (Egyptian Desert Rocks)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_egy_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_egy_co"};
 		};
 	};
 	
@@ -2072,6 +2090,15 @@ class cfgWeapons
 			uniformClass = "bravo_gm_gc_army_uniform_soldier_90_blk_unit";
 		};
 	};
+	class bravo_gm_gc_army_uniform_soldier_90_egy : gm_gc_army_uniform_soldier_90_sgr
+	{
+		displayName = "Field Service Uniform (UTV, Egyptian Desert Rocks)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_egy_co"};
+			uniformClass = "bravo_gm_gc_army_uniform_soldier_90_egy_unit";
+		};
+	};
 	
 	class gm_gc_army_uniform_soldier_rolled_90_sgr : gm_gc_uniform_soldier_90_base
 	{
@@ -2102,6 +2129,15 @@ class cfgWeapons
 		{
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_blk_co"};
 			uniformClass = "bravo_gm_gc_army_uniform_soldier_rolled_90_blk_unit";
+		};
+	};
+	class bravo_gm_gc_army_uniform_soldier_rolled_90_egy : gm_gc_army_uniform_soldier_rolled_90_sgr
+	{
+		displayName = "Field Service Uniform (UTV, Rolled, Egyptian Desert Rocks)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_egy_co"};
+			uniformClass = "bravo_gm_gc_army_uniform_soldier_rolled_90_egy_unit";
 		};
 	};
 	
@@ -2177,6 +2213,21 @@ class cfgWeapons
 		{
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_win_co","gm\gm_characters\gm_xx_characters\data\uniform\gm_xx_civ_uniform_man_01_80_blu_co"};
 			uniformClass = "bravo_gm_mixed_jeans_win_unit";
+		};
+	};
+	
+	class gm_dk_headgear_m96_base;
+	class gm_dk_headgear_m96_oli : gm_dk_headgear_m96_base
+	{
+		class ItemInfo;
+	};
+	class bravo_gm_headgear_m96_des : gm_dk_headgear_m96_oli
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co"};
+		displayName = "Combat Helmet M/96 (Tan)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co"};
 		};
 	};
 };
