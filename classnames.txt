@@ -234,8 +234,10 @@ CfgWeapons
 "bravo_gm_ge_vest_90_officer_khk", Belt Rig, Officer (Khaki)
 "bravo_ge_headgear_m92_cover_des", Helmet M92 (Tan B)
 "bravo_ge_headgear_m92_cover_khk", Helmet M92 (Khaki B)
+"bravo_ge_headgear_m92_cover_egy", Helmet M92 (Egyptian Desert Rocks)
 "bravo_ge_headgear_m92_cover_glasses_des", Helmet M92 (Goggles, Tan B)
 "bravo_ge_headgear_m92_cover_glasses_khk", Helmet M92 (Goggles, Khaki B)
+"bravo_ge_headgear_m92_cover_glasses_egy", Helmet M92 (Goggles, Egyptian Desert Rocks)
 "bravo_ge_headgear_m92_des", Helmet M92 (Tan A)
 "bravo_ge_headgear_m92_khk", Helmet M92 (Khaki A)
 "bravo_ge_headgear_m92_glasses_des", Helmet M92 (Goggles, Tan A)
@@ -275,11 +277,13 @@ CfgWeapons
 "bravo_gm_gc_army_uniform_soldier_90_khk", Field Uniform (UTV, Khaki)
 "bravo_gm_gc_army_uniform_soldier_90_des", Field Uniform (UTV, Tan)
 "bravo_gm_gc_army_uniform_soldier_90_win", Field Uniform (UTV, White)
-"bravo_gm_gc_army_uniform_soldier_90_blk", Field Uniform (UTV, White)
+"bravo_gm_gc_army_uniform_soldier_90_blk", Field Uniform (UTV, Black)
+"bravo_gm_gc_army_uniform_soldier_90_egy", Field Uniform (UTV, Egyptian Desert Rocks)
 "bravo_gm_gc_army_uniform_soldier_rolled_90_khk", Field Uniform (UTV, Rolled, Khaki)
 "bravo_gm_gc_army_uniform_soldier_rolled_90_des", Field Uniform (UTV, Rolled, Tan)
 "bravo_gm_gc_army_uniform_soldier_rolled_90_win", Field Uniform (UTV, Rolled, White)
 "bravo_gm_gc_army_uniform_soldier_rolled_90_blk", Field Uniform (UTV, Rolled, Black)
+"bravo_gm_gc_army_uniform_soldier_rolled_90_egy", Field Uniform (UTV, Rolled, Egyptian Desert Rocks)
 "bravo_dk_army_uniform_soldier_84_oli_noflag", Combat Uniform M/84 (Olive, no flag)
 "bravo_gm_mixed_jeans_dcu", Mixed Fatigues (Jeans, DBDU)
 "bravo_gm_mixed_jeans_dbdu", Mixed Fatigues (Jeans, DCU)
@@ -287,6 +291,7 @@ CfgWeapons
 "bravo_gm_mixed_jeans_khk", Mixed Fatigues (Jeans, Khaki)
 "bravo_gm_mixed_jeans_blk", Mixed Fatigues (Jeans, Black)
 "bravo_gm_mixed_jeans_win", Mixed Fatigues (Jeans, White)
+"bravo_gm_headgear_m96_des", Combat Helmet M/96 (Tan)
 
 CfgVehicles
 "bravo_p601_sport", P601 RS

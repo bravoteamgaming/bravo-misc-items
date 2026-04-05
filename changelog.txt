@@ -115,3 +115,5 @@
 2026-04-04
 - GEAR MISC: added DBDU and DCU BDU
 - GEAR MISC: added tan, khaki, black, white, DBDU and DCU mixed jeans
+- GEAR MISC: added tan M/96 helmet
+- GEAR MISC: added Egyptian Desert Rocks M92 helmet and UTV uniform
