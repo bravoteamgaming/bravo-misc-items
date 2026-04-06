@@ -6,6 +6,31 @@ class asdg_MuzzleSlot_556;
 class asdg_MuzzleSlot_762;
 class asdg_MuzzleSlot_762MG;
 
+class CfgMagazineWells
+{
+	class CBA_762x51_FAL
+	{
+		bravo_ws_mags[] = {
+			"20Rnd_762x51_slr_desert_lxWS",
+			"20Rnd_762x51_slr_lxWS",
+			"20Rnd_762x51_slr_desert_reload_tracer_green_lxWS",
+			"20Rnd_762x51_slr_reload_tracer_green_lxWS",
+			"20Rnd_762x51_slr_Snake_reload_tracer_Red_lxWS",
+			"20Rnd_762x51_slr_desert_tracer_green_lxWS",
+			"20Rnd_762x51_slr_tracer_green_lxWS",
+			"20Rnd_762x51_slr_Snake_tracer_Red_lxWS",
+			"30Rnd_762x51_slr_desert_lxWS",
+			"30Rnd_762x51_slr_lxWS",
+			"30Rnd_762x51_slr_desert_reload_tracer_green_lxWS",
+			"30Rnd_762x51_slr_reload_tracer_green_lxWS",
+			"30Rnd_762x51_slr_Snake_reload_tracer_Red_lxWS",
+			"30Rnd_762x51_slr_desert_tracer_green_lxWS",
+			"30Rnd_762x51_slr_tracer_green_lxWS",
+			"30Rnd_762x51_slr_Snake_tracer_Red_lxWS"
+		};
+	};
+};
+
 class CfgWeapons
 {	
 	class Rifle;
@@ -59,6 +84,7 @@ class CfgWeapons
 	};
 	class arifle_SLR_lxWS : DMR_06_base_F
 	{
+		magazineWell[] += {"CBA_762x51_FAL", "CBA_762x51_FAL_L"};
 		class WeaponSlotsInfo : WeaponSlotsInfo
 		{
 			class CowsSlot : asdg_OpticRail1913_short
