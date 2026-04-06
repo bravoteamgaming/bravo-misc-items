@@ -1,6 +1,10 @@
 class CfgMagazineWells
 {
 	class XMS_556x45_Large;
+	class CBA_762x51_FAL
+	{
+		bravo_3cb_mags[] = {"UK3CB_BAF_762_20Rnd","UK3CB_BAF_762_20Rnd_T","UK3CB_BAF_762_20Rnd_Blank"};
+	};
 };
 class asdg_OpticRail1913_short;
 class asdg_OpticRail1913_short_MG : asdg_OpticRail1913_short
@@ -150,6 +154,11 @@ class CfgWeapons
 			class CowsSlot : asdg_OpticRail1913_short
 			{};
 		};
+	};
+	
+	class UK3CB_BAF_L1A1 : Rifle_Base_F
+	{
+		magazineWell[] = {"CBA_762x51_FAL","CBA_762x51_FAL_L"};
 	};
 	
 	// =========
