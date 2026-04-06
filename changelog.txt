@@ -121,3 +121,6 @@
 2026-04-05
 - GEAR MISC: added MTP, Multicam, and Multicam RU variants of M/84 and derivatives
 - GEAR MISC: added CCE and Daguet variants of Combat Suit, M92 helmet, and Flak Vest
+
+2026-04-06
+- CBA RAILS RHS3CB: made RHS and 3CB BAF L1A1 cross-compatible
