@@ -1329,6 +1329,16 @@ class cfgWeapons
 		displayName = "Flak Vest, Rifleman (Khaki)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa"};
 	};
+	class bravo_gm_ge_vest_armor_90_rifleman_cce : gm_ge_vest_armor_90_rifleman_flk
+	{
+		displayName = "Flak Vest, Rifleman (CCE)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_cce_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_cce_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa"};
+	};
+	class bravo_gm_ge_vest_armor_90_rifleman_dgt : gm_ge_vest_armor_90_rifleman_flk
+	{
+		displayName = "Flak Vest, Rifleman (Daguet)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_dgt_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_dgt_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa"};
+	};
 	
 	class gm_ge_vest_armor_90_machinegunner_flk;
 	class bravo_gm_ge_vest_armor_90_machinegunner_oli : gm_ge_vest_armor_90_machinegunner_flk
@@ -1345,6 +1355,16 @@ class cfgWeapons
 	{
 		displayName = "Flak Vest, Machinegunner (Khaki)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa","\gm\gm_characters\gm_ge_characters\data\vest\gm_ge_vest_02_80_co"};
+	};
+	class bravo_gm_ge_vest_armor_90_machinegunner_cce : gm_ge_vest_armor_90_machinegunner_flk
+	{
+		displayName = "Flak Vest, Machinegunner (CCE)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_cce_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_cce_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa","\gm\gm_characters\gm_ge_characters\data\vest\gm_ge_vest_02_80_co"};
+	};
+	class bravo_gm_ge_vest_armor_90_machinegunner_dgt : gm_ge_vest_armor_90_machinegunner_flk
+	{
+		displayName = "Flak Vest, Machinegunner (Daguet)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_dgt_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_dgt_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa","\gm\gm_characters\gm_ge_characters\data\vest\gm_ge_vest_02_80_co"};
 	};
 	
 	class gm_ge_vest_armor_90_medic_flk;
@@ -1363,6 +1383,16 @@ class cfgWeapons
 		displayName = "Flak Vest, Medic (Khaki)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa","\gm\gm_characters\gm_ge_characters\data\vest\gm_ge_vest_02_80_co"};
 	};
+	class bravo_gm_ge_vest_armor_90_medic_cce : gm_ge_vest_armor_90_medic_flk
+	{
+		displayName = "Flak Vest, Medic (CCE)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_cce_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_cce_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa","\gm\gm_characters\gm_ge_characters\data\vest\gm_ge_vest_02_80_co"};
+	};
+	class bravo_gm_ge_vest_armor_90_medic_dgt : gm_ge_vest_armor_90_medic_flk
+	{
+		displayName = "Flak Vest, Medic (Daguet)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_dgt_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_dgt_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa","\gm\gm_characters\gm_ge_characters\data\vest\gm_ge_vest_02_80_co"};
+	};
 	
 	class gm_ge_vest_armor_90_demolition_flk;
 	class bravo_gm_ge_vest_armor_90_demolition_oli : gm_ge_vest_armor_90_demolition_flk
@@ -1379,6 +1409,16 @@ class cfgWeapons
 	{
 		displayName = "Flak Vest, Demolition (Khaki)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa","\gm\gm_characters\gm_ge_characters\data\vest\gm_ge_vest_02_80_co"};
+	};
+	class bravo_gm_ge_vest_armor_90_demolition_cce : gm_ge_vest_armor_90_demolition_flk
+	{
+		displayName = "Flak Vest, Demolition (CCE)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_cce_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_cce_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa","\gm\gm_characters\gm_ge_characters\data\vest\gm_ge_vest_02_80_co"};
+	};
+	class bravo_gm_ge_vest_armor_90_demolition_dgt : gm_ge_vest_armor_90_demolition_flk
+	{
+		displayName = "Flak Vest, Demolition (Daguet)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_dgt_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_dgt_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa","\gm\gm_characters\gm_ge_characters\data\vest\gm_ge_vest_02_80_co"};
 	};
 	
 	class gm_ge_vest_armor_90_leader_flk;
@@ -1397,6 +1437,16 @@ class cfgWeapons
 		displayName = "Flak Vest, Leader (Khaki)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa"};
 	};
+	class bravo_gm_ge_vest_armor_90_leader_cce : gm_ge_vest_armor_90_leader_flk
+	{
+		displayName = "Flak Vest, Leader (CCE)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_cce_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_cce_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa"};
+	};
+	class bravo_gm_ge_vest_armor_90_leader_dgt : gm_ge_vest_armor_90_leader_flk
+	{
+		displayName = "Flak Vest, Leader (Daguet)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_dgt_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_dgt_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa"};
+	};
 	
 	class gm_ge_vest_armor_90_crew_flk;
 	class bravo_gm_ge_vest_armor_90_crew_oli : gm_ge_vest_armor_90_crew_flk
@@ -1413,6 +1463,16 @@ class cfgWeapons
 	{
 		displayName = "Flak Vest, Crew (Khaki)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa"};
+	};
+	class bravo_gm_ge_vest_armor_90_crew_cce : gm_ge_vest_armor_90_crew_flk
+	{
+		displayName = "Flak Vest, Crew (CCE)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_cce_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_cce_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa"};
+	};
+	class bravo_gm_ge_vest_armor_90_crew_dgt : gm_ge_vest_armor_90_crew_flk
+	{
+		displayName = "Flak Vest, Crew (Daguet)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_dgt_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_dgt_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa"};
 	};
 	
 	class gm_ge_vest_armor_90_flk;
@@ -1431,6 +1491,16 @@ class cfgWeapons
 		displayName = "Flak Vest (Khaki)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co"};
 	};
+	class bravo_gm_ge_vest_armor_90_cce : gm_ge_vest_armor_90_flk
+	{
+		displayName = "Flak Vest (CCE)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_cce_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_cce_co"};
+	};
+	class bravo_gm_ge_vest_armor_90_dgt : gm_ge_vest_armor_90_flk
+	{
+		displayName = "Flak Vest (Daguet)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_dgt_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_dgt_co"};
+	};
 	
 	class gm_ge_vest_armor_90_officer_flk;
 	class bravo_gm_ge_vest_armor_90_officer_oli : gm_ge_vest_armor_90_officer_flk
@@ -1447,6 +1517,16 @@ class cfgWeapons
 	{
 		displayName = "Flak Vest, Officer (Khaki)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa"};
+	};
+	class bravo_gm_ge_vest_armor_90_officer_cce : gm_ge_vest_armor_90_officer_flk
+	{
+		displayName = "Flak Vest, Officer (CCE)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_cce_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_cce_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa"};
+	};
+	class bravo_gm_ge_vest_armor_90_officer_dgt : gm_ge_vest_armor_90_officer_flk
+	{
+		displayName = "Flak Vest, Officer (Daguet)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_dgt_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_dgt_co","\bravo_gear_misc\assets\bravo_gm_ge_vest_90_khk_co.paa"};
 	};
 	
 	
@@ -1597,6 +1677,24 @@ class cfgWeapons
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co"};
 		};
 	};
+	class bravo_ge_headgear_m92_cover_cce : gm_ge_headgear_m92_cover_oli
+	{
+		displayName = "Helmet M92 (CCE)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_cce_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_cce_co"};
+		};
+	};
+	class bravo_ge_headgear_m92_cover_dgt : gm_ge_headgear_m92_cover_oli
+	{
+		displayName = "Helmet M92 (Daguet)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_dgt_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_dgt_co"};
+		};
+	};
 	
 	class bravo_ge_headgear_m92_cover_glasses_des : gm_ge_headgear_m92_cover_glasses_oli
 	{
@@ -1614,6 +1712,24 @@ class cfgWeapons
 		class ItemInfo : ItemInfo
 		{
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_egy_co"};
+		};
+	};
+	class bravo_ge_headgear_m92_cover_glasses_cce : gm_ge_headgear_m92_cover_glasses_oli
+	{
+		displayName = "Helmet M92 (Goggles, CCE)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_cce_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_cce_co"};
+		};
+	};
+	class bravo_ge_headgear_m92_cover_glasses_dgt : gm_ge_headgear_m92_cover_glasses_oli
+	{
+		displayName = "Helmet M92 (Goggles, Daguet)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_dgt_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_dgt_co"};
 		};
 	};
 	class bravo_ge_headgear_m92_cover_des : gm_ge_headgear_m92_cover_oli
@@ -1871,8 +1987,17 @@ class cfgWeapons
 		displayName = "Combat Suit (White)";
 		class ItemInfo : ItemInfo
 		{
-			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_win_co"};
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_win_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_win_co"};
 			uniformClass = "bravo_gm_ge_uniform_90_win_unit";
+		};
+	};
+	class bravo_gm_ge_uniform_90_cce : gm_ge_uniform_soldier_90_flk
+	{
+		displayName = "Combat Suit (CCE)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_cce_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_cce_co"};
+			uniformClass = "bravo_gm_ge_uniform_90_cce_unit";
 		};
 	};
 	
@@ -1898,6 +2023,15 @@ class cfgWeapons
 			uniformClass = "bravo_gm_ge_uniform_rolled_90_win_unit";
 		};
 	};
+	class bravo_gm_ge_uniform_rolled_90_cce : gm_ge_uniform_soldier_rolled_90_flk
+	{
+		displayName = "Combat Suit (Rolled, CCE)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_cce_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_cce_co"};
+			uniformClass = "bravo_gm_ge_uniform_rolled_90_cce_unit";
+		};
+	};
 	
 	class gm_ge_uniform_soldier_90_trp : gm_ge_uniform_soldier_90_base
 	{
@@ -1917,8 +2051,17 @@ class cfgWeapons
 		displayName = "Combat Suit (Black)";
 		class ItemInfo : ItemInfo
 		{
-			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_des_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_blk_co"};
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_blk_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_blk_co"};
 			uniformClass = "bravo_gm_ge_uniform_90_blk_unit";
+		};
+	};
+	class bravo_gm_ge_uniform_90_dgt : gm_ge_uniform_soldier_90_trp
+	{
+		displayName = "Combat Suit (Daguet)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_dgt_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_dgt_co"};
+			uniformClass = "bravo_gm_ge_uniform_90_dgt_unit";
 		};
 	};
 	
@@ -1940,8 +2083,17 @@ class cfgWeapons
 		displayName = "Combat Suit (Rolled, Black)";
 		class ItemInfo : ItemInfo
 		{
-			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_nlk_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_blk_co"};
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_blk_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_blk_co"};
 			uniformClass = "bravo_gm_ge_uniform_rolled_90_blk_unit";
+		};
+	};
+	class bravo_gm_ge_uniform_rolled_90_dgt : gm_ge_uniform_soldier_rolled_90_trp
+	{
+		displayName = "Combat Suit (Rolled, Daguet)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_dgt_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_dgt_co"};
+			uniformClass = "bravo_gm_ge_uniform_rolled_90_dgt_unit";
 		};
 	};
 	
@@ -2002,6 +2154,24 @@ class cfgWeapons
 		{
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_blkorg_co"};
 			uniformClass = "bravo_gm_ge_uniform_tshirt_90_blkorg_unit";
+		};
+	};
+	class bravo_gm_ge_uniform_tshirt_90_cce : gm_ge_uniform_soldier_tshirt_90_oli
+	{
+		displayName = "Combat Suit (T-Shirt, CCE)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_cce_co"};
+			uniformClass = "bravo_gm_ge_uniform_tshirt_90_cce_unit";
+		};
+	};
+	class bravo_gm_ge_uniform_tshirt_90_dgt : gm_ge_uniform_soldier_tshirt_90_oli
+	{
+		displayName = "Combat Suit (T-Shirt, Daguet)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_dgt_co"};
+			uniformClass = "bravo_gm_ge_uniform_tshirt_90_dgt_unit";
 		};
 	};
 	
@@ -2155,6 +2325,33 @@ class cfgWeapons
 			uniformClass = "bravo_dk_army_uniform_soldier_84_oli_noflag_unit";
 		};
 	};
+	class bravo_dk_army_uniform_soldier_84_mtp : gm_dk_army_uniform_soldier_84_oli
+	{
+		displayName = "Combat Uniform M/84 (MTP)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_m84_mtp_co",""};
+			uniformClass = "bravo_dk_army_uniform_soldier_84_mtp_unit";
+		};
+	};
+	class bravo_dk_army_uniform_soldier_84_mcm : gm_dk_army_uniform_soldier_84_oli
+	{
+		displayName = "Combat Uniform M/84 (Multicam)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_m84_mcm_co",""};
+			uniformClass = "bravo_dk_army_uniform_soldier_84_mcm_unit";
+		};
+	};
+	class bravo_dk_army_uniform_soldier_84_rmc : gm_dk_army_uniform_soldier_84_oli
+	{
+		displayName = "Combat Uniform M/84 (Multicam RU)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_m84_rmc_co",""};
+			uniformClass = "bravo_dk_army_uniform_soldier_84_rmc_unit";
+		};
+	};
 	
 	class gm_xx_army_uniform_fighter_01_base;
 	class gm_xx_army_uniform_fighter_02_oli : gm_xx_army_uniform_fighter_01_base
@@ -2228,6 +2425,47 @@ class cfgWeapons
 		class ItemInfo : ItemInfo
 		{
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co"};
+		};
+	};
+	
+	class gm_xx_army_uniform_fighter_01_oli : gm_xx_army_uniform_fighter_01_base
+	{
+		class ItemInfo;
+	};
+	class bravo_gm_mixed_m84_mtp : gm_xx_army_uniform_fighter_01_oli
+	{
+		displayName = "Mixed Fatigues (MTP)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_m84_mtp_co","gm\gm_characters\gm_xx_characters\data\uniform\gm_xx_civ_uniform_man_04_80_blu_co"};
+			uniformClass = "bravo_gm_mixed_m84_mtp_unit";
+		};
+	};
+	class bravo_gm_mixed_m84_win : gm_xx_army_uniform_fighter_01_oli
+	{
+		displayName = "Mixed Fatigues (White)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\gm\gm_characters\gm_dk_characters\data\uniform\gm_dk_uniform_soldier_84_win_co","gm\gm_characters\gm_xx_characters\data\uniform\gm_xx_civ_uniform_man_04_80_blu_co"};
+			uniformClass = "bravo_gm_mixed_m84_win_unit";
+		};
+	};
+	class bravo_gm_mixed_m84_mcm : gm_xx_army_uniform_fighter_01_oli
+	{
+		displayName = "Mixed Fatigues (Multicam)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_m84_mcm_co","gm\gm_characters\gm_xx_characters\data\uniform\gm_xx_civ_uniform_man_04_80_blu_co"};
+			uniformClass = "bravo_gm_mixed_m84_mcm_unit";
+		};
+	};
+	class bravo_gm_mixed_m84_rmc : gm_xx_army_uniform_fighter_01_oli
+	{
+		displayName = "Mixed Fatigues (Multicam RU)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_m84_rmc_co","gm\gm_characters\gm_xx_characters\data\uniform\gm_xx_civ_uniform_man_04_80_blu_co"};
+			uniformClass = "bravo_gm_mixed_m84_rmc_unit";
 		};
 	};
 };

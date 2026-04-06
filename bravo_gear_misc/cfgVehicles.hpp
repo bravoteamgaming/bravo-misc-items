@@ -308,6 +308,14 @@ class cfgVehicles
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_blk_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_blk_co"};
 	};
+	class bravo_gm_ge_uniform_rolled_90_cce_unit : gm_ge_army_soldier_rolled_90_flk
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_cce_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_cce_co"};
+	};
+	class bravo_gm_ge_uniform_rolled_90_dgt_unit : gm_ge_army_soldier_rolled_90_flk
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_dgt_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_dgt_co"};
+	};
 	
 	class gm_ge_army_rifleman_90_flk;
 	class bravo_gm_ge_uniform_90_khk_unit : gm_ge_army_rifleman_90_flk
@@ -318,6 +326,10 @@ class cfgVehicles
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_win_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_win_co"};
 	};
+	class bravo_gm_ge_uniform_90_cce_unit : gm_ge_army_rifleman_90_flk
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_cce_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_cce_co"};
+	};
 	
 	class gm_ge_army_rifleman_90_trp;
 	class bravo_gm_ge_uniform_90_des_unit : gm_ge_army_rifleman_90_trp
@@ -327,6 +339,10 @@ class cfgVehicles
 	class bravo_gm_ge_uniform_90_blk_unit : gm_ge_army_rifleman_90_trp
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_blk_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_blk_co"};
+	};
+	class bravo_gm_ge_uniform_90_dgt_unit : gm_ge_army_rifleman_90_trp
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_dgt_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_dgt_co"};
 	};
 	
 	class gm_ge_army_soldier_tshirt_90_oli;
@@ -353,6 +369,14 @@ class cfgVehicles
 	class bravo_gm_ge_uniform_tshirt_90_blkorg_unit : gm_ge_army_soldier_tshirt_90_oli
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_blkorg_co"};
+	};
+	class bravo_gm_ge_uniform_tshirt_90_cce_unit : gm_ge_army_soldier_tshirt_90_oli
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_cce_co"};
+	};
+	class bravo_gm_ge_uniform_tshirt_90_dgt_unit : gm_ge_army_soldier_tshirt_90_oli
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_dgt_co"};
 	};
 	
 	/*
@@ -421,6 +445,21 @@ class cfgVehicles
 		scope = 1;
 		hiddenSelectionsTextures[] = {"\gm\gm_characters\gm_dk_characters\data\uniform\gm_dk_uniform_soldier_84_oli_co",""};
 	};
+	class bravo_dk_army_uniform_soldier_84_mtp_unit : gm_dk_army_crew_84_oli
+	{
+		scope = 1;
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_m84_mtp_co",""};
+	};
+	class bravo_dk_army_uniform_soldier_84_mcm_unit : gm_dk_army_crew_84_oli
+	{
+		scope = 1;
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_m84_mcm_co",""};
+	};
+	class bravo_dk_army_uniform_soldier_84_rmc_unit : gm_dk_army_crew_84_oli
+	{
+		scope = 1;
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_m84_rmc_co",""};
+	};
 	
 	class gm_xx_army_antitank_hk53a2_rpg7_80_oli;
 	class bravo_gm_mixed_jeans_dcu_unit : gm_xx_army_antitank_hk53a2_rpg7_80_oli
@@ -452,5 +491,27 @@ class cfgVehicles
 	{
 		scope = 1;
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_blk_co","gm\gm_characters\gm_xx_characters\data\uniform\gm_xx_civ_uniform_man_01_80_blu_co"};
+	};
+	
+	class gm_xx_army_machinegunner_rpk_80_oli;
+	class bravo_gm_mixed_m84_mtp_unit : gm_xx_army_machinegunner_rpk_80_oli
+	{
+		scope = 1;
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_m84_mtp_co","gm\gm_characters\gm_xx_characters\data\uniform\gm_xx_civ_uniform_man_04_80_blu_co"};
+	};
+	class bravo_gm_mixed_m84_win_unit : gm_xx_army_machinegunner_rpk_80_oli
+	{
+		scope = 1;
+		hiddenSelectionsTextures[] = {"\gm\gm_characters\gm_dk_characters\data\uniform\gm_dk_uniform_soldier_84_win_co","gm\gm_characters\gm_xx_characters\data\uniform\gm_xx_civ_uniform_man_04_80_blu_co"};
+	};
+	class bravo_gm_mixed_m84_mcm_unit : gm_xx_army_machinegunner_rpk_80_oli
+	{
+		scope = 1;
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_m84_mcm_co","gm\gm_characters\gm_xx_characters\data\uniform\gm_xx_civ_uniform_man_04_80_blu_co"};
+	};
+	class bravo_gm_mixed_m84_rmc_unit : gm_xx_army_machinegunner_rpk_80_oli
+	{
+		scope = 1;
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_m84_rmc_co","gm\gm_characters\gm_xx_characters\data\uniform\gm_xx_civ_uniform_man_04_80_blu_co"};
 	};
 };
