@@ -159,7 +159,7 @@ class CfgWeapons
 			};
 		};
 	};
-	class saber_light_ir_lxWS : acc_flashlight
+	class saber_light_ir_lxWS : saber_light_lxWS
 	{
 		class ItemInfo : InventoryFlashLightItem_Base_F
 		{
