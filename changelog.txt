@@ -128,3 +128,4 @@
 
 2026-04-07
 - EXTRAS: added secret stuff
+- CBA RAILS WS: fixed wrong inheritance on the Saber Light IR
