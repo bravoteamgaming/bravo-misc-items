@@ -20,6 +20,7 @@ class CfgFunctions
 			class randomNadeInit{};
 			class randomNadeActivate{};
 			class multiNadeDeploy{};
+			class bfAKfiredEH{};
 		};
 	};
 };

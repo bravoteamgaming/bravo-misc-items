@@ -182,4 +182,37 @@ class CfgAmmo
 		missileLockCone = 90;
 		submunitionAmmo = "rhs_ammo_TOW2_AT_penetrator";
 	};
+	
+	class rhsusf_40mm_HEDP;
+	class bravo_ammo_40mm_hedp_dave : rhsusf_40mm_HEDP
+	{
+		indirectHitRange = 12;
+		caliber = 6;
+		indirectHit = 12;
+		submunitionAmmo = "bravo_ammo_40mm_hedp_hp_penetrator";
+	};
+	
+	class rhs_ammo_40mmHEDP_penetrator;
+	class bravo_ammo_40mm_hedp_hp_penetrator : rhs_ammo_40mmHEDP_penetrator
+	{
+		caliber = 6;
+		hit = 100;
+	};
+	
+	class rhs_ammo_556x45_M855A1_Ball_Red;
+	class bravo_ammo_556x45_he_tracer_red : rhs_ammo_556x45_M855A1_Ball_Red
+	{
+		explosive = 0.5;
+		indirectHit = 4;
+		indirectHitRange = 2.76;
+		explosionEffects = "RHS_ExploSmallAmmoExplosion";
+		explosionSoundEffect = "DefaultExplosion";
+		craterEffects = "ATMissileCrater";
+	};
+	
+	class UK3CB_BAF_762_Ball_L42A1_Tracer_Red;
+	class bravo_ammo_762x51_hvap_tracer_red : UK3CB_BAF_762_Ball_L42A1_Tracer_Red
+	{
+		caliber = 6;
+	};
 };

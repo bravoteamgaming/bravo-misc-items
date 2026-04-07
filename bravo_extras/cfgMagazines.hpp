@@ -72,6 +72,39 @@ class CfgMagazines
 		ammo = "bravo_rocket_40mm_heat_pg7v_jamsheed";
 		descriptionShort = "Blessed anti-tank rocket that hits exactly what the fuck you're aiming at, inshallah.";
 	};
+	
+	class rhsusf_200Rnd_556x45_mixed_soft_pouch;
+	class bravo_200rnd_556x45_m249_zaphod : rhsusf_200Rnd_556x45_mixed_soft_pouch
+	{
+		displayName = "Legendary 200Rnd M249 Belt Pouch";
+		descriptionShort = "Improved high-explosive ammunition for a legendary M249.";
+		ammo = "bravo_ammo_556x45_he_tracer_red";
+	};
+	
+	class UK3CB_BAF_762_L42A1_20Rnd_T;
+	class bravo_20rnd_762x51_l129a1_connie : UK3CB_BAF_762_L42A1_20Rnd_T
+	{
+		displayName = "Legendary 20Rnd L129A1 Magazine";
+		descriptionShort = "Improved hypervelocity armour-piercing ammunition for a legendary L129A1.";
+		ammo = "bravo_ammo_762x51_hvap_tracer_red";
+		initSpeed = 1500;
+	};
+	
+	class rhs_mag_30Rnd_556x45_Mk318_PMAG;
+	class bravo_500rnd_556x45_mk18_zyneks : rhs_mag_30Rnd_556x45_Mk318_PMAG
+	{
+		displayName = "Legendary 500Rnd Mk 18 Magazine";
+		descriptionShort = "Improved high-capacity magazines for a legendary Mk 18.";
+		count = 500;
+	};
+	
+	class rhs_mag_M433_HEDP;
+	class bravo_1rnd_40mm_hedp_dave : rhs_mag_M433_HEDP
+	{
+		displayName = "Legendary 40mm HEDP Round";
+		descriptionShort = "Improved HEDP grenades for a legendary M4A1 M320.";
+		ammo = "bravo_ammo_40mm_hedp_dave";
+	};
 };
 class CfgMagazineWells
 {
@@ -82,5 +115,21 @@ class CfgMagazineWells
 	class bravo_rpg7_jamsheed
 	{
 		bravo_extras_mags[] = {"bravo_1rnd_40mm_heat_pg7v_jamsheed"};
+	};
+	class bravo_l129a1_connie
+	{
+		bravo_extras_mags[] = {"bravo_20rnd_762x51_l129a1_connie"};
+	};
+	class bravo_mk18_zyneks
+	{
+		bravo_extras_mags[] = {"bravo_500rnd_556x45_mk18_zyneks"};
+	};
+	class bravo_m320_dave
+	{
+		bravo_extras_mags[] = {"bravo_1rnd_40mm_hedp_dave"};
+	};
+	class bravo_m249_zaphod
+	{
+		bravo_extras_mags[] = {"bravo_200rnd_556x45_m249_zaphod"};
 	};
 };

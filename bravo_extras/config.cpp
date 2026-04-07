@@ -13,7 +13,14 @@ class CfgPatches
 		};
 		weapons[] = {
 			"bravo_hs50_20",
-			"bravo_rpg7_jamsheed"
+			"bravo_rpg7_jamsheed",
+			"bravo_l1a1_vlad",
+			"bravo_m4a1_m320_dave",
+			"bravo_l7a2_onenan",
+			"bravo_mk18_zyneks",
+			"bravo_l129a1_connie",
+			"bravo_m249_pip_ris_zaphod",
+			"bravo_ak74m_blackfire"
 		};
 		skipWhenMissingDependencies = 1;
 	};
