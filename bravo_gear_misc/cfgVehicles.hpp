@@ -82,6 +82,38 @@ class cfgVehicles
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\gen3_bravocam_co.paa","rhsusf\addons\rhsusf_infantry2\data\Merrells_blk_co.paa","rhsusf\addons\rhsusf_infantry2\data\Mechanix_black_co.paa"};
 	};
 	
+	class rhsusf_socom_g3_rgr_uniform;
+	class bravo_cryeg3_cce_unit : rhsusf_socom_g3_rgr_uniform
+	{
+		uniformClass = "bravo_cryeg3_cce";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\gen3_cce_co.paa","rhsusf\addons\rhsusf_infantry2\data\Merrells_blk_co.paa","rhsusf\addons\rhsusf_infantry2\data\Mechanix_black_co.paa"};
+	};
+	class bravo_cryeg3_dgt_unit : rhsusf_socom_g3_rgr_uniform
+	{
+		uniformClass = "bravo_cryeg3_dgt";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\gen3_dgt_co.paa","rhsusf\addons\rhsusf_infantry2\data\Merrells_blk_co.paa","rhsusf\addons\rhsusf_infantry2\data\Mechanix_black_co.paa"};
+	};
+	class bravo_cryeg3_trp_unit : rhsusf_socom_g3_rgr_uniform
+	{
+		uniformClass = "bravo_cryeg3_trp";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\gen3_trp_co.paa","rhsusf\addons\rhsusf_infantry2\data\Merrells_blk_co.paa","rhsusf\addons\rhsusf_infantry2\data\Mechanix_black_co.paa"};
+	};
+	class bravo_cryeg3_flk_unit : rhsusf_socom_g3_rgr_uniform
+	{
+		uniformClass = "bravo_cryeg3_flk";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\gen3_flk_co.paa","rhsusf\addons\rhsusf_infantry2\data\Merrells_blk_co.paa","rhsusf\addons\rhsusf_infantry2\data\Mechanix_black_co.paa"};
+	};
+	class bravo_cryeg3_mtr_unit : rhsusf_socom_g3_rgr_uniform
+	{
+		uniformClass = "bravo_cryeg3_mtr";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\gen3_mtr_co.paa","rhsusf\addons\rhsusf_infantry2\data\Merrells_blk_co.paa","rhsusf\addons\rhsusf_infantry2\data\Mechanix_black_co.paa"};
+	};
+	class bravo_cryeg3_bme_unit : rhsusf_socom_g3_rgr_uniform
+	{
+		uniformClass = "bravo_cryeg3_bme";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\gen3_bme_co.paa","rhsusf\addons\rhsusf_infantry2\data\Merrells_blk_co.paa","rhsusf\addons\rhsusf_infantry2\data\Mechanix_black_co.paa"};
+	};
+	
 	class i_soldier_universal_f;
 	class bravo_combatuniform_tactee_aaf_ws_unit : i_soldier_universal_f
 	{

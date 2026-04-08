@@ -36,6 +36,11 @@ class cfgWeapons
 		displayName = "FAST Ballistic (Coyote Cover/Headset)";
 		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\fs_cover_cb_co.paa",""};
 	};
+	class bravo_fast_mtr_cover_headset : rhsusf_opscore_coy_cover
+	{
+		displayName = "FAST Ballistic (Multitarn Cover/Headset)";
+		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\bravo_gear_misc\assets\fs_cover_mtr_co.paa",""};
+	};
 	
 	class rhsusf_opscore_ut_pelt;
 	class bravo_fast_ut_headset_medic : rhsusf_opscore_ut_pelt
@@ -64,6 +69,11 @@ class cfgWeapons
 	{
 		displayName = "FAST Ballistic (Flecktarn Cover/Headset)";
 		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_fg_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\bravo_gear_misc\assets\fs_cover_flk_co.paa",""};
+	};
+	class bravo_fast_bme_cover_headset : rhsusf_opscore_rg_cover
+	{
+		displayName = "FAST Ballistic (BME Cover/Headset)";
+		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_fg_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\bravo_gear_misc\assets\fs_cover_bme_co.paa",""};
 	};
 	class bravo_fast_rg_cover_headset_red : rhsusf_opscore_rg_cover
 	{
@@ -736,6 +746,60 @@ class cfgWeapons
 		class itemInfo : itemInfo
 		{
 			uniformClass = "bravo_cryeg3_bravocam_unit";
+		};
+	};
+	
+	class rhs_uniform_g3_rgr : uniform_base
+	{
+		class itemInfo : itemInfo
+		{};
+	};
+	class bravo_cryeg3_cce : rhs_uniform_g3_rgr
+	{
+		displayName = "G3 Uniform (CCE)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_cryeg3_cce_unit";
+		};
+	};
+	class bravo_cryeg3_dgt : rhs_uniform_g3_rgr
+	{
+		displayName = "G3 Uniform (Daguet)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_cryeg3_dgt_unit";
+		};
+	};
+	class bravo_cryeg3_trp : rhs_uniform_g3_rgr
+	{
+		displayName = "G3 Uniform (Tropentarn)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_cryeg3_trp_unit";
+		};
+	};
+	class bravo_cryeg3_flk : rhs_uniform_g3_rgr
+	{
+		displayName = "G3 Uniform (Flecktarn)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_cryeg3_flk_unit";
+		};
+	};
+	class bravo_cryeg3_mtr : rhs_uniform_g3_rgr
+	{
+		displayName = "G3 Uniform (Multitarn)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_cryeg3_mtr_unit";
+		};
+	};
+	class bravo_cryeg3_bme : rhs_uniform_g3_rgr
+	{
+		displayName = "G3 Uniform (BME)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_cryeg3_bme_unit";
 		};
 	};
 	
