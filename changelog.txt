@@ -129,3 +129,7 @@
 2026-04-07
 - EXTRAS: added secret stuff
 - CBA RAILS WS: fixed wrong inheritance on the Saber Light IR
+
+2026-04-08
+- GEAR MISC: added BME, CCE, Daguet, Flecktarn, Tropentarn, and Multitarn variants of G3 uniform and FAST helmet
+- GEAR MISC: adjusted texture of existing Flecktarn FAST

@@ -108,6 +108,8 @@ GEAR MISC
 	FAST Ballistic Coyote Cover/Headset
 	FAST Ballistic DCU Cover/Headset
 	FAST Ballistic Flecktarn Cover/Headset
+	FAST Ballistic BME Cover/Headset
+	FAST Ballistic Multitarn Cover/Headset
 	FAST Ballistic Foliage Green/Headset/Medic
 	FAST Ballistic Foliage Green/Headset/Stupid
 	FAST Ballistic Foliage Green/Headset/Stickers
@@ -250,6 +252,12 @@ GEAR MISC
 - Add uniform variants:
 	6Sh122 (Olive/Gloves)
 	G3 Uniform (BravoCam)
+	G3 Uniform (BME)
+	G3 Uniform (Flecktarn)
+	G3 Uniform (Tropentarn)
+	G3 Uniform (Daguet)
+	G3 Uniform (CCE)
+	G3 Uniform (Multitarn)
 	Combat Uniform MTP Combat Shirt [BAF]
 	Combat Uniform MTP T-Shirt [BAF]
 	Combat Fatigues T-Shirt 02 [ION] (MARPAT-WD)
