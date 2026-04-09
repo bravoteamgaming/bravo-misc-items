@@ -26,7 +26,7 @@ MUNITIONS
 EXTRAS
 - Add Steyr HS-50/20 (20mm conversion of 12.7mm HS-50)
 - Add Grunt Birthday Party module
-
+- Add Airsoft MCX
 - Add special purpose magazine for Makarov
 - Add 0.5% chance of "my leg!" on ACE leg fracture
 - Add physics slap ZEN context menu action for units

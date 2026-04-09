@@ -133,3 +133,6 @@
 2026-04-08
 - GEAR MISC: added BME, CCE, Daguet, Flecktarn, Tropentarn, and Multitarn variants of G3 uniform and FAST helmet
 - GEAR MISC: adjusted texture of existing Flecktarn FAST
+
+2026-04-09
+- EXTRAS: added new MCX variant and mags

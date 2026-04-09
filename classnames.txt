@@ -5,6 +5,7 @@ CfgWeapons
 "bravo_acr_68_carbine", Remington ACR 6.8mm (Carbine)
 "bravo_acr_68_carbine_ugl", Remington ACR 6.8mm M203 (Carbine)
 "bravo_hs50_20", Steyr HS-50/20
+"bravo_t1_mcx115_fde_airsoft", MCX 11.5 Virtus (Airsoft) (FDE)
 "bravo_sdar_762", RFB
 "bravo_tavor_7", Tavor 7
 "bravo_mk200_556", Stoner 99 LMG 556
