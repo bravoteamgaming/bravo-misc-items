@@ -306,4 +306,97 @@ class CfgWeapons
 			};
 		};
 	};
+	
+	class Rifle_Base_F;
+	class Tier1_HK416_base : Rifle_Base_F
+	{
+		class Single;
+		class FullAuto;
+	}
+	class Tier1_HK416D145_LMT : Tier1_HK416_base
+	{};
+	class Tier1_HK416D10_LMT : Tier1_HK416D145_LMT
+	{};
+	class Tier1_SIG_MCX_115_Virtus : Tier1_HK416D10_LMT
+	{};
+	class Tier1_SIG_MCX_115_Virtus_FDE : Tier1_SIG_MCX_115_Virtus
+	{
+		class WeaponSlotsInfo;
+	};
+	class bravo_t1_mcx115_fde_airsoft : Tier1_SIG_MCX_115_Virtus_FDE
+	{
+		baseWeapon = "bravo_t1_mcx115_fde_airsoft";
+		displayName = "MCX 11.5 Virtus (Airsoft) (FDE)";
+		descriptionShort = "CALL YOUR HITS";
+		magazines[] = {"bravo_125rnd_stanag_airsoft_pmag"};
+		magazineWell[] = {"bravo_stanag4179_airsoft"};
+		caseless[] = {"",1,1,1};
+		aidispersioncoefx = 10;
+		aidispersioncoefy = 14;
+		dispersion = 0.002;
+		fireLightDuration = 0;
+		fireLightDiffuse[] = {0,0,0};
+		fireLightIntensity = 0;
+		flashSize = 0;
+		initSpeed = 115;
+		maxRecoilSway = 0.001;
+		maxRange = 50;
+		maxZeroing = 50;
+		discretedistance[] = {50};
+		discreteDistanceCameraPoint[] = {"eye"};
+		recoil = "NoRecoil";
+		recoilProne = "NoRecoil";
+		rhs_grip1_change = "bravo_t1_mcx115_fde_airsoft_grip";
+		rhs_grip2_change = "bravo_t1_mcx115_fde_airsoft_grip2";
+		rhs_grip3_change = "bravo_t1_mcx115_fde_airsoft_grip";
+		class Single : Single
+		{
+			dispersion = 0.002;
+			class BaseSoundModeType;
+			class StandardSound : BaseSoundModeType
+			{
+				soundSetShot[] = {"RHSUSF_MP7_Closure_SoundSet","RHSUSF_MP7_ShotSD_SoundSet","RHSUSF_rifle1_SD_Tail_SoundSet"};
+			};
+			class SilencedSound : BaseSoundModeType
+			{
+				soundSetShot[] = {"RHSUSF_MP7_Closure_SoundSet","RHSUSF_MP7_ShotSD_SoundSet","RHSUSF_rifle1_SD_Tail_SoundSet"};
+			};
+		};
+		class FullAuto : FullAuto
+		{
+			dispersion = 0.002;
+			class BaseSoundModeType;
+			class StandardSound : BaseSoundModeType
+			{
+				soundSetShot[] = {"RHSUSF_MP7_Closure_SoundSet","RHSUSF_MP7_ShotSD_SoundSet","RHSUSF_rifle1_SD_Tail_SoundSet"};
+			};
+			class SilencedSound : BaseSoundModeType
+			{
+				soundSetShot[] = {"RHSUSF_MP7_Closure_SoundSet","RHSUSF_MP7_ShotSD_SoundSet","RHSUSF_rifle1_SD_Tail_SoundSet"};
+			};
+		};
+		class LinkedItems
+		{
+			class LinkedItemsMuzzle
+			{
+				item = "tier1_gemtech_halo";
+				slot = "MuzzleSlot";
+			};
+		};
+		class GunFire{};
+		class GunClouds{};
+		class GunParticles{};
+	};
+	
+	class bravo_t1_mcx115_fde_airsoft_grip : bravo_t1_mcx115_fde_airsoft
+	{
+		dexterity = 1.70929;
+		aimTransitionSpeed = 0.874895;
+		scopeArsenal = 0;
+		handAnim[] = {"OFP2_ManSkeleton","Tier1_Weapons\HK416s\anim\handpose_VFG.rtm"};
+	};
+	class bravo_t1_mcx115_fde_airsoft_grip2 : bravo_t1_mcx115_fde_airsoft_grip
+	{
+		handAnim[] = {"OFP2_ManSkeleton","Tier1_Weapons\HK416s\anim\handpose_AFG.rtm"};
+	};
 };

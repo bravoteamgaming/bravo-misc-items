@@ -209,6 +209,26 @@ class CfgAmmo
 		explosionSoundEffect = "DefaultExplosion";
 		craterEffects = "ATMissileCrater";
 	};
+	class bravo_ammo_6mm_airsoft : rhs_ammo_556x45_M855A1_Ball_Red
+	{
+		ace_bulletlength = 6;
+		ace_caliber = 6;
+		ace_bulletmass = 0.3;
+		ace_dragmodel = 1;
+		ace_barrellengths[] = {100, 200, 300, 600};
+		ace_muzzlevelocities[] = {100, 100, 100, 100};
+		ace_ammotempmuzzlevelocityshifts[] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+		ACE_ballisticCoefficients[] = {0.141};
+		airFriction = -0.000771;
+		cartridge = "";
+		caliber = 0.01;
+		hit = 0.1;
+		dangerRadiusBulletClose = 5;
+		dangerRadiusHit = 5;
+		deflectionSlowDown = 0.5;
+		typicalSpeed = 100;
+		visibleFire = 1;
+	};
 	
 	class UK3CB_BAF_762_Ball_L42A1_Tracer_Red;
 	class bravo_ammo_762x51_hvap_tracer_red : UK3CB_BAF_762_Ball_L42A1_Tracer_Red

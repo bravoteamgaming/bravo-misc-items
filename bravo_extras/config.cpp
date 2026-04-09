@@ -18,9 +18,13 @@ class CfgPatches
 			"bravo_m4a1_m320_dave",
 			"bravo_l7a2_onenan",
 			"bravo_mk18_zyneks",
+			"bravo_mk18_zyneks_grip2",
 			"bravo_l129a1_connie",
 			"bravo_m249_pip_ris_zaphod",
-			"bravo_ak74m_blackfire"
+			"bravo_ak74m_blackfire",
+			"bravo_t1_mcx115_fde_airsoft",
+			"bravo_t1_mcx115_fde_airsoft_grip",
+			"bravo_t1_mcx115_fde_airsoft_grip2"
 		};
 		skipWhenMissingDependencies = 1;
 	};

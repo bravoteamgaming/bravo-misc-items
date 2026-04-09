@@ -97,6 +97,33 @@ class CfgMagazines
 		descriptionShort = "Improved high-capacity magazines for a legendary Mk 18.";
 		count = 500;
 	};
+	class bravo_125rnd_stanag_airsoft_pmag : rhs_mag_30Rnd_556x45_Mk318_PMAG
+	{
+		displayName = "6 mm 125Rnd STANAG Airsoft Magazine (PMAG)";
+		displayNameShort = "Ball";
+		descriptionShort = "Caliber: 6x6mm <br />Rounds: 125<br />Used in: airosft guns";
+		ammo = "bravo_ammo_6mm_airsoft";
+		count = 125;
+		initSpeed = 115.6;
+		mass = 4;
+	};
+	class bravo_125rnd_stanag_airsoft_emag : bravo_125rnd_stanag_airsoft_pmag
+	{
+		displayName = "6 mm 125Rnd STANAG Airsoft Magazine (EMAG)";
+		picture = "\Tier1_Weapons\Magazines\data\ui_EMag_ca.paa";
+		modelSpecial = "\Tier1_Weapons\Magazines\EMag.p3d";
+		model = "\Tier1_Weapons\Magazines\EMag_ground.p3d";
+	};
+	class bravo_125rnd_stanag_airsoft_stanag : bravo_125rnd_stanag_airsoft_pmag
+	{
+		displayName = "6 mm 125Rnd STANAG Airsoft Magazine";
+		picture = "\rhsusf\addons\rhsusf_inventoryicons\data\magazines\rhs_mag_30Rnd_556x45_M200_Stanag_ca.paa";
+		model = "rhsusf\addons\rhsusf_weapons\magazines\rhs_stanag_mag";
+		modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_stanag_usgi_n_30rnd";
+		hiddenSelections[] = {"camo","camo01","camo02"};
+		hiddenSelectionsTextures[] = {"rhsusf\addons\rhsusf_weapons\mag_proxies\data\rhs_30rn_usgi_alum_co.paa","rhsusf\addons\rhsusf_weapons\mag_proxies\data\rhs_556_m193_co.paa","rhsusf\addons\rhsusf_weapons\mag_proxies\data\rhs_30rn_magpul_black_co.paa"};
+		mass = 5;
+	};
 	
 	class rhs_mag_M433_HEDP;
 	class bravo_1rnd_40mm_hedp_dave : rhs_mag_M433_HEDP
@@ -131,5 +158,9 @@ class CfgMagazineWells
 	class bravo_m249_zaphod
 	{
 		bravo_extras_mags[] = {"bravo_200rnd_556x45_m249_zaphod"};
+	};
+	class bravo_stanag4179_airsoft
+	{
+		bravo_extras_mags[] = {"bravo_125rnd_stanag_airsoft_pmag", "bravo_125rnd_stanag_airsoft_stanag", "bravo_125rnd_stanag_airsoft_emag"};
 	};
 };
