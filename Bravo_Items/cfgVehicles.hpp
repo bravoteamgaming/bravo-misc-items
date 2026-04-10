@@ -40,15 +40,17 @@ class CfgVehicles
 	class Bag_Base;
 	class B_RadioBag_01_base_F : Bag_Base
 	{
-		mass = 50;
+		mass = 20;
+		maximumLoad = 160;
 	};
 	class B_Kitbag_base : Bag_Base
 	{
+		mass = 40;
 		maximumLoad = 320;
 	};
-	class B_AssaultPack_Base : Bag_Base
+	class B_Carryall_Base : Bag_Base
 	{
-		maximumLoad = 320;
+		mass = 40;
 	};
 	
 	class Module_F;
