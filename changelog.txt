@@ -143,3 +143,5 @@
 
 2026-04-10 (2)
 - EXTRAS: fixed magwell on special L129A1
+- EXTRAS: fixed secret weapon not being hidden
+- EXTRAS: adjusted ammo effects
