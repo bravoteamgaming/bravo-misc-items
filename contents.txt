@@ -379,7 +379,7 @@ GEAR MISC
 	Grass Helmet Camo 2
 	Grass Helmet Camo 3
 	Grass Helmet Camo 4
-- Change mass of 3CB and GM radio bags
+- Change mass of 3CB and GM radio bags and other backpacks
 
 PHONE
 - Add cellphone tool: Mk 42 Mod 0 ZDAS
@@ -424,3 +424,4 @@ ITEMS
 - Add Scrape Hide Terrain Objects data tool to Editor
 - Add Paste Hide Terrain Objects Data module to Zeus
 - Add Splendid Camera module to Zeus
+- Change mass/cap of vanilla kitbag, carryall, radiopack
