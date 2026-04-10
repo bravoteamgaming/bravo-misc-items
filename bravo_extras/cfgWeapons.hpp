@@ -65,6 +65,7 @@ class CfgWeapons
 	class bravo_rpg7_jamsheed : gm_rpg7_wud
 	{
 		scope = 1;
+		scopeArsenal = 1;
 		baseWeapon = "bravo_rpg7_jamsheed";
 		displayName = "Jamsheed's RPG-7";
 		descriptionShort = "Blessed anti-tank weapon used by a true hero.";
