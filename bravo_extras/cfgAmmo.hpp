@@ -205,9 +205,37 @@ class CfgAmmo
 		explosive = 0.5;
 		indirectHit = 4;
 		indirectHitRange = 2.76;
-		explosionEffects = "RHS_ExploSmallAmmoExplosion";
+		CraterEffects = "ExploAmmoCrater";
 		explosionSoundEffect = "DefaultExplosion";
-		craterEffects = "ATMissileCrater";
+		explosionEffects = "gm_effect_ammoExplosion";
+		soundHit1[] = {"A3\Sounds_F\arsenal\explosives\shells\30mm40mm_shell_explosion_01",1.77828,1,1600};
+		soundHit2[] = {"A3\Sounds_F\arsenal\explosives\shells\30mm40mm_shell_explosion_02",1.77828,1,1600};
+		soundHit3[] = {"A3\Sounds_F\arsenal\explosives\shells\30mm40mm_shell_explosion_03",1.77828,1,1600};
+		soundHit4[] = {"A3\Sounds_F\arsenal\explosives\shells\30mm40mm_shell_explosion_04",1.77828,1,1600};
+		class HitEffects
+		{
+			default_mat = "ImpactEffectsGroundSabot";
+			Hit_Foliage_Dead = "ImpactLeavesDead";
+			Hit_Foliage_green = "ImpactLeavesGreen";
+			Hit_Foliage_Green_big = "ImpactLeavesGreenBig";
+			Hit_Foliage_Palm = "ImpactLeavesPalm";
+			Hit_Foliage_Pine = "ImpactLeavesPine";
+			hitBuilding = "ImpactConcreteSabotSmall";
+			hitConcrete = "ImpactConcreteSabotSmall";
+			hitFoliage = "ImpactLeaves";
+			hitGlass = "ImpactGlass";
+			hitGlassArmored = "ImpactGlassThin";
+			hitGroundHard = "ImpactEffectsGroundSabot";
+			hitGroundSoft = "ImpactEffectsGroundSabot";
+			hitMan = "ImpactEffectsBlood";
+			hitMetal = "ImpactMetalSabotSmall";
+			hitMetalPlate = "ImpactMetalSabotSmall";
+			hitPlastic = "ImpactPlastic";
+			hitRubber = "ImpactRubber";
+			hitTyre = "ImpactTyre";
+			hitWater = "ImpactEffectsWater";
+			hitWood = "ImpactWood";
+		};
 	};
 	class bravo_ammo_6mm_airsoft : rhs_ammo_556x45_M855A1_Ball_Red
 	{
