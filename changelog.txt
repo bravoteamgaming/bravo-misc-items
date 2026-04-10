@@ -140,3 +140,6 @@
 2026-04-10
 - ITEMS: assaultpack back to 160 cap, kitbag to 40 wt, radiopack to 160/20, carryall to 40 wt
 - GEAR MISC: as above + RPG carrier to 180/20, other backpacks normalised
+
+2026-04-10 (2)
+- EXTRAS: fixed magwell on special L129A1

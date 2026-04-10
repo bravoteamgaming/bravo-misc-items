@@ -158,6 +158,7 @@ class CfgWeapons
 		baseWeapon = "bravo_l129a1_connie";
 		displayName = "Connie's L129A1";
 		descriptionShort = "Legendary DMR with rounds that pack an extra punch.";
+		magazineWell[] += {"bravo_l129a1_connie"};
 		class LinkedItems
 		{
 			class LinkedItemsOptic
