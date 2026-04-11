@@ -165,6 +165,175 @@ class cfgVehicles
 	{
 		maximumLoad = 160;
 	};
+	class B_AssaultPack_blk
+	class UK3CB_AAF_B_B_ASS_DIGI_BLK : B_AssaultPack_blk
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_APD_B_B_ASS_BLK_01 : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_APD_B_B_ASS_BLU_01 : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_APD_B_B_ASS_EKAM_BLK_01 : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_APD_B_B_ASS_EKAM_BLU_01 : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_ION_B_B_ASS_BLK_01 : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_ION_B_B_ASS_BLK_02 : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_ION_B_B_ASS_BLK_03 : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_ION_B_B_ASS_BRN_01 : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_ION_B_B_ASS_BRN_02 : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_ION_B_B_ASS_BRN_03 : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_ION_B_B_ASS_DES_01 : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_ION_B_B_ASS_DES_02 : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_ION_B_B_ASS_DES_03 : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_ION_B_B_ASS_OLI_01 : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_ION_B_B_ASS_OLI_02 : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_ION_B_B_ASS_OLI_03 : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_ION_B_B_ASS_WIN_01 : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_ION_B_B_ASS_WIN_02 : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_ION_B_B_ASS_WIN_03 : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_TNM_B_B_ASS_BLK_01 : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_TNM_B_B_ASS_01 : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_AAF_B_B_ASS_DIGI_BRN : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_AAF_B_B_ASS_DIGI_GRN : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_CSAT_F_O_B_ASS_UCP : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_CSAT_F_O_B_ASS : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_GAF_B_B_ASS_DIGI : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_GAF_B_B_ASS_MULTICAM_01 : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_GAF_B_B_ASS_MULTICAM_02 : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_GAF_B_B_ASS_OLI : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_GAF_B_B_ASS_TAN : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_LDF_B_B_ASS_OLI : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_LDF_B_B_ASS_WDL : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_TPD_B_B_ASS_01 : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_CSAT_A_O_B_ASS : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_CSAT_B_O_B_ASS : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_CSAT_G_O_B_ASS : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_CSAT_M_O_B_ASS : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_CSAT_N_O_B_ASS : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_CSAT_S_O_B_ASS : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_CSAT_U_O_B_ASS : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
+	class UK3CB_CSAT_W_O_B_ASS : B_AssaultPack_rgr
+	{
+		maximumLoad = 160;
+	};
 	
 	class gm_ge_army_backpack_90_base : gm_backpack_base
 	{
