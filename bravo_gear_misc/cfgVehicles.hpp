@@ -165,7 +165,7 @@ class cfgVehicles
 	{
 		maximumLoad = 160;
 	};
-	class B_AssaultPack_blk
+	class B_AssaultPack_blk;
 	class UK3CB_AAF_B_B_ASS_DIGI_BLK : B_AssaultPack_blk
 	{
 		maximumLoad = 160;
