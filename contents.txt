@@ -388,6 +388,10 @@ GEAR MISC
 	SU230A/PVS MRDS [B]
 	SU230A/PVS MRDS Coyote [B]
 	SU230/PVS MRDS Coyote [B]
+	SU230/PVS [B]
+	SU230A/PVS [B]
+	SU230A/PVS Coyote [B]
+	SU230/PVS Coyote [B]
 - Change mass of 3CB and GM radio bags and other backpacks
 
 PHONE

@@ -151,4 +151,4 @@
 
 2026-04-12
 - GEAR MISC: added Jietai and M/90 G3 and FAST
-- GEAR MISC: added variants of RHS SU230 MRDS without BUIS
+- GEAR MISC: added variants of RHS SU230 and SU230 MRDS without BUIS

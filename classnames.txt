@@ -336,6 +336,10 @@ CfgWeapons
 "bravo_rhs_su230a_mrds_ni", SU230A/PVS MRDS [B]
 "bravo_rhs_su230_mrds_c_ni", SU230/PVS MRDS Coyote [B]
 "bravo_rhs_su230a_mrds_c_ni", SU230A/PVS MRDS Coyote [B]
+"bravo_rhs_su230_ni", SU230/PVS [B]
+"bravo_rhs_su230a_ni", SU230A/PVS [B]
+"bravo_rhs_su230_c_ni", SU230/PVS Coyote [B]
+"bravo_rhs_su230a_c_ni", SU230A/PVS Coyote [B]
 
 CfgVehicles
 "bravo_p601_sport", P601 RS
