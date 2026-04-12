@@ -332,6 +332,10 @@ CfgWeapons
 "bravo_gm_mixed_m84_mcm", Mixed Fatigues (Multicam)
 "bravo_gm_mixed_m84_rmc", Mixed Fatigues (Multicam RU)
 "bravo_gm_headgear_m96_des", Combat Helmet M/96 (Tan)
+"bravo_rhs_su230_mrds_ni", SU230/PVS MRDS [B]
+"bravo_rhs_su230a_mrds_ni", SU230A/PVS MRDS [B]
+"bravo_rhs_su230_mrds_c_ni", SU230/PVS MRDS Coyote [B]
+"bravo_rhs_su230a_mrds_c_ni", SU230A/PVS MRDS Coyote [B]
 
 CfgVehicles
 "bravo_p601_sport", P601 RS

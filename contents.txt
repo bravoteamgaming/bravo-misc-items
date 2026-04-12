@@ -383,6 +383,11 @@ GEAR MISC
 	Grass Helmet Camo 2
 	Grass Helmet Camo 3
 	Grass Helmet Camo 4
+- Add weapon optic variants:
+	SU230/PVS MRDS [B]
+	SU230A/PVS MRDS [B]
+	SU230A/PVS MRDS Coyote [B]
+	SU230/PVS MRDS Coyote [B]
 - Change mass of 3CB and GM radio bags and other backpacks
 
 PHONE
