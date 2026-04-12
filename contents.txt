@@ -110,6 +110,8 @@ GEAR MISC
 	FAST Ballistic Flecktarn Cover/Headset
 	FAST Ballistic BME Cover/Headset
 	FAST Ballistic Multitarn Cover/Headset
+	FAST Ballistic M/90 Cover/Headset
+	FAST Ballistic Jietai Cover/Headset
 	FAST Ballistic Foliage Green/Headset/Medic
 	FAST Ballistic Foliage Green/Headset/Stupid
 	FAST Ballistic Foliage Green/Headset/Stickers
@@ -258,6 +260,8 @@ GEAR MISC
 	G3 Uniform (Daguet)
 	G3 Uniform (CCE)
 	G3 Uniform (Multitarn)
+	G3 Uniform (M/90)
+	G3 Uniform (Jietai)
 	Combat Uniform MTP Combat Shirt [BAF]
 	Combat Uniform MTP T-Shirt [BAF]
 	Combat Fatigues T-Shirt 02 [ION] (MARPAT-WD)

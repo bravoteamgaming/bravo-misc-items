@@ -148,3 +148,6 @@
 
 2026-04-11
 - GEAR MISC: corrected cap of some 3CB assault packs
+
+2026-04-12
+- GEAR MISC: added Jietai and M/90 G3 and FAST
