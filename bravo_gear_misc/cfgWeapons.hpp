@@ -100,6 +100,16 @@ class cfgWeapons
 		displayName = "FAST Ballistic (Blue Cover/Headset)";
 		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_fg_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\bravo_gear_misc\assets\fs_cover_un_co.paa",""};
 	};
+	class bravo_fast_m90_cover_headset : rhsusf_opscore_rg_cover
+	{
+		displayName = "FAST Ballistic (M/90 Cover/Headset)";
+		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_fg_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\bravo_gear_misc\assets\fs_cover_m90_co.paa",""};
+	};
+	class bravo_fast_jit_cover_headset : rhsusf_opscore_rg_cover
+	{
+		displayName = "FAST Ballistic (Jietai Cover/Headset)";
+		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_fg_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\bravo_gear_misc\assets\fs_cover_jit_co.paa",""};
+	};
 	
 	class rhsusf_opscore_bk_pelt;
 	class bravo_fast_bk_headset_medic : rhsusf_opscore_bk_pelt
@@ -800,6 +810,22 @@ class cfgWeapons
 		class itemInfo : itemInfo
 		{
 			uniformClass = "bravo_cryeg3_bme_unit";
+		};
+	};
+	class bravo_cryeg3_m90 : rhs_uniform_g3_rgr
+	{
+		displayName = "G3 Uniform (M/90)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_cryeg3_m90_unit";
+		};
+	};
+	class bravo_cryeg3_jit : rhs_uniform_g3_rgr
+	{
+		displayName = "G3 Uniform (Jietai)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_cryeg3_jit_unit";
 		};
 	};
 	
