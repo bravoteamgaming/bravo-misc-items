@@ -1395,6 +1395,22 @@ class cfgWeapons
 			uniformClass = "bravo_cryeg3_jit_unit";
 		};
 	};
+	class bravo_cryeg3_90k : rhs_uniform_g3_rgr
+	{
+		displayName = "G3 Uniform (M/90K)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_cryeg3_90k_unit";
+		};
+	};
+	class bravo_cryeg3_tan : rhs_uniform_g3_rgr
+	{
+		displayName = "G3 Uniform (Tan, Dull)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_cryeg3_tan_unit";
+		};
+	};
 	
 	class u_i_combatuniform_shortsleeve : uniform_base
 	{

@@ -721,6 +721,16 @@ class cfgVehicles
 		uniformClass = "bravo_cryeg3_jit";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\gen3_jit_co.paa","rhsusf\addons\rhsusf_infantry2\data\Merrells_blk_co.paa","rhsusf\addons\rhsusf_infantry2\data\Mechanix_black_co.paa"};
 	};
+	class bravo_cryeg3_90k_unit : rhsusf_socom_g3_rgr_uniform
+	{
+		uniformClass = "bravo_cryeg3_90k";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\gen3_90k_co.paa","rhsusf\addons\rhsusf_infantry2\data\Merrells_blk_co.paa","rhsusf\addons\rhsusf_infantry2\data\Mechanix_black_co.paa"};
+	};
+	class bravo_cryeg3_tan_unit : rhsusf_socom_g3_rgr_uniform
+	{
+		uniformClass = "bravo_cryeg3_tan";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\gen3_tan_co.paa","rhsusf\addons\rhsusf_infantry2\data\Merrells_blk_co.paa","rhsusf\addons\rhsusf_infantry2\data\Mechanix_black_co.paa"};
+	};
 	
 	class i_soldier_universal_f;
 	class bravo_combatuniform_tactee_aaf_ws_unit : i_soldier_universal_f
