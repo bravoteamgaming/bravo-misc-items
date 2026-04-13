@@ -262,6 +262,8 @@ GEAR MISC
 	G3 Uniform (Multitarn)
 	G3 Uniform (M/90)
 	G3 Uniform (Jietai)
+	G3 Uniform (M/90K)
+	G3 Uniform (Tan, Dull)
 	Combat Uniform MTP Combat Shirt [BAF]
 	Combat Uniform MTP T-Shirt [BAF]
 	Combat Fatigues T-Shirt 02 [ION] (MARPAT-WD)

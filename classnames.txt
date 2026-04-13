@@ -53,6 +53,8 @@ CfgWeapons
 "bravo_cryeg3_bme", G3 Uniform (BME)
 "bravo_cryeg3_m90", G3 Uniform (M/90)
 "bravo_cryeg3_jit", G3 Uniform (Jietai)
+"bravo_cryeg3_90k", G3 Uniform (M/90K)
+"bravo_cryeg3_jit", G3 Uniform (Tan, Dull)
 "bravo_combatuniform_tactee_aaf_ws", Combat Fatigues [AAF] (Tee)
 "bravo_combatuniform_tshirt_ion_dpm_ws", Combat Fatigues T-Shirt 03 [ION] (DPM)
 "bravo_combatuniform_tshirt_ion_ddpm_ws", Combat Fatigues T-Shirt 03 [ION] (DDPM)

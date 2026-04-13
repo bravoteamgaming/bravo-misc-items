@@ -150,5 +150,6 @@
 - GEAR MISC: corrected cap of some 3CB assault packs
 
 2026-04-12
-- GEAR MISC: added Jietai and M/90 G3 and FAST
+- GEAR MISC: added M/90K, Dull Tan, Jietai and M/90 G3 and FAST
 - GEAR MISC: added variants of RHS SU230 and SU230 MRDS without BUIS
+- GEAR MISC: adjusted textures of existing Flecktarn and Tropentarn G3
