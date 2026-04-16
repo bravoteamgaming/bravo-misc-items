@@ -54,7 +54,14 @@ CfgWeapons
 "bravo_cryeg3_m90", G3 Uniform (M/90)
 "bravo_cryeg3_jit", G3 Uniform (Jietai)
 "bravo_cryeg3_90k", G3 Uniform (M/90K)
-"bravo_cryeg3_jit", G3 Uniform (Tan, Dull)
+"bravo_cryeg3_tan", G3 Uniform (Tan, Dull)
+"bravo_cryeg3_khk", G3 Uniform (Khaki)
+"bravo_cryeg3_catw", G3 Uniform (CADPAT-TW)
+"bravo_cryeg3_camt", G3 Uniform (CADPAT-MT)
+"bravo_cryeg3_amc", G3 Uniform (AMC)
+"bravo_cryeg3_mm14", G3 Uniform (MM-14)
+"bravo_cryeg3_mtp", G3 Uniform (MTP)
+"bravo_cryeg3_ldf", G3 Uniform (LDF)
 "bravo_combatuniform_tactee_aaf_ws", Combat Fatigues [AAF] (Tee)
 "bravo_combatuniform_tshirt_ion_dpm_ws", Combat Fatigues T-Shirt 03 [ION] (DPM)
 "bravo_combatuniform_tshirt_ion_ddpm_ws", Combat Fatigues T-Shirt 03 [ION] (DDPM)
@@ -93,11 +100,24 @@ CfgWeapons
 "bravo_fast_mtr_cover_headset", FAST Ballistic (Multitarn Cover/Headset)
 "bravo_fast_m90_cover_headset", FAST Ballistic (M/90 Cover/Headset)
 "bravo_fast_jit_cover_headset", FAST Ballistic (Jietai Cover/Headset)
+"bravo_fast_tan_cover_headset", FAST Ballistic (Tan Cover/Headset)
+"bravo_fast_khk_cover_headset", FAST Ballistic (Khaki Cover/Headset)
+"bravo_fast_amc_cover_headset", FAST Ballistic (AMC Cover/Headset)
+"bravo_fast_amc_cover", FAST Ballistic (AMC Cover)
+"bravo_fast_mtp_cover_headset", FAST Ballistic (MTP Cover/Headset)
+"bravo_fast_mm14_cover_headset", FAST Ballistic (MM-14 Cover/Headset)
+"bravo_fast_catw_cover_headset", FAST Ballistic (CADPAT-TW Cover/Headset)
+"bravo_fast_camt_cover_headset", FAST Ballistic (CADPAT-MT Cover/Headset)
+"bravo_fast_ldf_cover_headset", FAST Ballistic (LDF Cover/Headset)
 "bravo_fast_rg_cover_headset_red", FAST Ballistic (Ranger Green Cover/Headset/Red Team)
 "bravo_fast_rg_cover_headset_blue", FAST Ballistic (Ranger Green Cover/Headset/Blue Team)
 "bravo_fast_bk_headset_medic", FAST Ballistic (Black/Headset/Medic)
 "bravo_fast_mc_cover_headset_red", FAST Ballistic (Multicam Cover/Headset/Red Team)
 "bravo_fast_mc_cover_headset_blue", FAST Ballistic (Multicam Cover/Headset/Blue Team)
+"bravo_fast_mtp_cover_headset_red", FAST Ballistic (MTP Cover/Headset/Red Team)
+"bravo_fast_mtp_cover_headset_blue", FAST Ballistic (MTP Cover/Headset/Blue Team)
+"bravo_fast_tan_cover_headset_red", FAST Ballistic (Tan Cover/Headset/Red Team)
+"bravo_fast_tan_cover_headset_blue", FAST Ballistic (Tan Cover/Headset/Blue Team)
 "bravo_6b27m_green_medic", 6B27M (Medic)
 "bravo_6b27m_green_ess_medic", 6B27M (ESS/Medic)
 "bravo_6b26_green_medic", 6B26 (Medic)
@@ -373,6 +393,11 @@ CfgVehicles
 "bravo_B_SPE_US_Radio_packboard_light", US Packboard, 1943 (SCR300)
 "bravo_ge_army_backpack_90_khk", Combat Backpack (Khaki)
 "bravo_ge_army_backpack_90_des", Combat Backpack (Tan)
+"bravo_sound_alarmImperial", Sound Source Alarm Imperial
+"bravo_sound_alarmVanilla", Sound Source Alarm Vanilla
+"bravo_sound_alarmIncoming", Sound Source Alarm Incoming
+"bravo_sound_phoneOld", Sound Source Phone Old
+"bravo_sound_phoneModern", Sound Source Phone Modern
 
 CfgMagazines
 "bravo_1rnd_40mm_gl_mine", 40 mm Proximity Mine

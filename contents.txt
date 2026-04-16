@@ -112,11 +112,24 @@ GEAR MISC
 	FAST Ballistic Multitarn Cover/Headset
 	FAST Ballistic M/90 Cover/Headset
 	FAST Ballistic Jietai Cover/Headset
+	FAST Ballistic AMC Cover/Headset
+	FAST Ballistic AMC Cover
+	FAST Ballistic MTP Cover/Headset
+	FAST Ballistic MM-14 Cover/Headset
+	FAST Ballistic Tan Cover/Headset
+	FAST Ballistic Khaki Cover/Headset
+	FAST Ballistic CADPAT-TW Cover/Headset
+	FAST Ballistic CADPAT-MT Cover/Headset
+	FAST Ballistic LDF Cover/Headset
 	FAST Ballistic Foliage Green/Headset/Medic
 	FAST Ballistic Foliage Green/Headset/Stupid
 	FAST Ballistic Foliage Green/Headset/Stickers
 	FAST Ballistic Multicam Cover/Headset/Blue Team
 	FAST Ballistic Multicam Cover/Headset/Red Team
+	FAST Ballistic MTP Cover/Headset/Blue Team
+	FAST Ballistic MTP Cover/Headset/Red Team
+	FAST Ballistic Tan Cover/Headset/Blue Team
+	FAST Ballistic Tan Cover/Headset/Red Team
 	FAST Ballistic Orange Cover/Headset
 	FAST Ballistic Ranger Green Cover/Headset
 	FAST Ballistic Ranger Green Cover/Headset/Blue Team
@@ -264,6 +277,13 @@ GEAR MISC
 	G3 Uniform (Jietai)
 	G3 Uniform (M/90K)
 	G3 Uniform (Tan, Dull)
+	G3 Uniform (Khaki)
+	G3 Uniform (AMC)
+	G3 Uniform (MTP)
+	G3 Uniform (CADPAT-TW)
+	G3 Uniform (CADPAT-MT)
+	G3 Uniform (LDF)
+	G3 Uniform (MM-14)
 	Combat Uniform MTP Combat Shirt [BAF]
 	Combat Uniform MTP T-Shirt [BAF]
 	Combat Fatigues T-Shirt 02 [ION] (MARPAT-WD)
@@ -440,3 +460,4 @@ ITEMS
 - Add Paste Hide Terrain Objects Data module to Zeus
 - Add Splendid Camera module to Zeus
 - Change mass/cap of vanilla kitbag, carryall, radiopack
+- Add new sound sources for Play Sound module
