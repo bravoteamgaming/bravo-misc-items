@@ -118,6 +118,7 @@ GEAR MISC
 	FAST Ballistic MM-14 Cover/Headset
 	FAST Ballistic Tan Cover/Headset
 	FAST Ballistic Khaki Cover/Headset
+	FAST Ballistic Finnish M05 Cover/Headset
 	FAST Ballistic CADPAT-TW Cover/Headset
 	FAST Ballistic CADPAT-MT Cover/Headset
 	FAST Ballistic LDF Cover/Headset
@@ -284,6 +285,7 @@ GEAR MISC
 	G3 Uniform (CADPAT-MT)
 	G3 Uniform (LDF)
 	G3 Uniform (MM-14)
+	G3 Uniform (Finnish M05)
 	Combat Uniform MTP Combat Shirt [BAF]
 	Combat Uniform MTP T-Shirt [BAF]
 	Combat Fatigues T-Shirt 02 [ION] (MARPAT-WD)

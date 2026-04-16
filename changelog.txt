@@ -158,4 +158,4 @@
 - ITEMS: added 3 new Alarm sound sources and 2 new Phone sound sources
 - ITEMS: added Orange EOD insignia patch
 - GEAR MISC: adjusted texture of existing BME and BravoCam G3
-- GEAR MISC: added AMC, MTP, Tan, Khaki, LDF, MM-14, CADPAT-TW, CADPAT-MT variants of FAST and G3
+- GEAR MISC: added AMC, Finnish M05, MTP, Tan, Khaki, LDF, MM-14, CADPAT-TW, CADPAT-MT variants of FAST and G3
