@@ -742,6 +742,11 @@ class cfgWeapons
 		displayName = "FAST Ballistic (CADPAT-MT Cover/Headset)";
 		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_fg_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\bravo_gear_misc\assets\fs_cover_camt_co.paa",""};
 	};
+	class bravo_fast_f05_cover_headset : rhsusf_opscore_rg_cover
+	{
+		displayName = "FAST Ballistic (Finnish M05 Cover/Headset)";
+		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_fg_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\bravo_gear_misc\assets\fs_cover_f05_co.paa",""};
+	};
 	
 	class rhsusf_opscore_bk_pelt;
 	class bravo_fast_bk_headset_medic : rhsusf_opscore_bk_pelt
@@ -1530,6 +1535,14 @@ class cfgWeapons
 		class itemInfo : itemInfo
 		{
 			uniformClass = "bravo_cryeg3_camt_unit";
+		};
+	};
+	class bravo_cryeg3_f05 : rhs_uniform_g3_rgr
+	{
+		displayName = "G3 Uniform (Finnish M05)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_cryeg3_f05_unit";
 		};
 	};
 	
