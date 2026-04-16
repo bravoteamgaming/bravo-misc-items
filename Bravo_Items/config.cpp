@@ -5,7 +5,7 @@ class CfgPatches
 		name = "Bravo Team Misc Items";
 		author = "Jason Olsen";
 		url = "https://github.com/bravoteamgaming/bravo-misc-items";
-		version = 1.5;
+		version = 1.6;
 		requiredVersion = 2.00;
 		units[] = {
 			"BVT_Flag_Orange",
@@ -13,7 +13,12 @@ class CfgPatches
 			"BVT_Flag_LogoDark",
 			"BVT_Flag_LogoCamo",
 			"bravo_module_pasteHideTerrainObjects",
-			"bravo_module_zeusSplendidCam"
+			"bravo_module_zeusSplendidCam",
+			"bravo_sound_alarmImperial",
+			"bravo_sound_alarmIncoming",
+			"bravo_sound_phoneModern",
+			"bravo_sound_phoneOld",
+			"bravo_sound_alarmVanilla"
 		};
 		weapons[] = {"BVT_ItemCore","BVT_Item_Intelligence"};
 		requiredAddons[] = {"A3_Characters_F","A3_Weapons_F","cba_main"};
@@ -24,6 +29,7 @@ class CfgPatches
 #include "cfgWeapons.hpp"
 #include "cfgFunctions.hpp"
 #include "ui.hpp"
+#include "cfgSFX.hpp"
 
 class CfgUnitInsignia
 {
@@ -102,6 +108,13 @@ class CfgUnitInsignia
 		displayName="Bravo - Dark - 3rd Squad";
 		author="Bravo Team";
 		texture="\Bravo_Items\patch\3rd_dark.paa";
+		textureVehicle="";
+	};
+	class BVT_Patch_EOD_orange
+	{
+		displayName="Bravo - Orange - EOD";
+		author="Bravo Team";
+		texture="\Bravo_Items\patch\patch_orange_eod.paa";
 		textureVehicle="";
 	};
 };

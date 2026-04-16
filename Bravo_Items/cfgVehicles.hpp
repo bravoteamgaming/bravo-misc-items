@@ -82,4 +82,42 @@ class CfgVehicles
 		curatorCanAttach = 0;
 		curatorInfoType = "";
 	};
+	
+	/// ======= Sounds
+	class Sound;
+	class bravo_sound_alarmImperial : Sound
+	{
+		displayName = "Alarm (Imperial)";
+		sound = "bravo_alarmImperial";
+		author = "Bravo Team";
+		scope = 2;
+	};
+	class bravo_sound_alarmIncoming : Sound
+	{
+		displayName = "Alarm (Incoming)";
+		sound = "bravo_alarmIncoming";
+		author = "Bravo Team";
+		scope = 2;
+	};
+	class bravo_sound_phoneModern : Sound
+	{
+		displayName = "Phone (Modern)";
+		sound = "bravo_phoneModern";
+		author = "Bravo Team";
+		scope = 2;
+	};
+	class bravo_sound_phoneOld : Sound
+	{
+		displayName = "Phone (Old)";
+		sound = "bravo_phoneOld";
+		author = "Bravo Team";
+		scope = 2;
+	};
+	class bravo_sound_alarmVanilla : Sound
+	{
+		displayName = "Alarm (Vanilla)";
+		sound = "bravo_alarmVanilla";
+		author = "Bravo Team";
+		scope = 2;
+	};
 };
