@@ -153,3 +153,7 @@
 - GEAR MISC: added M/90K, Dull Tan, Jietai and M/90 G3 and FAST
 - GEAR MISC: added variants of RHS SU230 and SU230 MRDS without BUIS
 - GEAR MISC: adjusted textures of existing Flecktarn and Tropentarn G3
+
+2026-04-16
+- ITEMS: added 3 new Alarm sound sources and 2 new Phone sound sources
+- ITEMS: added Orange EOD insignia patch
