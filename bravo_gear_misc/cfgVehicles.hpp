@@ -731,6 +731,41 @@ class cfgVehicles
 		uniformClass = "bravo_cryeg3_tan";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\gen3_tan_co.paa","rhsusf\addons\rhsusf_infantry2\data\Merrells_blk_co.paa","rhsusf\addons\rhsusf_infantry2\data\Mechanix_black_co.paa"};
 	};
+	class bravo_cryeg3_mm14_unit : rhsusf_socom_g3_rgr_uniform
+	{
+		uniformClass = "bravo_cryeg3_mm14";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\gen3_mm14_co.paa","rhsusf\addons\rhsusf_infantry2\data\Merrells_blk_co.paa","rhsusf\addons\rhsusf_infantry2\data\Mechanix_black_co.paa"};
+	};
+	class bravo_cryeg3_mtp_unit : rhsusf_socom_g3_rgr_uniform
+	{
+		uniformClass = "bravo_cryeg3_mtp";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\gen3_mtp_co.paa","rhsusf\addons\rhsusf_infantry2\data\Merrells_blk_co.paa","rhsusf\addons\rhsusf_infantry2\data\Mechanix_black_co.paa"};
+	};
+	class bravo_cryeg3_khk_unit : rhsusf_socom_g3_rgr_uniform
+	{
+		uniformClass = "bravo_cryeg3_khk";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\gen3_khk_co.paa","rhsusf\addons\rhsusf_infantry2\data\Merrells_blk_co.paa","rhsusf\addons\rhsusf_infantry2\data\Mechanix_black_co.paa"};
+	};
+	class bravo_cryeg3_amc_unit : rhsusf_socom_g3_rgr_uniform
+	{
+		uniformClass = "bravo_cryeg3_amc";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\gen3_amc_co.paa","rhsusf\addons\rhsusf_infantry2\data\Merrells_blk_co.paa","rhsusf\addons\rhsusf_infantry2\data\Mechanix_black_co.paa"};
+	};
+	class bravo_cryeg3_ldf_unit : rhsusf_socom_g3_rgr_uniform
+	{
+		uniformClass = "bravo_cryeg3_ldf";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\gen3_ldf_co.paa","rhsusf\addons\rhsusf_infantry2\data\Merrells_blk_co.paa","rhsusf\addons\rhsusf_infantry2\data\Mechanix_black_co.paa"};
+	};
+	class bravo_cryeg3_catw_unit : rhsusf_socom_g3_rgr_uniform
+	{
+		uniformClass = "bravo_cryeg3_catw";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\gen3_catw_co.paa","rhsusf\addons\rhsusf_infantry2\data\Merrells_blk_co.paa","rhsusf\addons\rhsusf_infantry2\data\Mechanix_black_co.paa"};
+	};
+	class bravo_cryeg3_camt_unit : rhsusf_socom_g3_rgr_uniform
+	{
+		uniformClass = "bravo_cryeg3_camt";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\gen3_camt_co.paa","rhsusf\addons\rhsusf_infantry2\data\Merrells_blk_co.paa","rhsusf\addons\rhsusf_infantry2\data\Mechanix_black_co.paa"};
+	};
 	
 	class i_soldier_universal_f;
 	class bravo_combatuniform_tactee_aaf_ws_unit : i_soldier_universal_f

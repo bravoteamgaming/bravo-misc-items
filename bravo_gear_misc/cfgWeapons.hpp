@@ -608,6 +608,41 @@ class cfgWeapons
 		displayName = "FAST Ballistic (Multitarn Cover/Headset)";
 		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\bravo_gear_misc\assets\fs_cover_mtr_co.paa",""};
 	};
+	class bravo_fast_mm14_cover_headset : rhsusf_opscore_coy_cover
+	{
+		displayName = "FAST Ballistic (MM-14 Cover/Headset)";
+		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\bravo_gear_misc\assets\fs_cover_mm14_co.paa",""};
+	};
+	class bravo_fast_mtp_cover_headset : rhsusf_opscore_coy_cover
+	{
+		displayName = "FAST Ballistic (MTP Cover/Headset)";
+		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\bravo_gear_misc\assets\fs_cover_mtp_co.paa",""};
+	};
+	class bravo_fast_mtp_cover_headset_red : rhsusf_opscore_coy_cover
+	{
+		displayName = "FAST Ballistic (MTP Cover/Headset/Red Team)";
+		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\bravo_gear_misc\assets\fs_cover_mtp_red_co.paa",""};
+	};
+	class bravo_fast_mtp_cover_headset_blue : rhsusf_opscore_coy_cover
+	{
+		displayName = "FAST Ballistic (MTP Cover/Headset/Blue Team)";
+		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\bravo_gear_misc\assets\fs_cover_mtp_blue_co.paa",""};
+	};
+	class bravo_fast_tan_cover_headset : rhsusf_opscore_coy_cover
+	{
+		displayName = "FAST Ballistic (Tan Cover/Headset)";
+		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\bravo_gear_misc\assets\fs_cover_tan_co.paa",""};
+	};
+	class bravo_fast_tan_cover_headset_blue : rhsusf_opscore_coy_cover
+	{
+		displayName = "FAST Ballistic (Tan Cover/Headset/Blue Team)";
+		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\bravo_gear_misc\assets\fs_cover_tan_blue_co.paa",""};
+	};
+	class bravo_fast_tan_cover_headset_red : rhsusf_opscore_coy_cover
+	{
+		displayName = "FAST Ballistic (Tan Cover/Headset/Red Team)";
+		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\bravo_gear_misc\assets\fs_cover_tan_red_co.paa",""};
+	};
 	
 	class rhsusf_opscore_ut_pelt;
 	class bravo_fast_ut_headset_medic : rhsusf_opscore_ut_pelt
@@ -676,6 +711,36 @@ class cfgWeapons
 	{
 		displayName = "FAST Ballistic (Jietai Cover/Headset)";
 		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_fg_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\bravo_gear_misc\assets\fs_cover_jit_co.paa",""};
+	};
+	class bravo_fast_khk_cover_headset : rhsusf_opscore_rg_cover
+	{
+		displayName = "FAST Ballistic (Khaki Cover/Headset)";
+		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_fg_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\bravo_gear_misc\assets\fs_cover_khk_co.paa",""};
+	};
+	class bravo_fast_amc_cover_headset : rhsusf_opscore_rg_cover
+	{
+		displayName = "FAST Ballistic (AMC Cover/Headset)";
+		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_fg_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\bravo_gear_misc\assets\fs_cover_amc_co.paa",""};
+	};
+	class bravo_fast_amc_cover : rhsusf_opscore_rg_cover
+	{
+		displayName = "FAST Ballistic (AMC Cover)";
+		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_fg_co.paa","","","","\bravo_gear_misc\assets\fs_cover_amc_co.paa",""};
+	};
+	class bravo_fast_ldf_cover_headset : rhsusf_opscore_rg_cover
+	{
+		displayName = "FAST Ballistic (LDF Cover/Headset)";
+		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_fg_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\bravo_gear_misc\assets\fs_cover_ldf_co.paa",""};
+	};
+	class bravo_fast_catw_cover_headset : rhsusf_opscore_rg_cover
+	{
+		displayName = "FAST Ballistic (CADPAT-TW Cover/Headset)";
+		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_fg_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\bravo_gear_misc\assets\fs_cover_catw_co.paa",""};
+	};
+	class bravo_fast_camt_cover_headset : rhsusf_opscore_rg_cover
+	{
+		displayName = "FAST Ballistic (CADPAT-MT Cover/Headset)";
+		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_fg_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\bravo_gear_misc\assets\fs_cover_camt_co.paa",""};
 	};
 	
 	class rhsusf_opscore_bk_pelt;
@@ -1409,6 +1474,62 @@ class cfgWeapons
 		class itemInfo : itemInfo
 		{
 			uniformClass = "bravo_cryeg3_tan_unit";
+		};
+	};
+	class bravo_cryeg3_mm14 : rhs_uniform_g3_rgr
+	{
+		displayName = "G3 Uniform (MM-14)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_cryeg3_mm14_unit";
+		};
+	};
+	class bravo_cryeg3_mtp : rhs_uniform_g3_rgr
+	{
+		displayName = "G3 Uniform (MTP)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_cryeg3_mtp_unit";
+		};
+	};
+	class bravo_cryeg3_khk : rhs_uniform_g3_rgr
+	{
+		displayName = "G3 Uniform (Khaki)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_cryeg3_khk_unit";
+		};
+	};
+	class bravo_cryeg3_amc : rhs_uniform_g3_rgr
+	{
+		displayName = "G3 Uniform (AMC)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_cryeg3_amc_unit";
+		};
+	};
+	class bravo_cryeg3_ldf : rhs_uniform_g3_rgr
+	{
+		displayName = "G3 Uniform (LDF)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_cryeg3_ldf_unit";
+		};
+	};
+	class bravo_cryeg3_catw : rhs_uniform_g3_rgr
+	{
+		displayName = "G3 Uniform (CADPAT-TW)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_cryeg3_catw_unit";
+		};
+	};
+	class bravo_cryeg3_camt : rhs_uniform_g3_rgr
+	{
+		displayName = "G3 Uniform (CADPAT-MT)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_cryeg3_camt_unit";
 		};
 	};
 	
