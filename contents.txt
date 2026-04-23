@@ -375,6 +375,10 @@ GEAR MISC
 	Combat Uniform M/84 (MTP)
 	Combat Uniform M/84 (Multicam)
 	Combat Uniform M/84 (Multicam RU)
+	Combat Uniform (CCE)
+	Combat Uniform (Daguet)
+	Combat Uniform (CCE/Rolled-Up)
+	Combat Uniform (Daguet/Rolled-Up)
 - Add facewear variants:
 	Shemagh w/Goggles (Green/Clear)
 	Shemagh w/Goggles (Green/alt/Clear)

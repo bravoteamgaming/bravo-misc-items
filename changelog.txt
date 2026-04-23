@@ -162,3 +162,4 @@
 
 2026-04-23
 - ITEMS: added another new Alarm sound source
+- GEAR MISC: add CCE and Daguet Combat Uniform
