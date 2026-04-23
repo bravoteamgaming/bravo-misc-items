@@ -400,6 +400,7 @@ CfgVehicles
 "bravo_sound_alarmIncoming", Sound Source Alarm Incoming
 "bravo_sound_phoneOld", Sound Source Phone Old
 "bravo_sound_phoneModern", Sound Source Phone Modern
+"bravo_sound_alarmStarfleet", Sound Source Alarm Starfleet
 
 CfgMagazines
 "bravo_1rnd_40mm_gl_mine", 40 mm Proximity Mine
