@@ -35,4 +35,11 @@ class CfgSFX
 		empty[] = { "", 0, 0, 0, 0, 0, 0, 0 };
 		name = "Alarm (Vanilla)";
 	};
+	class bravo_alarmStarfleet
+	{
+		sound0[] = { "\Bravo_Items\assets\alarm_starfleet.ogg", db-13, 1.0, 500, 1, 2, 2, 2 };
+		sounds[] = { "sound0"};
+		empty[] = { "", 0, 0, 0, 0, 0, 0, 0 };
+		name = "Alarm (Vanilla)";
+	};
 };

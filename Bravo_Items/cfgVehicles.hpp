@@ -120,4 +120,11 @@ class CfgVehicles
 		author = "Bravo Team";
 		scope = 2;
 	};
+	class bravo_sound_alarmStarfleet : Sound
+	{
+		displayName = "Alarm (Starfleet)";
+		sound = "bravo_alarmStarfleet";
+		author = "Bravo Team";
+		scope = 2;
+	};
 };

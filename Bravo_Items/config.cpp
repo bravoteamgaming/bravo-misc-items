@@ -18,7 +18,8 @@ class CfgPatches
 			"bravo_sound_alarmIncoming",
 			"bravo_sound_phoneModern",
 			"bravo_sound_phoneOld",
-			"bravo_sound_alarmVanilla"
+			"bravo_sound_alarmVanilla",
+			"bravo_sound_alarmStarfleet"
 		};
 		weapons[] = {"BVT_ItemCore","BVT_Item_Intelligence"};
 		requiredAddons[] = {"A3_Characters_F","A3_Weapons_F","cba_main"};
