@@ -889,6 +889,25 @@ class cfgVehicles
 		hiddenSelectionsTextures[] = {"\lxws\characters_f_lxws\data\NATO\clothing1_desert_CO.paa","\UK3CB_Factions\addons\UK3CB_Factions_ION\data\ion_basicbody_brown_02_co.paa"};
 	};
 	
+	class bravo_combatuniform_cce_unit : i_soldier_universal_f
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_cce_co.paa"};
+	};
+	class bravo_combatuniform_dgt_unit : i_soldier_universal_f
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_dgt_co.paa"};
+	};
+	class bravo_combatuniform_cce_short_unit : i_soldier_universal_f
+	{
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02.p3d";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_cce_co.paa"};
+	};
+	class bravo_combatuniform_dgt_short_unit : i_soldier_universal_f
+	{
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02.p3d";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_dgt_co.paa"};
+	};
+	
 	class gm_ge_army_backpack_90_oli;
 	class bravo_ge_army_backpack_90_khk : gm_ge_army_backpack_90_oli
 	{

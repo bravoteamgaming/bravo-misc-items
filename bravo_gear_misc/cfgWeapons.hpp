@@ -1810,6 +1810,44 @@ class cfgWeapons
 		};
 	};
 	
+	class u_i_combatuniform : uniform_base
+	{
+		class itemInfo : itemInfo
+		{};
+	};
+	class bravo_combatuniform_cce : u_i_combatuniform
+	{
+		displayName = "Combat Uniform (CCE)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_cce_unit";
+		};
+	};
+	class bravo_combatuniform_cce_short : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (CCE/Rolled-Up)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_cce_short_unit";
+		};
+	};
+	class bravo_combatuniform_dgt : u_i_combatuniform
+	{
+		displayName = "Combat Uniform (Daguet)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_dgt_unit";
+		};
+	};
+	class bravo_combatuniform_dgt_short : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (Daguet/Rolled-Up)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_dgt_short_unit";
+		};
+	};
+	
 	class gm_vest_armored_base;
 	class gm_ge_vest_type18_base : gm_vest_armored_base
 	{
