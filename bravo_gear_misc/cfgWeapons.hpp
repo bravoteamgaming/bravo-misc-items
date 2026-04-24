@@ -1823,12 +1823,12 @@ class cfgWeapons
 			uniformClass = "bravo_combatuniform_cce_unit";
 		};
 	};
-	class bravo_combatuniform_cce_short : u_i_combatuniform_shortsleeve
+	class bravo_combatuniform_short_cce : u_i_combatuniform_shortsleeve
 	{
 		displayName = "Combat Uniform (CCE/Rolled-Up)";
 		class itemInfo : itemInfo
 		{
-			uniformClass = "bravo_combatuniform_cce_short_unit";
+			uniformClass = "bravo_combatuniform_short_cce_unit";
 		};
 	};
 	class bravo_combatuniform_dgt : u_i_combatuniform
@@ -1839,12 +1839,120 @@ class cfgWeapons
 			uniformClass = "bravo_combatuniform_dgt_unit";
 		};
 	};
-	class bravo_combatuniform_dgt_short : u_i_combatuniform_shortsleeve
+	class bravo_combatuniform_amc : u_i_combatuniform
+	{
+		displayName = "Combat Uniform (AMC)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_amc_unit";
+		};
+	};
+	class bravo_combatuniform_bme : u_i_combatuniform
+	{
+		displayName = "Combat Uniform (BME)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_bme_unit";
+		};
+	};
+	
+	class bravo_combatuniform_short_dgt : u_i_combatuniform_shortsleeve
 	{
 		displayName = "Combat Uniform (Daguet/Rolled-Up)";
 		class itemInfo : itemInfo
 		{
-			uniformClass = "bravo_combatuniform_dgt_short_unit";
+			uniformClass = "bravo_combatuniform_short_dgt_unit";
+		};
+	};
+	class bravo_combatuniform_short_amc : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (AMC/Rolled-Up)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_short_amc_unit";
+		};
+	};
+	class bravo_combatuniform_short_bme : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (BME/Rolled-Up)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_short_bme_unit";
+		};
+	};
+	
+	class bravo_combatuniform_cut_amc_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (AMC/Cut-Off)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_cut_amc_ws_unit";
+		};
+	};
+	
+	class bravo_combatuniform_tactee_cce_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (CCE/Combat Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tactee_cce_ws_unit";
+		};
+	};
+	class bravo_combatuniform_tactee_dgt_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (Daguet/Combat Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tactee_dgt_ws_unit";
+		};
+	};
+	class bravo_combatuniform_tactee_amc_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (AMC/Combat Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tactee_amc_ws_unit";
+		};
+	};
+	class bravo_combatuniform_tactee_bme_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (BME/Combat Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tactee_bme_ws_unit";
+		};
+	};
+	
+	class bravo_combatuniform_tshirt_cce_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (CCE/T-Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tshirt_cce_ws_unit";
+		};
+	};
+	class bravo_combatuniform_tshirt_dgt_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (Daguet/T-Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tshirt_dgt_ws_unit";
+		};
+	};
+	class bravo_combatuniform_tshirt_amc_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (AMC/T-Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tshirt_amc_ws_unit";
+		};
+	};
+	class bravo_combatuniform_tshirt_bme_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (BME/T-Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tshirt_bme_ws_unit";
 		};
 	};
 	
