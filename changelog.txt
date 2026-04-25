@@ -163,3 +163,6 @@
 2026-04-23
 - ITEMS: added another new Alarm sound source
 - GEAR MISC: add AMC, BME, CCE and Daguet Combat Uniform
+
+2026-04-25
+- GEAR MISC: added Olive, Tan, and White Combat Uniforms
