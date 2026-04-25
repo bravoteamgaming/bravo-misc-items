@@ -1855,6 +1855,14 @@ class cfgWeapons
 			uniformClass = "bravo_combatuniform_bme_unit";
 		};
 	};
+	class bravo_combatuniform_win : u_i_combatuniform
+	{
+		displayName = "Combat Uniform (White)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_win_unit";
+		};
+	};
 	
 	class bravo_combatuniform_short_dgt : u_i_combatuniform_shortsleeve
 	{
@@ -1878,6 +1886,30 @@ class cfgWeapons
 		class itemInfo : itemInfo
 		{
 			uniformClass = "bravo_combatuniform_short_bme_unit";
+		};
+	};
+	class bravo_combatuniform_short_des : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (Tan/Rolled-Up)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_short_des_unit";
+		};
+	};
+	class bravo_combatuniform_short_oli : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (Olive/Rolled-Up)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_short_oli_unit";
+		};
+	};
+	class bravo_combatuniform_short_win : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (White/Rolled-Up)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_short_win_unit";
 		};
 	};
 	
@@ -1922,6 +1954,30 @@ class cfgWeapons
 			uniformClass = "bravo_combatuniform_tactee_bme_ws_unit";
 		};
 	};
+	class bravo_combatuniform_tactee_des_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (Tan/Combat Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tactee_des_ws_unit";
+		};
+	};
+	class bravo_combatuniform_tactee_oli_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (Olive/Combat Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tactee_oli_ws_unit";
+		};
+	};
+	class bravo_combatuniform_tactee_win_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (White/Combat Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tactee_win_ws_unit";
+		};
+	};
 	
 	class bravo_combatuniform_tshirt_cce_ws : u_i_combatuniform_shortsleeve
 	{
@@ -1953,6 +2009,30 @@ class cfgWeapons
 		class itemInfo : itemInfo
 		{
 			uniformClass = "bravo_combatuniform_tshirt_bme_ws_unit";
+		};
+	};
+	class bravo_combatuniform_tshirt_des_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (Tan/T-Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tshirt_des_ws_unit";
+		};
+	};
+	class bravo_combatuniform_tshirt_oli_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (Olive/T-Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tshirt_oli_ws_unit";
+		};
+	};
+	class bravo_combatuniform_tshirt_win_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (White/T-Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tshirt_win_ws_unit";
 		};
 	};
 	
