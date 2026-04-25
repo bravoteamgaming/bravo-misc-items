@@ -167,3 +167,4 @@
 2026-04-25
 - GEAR MISC: added Olive, Tan, and White Combat Uniforms
 - GEAR MISC: added CADPAT-TW, CADPAT-AR Combat Uniforms, BDUs, and M92s
+- ITEMS: added Cache Sound Sources module for Zeus

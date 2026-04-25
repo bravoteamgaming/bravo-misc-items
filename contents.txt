@@ -510,3 +510,4 @@ ITEMS
 - Add Splendid Camera module to Zeus
 - Change mass/cap of vanilla kitbag, carryall, radiopack
 - Add new sound sources for Play Sound module
+- Add Cache Sound Sources module to Zeus
