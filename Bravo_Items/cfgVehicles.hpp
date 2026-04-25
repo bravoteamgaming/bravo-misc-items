@@ -82,6 +82,20 @@ class CfgVehicles
 		curatorCanAttach = 0;
 		curatorInfoType = "";
 	};
+	class bravo_module_cacheSoundSources : module_f
+	{
+		scope = 1;
+		scopeCurator = 2;
+		displayName = "Cache Sound Sources";
+		category = "Audio";
+		function = "bravo_fnc_moduleCacheSoundSources";
+		isGlobal = 1;
+		isTriggerActivated = 0;
+		isDisposable = 1;
+		is3DEN = 0;
+		curatorCanAttach = 0;
+		curatorInfoType = "";
+	};
 	
 	/// ======= Sounds
 	class Sound;

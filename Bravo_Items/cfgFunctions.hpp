@@ -8,6 +8,7 @@ class CfgFunctions
 			class pasteHideTerrainObjects{};
 			class scrapeHideTerrainObjects{};
 			class moduleSplendidCam{};
+			class moduleCacheSoundSources{};
 		};
 	};
 };
