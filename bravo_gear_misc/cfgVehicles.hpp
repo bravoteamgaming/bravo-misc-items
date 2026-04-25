@@ -923,6 +923,14 @@ class cfgVehicles
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_win_co.paa"};
 	};
+	class bravo_combatuniform_catw_unit : i_soldier_universal_f
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_catw_co.paa"};
+	};
+	class bravo_combatuniform_caar_unit : i_soldier_universal_f
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_caar_co.paa"};
+	};
 	
 	class bravo_combatuniform_short_base_unit : i_soldier_universal_f
 	{
@@ -957,6 +965,14 @@ class cfgVehicles
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_win_co.paa"};
 	};
+	class bravo_combatuniform_short_catw_unit : bravo_combatuniform_short_base_unit
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_catw_co.paa"};
+	};
+	class bravo_combatuniform_short_caar_unit : bravo_combatuniform_short_base_unit
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_caar_co.paa"};
+	};
 	
 	class bravo_combatuniform_tactee_cce_ws_unit : bravo_combatuniform_tactee_base_ws_unit
 	{
@@ -986,6 +1002,14 @@ class cfgVehicles
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_win_co.paa","\a3\Characters_F\Common\Data\basicbody_black_co.paa"};
 	};
+	class bravo_combatuniform_tactee_catw_ws_unit : bravo_combatuniform_tactee_base_ws_unit
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_catw_co.paa","a3\Characters_F_Enoch\Uniforms\Data\basicbody_wdl_co.paa"};
+	};
+	class bravo_combatuniform_tactee_caar_ws_unit : bravo_combatuniform_tactee_base_ws_unit
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_caar_co.paa","\a3\characters_f\common\data\basicbody_brown_co.paa"};
+	};
 	
 	class bravo_combatuniform_tshirt_cce_ws_unit : bravo_combatuniform_tshirt_base_ws_unit
 	{
@@ -1014,6 +1038,14 @@ class cfgVehicles
 	class bravo_combatuniform_tshirt_win_ws_unit : bravo_combatuniform_tshirt_base_ws_unit
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_win_co.paa","\UK3CB_Factions\addons\UK3CB_Factions_MEC\data\mec_tshirt_grey_02_co.paa"};
+	};
+	class bravo_combatuniform_tshirt_catw_ws_unit : bravo_combatuniform_tshirt_base_ws_unit
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_catw_co.paa","\UK3CB_Factions\addons\UK3CB_Factions_MEC\data\mec_tshirt_khaki_01_co.paa"};
+	};
+	class bravo_combatuniform_tshirt_caar_ws_unit : bravo_combatuniform_tshirt_base_ws_unit
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_caar_co.paa","\UK3CB_Factions\addons\UK3CB_Factions_MEC\data\mec_tshirt_brown_03_co.paa"};
 	};
 	
 	class bravo_combatuniform_cut_base_ws_unit : i_soldier_universal_f
@@ -1063,6 +1095,14 @@ class cfgVehicles
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_dcu_co"};
 	};
+	class bravo_gm_bdu_catw_unit : gm_xx_army_rifleman_80_oli
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_catw_co"};
+	};
+	class bravo_gm_bdu_caar_unit : gm_xx_army_rifleman_80_oli
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_caar_co"};
+	};
 	
 	class gm_xx_army_rifleman_nogloves_80_oli;
 	class bravo_gm_bdu_nogloves_des_unit : gm_xx_army_rifleman_nogloves_80_oli
@@ -1089,6 +1129,14 @@ class cfgVehicles
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_dcu_co"};
 	};
+	class bravo_gm_bdu_nogloves_catw_unit : gm_xx_army_rifleman_nogloves_80_oli
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_catw_co"};
+	};
+	class bravo_gm_bdu_nogloves_caar_unit : gm_xx_army_rifleman_nogloves_80_oli
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_caar_co"};
+	};
 	
 	class gm_xx_army_rifleman_rolled_80_oli;
 	class bravo_gm_bdu_rolled_des_unit : gm_xx_army_rifleman_rolled_80_oli
@@ -1114,6 +1162,14 @@ class cfgVehicles
 	class bravo_gm_bdu_rolled_dcu_unit : gm_xx_army_rifleman_rolled_80_oli
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_dcu_co"};
+	};
+	class bravo_gm_bdu_rolled_catw_unit : gm_xx_army_rifleman_rolled_80_oli
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_catw_co"};
+	};
+	class bravo_gm_bdu_rolled_caar_unit : gm_xx_army_rifleman_rolled_80_oli
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_caar_co"};
 	};
 	
 	class gm_ge_army_soldier_rolled_90_trp;

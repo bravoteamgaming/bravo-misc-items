@@ -1863,6 +1863,22 @@ class cfgWeapons
 			uniformClass = "bravo_combatuniform_win_unit";
 		};
 	};
+	class bravo_combatuniform_catw : u_i_combatuniform
+	{
+		displayName = "Combat Uniform (CADPAT-TW)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_catw_unit";
+		};
+	};
+	class bravo_combatuniform_caar : u_i_combatuniform
+	{
+		displayName = "Combat Uniform (CADPAT-AR)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_caar_unit";
+		};
+	};
 	
 	class bravo_combatuniform_short_dgt : u_i_combatuniform_shortsleeve
 	{
@@ -1910,6 +1926,22 @@ class cfgWeapons
 		class itemInfo : itemInfo
 		{
 			uniformClass = "bravo_combatuniform_short_win_unit";
+		};
+	};
+	class bravo_combatuniform_short_catw : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (CADPAT-TW/Rolled-Up)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_short_catw_unit";
+		};
+	};
+	class bravo_combatuniform_short_caar : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (CADPAT-AR/Rolled-Up)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_short_caar_unit";
 		};
 	};
 	
@@ -1978,6 +2010,22 @@ class cfgWeapons
 			uniformClass = "bravo_combatuniform_tactee_win_ws_unit";
 		};
 	};
+	class bravo_combatuniform_tactee_catw_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (CADPAT-TW/Combat Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tactee_catw_ws_unit";
+		};
+	};
+	class bravo_combatuniform_tactee_caar_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (CADPAT-AR/Combat Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tactee_caar_ws_unit";
+		};
+	};
 	
 	class bravo_combatuniform_tshirt_cce_ws : u_i_combatuniform_shortsleeve
 	{
@@ -2033,6 +2081,22 @@ class cfgWeapons
 		class itemInfo : itemInfo
 		{
 			uniformClass = "bravo_combatuniform_tshirt_win_ws_unit";
+		};
+	};
+	class bravo_combatuniform_tshirt_catw_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (CADPAT-TW/T-Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tshirt_catw_ws_unit";
+		};
+	};
+	class bravo_combatuniform_tshirt_caar_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (CADPAT-AR/T-Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tshirt_caar_ws_unit";
 		};
 	};
 	
@@ -2728,6 +2792,24 @@ class cfgWeapons
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_dgt_co"};
 		};
 	};
+	class bravo_ge_headgear_m92_cover_catw : gm_ge_headgear_m92_cover_oli
+	{
+		displayName = "Helmet M92 (CADPAT-TW)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_catw_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_catw_co"};
+		};
+	};
+	class bravo_ge_headgear_m92_cover_caar : gm_ge_headgear_m92_cover_oli
+	{
+		displayName = "Helmet M92 (CADPAT-AR)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_caar_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_caar_co"};
+		};
+	};
 	
 	class bravo_ge_headgear_m92_cover_glasses_des : gm_ge_headgear_m92_cover_glasses_oli
 	{
@@ -2763,6 +2845,24 @@ class cfgWeapons
 		class ItemInfo : ItemInfo
 		{
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_dgt_co"};
+		};
+	};
+	class bravo_ge_headgear_m92_cover_glasses_catw : gm_ge_headgear_m92_cover_glasses_oli
+	{
+		displayName = "Helmet M92 (Goggles, CADPAT-TW)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_catw_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_catw_co"};
+		};
+	};
+	class bravo_ge_headgear_m92_cover_glasses_caar : gm_ge_headgear_m92_cover_glasses_oli
+	{
+		displayName = "Helmet M92 (Goggles, CADPAT-AR)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_caar_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_catw_co"};
 		};
 	};
 	class bravo_ge_headgear_m92_cover_des : gm_ge_headgear_m92_cover_oli
@@ -2891,6 +2991,24 @@ class cfgWeapons
 			uniformClass = "bravo_gm_bdu_dcu_unit";
 		};
 	};
+	class bravo_gm_bdu_catw : gm_xx_uniform_soldier_bdu_80_oli
+	{
+		displayName = "Battle Dress Uniform (Gloves, CADPAT-TW)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_catw_co"};
+			uniformClass = "bravo_gm_bdu_catw_unit";
+		};
+	};
+	class bravo_gm_bdu_caar : gm_xx_uniform_soldier_bdu_80_oli
+	{
+		displayName = "Battle Dress Uniform (Gloves, CADPAT-AR)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_caar_co"};
+			uniformClass = "bravo_gm_bdu_caar_unit";
+		};
+	};
 	
 	class bravo_gm_bdu_nogloves_des : bravo_gm_bdu_des
 	{
@@ -2932,12 +3050,28 @@ class cfgWeapons
 			uniformClass = "bravo_gm_bdu_nogloves_dbdu_unit";
 		};
 	};
-	class bravo_gm_bdu_nogloves_dcu : bravo_gm_bdu_dbdu
+	class bravo_gm_bdu_nogloves_dcu : bravo_gm_bdu_dcu
 	{
 		displayName = "Battle Dress Uniform (DCU)";
 		class ItemInfo : ItemInfo
 		{
 			uniformClass = "bravo_gm_bdu_nogloves_dcu_unit";
+		};
+	};
+	class bravo_gm_bdu_nogloves_catw : bravo_gm_bdu_catw
+	{
+		displayName = "Battle Dress Uniform (CADPAT-TW)";
+		class ItemInfo : ItemInfo
+		{
+			uniformClass = "bravo_gm_bdu_nogloves_catw_unit";
+		};
+	};
+	class bravo_gm_bdu_nogloves_caar : bravo_gm_bdu_caar
+	{
+		displayName = "Battle Dress Uniform (CADPAT-AR)";
+		class ItemInfo : ItemInfo
+		{
+			uniformClass = "bravo_gm_bdu_nogloves_caar_unit";
 		};
 	};
 	
@@ -2998,6 +3132,24 @@ class cfgWeapons
 		{
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_dcu_co"};
 			uniformClass = "bravo_gm_bdu_rolled_dcu_unit";
+		};
+	};
+	class bravo_gm_bdu_rolled_catw : gm_xx_uniform_soldier_bdu_rolled_80_oli
+	{
+		displayName = "Battle Dress Uniform (Rolled, CADPAT-TW)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_catw_co"};
+			uniformClass = "bravo_gm_bdu_rolled_catw_unit";
+		};
+	};
+	class bravo_gm_bdu_rolled_caar : gm_xx_uniform_soldier_bdu_rolled_80_oli
+	{
+		displayName = "Battle Dress Uniform (Rolled, CADPAT-AR)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_caar_co"};
+			uniformClass = "bravo_gm_bdu_rolled_caar_unit";
 		};
 	};
 	
