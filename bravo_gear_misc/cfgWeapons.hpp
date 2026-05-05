@@ -1879,6 +1879,22 @@ class cfgWeapons
 			uniformClass = "bravo_combatuniform_caar_unit";
 		};
 	};
+	class bravo_combatuniform_des : u_i_combatuniform
+	{
+		displayName = "Combat Uniform (Tan)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_des_unit";
+		};
+	};
+	class bravo_combatuniform_oli : u_i_combatuniform
+	{
+		displayName = "Combat Uniform (Olive)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_oli_unit";
+		};
+	};
 	
 	class bravo_combatuniform_short_dgt : u_i_combatuniform_shortsleeve
 	{
