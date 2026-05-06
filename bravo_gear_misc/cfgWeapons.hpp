@@ -1015,6 +1015,31 @@ class cfgWeapons
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bare_mich_black_norotos_arc_co.paa","\rhsusf\addons\rhsusf_infantry\gear\head\data\mich_acc_od_co.paa","\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"};
 	};
 	
+	class rhsusf_mich_helmet_marpatwd_norotos_arc;
+	class bravo_mich_cover_norotos_arc_philar : rhsusf_mich_helmet_marpatwd_norotos_arc
+	{
+		displayName = "MICH 2000 (PHILARPAT/Norotos/ARC)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\mich_covered_norotos_arc_philar_co.paa","\rhsusf\addons\rhsusf_infantry\gear\head\data\mich_acc_od_co.paa"};
+	};
+	class bravo_mich_cover_norotos_arc_r2017 : rhsusf_mich_helmet_marpatwd_norotos_arc
+	{
+		displayName = "MICH 2000 (M2017/Norotos/ARC)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\mich_covered_norotos_arc_r2017_co.paa","\rhsusf\addons\rhsusf_infantry\gear\head\data\mich_acc_od_co.paa"};
+	};
+	
+	class rhsusf_mich_helmet_marpatwd_norotos_arc_headset : rhsusf_mich_helmet_marpatwd_norotos_arc
+	{};
+	class bravo_mich_cover_norotos_arc_headset_philar : rhsusf_mich_helmet_marpatwd_norotos_arc_headset
+	{
+		displayName = "MICH 2000 (PHILARPAT/Norotos/ARC/Headset)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\mich_covered_norotos_arc_philar_co.paa","\rhsusf\addons\rhsusf_infantry\gear\head\data\mich_acc_od_co.paa"};
+	};
+	class bravo_mich_cover_norotos_arc_headset_r2017 : rhsusf_mich_helmet_marpatwd_norotos_arc_headset
+	{
+		displayName = "MICH 2000 (M2017/Norotos/ARC/Headset)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\mich_covered_norotos_arc_r2017_co.paa","\rhsusf\addons\rhsusf_infantry\gear\head\data\mich_acc_od_co.paa"};
+	};
+	
 	class rhssaf_helmet_m97_olive_nocamo;
 	class bravo_m97_olive_medic : rhssaf_helmet_m97_olive_nocamo
 	{
@@ -1895,6 +1920,22 @@ class cfgWeapons
 			uniformClass = "bravo_combatuniform_oli_unit";
 		};
 	};
+	class bravo_combatuniform_r2017 : u_i_combatuniform
+	{
+		displayName = "Combat Uniform (M2017)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_r2017_unit";
+		};
+	};
+	class bravo_combatuniform_philar : u_i_combatuniform
+	{
+		displayName = "Combat Uniform (PHILARPAT)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_philar_unit";
+		};
+	};
 	
 	class bravo_combatuniform_short_dgt : u_i_combatuniform_shortsleeve
 	{
@@ -1958,6 +1999,22 @@ class cfgWeapons
 		class itemInfo : itemInfo
 		{
 			uniformClass = "bravo_combatuniform_short_caar_unit";
+		};
+	};
+	class bravo_combatuniform_short_r2017 : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (M2017/Rolled-Up)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_short_r2017_unit";
+		};
+	};
+	class bravo_combatuniform_short_philar : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (PHILARPAT/Rolled-Up)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_short_philar_unit";
 		};
 	};
 	
@@ -2042,6 +2099,22 @@ class cfgWeapons
 			uniformClass = "bravo_combatuniform_tactee_caar_ws_unit";
 		};
 	};
+	class bravo_combatuniform_tactee_r2017_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (M2017/Combat Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tactee_r2017_ws_unit";
+		};
+	};
+	class bravo_combatuniform_tactee_philar_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (PHILARPAT/Combat Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tactee_philar_ws_unit";
+		};
+	};
 	
 	class bravo_combatuniform_tshirt_cce_ws : u_i_combatuniform_shortsleeve
 	{
@@ -2113,6 +2186,22 @@ class cfgWeapons
 		class itemInfo : itemInfo
 		{
 			uniformClass = "bravo_combatuniform_tshirt_caar_ws_unit";
+		};
+	};
+	class bravo_combatuniform_tshirt_r2017_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (M2017/T-Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tshirt_r2017_ws_unit";
+		};
+	};
+	class bravo_combatuniform_tshirt_philar_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (PHILARPAT/T-Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tshirt_philar_ws_unit";
 		};
 	};
 	
@@ -2826,6 +2915,24 @@ class cfgWeapons
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_caar_co"};
 		};
 	};
+	class bravo_ge_headgear_m92_cover_r2017 : gm_ge_headgear_m92_cover_oli
+	{
+		displayName = "Helmet M92 (M2017)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_r2017_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_r2017_co"};
+		};
+	};
+	class bravo_ge_headgear_m92_cover_philar : gm_ge_headgear_m92_cover_oli
+	{
+		displayName = "Helmet M92 (PHILARPAT)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_philar_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_philar_co"};
+		};
+	};
 	
 	class bravo_ge_headgear_m92_cover_glasses_des : gm_ge_headgear_m92_cover_glasses_oli
 	{
@@ -2878,9 +2985,28 @@ class cfgWeapons
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_caar_co"};
 		class ItemInfo : ItemInfo
 		{
-			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_catw_co"};
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_caar_co"};
 		};
 	};
+	class bravo_ge_headgear_m92_cover_glasses_r2017 : gm_ge_headgear_m92_cover_glasses_oli
+	{
+		displayName = "Helmet M92 (Goggles, M2017)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_r2017_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_r2017_co"};
+		};
+	};
+	class bravo_ge_headgear_m92_cover_glasses_philar : gm_ge_headgear_m92_cover_glasses_oli
+	{
+		displayName = "Helmet M92 (Goggles, PHILARPAT)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_philar_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_philar_co"};
+		};
+	};
+	
 	class bravo_ge_headgear_m92_cover_des : gm_ge_headgear_m92_cover_oli
 	{
 		displayName = "Helmet M92 (Tan B)";
