@@ -119,4 +119,18 @@ class CfgUnitInsignia
 		texture="\Bravo_Items\patch\patch_orange_eod.paa";
 		textureVehicle="";
 	};
+	class BVT_Patch_team_red
+	{
+		displayName="Bravo - Team Red";
+		author="Bravo Team";
+		texture="\Bravo_Items\patch\patch_team_red.paa";
+		textureVehicle="";
+	};
+	class BVT_Patch_team_blue
+	{
+		displayName="Bravo - Team Blue";
+		author="Bravo Team";
+		texture="\Bravo_Items\patch\patch_team_blue.paa";
+		textureVehicle="";
+	};
 };
