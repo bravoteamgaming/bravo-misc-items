@@ -341,6 +341,8 @@ class CfgPatches
 			"bravo_mich_bare_norotos_arc_headset_blue",
 			"bravo_mich_cover_norotos_arc_headset_philar",
 			"bravo_mich_cover_norotos_arc_philar",
+			"bravo_mich_cover_norotos_arc_headset_r2017",
+			"bravo_mich_cover_norotos_arc_r2017",
 			"bravo_m97_olive_medic",
 			"bravo_m97_olive_b2d",
 			"bravo_pasgt_tan_medic",

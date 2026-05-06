@@ -167,6 +167,10 @@ GEAR MISC
 	MICH 2000 Tan/Headset/No Flag
 	MICH 2000 Tan/Norotos/ARC/Headset/Blue Team
 	MICH 2000 Tan/Norotos/ARC/Headset/Red Team
+	MICH 2000 PHILARPAT/Norotos/ARC
+	MICH 2000 PHILARPAT/Norotos/ARC/Headset
+	MICH 2000 M2017/Norotos/ARC
+	MICH 2000 M2017/Norotos/ARC/Headset
 	PASGT Tan/Medic
 	PASGT Tan/Ukraine
 	PASGT Tan/Defeatist
@@ -183,6 +187,8 @@ GEAR MISC
 	Helmet M92 (Daguet)
 	Helmet M92 (CADPAT-TW)
 	Helmet M92 (CADPAT-AR)
+	Helmet M92 (M2017)
+	Helmet M92 (PHILARPAT)
 	Helmet M92 (Goggles, Tan A)
 	Helmet M92 (Goggles, Tan B)
 	Helmet M92 (Goggles, Khaki A)
@@ -191,6 +197,8 @@ GEAR MISC
 	Helmet M92 (Goggles, Daguet)
 	Helmet M92 (Goggles, CADPAT-TW)
 	Helmet M92 (Goggles, CADPAT-AR)
+	Helmet M92 (Goggles, M2017)
+	Helmet M92 (Goggles, PHILARPAT)
 	Helmet M92 (Egyptian Desert Rocks)
 	Helmet M92 (Goggles, Egyptian Desert Rocks)
 	Combat Helmet M/96 (Tan)
@@ -422,6 +430,14 @@ GEAR MISC
 	Combat Uniform (CADPAT-TW/T-Shirt)
 	Combat Uniform (CADPAT-TW)
 	Combat Uniform (CADPAT-TW/Rolled-Up)
+	Combat Uniform (M2017/Combat Shirt)
+	Combat Uniform (M2017/T-Shirt)
+	Combat Uniform (M2017)
+	Combat Uniform (M2017/Rolled-Up)
+	Combat Uniform (PHILARPAT/Combat Shirt)
+	Combat Uniform (PHILARPAT/T-Shirt)
+	Combat Uniform (PHILARPAT)
+	Combat Uniform (PHILARPAT/Rolled-Up)
 - Add facewear variants:
 	Shemagh w/Goggles (Green/Clear)
 	Shemagh w/Goggles (Green/alt/Clear)

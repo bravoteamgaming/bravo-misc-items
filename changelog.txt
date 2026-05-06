@@ -169,5 +169,9 @@
 - GEAR MISC: added CADPAT-TW, CADPAT-AR Combat Uniforms, BDUs, and M92s
 - ITEMS: added Cache Sound Sources module for Zeus
 
-2026-05-04:
+2026-05-04
 - GEAR MISC: fixed missing basic olive and tan CU
+
+2026-05-06
+- GEAR MISC: added PHILARPAT and Romanian M2017 Combat Uniform, M92, and MICH2000
+- ITEMS: added Red Team and Blue Team insignia patches
