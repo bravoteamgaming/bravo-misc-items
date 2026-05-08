@@ -171,6 +171,8 @@ GEAR MISC
 	MICH 2000 PHILARPAT/Norotos/ARC/Headset
 	MICH 2000 M2017/Norotos/ARC
 	MICH 2000 M2017/Norotos/ARC/Headset
+	MICH 2000 Multicam/Norotos/ARC
+	MICH 2000 Multicam/Norotos/ARC/Headset
 	PASGT Tan/Medic
 	PASGT Tan/Ukraine
 	PASGT Tan/Defeatist
@@ -438,6 +440,10 @@ GEAR MISC
 	Combat Uniform (PHILARPAT/T-Shirt)
 	Combat Uniform (PHILARPAT)
 	Combat Uniform (PHILARPAT/Rolled-Up)
+	Combat Uniform (Multicam/Combat Shirt)
+	Combat Uniform (Multicam/T-Shirt)
+	Combat Uniform (Multicam)
+	Combat Uniform (Multicam/Rolled-Up)
 - Add facewear variants:
 	Shemagh w/Goggles (Green/Clear)
 	Shemagh w/Goggles (Green/alt/Clear)

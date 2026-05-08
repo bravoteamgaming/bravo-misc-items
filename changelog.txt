@@ -175,3 +175,6 @@
 2026-05-06
 - GEAR MISC: added PHILARPAT and Romanian M2017 Combat Uniform, M92, and MICH2000
 - ITEMS: added Red Team and Blue Team insignia patches
+
+2026-05-08
+- GEAR MISC: added Multicam CU and MICH2000
