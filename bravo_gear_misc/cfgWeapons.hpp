@@ -613,6 +613,11 @@ class cfgWeapons
 		displayName = "FAST Ballistic (MM-14 Cover/Headset)";
 		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\bravo_gear_misc\assets\fs_cover_mm14_co.paa",""};
 	};
+	class bravo_fast_mtp_cover : rhsusf_opscore_coy_cover
+	{
+		displayName = "FAST Ballistic (MTP Cover)";
+		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_co.paa","","","","\bravo_gear_misc\assets\fs_cover_mtp_co.paa",""};
+	};
 	class bravo_fast_mtp_cover_headset : rhsusf_opscore_coy_cover
 	{
 		displayName = "FAST Ballistic (MTP Cover/Headset)";
@@ -746,6 +751,26 @@ class cfgWeapons
 	{
 		displayName = "FAST Ballistic (Finnish M05 Cover/Headset)";
 		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_fg_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\bravo_gear_misc\assets\fs_cover_f05_co.paa",""};
+	};
+	class bravo_fast_mcam_cover : rhsusf_opscore_coy_cover
+	{
+		displayName = "FAST Ballistic (Multicam Cover)";
+		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_co.paa","","","","\bravo_gear_misc\assets\fs_cover_mcam_co.paa",""};
+	};
+	class bravo_fast_mcam_cover_headset : rhsusf_opscore_coy_cover
+	{
+		displayName = "FAST Ballistic (Multicam Cover/Headset)";
+		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\bravo_gear_misc\assets\fs_cover_mcam_co.paa",""};
+	};
+	class bravo_fast_mcam_cover_headset_red : rhsusf_opscore_coy_cover
+	{
+		displayName = "FAST Ballistic (Multicam Cover/Headset/Red Team)";
+		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\bravo_gear_misc\assets\fs_cover_mcam_red_co.paa",""};
+	};
+	class bravo_fast_mcam_cover_headset_blue : rhsusf_opscore_coy_cover
+	{
+		displayName = "FAST Ballistic (Multicam Cover/Headset/Blue Team)";
+		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\bravo_gear_misc\assets\fs_cover_mcam_blue_co.paa",""};
 	};
 	
 	class rhsusf_opscore_bk_pelt;
@@ -1031,6 +1056,11 @@ class cfgWeapons
 		displayName = "MICH 2000 (Multicam/Norotos/ARC)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\mich_covered_norotos_arc_mcam_co.paa","\rhsusf\addons\rhsusf_infantry\gear\head\data\mich_acc_od_co.paa"};
 	};
+	class bravo_mich_cover_norotos_arc_nfp : rhsusf_mich_helmet_marpatwd_norotos_arc
+	{
+		displayName = "MICH 2000 (NFP/Norotos/ARC)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\mich_covered_norotos_arc_nfp_co.paa","\rhsusf\addons\rhsusf_infantry\gear\head\data\mich_acc_od_co.paa"};
+	};
 	
 	class rhsusf_mich_helmet_marpatwd_norotos_arc_headset : rhsusf_mich_helmet_marpatwd_norotos_arc
 	{};
@@ -1048,6 +1078,11 @@ class cfgWeapons
 	{
 		displayName = "MICH 2000 (Multicam/Norotos/ARC/Headset)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\mich_covered_norotos_arc_mcam_co.paa","\rhsusf\addons\rhsusf_infantry\gear\head\data\mich_acc_od_co.paa"};
+	};
+	class bravo_mich_cover_norotos_arc_headset_nfp : rhsusf_mich_helmet_marpatwd_norotos_arc_headset
+	{
+		displayName = "MICH 2000 (NFP/Norotos/ARC/Headset)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\mich_covered_norotos_arc_nfp_co.paa","\rhsusf\addons\rhsusf_infantry\gear\head\data\mich_acc_od_co.paa"};
 	};
 	
 	class rhssaf_helmet_m97_olive_nocamo;
@@ -1578,6 +1613,14 @@ class cfgWeapons
 		class itemInfo : itemInfo
 		{
 			uniformClass = "bravo_cryeg3_f05_unit";
+		};
+	};
+	class bravo_cryeg3_mcam : rhs_uniform_g3_rgr
+	{
+		displayName = "G3 Uniform (Multicam)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_cryeg3_mcam_unit";
 		};
 	};
 	
@@ -2975,6 +3018,15 @@ class cfgWeapons
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_philar_co"};
 		};
 	};
+	class bravo_ge_headgear_m92_cover_nfp : gm_ge_headgear_m92_cover_oli
+	{
+		displayName = "Helmet M92 (NFP)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_nfp_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_nfp_co"};
+		};
+	};
 	
 	class bravo_ge_headgear_m92_cover_glasses_des : gm_ge_headgear_m92_cover_glasses_oli
 	{
@@ -3046,6 +3098,15 @@ class cfgWeapons
 		class ItemInfo : ItemInfo
 		{
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_philar_co"};
+		};
+	};
+	class bravo_ge_headgear_m92_cover_glasses_nfp : gm_ge_headgear_m92_cover_glasses_oli
+	{
+		displayName = "Helmet M92 (Goggles, NFP)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_nfp_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_nfp_co"};
 		};
 	};
 	
@@ -3433,6 +3494,15 @@ class cfgWeapons
 			uniformClass = "bravo_gm_ge_uniform_90_dgt_unit";
 		};
 	};
+	class bravo_gm_ge_uniform_90_nfp : gm_ge_uniform_soldier_90_trp
+	{
+		displayName = "Combat Suit (NFP)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_nfp_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_nfp_co"};
+			uniformClass = "bravo_gm_ge_uniform_90_nfp_unit";
+		};
+	};
 	
 	class gm_ge_uniform_soldier_rolled_90_trp : gm_ge_uniform_soldier_90_base
 	{
@@ -3463,6 +3533,15 @@ class cfgWeapons
 		{
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_dgt_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_dgt_co"};
 			uniformClass = "bravo_gm_ge_uniform_rolled_90_dgt_unit";
+		};
+	};
+	class bravo_gm_ge_uniform_rolled_90_nfp : gm_ge_uniform_soldier_rolled_90_trp
+	{
+		displayName = "Combat Suit (Rolled, NFP)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_nfp_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_nfp_co"};
+			uniformClass = "bravo_gm_ge_uniform_rolled_90_nfp_unit";
 		};
 	};
 	
@@ -3541,6 +3620,15 @@ class cfgWeapons
 		{
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_dgt_co"};
 			uniformClass = "bravo_gm_ge_uniform_tshirt_90_dgt_unit";
+		};
+	};
+	class bravo_gm_ge_uniform_tshirt_90_nfp : gm_ge_uniform_soldier_tshirt_90_oli
+	{
+		displayName = "Combat Suit (T-Shirt, NFP)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_nfp_co"};
+			uniformClass = "bravo_gm_ge_uniform_tshirt_90_nfp_unit";
 		};
 	};
 	
@@ -3638,6 +3726,15 @@ class cfgWeapons
 			uniformClass = "bravo_gm_gc_army_uniform_soldier_90_egy_unit";
 		};
 	};
+	class bravo_gm_gc_army_uniform_soldier_90_egt : gm_gc_army_uniform_soldier_90_sgr
+	{
+		displayName = "Field Service Uniform (UTV, Egyptian Desert Rocks Tan Boots)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_egt_co"};
+			uniformClass = "bravo_gm_gc_army_uniform_soldier_90_egt_unit";
+		};
+	};
 	
 	class gm_gc_army_uniform_soldier_rolled_90_sgr : gm_gc_uniform_soldier_90_base
 	{
@@ -3677,6 +3774,15 @@ class cfgWeapons
 		{
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_egy_co"};
 			uniformClass = "bravo_gm_gc_army_uniform_soldier_rolled_90_egy_unit";
+		};
+	};
+	class bravo_gm_gc_army_uniform_soldier_rolled_90_egt : gm_gc_army_uniform_soldier_rolled_90_sgr
+	{
+		displayName = "Field Service Uniform (UTV, Rolled, Egyptian Desert Rocks Tan Boots)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_egt_co"};
+			uniformClass = "bravo_gm_gc_army_uniform_soldier_rolled_90_egt_unit";
 		};
 	};
 	
@@ -3836,5 +3942,29 @@ class cfgWeapons
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_m84_rmc_co","gm\gm_characters\gm_xx_characters\data\uniform\gm_xx_civ_uniform_man_04_80_blu_co"};
 			uniformClass = "bravo_gm_mixed_m84_rmc_unit";
 		};
+	};
+	
+	class gm_ge_vest_sov_80_oli;
+	class bravo_gm_vest_sov_des : gm_ge_vest_sov_80_oli
+	{
+		displayName = "Special Operations Vest (Tan)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_vest_sov_des_co"};
+	};
+	class bravo_gm_vest_sov_khk : gm_ge_vest_sov_80_oli
+	{
+		displayName = "Special Operations Vest (Khaki)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_vest_sov_khk_co"};
+	};
+	
+	class gm_ge_vest_sov_armor_80_oli;
+	class bravo_gm_vest_sov_armor_des : gm_ge_vest_sov_armor_80_oli
+	{
+		displayName = "Special Operations Vest (Armor, Tan)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_vest_sov_des_co", "\gm\gm_characters\gm_ge_characters\data\vest\gm_ge_vest_type3_oli_co"};
+	};
+	class bravo_gm_vest_sov_armor_khk : gm_ge_vest_sov_armor_80_oli
+	{
+		displayName = "Special Operations Vest (Armor, Khaki)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_vest_sov_khk_co", "\gm\gm_characters\gm_ge_characters\data\vest\gm_ge_vest_type3_oli_co"};
 	};
 };
