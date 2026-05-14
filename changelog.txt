@@ -184,3 +184,6 @@
 - GEAR MISC: added NFP Combat Suit, M92, and MICH 2000
 - GEAR MISC: refactored Egyptian Desert Rocks equipment and added tan boots variant of FSU
 - GEAR MISC: added tan and khaki variants of Special Operations Vest
+
+2026-05-14
+- GEAR MISC: added tan, khaki, CCE, Daguet, Egyptian Desert Rocks, NFP, PHILARPAT, CADPAT-TW, and CADPAT-AR boonie hats
