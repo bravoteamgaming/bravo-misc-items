@@ -596,7 +596,16 @@ class CfgPatches
 			"bravo_gm_vest_sov_des",
 			"bravo_gm_vest_sov_khk",
 			"bravo_gm_vest_sov_armor_des",
-			"bravo_gm_vest_sov_armor_khk"
+			"bravo_gm_vest_sov_armor_khk",
+			"bravo_gm_boonie_philar",
+			"bravo_gm_boonie_egy",
+			"bravo_gm_boonie_des",
+			"bravo_gm_boonie_khk",
+			"bravo_gm_boonie_cce",
+			"bravo_gm_boonie_dgt",
+			"bravo_gm_boonie_catw",
+			"bravo_gm_boonie_caar",
+			"bravo_gm_boonie_nfp"
 		};
 		skipWhenMissingDependencies = 1;
 	};
