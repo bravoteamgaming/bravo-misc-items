@@ -3503,6 +3503,15 @@ class cfgWeapons
 			uniformClass = "bravo_gm_ge_uniform_90_nfp_unit";
 		};
 	};
+	class bravo_gm_ge_uniform_90_philar : gm_ge_uniform_soldier_90_trp
+	{
+		displayName = "Combat Suit (PHILARPAT)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_philar_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_philar_co"};
+			uniformClass = "bravo_gm_ge_uniform_90_philar_unit";
+		};
+	};
 	
 	class gm_ge_uniform_soldier_rolled_90_trp : gm_ge_uniform_soldier_90_base
 	{
@@ -3542,6 +3551,15 @@ class cfgWeapons
 		{
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_nfp_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_nfp_co"};
 			uniformClass = "bravo_gm_ge_uniform_rolled_90_nfp_unit";
+		};
+	};
+	class bravo_gm_ge_uniform_rolled_90_philar : gm_ge_uniform_soldier_rolled_90_trp
+	{
+		displayName = "Combat Suit (Rolled, PHILARPAT)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_philar_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_philar_co"};
+			uniformClass = "bravo_gm_ge_uniform_rolled_90_philar_unit";
 		};
 	};
 	
@@ -3629,6 +3647,15 @@ class cfgWeapons
 		{
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_nfp_co"};
 			uniformClass = "bravo_gm_ge_uniform_tshirt_90_nfp_unit";
+		};
+	};
+	class bravo_gm_ge_uniform_tshirt_90_philar : gm_ge_uniform_soldier_tshirt_90_oli
+	{
+		displayName = "Combat Suit (T-Shirt, PHILARPAT)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_philar_co"};
+			uniformClass = "bravo_gm_ge_uniform_tshirt_90_philar_unit";
 		};
 	};
 	
