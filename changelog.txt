@@ -187,3 +187,7 @@
 
 2026-05-14
 - GEAR MISC: added tan, khaki, CCE, Daguet, Egyptian Desert Rocks, NFP, PHILARPAT, CADPAT-TW, and CADPAT-AR boonie hats
+
+2026-05-15
+- GEAR MISC: fixed missing wear on some Combat Suit variants
+- GEAR MISC: added PHILARPAT Combat Suit
