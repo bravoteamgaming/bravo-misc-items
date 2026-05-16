@@ -3027,6 +3027,33 @@ class cfgWeapons
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_nfp_co"};
 		};
 	};
+	class bravo_ge_headgear_m92_cover_des : gm_ge_headgear_m92_cover_oli
+	{
+		displayName = "Helmet M92 (Tan B)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co"};
+		};
+	};
+	class bravo_ge_headgear_m92_cover_egy : gm_ge_headgear_m92_cover_oli
+	{
+		displayName = "Helmet M92 (Egyptian Desert Rocks)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_egy_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_egy_co"};
+		};
+	};
+	class bravo_ge_headgear_m92_auscam : gm_ge_headgear_m92_cover_oli
+	{
+		displayName = "Helmet M92 (Auscam)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_auscam_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_auscam_co"};
+		};
+	};
 	
 	class bravo_ge_headgear_m92_cover_glasses_des : gm_ge_headgear_m92_cover_glasses_oli
 	{
@@ -3109,23 +3136,13 @@ class cfgWeapons
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_nfp_co"};
 		};
 	};
-	
-	class bravo_ge_headgear_m92_cover_des : gm_ge_headgear_m92_cover_oli
+	class bravo_ge_headgear_m92_glasses_auscam : gm_ge_headgear_m92_cover_glasses_oli
 	{
-		displayName = "Helmet M92 (Tan B)";
-		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co"};
+		displayName = "Helmet M92 (Goggles, Auscam)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_auscam_co"};
 		class ItemInfo : ItemInfo
 		{
-			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co"};
-		};
-	};
-	class bravo_ge_headgear_m92_cover_egy : gm_ge_headgear_m92_cover_oli
-	{
-		displayName = "Helmet M92 (Egyptian Desert Rocks)";
-		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_egy_co"};
-		class ItemInfo : ItemInfo
-		{
-			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_egy_co"};
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_auscam_co"};
 		};
 	};
 	
@@ -3254,6 +3271,15 @@ class cfgWeapons
 			uniformClass = "bravo_gm_bdu_caar_unit";
 		};
 	};
+	class bravo_gm_bdu_auscam : gm_xx_uniform_soldier_bdu_80_oli
+	{
+		displayName = "Battle Dress Uniform (Gloves, Auscam)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_auscam_co"};
+			uniformClass = "bravo_gm_bdu_auscam_unit";
+		};
+	};
 	
 	class bravo_gm_bdu_nogloves_des : bravo_gm_bdu_des
 	{
@@ -3317,6 +3343,14 @@ class cfgWeapons
 		class ItemInfo : ItemInfo
 		{
 			uniformClass = "bravo_gm_bdu_nogloves_caar_unit";
+		};
+	};
+	class bravo_gm_bdu_nogloves_auscam : bravo_gm_bdu_auscam
+	{
+		displayName = "Battle Dress Uniform (Auscam)";
+		class ItemInfo : ItemInfo
+		{
+			uniformClass = "bravo_gm_bdu_nogloves_auscam_unit";
 		};
 	};
 	
@@ -3395,6 +3429,15 @@ class cfgWeapons
 		{
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_caar_co"};
 			uniformClass = "bravo_gm_bdu_rolled_caar_unit";
+		};
+	};
+	class bravo_gm_bdu_rolled_auscam : gm_xx_uniform_soldier_bdu_rolled_80_oli
+	{
+		displayName = "Battle Dress Uniform (Rolled, Auscam)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_auscam_co"};
+			uniformClass = "bravo_gm_bdu_rolled_auscam_unit";
 		};
 	};
 	
@@ -4049,10 +4092,10 @@ class cfgWeapons
 	class bravo_gm_boonie_dgt : gm_ge_headgear_hat_boonie_oli
 	{
 		displayName = "Boonie Hat (Daguet)";
-		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_dgt_co"};
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_dgt_co"};
 		class ItemInfo : ItemInfo
 		{
-			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_dgt_co"};
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_dgt_co"};
 		};
 	};
 	class bravo_gm_boonie_catw : gm_ge_headgear_hat_boonie_oli
@@ -4080,6 +4123,15 @@ class cfgWeapons
 		class ItemInfo : ItemInfo
 		{
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_nfp_co"};
+		};
+	};
+	class bravo_gm_boonie_auscam : gm_ge_headgear_hat_boonie_oli
+	{
+		displayName = "Boonie Hat (Auscam)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_auscam_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_auscam_co"};
 		};
 	};
 };
