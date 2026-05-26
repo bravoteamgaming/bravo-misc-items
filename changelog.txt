@@ -194,3 +194,6 @@
 
 2026-05-16
 - GEAR MISC: added Auscam BDU, M92, and boonie
+
+2026-05-26
+- GEAR MISC: GM CS, FSU, M84 no longer use GM rank insignia

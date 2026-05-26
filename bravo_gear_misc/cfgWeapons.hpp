@@ -3054,6 +3054,15 @@ class cfgWeapons
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_auscam_co"};
 		};
 	};
+	class bravo_ge_headgear_m92_mm14 : gm_ge_headgear_m92_cover_oli
+	{
+		displayName = "Helmet M92 (MM-14)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_mm14_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_mm14_co"};
+		};
+	};
 	
 	class bravo_ge_headgear_m92_cover_glasses_des : gm_ge_headgear_m92_cover_glasses_oli
 	{
@@ -3143,6 +3152,15 @@ class cfgWeapons
 		class ItemInfo : ItemInfo
 		{
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_auscam_co"};
+		};
+	};
+	class bravo_ge_headgear_m92_glasses_mm14 : gm_ge_headgear_m92_cover_glasses_oli
+	{
+		displayName = "Helmet M92 (Goggles, MM-14)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_mm14_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_m92_cover_mm14_co"};
 		};
 	};
 	
@@ -3280,6 +3298,15 @@ class cfgWeapons
 			uniformClass = "bravo_gm_bdu_auscam_unit";
 		};
 	};
+	class bravo_gm_bdu_mm14 : gm_xx_uniform_soldier_bdu_80_oli
+	{
+		displayName = "Battle Dress Uniform (Gloves, MM-14)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_mm14_co"};
+			uniformClass = "bravo_gm_bdu_mm14_unit";
+		};
+	};
 	
 	class bravo_gm_bdu_nogloves_des : bravo_gm_bdu_des
 	{
@@ -3351,6 +3378,14 @@ class cfgWeapons
 		class ItemInfo : ItemInfo
 		{
 			uniformClass = "bravo_gm_bdu_nogloves_auscam_unit";
+		};
+	};
+	class bravo_gm_bdu_nogloves_mm14 : bravo_gm_bdu_mm14
+	{
+		displayName = "Battle Dress Uniform (MM-14)";
+		class ItemInfo : ItemInfo
+		{
+			uniformClass = "bravo_gm_bdu_nogloves_mm14_unit";
 		};
 	};
 	
@@ -3440,13 +3475,68 @@ class cfgWeapons
 			uniformClass = "bravo_gm_bdu_rolled_auscam_unit";
 		};
 	};
+	class bravo_gm_bdu_rolled_mm14 : gm_xx_uniform_soldier_bdu_rolled_80_oli
+	{
+		displayName = "Battle Dress Uniform (Rolled, MM-14)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_mm14_co"};
+			uniformClass = "bravo_gm_bdu_rolled_mm14_unit";
+		};
+	};
 	
 	class gm_ge_uniform_soldier_90_base;
 	class gm_ge_uniform_soldier_90_flk : gm_ge_uniform_soldier_90_base
 	{
 		class ItemInfo;
 	};
-	class bravo_gm_ge_uniform_90_khk : gm_ge_uniform_soldier_90_flk
+	class bravo_gm_ge_uniform_90_des : gm_ge_uniform_soldier_90_flk
+	{
+		useGMuniformDetails = 0;
+		displayName = "Combat Suit (Tan)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_des_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_des_co"};
+			uniformClass = "bravo_gm_ge_uniform_90_des_unit";
+		};
+	};
+	class bravo_gm_ge_uniform_90_blk : bravo_gm_ge_uniform_90_des
+	{
+		displayName = "Combat Suit (Black)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_blk_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_blk_co"};
+			uniformClass = "bravo_gm_ge_uniform_90_blk_unit";
+		};
+	};
+	class bravo_gm_ge_uniform_90_dgt : bravo_gm_ge_uniform_90_des
+	{
+		displayName = "Combat Suit (Daguet)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_dgt_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_dgt_co"};
+			uniformClass = "bravo_gm_ge_uniform_90_dgt_unit";
+		};
+	};
+	class bravo_gm_ge_uniform_90_nfp : bravo_gm_ge_uniform_90_des
+	{
+		displayName = "Combat Suit (NFP)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_nfp_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_nfp_co"};
+			uniformClass = "bravo_gm_ge_uniform_90_nfp_unit";
+		};
+	};
+	class bravo_gm_ge_uniform_90_philar : bravo_gm_ge_uniform_90_des
+	{
+		displayName = "Combat Suit (PHILARPAT)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_philar_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_philar_co"};
+			uniformClass = "bravo_gm_ge_uniform_90_philar_unit";
+		};
+	};
+	class bravo_gm_ge_uniform_90_khk : bravo_gm_ge_uniform_90_des
 	{
 		displayName = "Combat Suit (Khaki)";
 		class ItemInfo : ItemInfo
@@ -3455,7 +3545,7 @@ class cfgWeapons
 			uniformClass = "bravo_gm_ge_uniform_90_khk_unit";
 		};
 	};
-	class bravo_gm_ge_uniform_90_win : gm_ge_uniform_soldier_90_flk
+	class bravo_gm_ge_uniform_90_win : bravo_gm_ge_uniform_90_des
 	{
 		displayName = "Combat Suit (White)";
 		class ItemInfo : ItemInfo
@@ -3464,7 +3554,7 @@ class cfgWeapons
 			uniformClass = "bravo_gm_ge_uniform_90_win_unit";
 		};
 	};
-	class bravo_gm_ge_uniform_90_cce : gm_ge_uniform_soldier_90_flk
+	class bravo_gm_ge_uniform_90_cce : bravo_gm_ge_uniform_90_des
 	{
 		displayName = "Combat Suit (CCE)";
 		class ItemInfo : ItemInfo
@@ -3478,90 +3568,9 @@ class cfgWeapons
 	{
 		class ItemInfo;
 	};
-	class bravo_gm_ge_uniform_rolled_90_khk : gm_ge_uniform_soldier_rolled_90_flk
+	class bravo_gm_ge_uniform_rolled_90_des : gm_ge_uniform_soldier_rolled_90_flk
 	{
-		displayName = "Combat Suit (Rolled, Khaki)";
-		class ItemInfo : ItemInfo
-		{
-			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_khk_co"};
-			uniformClass = "bravo_gm_ge_uniform_rolled_90_khk_unit";
-		};
-	};
-	class bravo_gm_ge_uniform_rolled_90_win : gm_ge_uniform_soldier_rolled_90_flk
-	{
-		displayName = "Combat Suit (Rolled, White)";
-		class ItemInfo : ItemInfo
-		{
-			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_win_co"};
-			uniformClass = "bravo_gm_ge_uniform_rolled_90_win_unit";
-		};
-	};
-	class bravo_gm_ge_uniform_rolled_90_cce : gm_ge_uniform_soldier_rolled_90_flk
-	{
-		displayName = "Combat Suit (Rolled, CCE)";
-		class ItemInfo : ItemInfo
-		{
-			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_cce_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_cce_co"};
-			uniformClass = "bravo_gm_ge_uniform_rolled_90_cce_unit";
-		};
-	};
-	
-	class gm_ge_uniform_soldier_90_trp : gm_ge_uniform_soldier_90_base
-	{
-		class ItemInfo;
-	};
-	class bravo_gm_ge_uniform_90_des : gm_ge_uniform_soldier_90_trp
-	{
-		displayName = "Combat Suit (Tan)";
-		class ItemInfo : ItemInfo
-		{
-			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_des_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_des_co"};
-			uniformClass = "bravo_gm_ge_uniform_90_des_unit";
-		};
-	};
-	class bravo_gm_ge_uniform_90_blk : gm_ge_uniform_soldier_90_trp
-	{
-		displayName = "Combat Suit (Black)";
-		class ItemInfo : ItemInfo
-		{
-			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_blk_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_blk_co"};
-			uniformClass = "bravo_gm_ge_uniform_90_blk_unit";
-		};
-	};
-	class bravo_gm_ge_uniform_90_dgt : gm_ge_uniform_soldier_90_trp
-	{
-		displayName = "Combat Suit (Daguet)";
-		class ItemInfo : ItemInfo
-		{
-			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_dgt_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_dgt_co"};
-			uniformClass = "bravo_gm_ge_uniform_90_dgt_unit";
-		};
-	};
-	class bravo_gm_ge_uniform_90_nfp : gm_ge_uniform_soldier_90_trp
-	{
-		displayName = "Combat Suit (NFP)";
-		class ItemInfo : ItemInfo
-		{
-			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_nfp_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_nfp_co"};
-			uniformClass = "bravo_gm_ge_uniform_90_nfp_unit";
-		};
-	};
-	class bravo_gm_ge_uniform_90_philar : gm_ge_uniform_soldier_90_trp
-	{
-		displayName = "Combat Suit (PHILARPAT)";
-		class ItemInfo : ItemInfo
-		{
-			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_philar_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_philar_co"};
-			uniformClass = "bravo_gm_ge_uniform_90_philar_unit";
-		};
-	};
-	
-	class gm_ge_uniform_soldier_rolled_90_trp : gm_ge_uniform_soldier_90_base
-	{
-		class ItemInfo;
-	};
-	class bravo_gm_ge_uniform_rolled_90_des : gm_ge_uniform_soldier_rolled_90_trp
-	{
+		useGMuniformDetails = 0;
 		displayName = "Combat Suit (Rolled, Tan)";
 		class ItemInfo : ItemInfo
 		{
@@ -3569,7 +3578,7 @@ class cfgWeapons
 			uniformClass = "bravo_gm_ge_uniform_rolled_90_des_unit";
 		};
 	};
-	class bravo_gm_ge_uniform_rolled_90_blk : gm_ge_uniform_soldier_rolled_90_trp
+	class bravo_gm_ge_uniform_rolled_90_blk : bravo_gm_ge_uniform_rolled_90_des
 	{
 		displayName = "Combat Suit (Rolled, Black)";
 		class ItemInfo : ItemInfo
@@ -3578,7 +3587,7 @@ class cfgWeapons
 			uniformClass = "bravo_gm_ge_uniform_rolled_90_blk_unit";
 		};
 	};
-	class bravo_gm_ge_uniform_rolled_90_dgt : gm_ge_uniform_soldier_rolled_90_trp
+	class bravo_gm_ge_uniform_rolled_90_dgt : bravo_gm_ge_uniform_rolled_90_des
 	{
 		displayName = "Combat Suit (Rolled, Daguet)";
 		class ItemInfo : ItemInfo
@@ -3587,7 +3596,7 @@ class cfgWeapons
 			uniformClass = "bravo_gm_ge_uniform_rolled_90_dgt_unit";
 		};
 	};
-	class bravo_gm_ge_uniform_rolled_90_nfp : gm_ge_uniform_soldier_rolled_90_trp
+	class bravo_gm_ge_uniform_rolled_90_nfp : bravo_gm_ge_uniform_rolled_90_des
 	{
 		displayName = "Combat Suit (Rolled, NFP)";
 		class ItemInfo : ItemInfo
@@ -3596,7 +3605,7 @@ class cfgWeapons
 			uniformClass = "bravo_gm_ge_uniform_rolled_90_nfp_unit";
 		};
 	};
-	class bravo_gm_ge_uniform_rolled_90_philar : gm_ge_uniform_soldier_rolled_90_trp
+	class bravo_gm_ge_uniform_rolled_90_philar : bravo_gm_ge_uniform_rolled_90_des
 	{
 		displayName = "Combat Suit (Rolled, PHILARPAT)";
 		class ItemInfo : ItemInfo
@@ -3605,13 +3614,51 @@ class cfgWeapons
 			uniformClass = "bravo_gm_ge_uniform_rolled_90_philar_unit";
 		};
 	};
+	class bravo_gm_ge_uniform_rolled_90_khk : bravo_gm_ge_uniform_rolled_90_des
+	{
+		displayName = "Combat Suit (Rolled, Khaki)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_khk_co"};
+			uniformClass = "bravo_gm_ge_uniform_rolled_90_khk_unit";
+		};
+	};
+	class bravo_gm_ge_uniform_rolled_90_win : bravo_gm_ge_uniform_rolled_90_des
+	{
+		displayName = "Combat Suit (Rolled, White)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_win_co"};
+			uniformClass = "bravo_gm_ge_uniform_rolled_90_win_unit";
+		};
+	};
+	class bravo_gm_ge_uniform_rolled_90_cce : bravo_gm_ge_uniform_rolled_90_des
+	{
+		displayName = "Combat Suit (Rolled, CCE)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_cce_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_cce_co"};
+			uniformClass = "bravo_gm_ge_uniform_rolled_90_cce_unit";
+		};
+	};	
 	
 	class gm_ge_uniform_soldier_tshirt_90_base;
-	class gm_ge_uniform_soldier_tshirt_90_oli : gm_ge_uniform_soldier_tshirt_90_base
+	class gm_ge_uniform_soldier_tshirt_90_oli : bravo_gm_ge_uniform_tshirt_90_des
 	{
 		class ItemInfo;
 	};
-	class bravo_gm_ge_uniform_tshirt_90_khk : gm_ge_uniform_soldier_tshirt_90_oli
+	
+	class bravo_gm_ge_uniform_tshirt_90_des : gm_ge_uniform_soldier_tshirt_90_oli
+	{
+		useGMuniformDetails = 0;
+		displayName = "Combat Suit (T-Shirt, Tan)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_des_co"};
+			uniformClass = "bravo_gm_ge_uniform_tshirt_90_des_unit";
+		};
+	};
+	class bravo_gm_ge_uniform_tshirt_90_khk : bravo_gm_ge_uniform_tshirt_90_des
 	{
 		displayName = "Combat Suit (T-Shirt, Khaki)";
 		class ItemInfo : ItemInfo
@@ -3620,16 +3667,7 @@ class cfgWeapons
 			uniformClass = "bravo_gm_ge_uniform_tshirt_90_khk_unit";
 		};
 	};
-	class bravo_gm_ge_uniform_tshirt_90_des : gm_ge_uniform_soldier_tshirt_90_oli
-	{
-		displayName = "Combat Suit (T-Shirt, Tan)";
-		class ItemInfo : ItemInfo
-		{
-			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_des_co"};
-			uniformClass = "bravo_gm_ge_uniform_tshirt_90_des_unit";
-		};
-	};
-	class bravo_gm_ge_uniform_tshirt_90_desorg : gm_ge_uniform_soldier_tshirt_90_oli
+	class bravo_gm_ge_uniform_tshirt_90_desorg : bravo_gm_ge_uniform_tshirt_90_des
 	{
 		displayName = "Combat Suit (T-Shirt, Tan/Orange)";
 		class ItemInfo : ItemInfo
@@ -3638,7 +3676,7 @@ class cfgWeapons
 			uniformClass = "bravo_gm_ge_uniform_tshirt_90_desorg_unit";
 		};
 	};
-	class bravo_gm_ge_uniform_tshirt_90_khkorg : gm_ge_uniform_soldier_tshirt_90_oli
+	class bravo_gm_ge_uniform_tshirt_90_khkorg : bravo_gm_ge_uniform_tshirt_90_des
 	{
 		displayName = "Combat Suit (T-Shirt, Khaki/Orange)";
 		class ItemInfo : ItemInfo
@@ -3647,7 +3685,7 @@ class cfgWeapons
 			uniformClass = "bravo_gm_ge_uniform_tshirt_90_khkorg_unit";
 		};
 	};
-	class bravo_gm_ge_uniform_tshirt_90_blk : gm_ge_uniform_soldier_tshirt_90_oli
+	class bravo_gm_ge_uniform_tshirt_90_blk : bravo_gm_ge_uniform_tshirt_90_des
 	{
 		displayName = "Combat Suit (T-Shirt, Black)";
 		class ItemInfo : ItemInfo
@@ -3656,7 +3694,7 @@ class cfgWeapons
 			uniformClass = "bravo_gm_ge_uniform_tshirt_90_blk_unit";
 		};
 	};
-	class bravo_gm_ge_uniform_tshirt_90_blkorg : gm_ge_uniform_soldier_tshirt_90_oli
+	class bravo_gm_ge_uniform_tshirt_90_blkorg : bravo_gm_ge_uniform_tshirt_90_des
 	{
 		displayName = "Combat Suit (T-Shirt, Black/Orange)";
 		class ItemInfo : ItemInfo
@@ -3665,7 +3703,7 @@ class cfgWeapons
 			uniformClass = "bravo_gm_ge_uniform_tshirt_90_blkorg_unit";
 		};
 	};
-	class bravo_gm_ge_uniform_tshirt_90_cce : gm_ge_uniform_soldier_tshirt_90_oli
+	class bravo_gm_ge_uniform_tshirt_90_cce : bravo_gm_ge_uniform_tshirt_90_des
 	{
 		displayName = "Combat Suit (T-Shirt, CCE)";
 		class ItemInfo : ItemInfo
@@ -3674,7 +3712,7 @@ class cfgWeapons
 			uniformClass = "bravo_gm_ge_uniform_tshirt_90_cce_unit";
 		};
 	};
-	class bravo_gm_ge_uniform_tshirt_90_dgt : gm_ge_uniform_soldier_tshirt_90_oli
+	class bravo_gm_ge_uniform_tshirt_90_dgt : bravo_gm_ge_uniform_tshirt_90_des
 	{
 		displayName = "Combat Suit (T-Shirt, Daguet)";
 		class ItemInfo : ItemInfo
@@ -3683,7 +3721,7 @@ class cfgWeapons
 			uniformClass = "bravo_gm_ge_uniform_tshirt_90_dgt_unit";
 		};
 	};
-	class bravo_gm_ge_uniform_tshirt_90_nfp : gm_ge_uniform_soldier_tshirt_90_oli
+	class bravo_gm_ge_uniform_tshirt_90_nfp : bravo_gm_ge_uniform_tshirt_90_des
 	{
 		displayName = "Combat Suit (T-Shirt, NFP)";
 		class ItemInfo : ItemInfo
@@ -3692,7 +3730,7 @@ class cfgWeapons
 			uniformClass = "bravo_gm_ge_uniform_tshirt_90_nfp_unit";
 		};
 	};
-	class bravo_gm_ge_uniform_tshirt_90_philar : gm_ge_uniform_soldier_tshirt_90_oli
+	class bravo_gm_ge_uniform_tshirt_90_philar : bravo_gm_ge_uniform_tshirt_90_des
 	{
 		displayName = "Combat Suit (T-Shirt, PHILARPAT)";
 		class ItemInfo : ItemInfo
@@ -3727,13 +3765,14 @@ class cfgWeapons
 		};
 	};
 	*/
-	class gm_gc_uniform_soldier_90_base;
-	class gm_gc_army_uniform_soldier_90_str : gm_gc_uniform_soldier_90_base
+	class gm_gc_uniform_soldier_90_base;	
+	class gm_gc_army_uniform_soldier_90_sgr : gm_gc_uniform_soldier_90_base
 	{
 		class ItemInfo;
 	};
-	class bravo_gm_gc_army_uniform_soldier_90_des : gm_gc_army_uniform_soldier_90_str
+	class bravo_gm_gc_army_uniform_soldier_90_des : gm_gc_army_uniform_soldier_90_sgr
 	{
+		useGMuniformDetails = 0;
 		displayName = "Field Service Uniform (UTV, Tan)";
 		class ItemInfo : ItemInfo
 		{
@@ -3741,26 +3780,7 @@ class cfgWeapons
 			uniformClass = "bravo_gm_gc_army_uniform_soldier_90_des_unit";
 		};
 	};
-	
-	class gm_gc_army_uniform_soldier_rolled_90_str : gm_gc_uniform_soldier_90_base
-	{
-		class ItemInfo;
-	};
-	class bravo_gm_gc_army_uniform_soldier_rolled_90_des : gm_gc_army_uniform_soldier_rolled_90_str
-	{
-		displayName = "Field Service Uniform (UTV, Rolled, Tan)";
-		class ItemInfo : ItemInfo
-		{
-			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_des_co"};
-			uniformClass = "bravo_gm_gc_army_uniform_soldier_rolled_90_des_unit";
-		};
-	};
-	
-	class gm_gc_army_uniform_soldier_90_sgr : gm_gc_uniform_soldier_90_base
-	{
-		class ItemInfo;
-	};
-	class bravo_gm_gc_army_uniform_soldier_90_khk : gm_gc_army_uniform_soldier_90_sgr
+	class bravo_gm_gc_army_uniform_soldier_90_khk : bravo_gm_gc_army_uniform_soldier_90_des
 	{
 		displayName = "Field Service Uniform (UTV, Khaki)";
 		class ItemInfo : ItemInfo
@@ -3769,7 +3789,7 @@ class cfgWeapons
 			uniformClass = "bravo_gm_gc_army_uniform_soldier_90_khk_unit";
 		};
 	};
-	class bravo_gm_gc_army_uniform_soldier_90_win : gm_gc_army_uniform_soldier_90_sgr
+	class bravo_gm_gc_army_uniform_soldier_90_win : bravo_gm_gc_army_uniform_soldier_90_des
 	{
 		displayName = "Field Service Uniform (UTV, White)";
 		class ItemInfo : ItemInfo
@@ -3778,7 +3798,7 @@ class cfgWeapons
 			uniformClass = "bravo_gm_gc_army_uniform_soldier_90_win_unit";
 		};
 	};
-	class bravo_gm_gc_army_uniform_soldier_90_blk : gm_gc_army_uniform_soldier_90_sgr
+	class bravo_gm_gc_army_uniform_soldier_90_blk : bravo_gm_gc_army_uniform_soldier_90_des
 	{
 		displayName = "Field Service Uniform (UTV, Black)";
 		class ItemInfo : ItemInfo
@@ -3787,7 +3807,7 @@ class cfgWeapons
 			uniformClass = "bravo_gm_gc_army_uniform_soldier_90_blk_unit";
 		};
 	};
-	class bravo_gm_gc_army_uniform_soldier_90_egy : gm_gc_army_uniform_soldier_90_sgr
+	class bravo_gm_gc_army_uniform_soldier_90_egy : bravo_gm_gc_army_uniform_soldier_90_des
 	{
 		displayName = "Field Service Uniform (UTV, Egyptian Desert Rocks)";
 		class ItemInfo : ItemInfo
@@ -3796,7 +3816,7 @@ class cfgWeapons
 			uniformClass = "bravo_gm_gc_army_uniform_soldier_90_egy_unit";
 		};
 	};
-	class bravo_gm_gc_army_uniform_soldier_90_egt : gm_gc_army_uniform_soldier_90_sgr
+	class bravo_gm_gc_army_uniform_soldier_90_egt : bravo_gm_gc_army_uniform_soldier_90_des
 	{
 		displayName = "Field Service Uniform (UTV, Egyptian Desert Rocks Tan Boots)";
 		class ItemInfo : ItemInfo
@@ -3810,7 +3830,16 @@ class cfgWeapons
 	{
 		class ItemInfo;
 	};
-	class bravo_gm_gc_army_uniform_soldier_rolled_90_khk : gm_gc_army_uniform_soldier_rolled_90_sgr
+	class bravo_gm_gc_army_uniform_soldier_rolled_90_des : gm_gc_army_uniform_soldier_rolled_90_sgr
+	{
+		displayName = "Field Service Uniform (UTV, Rolled, Tan)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_des_co"};
+			uniformClass = "bravo_gm_gc_army_uniform_soldier_rolled_90_des_unit";
+		};
+	};
+	class bravo_gm_gc_army_uniform_soldier_rolled_90_khk : bravo_gm_gc_army_uniform_soldier_rolled_90_des
 	{
 		displayName = "Field Service Uniform (UTV, Rolled, Khaki)";
 		class ItemInfo : ItemInfo
@@ -3819,7 +3848,7 @@ class cfgWeapons
 			uniformClass = "bravo_gm_gc_army_uniform_soldier_rolled_90_khk_unit";
 		};
 	};
-	class bravo_gm_gc_army_uniform_soldier_rolled_90_win : gm_gc_army_uniform_soldier_rolled_90_sgr
+	class bravo_gm_gc_army_uniform_soldier_rolled_90_win : bravo_gm_gc_army_uniform_soldier_rolled_90_des
 	{
 		displayName = "Field Service Uniform (UTV, Rolled, White)";
 		class ItemInfo : ItemInfo
@@ -3828,7 +3857,7 @@ class cfgWeapons
 			uniformClass = "bravo_gm_gc_army_uniform_soldier_rolled_90_win_unit";
 		};
 	};
-	class bravo_gm_gc_army_uniform_soldier_rolled_90_blk : gm_gc_army_uniform_soldier_rolled_90_sgr
+	class bravo_gm_gc_army_uniform_soldier_rolled_90_blk : bravo_gm_gc_army_uniform_soldier_rolled_90_des
 	{
 		displayName = "Field Service Uniform (UTV, Rolled, Black)";
 		class ItemInfo : ItemInfo
@@ -3837,7 +3866,7 @@ class cfgWeapons
 			uniformClass = "bravo_gm_gc_army_uniform_soldier_rolled_90_blk_unit";
 		};
 	};
-	class bravo_gm_gc_army_uniform_soldier_rolled_90_egy : gm_gc_army_uniform_soldier_rolled_90_sgr
+	class bravo_gm_gc_army_uniform_soldier_rolled_90_egy : bravo_gm_gc_army_uniform_soldier_rolled_90_des
 	{
 		displayName = "Field Service Uniform (UTV, Rolled, Egyptian Desert Rocks)";
 		class ItemInfo : ItemInfo
@@ -3846,7 +3875,7 @@ class cfgWeapons
 			uniformClass = "bravo_gm_gc_army_uniform_soldier_rolled_90_egy_unit";
 		};
 	};
-	class bravo_gm_gc_army_uniform_soldier_rolled_90_egt : gm_gc_army_uniform_soldier_rolled_90_sgr
+	class bravo_gm_gc_army_uniform_soldier_rolled_90_egt : bravo_gm_gc_army_uniform_soldier_rolled_90_des
 	{
 		displayName = "Field Service Uniform (UTV, Rolled, Egyptian Desert Rocks Tan Boots)";
 		class ItemInfo : ItemInfo
@@ -3863,6 +3892,7 @@ class cfgWeapons
 	};
 	class bravo_dk_army_uniform_soldier_84_oli_noflag : gm_dk_army_uniform_soldier_84_oli
 	{
+		useGMuniformDetails = 0;
 		displayName = "Combat Uniform M/84 (Olive, no flag)";
 		class ItemInfo : ItemInfo
 		{
@@ -3870,7 +3900,7 @@ class cfgWeapons
 			uniformClass = "bravo_dk_army_uniform_soldier_84_oli_noflag_unit";
 		};
 	};
-	class bravo_dk_army_uniform_soldier_84_mtp : gm_dk_army_uniform_soldier_84_oli
+	class bravo_dk_army_uniform_soldier_84_mtp : bravo_dk_army_uniform_soldier_84_oli_noflag
 	{
 		displayName = "Combat Uniform M/84 (MTP)";
 		class ItemInfo : ItemInfo
@@ -3879,7 +3909,7 @@ class cfgWeapons
 			uniformClass = "bravo_dk_army_uniform_soldier_84_mtp_unit";
 		};
 	};
-	class bravo_dk_army_uniform_soldier_84_mcm : gm_dk_army_uniform_soldier_84_oli
+	class bravo_dk_army_uniform_soldier_84_mcm : bravo_dk_army_uniform_soldier_84_oli_noflag
 	{
 		displayName = "Combat Uniform M/84 (Multicam)";
 		class ItemInfo : ItemInfo
@@ -3888,7 +3918,7 @@ class cfgWeapons
 			uniformClass = "bravo_dk_army_uniform_soldier_84_mcm_unit";
 		};
 	};
-	class bravo_dk_army_uniform_soldier_84_rmc : gm_dk_army_uniform_soldier_84_oli
+	class bravo_dk_army_uniform_soldier_84_rmc : bravo_dk_army_uniform_soldier_84_oli_noflag
 	{
 		displayName = "Combat Uniform M/84 (Multicam RU)";
 		class ItemInfo : ItemInfo
@@ -4132,6 +4162,15 @@ class cfgWeapons
 		class ItemInfo : ItemInfo
 		{
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_auscam_co"};
+		};
+	};
+	class bravo_gm_boonie_mm14 : gm_ge_headgear_hat_boonie_oli
+	{
+		displayName = "Boonie Hat (MM-14)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_mm14_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_mm14_co"};
 		};
 	};
 };

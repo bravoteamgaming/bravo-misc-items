@@ -1160,6 +1160,10 @@ class cfgVehicles
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_auscam_co"};
 	};
+	class bravo_gm_bdu_mm14_unit : gm_xx_army_rifleman_80_oli
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_mm14_co"};
+	};
 	
 	class gm_xx_army_rifleman_nogloves_80_oli;
 	class bravo_gm_bdu_nogloves_des_unit : gm_xx_army_rifleman_nogloves_80_oli
@@ -1197,6 +1201,10 @@ class cfgVehicles
 	class bravo_gm_bdu_nogloves_auscam_unit : gm_xx_army_rifleman_nogloves_80_oli
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_auscam_co"};
+	};
+	class bravo_gm_bdu_nogloves_mm14_unit : gm_xx_army_rifleman_nogloves_80_oli
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_mm14_co"};
 	};
 	
 	class gm_xx_army_rifleman_rolled_80_oli;
@@ -1236,117 +1244,120 @@ class cfgVehicles
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_auscam_co"};
 	};
-	
-	class gm_ge_army_soldier_rolled_90_trp;
-	class bravo_gm_ge_uniform_rolled_90_des_unit : gm_ge_army_soldier_rolled_90_trp
+	class bravo_gm_bdu_rolled_mm14_unit : gm_xx_army_rifleman_rolled_80_oli
 	{
-		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_des_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_des_co"};
-	};
-	class bravo_gm_ge_uniform_rolled_90_dgt_unit : gm_ge_army_soldier_rolled_90_trp
-	{
-		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_dgt_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_dgt_co"};
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_mm14_co"};
 	};
 	
 	class gm_ge_army_soldier_rolled_90_flk;
-	class bravo_gm_ge_uniform_rolled_90_khk_unit : gm_ge_army_soldier_rolled_90_flk
+	class bravo_gm_ge_uniform_rolled_90_des_unit : gm_ge_army_soldier_rolled_90_flk
+	{
+		useGMuniformDetails = 0;
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_des_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_des_co"};
+	};
+	class bravo_gm_ge_uniform_rolled_90_dgt_unit : bravo_gm_ge_uniform_rolled_90_des_unit
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_dgt_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_dgt_co"};
+	};
+	class bravo_gm_ge_uniform_rolled_90_khk_unit : bravo_gm_ge_uniform_rolled_90_des_unit
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_khk_co"};
 	};
-	class bravo_gm_ge_uniform_rolled_90_win_unit : gm_ge_army_soldier_rolled_90_flk
+	class bravo_gm_ge_uniform_rolled_90_win_unit : bravo_gm_ge_uniform_rolled_90_des_unit
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_win_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_win_co"};
 	};
-	class bravo_gm_ge_uniform_rolled_90_blk_unit : gm_ge_army_soldier_rolled_90_flk
+	class bravo_gm_ge_uniform_rolled_90_blk_unit : bravo_gm_ge_uniform_rolled_90_des_unit
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_blk_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_blk_co"};
 	};
-	class bravo_gm_ge_uniform_rolled_90_cce_unit : gm_ge_army_soldier_rolled_90_flk
+	class bravo_gm_ge_uniform_rolled_90_cce_unit : bravo_gm_ge_uniform_rolled_90_des_unit
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_cce_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_cce_co"};
 	};
-	class bravo_gm_ge_uniform_rolled_90_nfp_unit : gm_ge_army_soldier_rolled_90_flk
+	class bravo_gm_ge_uniform_rolled_90_nfp_unit : bravo_gm_ge_uniform_rolled_90_des_unit
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_nfp_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_nfp_co"};
 	};
-	class bravo_gm_ge_uniform_rolled_90_philar_unit : gm_ge_army_soldier_rolled_90_flk
+	class bravo_gm_ge_uniform_rolled_90_philar_unit : bravo_gm_ge_uniform_rolled_90_des_unit
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_philar_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_philar_co"};
 	};
 	
 	class gm_ge_army_rifleman_90_flk;
-	class bravo_gm_ge_uniform_90_khk_unit : gm_ge_army_rifleman_90_flk
+	class bravo_gm_ge_uniform_90_des_unit : gm_ge_army_rifleman_90_flk
+	{
+		useGMuniformDetails = 0;
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_des_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_des_co"};
+	};
+	class bravo_gm_ge_uniform_90_blk_unit : bravo_gm_ge_uniform_90_des_unit
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_blk_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_blk_co"};
+	};
+	class bravo_gm_ge_uniform_90_dgt_unit : bravo_gm_ge_uniform_90_des_unit
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_dgt_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_dgt_co"};
+	};
+	class bravo_gm_ge_uniform_90_khk_unit : bravo_gm_ge_uniform_90_des_unit
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_khk_co"};
 	};
-	class bravo_gm_ge_uniform_90_win_unit : gm_ge_army_rifleman_90_flk
+	class bravo_gm_ge_uniform_90_win_unit : bravo_gm_ge_uniform_90_des_unit
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_win_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_win_co"};
 	};
-	class bravo_gm_ge_uniform_90_cce_unit : gm_ge_army_rifleman_90_flk
+	class bravo_gm_ge_uniform_90_cce_unit : bravo_gm_ge_uniform_90_des_unit
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_cce_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_cce_co"};
 	};
-	class bravo_gm_ge_uniform_90_philar_unit : gm_ge_army_rifleman_90_flk
+	class bravo_gm_ge_uniform_90_philar_unit : bravo_gm_ge_uniform_90_des_unit
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_philar_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_philar_co"};
 	};
-	class bravo_gm_ge_uniform_90_nfp_unit : gm_ge_army_rifleman_90_flk
+	class bravo_gm_ge_uniform_90_nfp_unit : bravo_gm_ge_uniform_90_des_unit
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_nfp_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_nfp_co"};
 	};
 	
-	class gm_ge_army_rifleman_90_trp;
-	class bravo_gm_ge_uniform_90_des_unit : gm_ge_army_rifleman_90_trp
-	{
-		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_des_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_des_co"};
-	};
-	class bravo_gm_ge_uniform_90_blk_unit : gm_ge_army_rifleman_90_trp
-	{
-		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_blk_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_blk_co"};
-	};
-	class bravo_gm_ge_uniform_90_dgt_unit : gm_ge_army_rifleman_90_trp
-	{
-		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_dgt_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_dgt_co"};
-	};
-	
 	class gm_ge_army_soldier_tshirt_90_oli;
-	class bravo_gm_ge_uniform_tshirt_90_khk_unit : gm_ge_army_soldier_tshirt_90_oli
+	class bravo_gm_ge_uniform_tshirt_90_des_unit : gm_ge_army_soldier_tshirt_90_oli
+	{
+		useGMuniformDetails = 0;
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_des_co"};
+	};
+	class bravo_gm_ge_uniform_tshirt_90_khk_unit : bravo_gm_ge_uniform_tshirt_90_des_unit
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_khk_co"};
 	};
-	class bravo_gm_ge_uniform_tshirt_90_des_unit : gm_ge_army_soldier_tshirt_90_oli
-	{
-		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_des_co"};
-	};
-	class bravo_gm_ge_uniform_tshirt_90_desorg_unit : gm_ge_army_soldier_tshirt_90_oli
+	class bravo_gm_ge_uniform_tshirt_90_desorg_unit : bravo_gm_ge_uniform_tshirt_90_des_unit
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_desorg_co"};
 	};
-	class bravo_gm_ge_uniform_tshirt_90_khkorg_unit : gm_ge_army_soldier_tshirt_90_oli
+	class bravo_gm_ge_uniform_tshirt_90_khkorg_unit : bravo_gm_ge_uniform_tshirt_90_des_unit
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_khkorg_co"};
 	};
-	class bravo_gm_ge_uniform_tshirt_90_blk_unit : gm_ge_army_soldier_tshirt_90_oli
+	class bravo_gm_ge_uniform_tshirt_90_blk_unit : bravo_gm_ge_uniform_tshirt_90_des_unit
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_blk_co"};
 	};
-	class bravo_gm_ge_uniform_tshirt_90_blkorg_unit : gm_ge_army_soldier_tshirt_90_oli
+	class bravo_gm_ge_uniform_tshirt_90_blkorg_unit : bravo_gm_ge_uniform_tshirt_90_des_unit
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_blkorg_co"};
 	};
-	class bravo_gm_ge_uniform_tshirt_90_cce_unit : gm_ge_army_soldier_tshirt_90_oli
+	class bravo_gm_ge_uniform_tshirt_90_cce_unit : bravo_gm_ge_uniform_tshirt_90_des_unit
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_cce_co"};
 	};
-	class bravo_gm_ge_uniform_tshirt_90_dgt_unit : gm_ge_army_soldier_tshirt_90_oli
+	class bravo_gm_ge_uniform_tshirt_90_dgt_unit : bravo_gm_ge_uniform_tshirt_90_des_unit
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_dgt_co"};
 	};
-	class bravo_gm_ge_uniform_tshirt_90_nfp_unit : gm_ge_army_soldier_tshirt_90_oli
+	class bravo_gm_ge_uniform_tshirt_90_nfp_unit : bravo_gm_ge_uniform_tshirt_90_des_unit
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_nfp_co"};
 	};
-	class bravo_gm_ge_uniform_tshirt_90_philar_unit : gm_ge_army_soldier_tshirt_90_oli
+	class bravo_gm_ge_uniform_tshirt_90_philar_unit : bravo_gm_ge_uniform_tshirt_90_des_unit
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_philar_co"};
 	};
@@ -1364,78 +1375,78 @@ class cfgVehicles
 	*/
 	
 	class gm_gc_army_rifleman_90_sgr;
-	class bravo_gm_gc_army_uniform_soldier_90_khk_unit : gm_gc_army_rifleman_90_sgr
+	class bravo_gm_gc_army_uniform_soldier_90_des_unit : gm_gc_army_rifleman_90_sgr
+	{
+		useGMuniformDetails = 0;
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_des_co"};
+	};
+	class bravo_gm_gc_army_uniform_soldier_90_blk_unit : bravo_gm_gc_army_uniform_soldier_90_des_unit
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_blk_co"};
+	};
+	class bravo_gm_gc_army_uniform_soldier_90_egy_unit : bravo_gm_gc_army_uniform_soldier_90_des_unit
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_egy_co"};
+	};
+	class bravo_gm_gc_army_uniform_soldier_90_egt_unit : bravo_gm_gc_army_uniform_soldier_90_des_unit
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_egt_co"};
+	};
+	class bravo_gm_gc_army_uniform_soldier_90_khk_unit : bravo_gm_gc_army_uniform_soldier_90_des_unit
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_khk_co"};
 	};
-	class bravo_gm_gc_army_uniform_soldier_90_win_unit : gm_gc_army_rifleman_90_sgr
+	class bravo_gm_gc_army_uniform_soldier_90_win_unit : bravo_gm_gc_army_uniform_soldier_90_des_unit
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_win_co"};
 	};
+	
 	
 	class gm_gc_army_rifleman_rolled_90_sgr;
-	class bravo_gm_gc_army_uniform_soldier_rolled_90_khk_unit : gm_gc_army_rifleman_rolled_90_sgr
+	class bravo_gm_gc_army_uniform_soldier_rolled_90_des_unit : gm_gc_army_rifleman_rolled_90_sgr
+	{
+		useGMuniformDetails = 0;
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_des_co"};
+	};
+	class bravo_gm_gc_army_uniform_soldier_rolled_90_blk_unit : bravo_gm_gc_army_uniform_soldier_rolled_90_des_unit
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_blk_co"};
+	};
+	class bravo_gm_gc_army_uniform_soldier_rolled_90_egy_unit : bravo_gm_gc_army_uniform_soldier_rolled_90_des_unit
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_egy_co"};
+	};
+	class bravo_gm_gc_army_uniform_soldier_rolled_90_egt_unit : bravo_gm_gc_army_uniform_soldier_rolled_90_des_unit
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_egt_co"};
+	};
+	class bravo_gm_gc_army_uniform_soldier_rolled_90_khk_unit : bravo_gm_gc_army_uniform_soldier_rolled_90_des_unit
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_khk_co"};
 	};
-	class bravo_gm_gc_army_uniform_soldier_rolled_90_win_unit : gm_gc_army_rifleman_rolled_90_sgr
+	class bravo_gm_gc_army_uniform_soldier_rolled_90_win_unit : bravo_gm_gc_army_uniform_soldier_rolled_90_des_unit
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_win_co"};
-	};
-	
-	class gm_gc_army_rifleman_90_str;
-	class bravo_gm_gc_army_uniform_soldier_90_des_unit : gm_gc_army_rifleman_90_str
-	{
-		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_des_co"};
-	};
-	class bravo_gm_gc_army_uniform_soldier_90_blk_unit : gm_gc_army_rifleman_90_str
-	{
-		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_blk_co"};
-	};
-	class bravo_gm_gc_army_uniform_soldier_90_egy_unit : gm_gc_army_rifleman_90_str
-	{
-		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_egy_co"};
-	};
-	class bravo_gm_gc_army_uniform_soldier_90_egt_unit : gm_gc_army_rifleman_90_str
-	{
-		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_egt_co"};
-	};
-	
-	class gm_gc_army_rifleman_rolled_90_str;
-	class bravo_gm_gc_army_uniform_soldier_rolled_90_des_unit : gm_gc_army_rifleman_rolled_90_str
-	{
-		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_des_co"};
-	};
-	class bravo_gm_gc_army_uniform_soldier_rolled_90_blk_unit : gm_gc_army_rifleman_rolled_90_str
-	{
-		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_blk_co"};
-	};
-	class bravo_gm_gc_army_uniform_soldier_rolled_90_egy_unit : gm_gc_army_rifleman_rolled_90_str
-	{
-		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_egy_co"};
-	};
-	class bravo_gm_gc_army_uniform_soldier_rolled_90_egt_unit : gm_gc_army_rifleman_rolled_90_str
-	{
-		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gc_uniform_90_egt_co"};
 	};
 	
 	class gm_dk_army_crew_84_oli;
 	class bravo_dk_army_uniform_soldier_84_oli_noflag_unit : gm_dk_army_crew_84_oli
 	{
+		useGMuniformDetails = 0;
 		scope = 1;
 		hiddenSelectionsTextures[] = {"\gm\gm_characters\gm_dk_characters\data\uniform\gm_dk_uniform_soldier_84_oli_co",""};
 	};
-	class bravo_dk_army_uniform_soldier_84_mtp_unit : gm_dk_army_crew_84_oli
+	class bravo_dk_army_uniform_soldier_84_mtp_unit : bravo_dk_army_uniform_soldier_84_oli_noflag_unit
 	{
 		scope = 1;
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_m84_mtp_co",""};
 	};
-	class bravo_dk_army_uniform_soldier_84_mcm_unit : gm_dk_army_crew_84_oli
+	class bravo_dk_army_uniform_soldier_84_mcm_unit : bravo_dk_army_uniform_soldier_84_oli_noflag_unit
 	{
 		scope = 1;
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_m84_mcm_co",""};
 	};
-	class bravo_dk_army_uniform_soldier_84_rmc_unit : gm_dk_army_crew_84_oli
+	class bravo_dk_army_uniform_soldier_84_rmc_unit : bravo_dk_army_uniform_soldier_84_oli_noflag_unit
 	{
 		scope = 1;
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_m84_rmc_co",""};
