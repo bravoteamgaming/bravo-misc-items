@@ -197,3 +197,6 @@
 
 2026-05-26
 - GEAR MISC: GM CS, FSU, M84 no longer use GM rank insignia
+
+2026-05-27
+- ITEMS: fixed geometric issue with Scrape/Paste Hide Terrain Objects modules
