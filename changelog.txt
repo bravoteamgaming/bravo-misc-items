@@ -200,3 +200,6 @@
 
 2026-05-27
 - ITEMS: fixed geometric issue with Scrape/Paste Hide Terrain Objects modules
+- GEAR MISC: added PASGT variants
+- GEAR MISC: added M/98 PASGT, Boonie, Combat Suit, and Combat Uniform
+- GEAR MISC: added ION and Sleater-Kinney Combat Suit T-Shirt
