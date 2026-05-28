@@ -206,3 +206,4 @@
 
 2026-05-28
 - ITEMS: added JTAC patch
+- GEAR MISC: added Jade Rabbit Combat Suit T-Shirt

@@ -1397,6 +1397,10 @@ class cfgVehicles
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_blkion_co"};
 	};
+	class bravo_gm_ge_uniform_tshirt_90_blkjr_unit : bravo_gm_ge_uniform_tshirt_90_des_unit
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_blkjr_co"};
+	};
 	
 	/*
 	class gm_ge_army_rifleman_parka_80_ols;

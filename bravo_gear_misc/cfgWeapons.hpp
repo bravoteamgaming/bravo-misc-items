@@ -3816,6 +3816,15 @@ class cfgWeapons
 			uniformClass = "bravo_gm_ge_uniform_tshirt_90_blkion_unit";
 		};
 	};
+	class bravo_gm_ge_uniform_tshirt_90_blkjr : bravo_gm_ge_uniform_tshirt_90_des
+	{
+		displayName = "Combat Suit (T-Shirt, Black/Jade Rabbit)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_blkjr_co"};
+			uniformClass = "bravo_gm_ge_uniform_tshirt_90_blkjr_unit";
+		};
+	};
 	
 	/*
 	class gm_ge_uniform_soldier_parka_80_base;
