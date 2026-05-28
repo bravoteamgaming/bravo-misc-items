@@ -2005,6 +2005,14 @@ class cfgWeapons
 			uniformClass = "bravo_combatuniform_m98_unit";
 		};
 	};
+	class bravo_combatuniform_m90 : u_i_combatuniform
+	{
+		displayName = "Combat Uniform (M/90)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_m90_unit";
+		};
+	};
 	
 	class bravo_combatuniform_short_dgt : u_i_combatuniform_shortsleeve
 	{
@@ -2100,6 +2108,14 @@ class cfgWeapons
 		class itemInfo : itemInfo
 		{
 			uniformClass = "bravo_combatuniform_short_m98_unit";
+		};
+	};
+	class bravo_combatuniform_short_m90 : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (M/90/Rolled-Up)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_short_m90_unit";
 		};
 	};
 	
@@ -2216,6 +2232,14 @@ class cfgWeapons
 			uniformClass = "bravo_combatuniform_tactee_m98_ws_unit";
 		};
 	};
+	class bravo_combatuniform_tactee_m90_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (M/90/Combat Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tactee_m90_ws_unit";
+		};
+	};
 	
 	class bravo_combatuniform_tshirt_cce_ws : u_i_combatuniform_shortsleeve
 	{
@@ -2319,6 +2343,14 @@ class cfgWeapons
 		class itemInfo : itemInfo
 		{
 			uniformClass = "bravo_combatuniform_tshirt_m98_ws_unit";
+		};
+	};
+	class bravo_combatuniform_tshirt_m90_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (M/90/T-Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tshirt_m90_ws_unit";
 		};
 	};
 	
@@ -3604,6 +3636,15 @@ class cfgWeapons
 			uniformClass = "bravo_gm_ge_uniform_90_m98_unit";
 		};
 	};
+	class bravo_gm_ge_uniform_90_m90 : bravo_gm_ge_uniform_90_des
+	{
+		displayName = "Combat Suit (M/90)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_m90_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_m90_co"};
+			uniformClass = "bravo_gm_ge_uniform_90_m90_unit";
+		};
+	};
 	
 	class gm_ge_uniform_soldier_rolled_90_flk : gm_ge_uniform_soldier_90_base
 	{
@@ -3689,6 +3730,15 @@ class cfgWeapons
 		{
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_m98_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_m98_co"};
 			uniformClass = "bravo_gm_ge_uniform_rolled_90_m98_unit";
+		};
+	};
+	class bravo_gm_ge_uniform_rolled_90_m90 : bravo_gm_ge_uniform_rolled_90_des
+	{
+		displayName = "Combat Suit (Rolled, M/90)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_m90_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_m90_co"};
+			uniformClass = "bravo_gm_ge_uniform_rolled_90_m90_unit";
 		};
 	};
 	
@@ -3823,6 +3873,15 @@ class cfgWeapons
 		{
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_blkjr_co"};
 			uniformClass = "bravo_gm_ge_uniform_tshirt_90_blkjr_unit";
+		};
+	};
+	class bravo_gm_ge_uniform_tshirt_90_m90 : bravo_gm_ge_uniform_tshirt_90_des
+	{
+		displayName = "Combat Suit (T-Shirt, M/90)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_m90_co"};
+			uniformClass = "bravo_gm_ge_uniform_tshirt_90_m90_unit";
 		};
 	};
 	
@@ -4268,6 +4327,15 @@ class cfgWeapons
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_m98_co"};
 		};
 	};
+	class bravo_gm_boonie_m90 : gm_ge_headgear_hat_boonie_oli
+	{
+		displayName = "Boonie Hat (M/90)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_m90_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_m90_co"};
+		};
+	};
 	
 	class rhssaf_helmet_m97_oakleaf;
 	class bravo_pasgt_auscam : rhssaf_helmet_m97_oakleaf
@@ -4299,6 +4367,31 @@ class cfgWeapons
 	{
 		displayName = "PASGT (M/98)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_m98_co"};
+	};
+	class bravo_pasgt_mm14 : rhssaf_helmet_m97_oakleaf
+	{
+		displayName = "PASGT (MM-14)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_mm14_co"};
+	};
+	class bravo_pasgt_snd : rhssaf_helmet_m97_oakleaf
+	{
+		displayName = "PASGT (Sand)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_snd_co"};
+	};
+	class bravo_pasgt_sgg : rhssaf_helmet_m97_oakleaf
+	{
+		displayName = "PASGT (Sage)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_sgg_co"};
+	};
+	class bravo_pasgt_khk : rhssaf_helmet_m97_oakleaf
+	{
+		displayName = "PASGT (Khaki)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_khk_co"};
+	};
+	class bravo_pasgt_m90 : rhssaf_helmet_m97_oakleaf
+	{
+		displayName = "PASGT (M/90)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_m90_co"};
 	};
 	
 	class rhssaf_helmet_m97_oakleaf_black_ess;
@@ -4332,6 +4425,31 @@ class cfgWeapons
 		displayName = "PASGT (M/98/ESS)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_m98_co","\rhssaf\addons\rhssaf_t_headgear_m97\data\rhssaf_m97_ess_black_co.paa"};
 	};
+	class bravo_pasgt_mm14_ess : rhssaf_helmet_m97_oakleaf_black_ess
+	{
+		displayName = "PASGT (MM-14/ESS)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_mm14_co","\rhssaf\addons\rhssaf_t_headgear_m97\data\rhssaf_m97_ess_black_co.paa"};
+	};
+	class bravo_pasgt_snd_ess : rhssaf_helmet_m97_oakleaf_black_ess
+	{
+		displayName = "PASGT (Sand/ESS)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_snd_co","\rhssaf\addons\rhssaf_t_headgear_m97\data\rhssaf_m97_ess_black_co.paa"};
+	};
+	class bravo_pasgt_sgg_ess : rhssaf_helmet_m97_oakleaf_black_ess
+	{
+		displayName = "PASGT (Sage/ESS)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_sgg_co","\rhssaf\addons\rhssaf_t_headgear_m97\data\rhssaf_m97_ess_black_co.paa"};
+	};
+	class bravo_pasgt_khk_ess : rhssaf_helmet_m97_oakleaf_black_ess
+	{
+		displayName = "PASGT (Khaki/ESS)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_khk_co","\rhssaf\addons\rhssaf_t_headgear_m97\data\rhssaf_m97_ess_black_co.paa"};
+	};
+	class bravo_pasgt_m90_ess : rhssaf_helmet_m97_oakleaf_black_ess
+	{
+		displayName = "PASGT (M/90/ESS)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_m90_co","\rhssaf\addons\rhssaf_t_headgear_m97\data\rhssaf_m97_ess_black_co.paa"};
+	};
 	
 	class rhssaf_helmet_m97_oakleaf_black_ess_bare;
 	class bravo_pasgt_auscam_ess_bare : rhssaf_helmet_m97_oakleaf_black_ess_bare
@@ -4364,6 +4482,31 @@ class cfgWeapons
 		displayName = "PASGT (M/98/ESS Bare)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_m98_co","\rhssaf\addons\rhssaf_t_headgear_m97\data\rhssaf_m97_ess_black_co.paa"};
 	};
+	class bravo_pasgt_mm14_ess_bare : rhssaf_helmet_m97_oakleaf_black_ess_bare
+	{
+		displayName = "PASGT (MM-14/ESS Bare)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_mm14_co","\rhssaf\addons\rhssaf_t_headgear_m97\data\rhssaf_m97_ess_black_co.paa"};
+	};
+	class bravo_pasgt_snd_ess_bare : rhssaf_helmet_m97_oakleaf_black_ess_bare
+	{
+		displayName = "PASGT (Sand/ESS Bare)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_snd_co","\rhssaf\addons\rhssaf_t_headgear_m97\data\rhssaf_m97_ess_black_co.paa"};
+	};
+	class bravo_pasgt_sgg_ess_bare : rhssaf_helmet_m97_oakleaf_black_ess_bare
+	{
+		displayName = "PASGT (Sage/ESS Bare)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_sgg_co","\rhssaf\addons\rhssaf_t_headgear_m97\data\rhssaf_m97_ess_black_co.paa"};
+	};
+	class bravo_pasgt_khk_ess_bare : rhssaf_helmet_m97_oakleaf_black_ess_bare
+	{
+		displayName = "PASGT (Khaki/ESS Bare)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_khk_co","\rhssaf\addons\rhssaf_t_headgear_m97\data\rhssaf_m97_ess_black_co.paa"};
+	};
+	class bravo_pasgt_m90_ess_bare : rhssaf_helmet_m97_oakleaf_black_ess_bare
+	{
+		displayName = "PASGT (M/90/ESS Bare)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_m90_co","\rhssaf\addons\rhssaf_t_headgear_m97\data\rhssaf_m97_ess_black_co.paa"};
+	};
 	
 	class rhsgref_helmet_pasgt_woodland_rhino;
 	class bravo_pasgt_auscam_rhino : rhsgref_helmet_pasgt_woodland_rhino
@@ -4395,5 +4538,30 @@ class cfgWeapons
 	{
 		displayName = "PASGT (M/98/Rhino)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_m98_co"};
+	};
+	class bravo_pasgt_mm14_rhino : rhsgref_helmet_pasgt_woodland_rhino
+	{
+		displayName = "PASGT (MM-14/Rhino)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_mm14_co"};
+	};
+	class bravo_pasgt_snd_rhino : rhsgref_helmet_pasgt_woodland_rhino
+	{
+		displayName = "PASGT (Sand/Rhino)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_snd_co"};
+	};
+	class bravo_pasgt_sgg_rhino : rhsgref_helmet_pasgt_woodland_rhino
+	{
+		displayName = "PASGT (Sage/Rhino)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_sgg_co"};
+	};
+	class bravo_pasgt_khk_rhino : rhsgref_helmet_pasgt_woodland_rhino
+	{
+		displayName = "PASGT (Khaki/Rhino)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_khk_co"};
+	};
+	class bravo_pasgt_m90_rhino : rhsgref_helmet_pasgt_woodland_rhino
+	{
+		displayName = "PASGT (M/90/Rhino)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_m90_co"};
 	};
 };
