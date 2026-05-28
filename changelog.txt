@@ -203,3 +203,6 @@
 - GEAR MISC: added PASGT variants
 - GEAR MISC: added M/98 PASGT, Boonie, Combat Suit, and Combat Uniform
 - GEAR MISC: added ION and Sleater-Kinney Combat Suit T-Shirt
+
+2026-05-28
+- ITEMS: added JTAC patch

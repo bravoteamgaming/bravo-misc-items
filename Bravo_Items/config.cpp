@@ -5,7 +5,7 @@ class CfgPatches
 		name = "Bravo Team Misc Items";
 		author = "Jason Olsen";
 		url = "https://github.com/bravoteamgaming/bravo-misc-items";
-		version = 1.6;
+		version = 1.7;
 		requiredVersion = 2.00;
 		units[] = {
 			"BVT_Flag_Orange",
@@ -117,6 +117,13 @@ class CfgUnitInsignia
 		displayName="Bravo - Orange - EOD";
 		author="Bravo Team";
 		texture="\Bravo_Items\patch\patch_orange_eod.paa";
+		textureVehicle="";
+	};
+	class BVT_Patch_JTAC_orange
+	{
+		displayName="Bravo - Orange - JTAC";
+		author="Bravo Team";
+		texture="\Bravo_Items\patch\patch_orange_jtac.paa";
 		textureVehicle="";
 	};
 	class BVT_Patch_team_red
