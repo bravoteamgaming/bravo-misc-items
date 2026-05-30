@@ -209,3 +209,7 @@
 - GEAR MISC: added Jade Rabbit Combat Suit T-Shirt
 - GEAR MISC: added M/90 CS, CU, and PASGT
 - GEAR MISC: added more PASGT variants
+
+2026-05-30
+- GEAR MISC: added more CS T-Shirt variants
+- GEAR MISC: added Blue cover for MICH2000
