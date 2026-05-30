@@ -175,6 +175,8 @@ GEAR MISC
 	MICH 2000 Multicam/Norotos/ARC/Headset
 	MICH 2000 NFP/Norotos/ARC
 	MICH 2000 NFP/Norotos/ARC/Headset
+	MICH 2000 Blue/Norotos/ARC
+	MICH 2000 Blue/Norotos/ARC/Headset
 	PASGT Tan/Medic
 	PASGT Tan/Ukraine
 	PASGT Tan/Defeatist
