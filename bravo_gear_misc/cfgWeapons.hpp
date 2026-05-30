@@ -1061,6 +1061,11 @@ class cfgWeapons
 		displayName = "MICH 2000 (NFP/Norotos/ARC)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\mich_covered_norotos_arc_nfp_co.paa","\rhsusf\addons\rhsusf_infantry\gear\head\data\mich_acc_od_co.paa"};
 	};
+	class bravo_mich_cover_norotos_arc_un : rhsusf_mich_helmet_marpatwd_norotos_arc
+	{
+		displayName = "MICH 2000 (Blue/Norotos/ARC)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\mich_covered_norotos_arc_un_co.paa","\rhsusf\addons\rhsusf_infantry\gear\head\data\mich_acc_od_co.paa"};
+	};
 	
 	class rhsusf_mich_helmet_marpatwd_norotos_arc_headset : rhsusf_mich_helmet_marpatwd_norotos_arc
 	{};
@@ -1083,6 +1088,11 @@ class cfgWeapons
 	{
 		displayName = "MICH 2000 (NFP/Norotos/ARC/Headset)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\mich_covered_norotos_arc_nfp_co.paa","\rhsusf\addons\rhsusf_infantry\gear\head\data\mich_acc_od_co.paa"};
+	};
+	class bravo_mich_cover_norotos_arc_headset_un : rhsusf_mich_helmet_marpatwd_norotos_arc_headset
+	{
+		displayName = "MICH 2000 (Blue/Norotos/ARC/Headset)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\mich_covered_norotos_arc_un_co.paa","\rhsusf\addons\rhsusf_infantry\gear\head\data\mich_acc_od_co.paa"};
 	};
 	
 	class rhssaf_helmet_m97_olive_nocamo;
@@ -3882,6 +3892,42 @@ class cfgWeapons
 		{
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_m90_co"};
 			uniformClass = "bravo_gm_ge_uniform_tshirt_90_m90_unit";
+		};
+	};
+	class bravo_gm_ge_uniform_tshirt_90_khkion : bravo_gm_ge_uniform_tshirt_90_des
+	{
+		displayName = "Combat Suit (T-Shirt, Khaki/ION)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_khkion_co"};
+			uniformClass = "bravo_gm_ge_uniform_tshirt_90_khkion_unit";
+		};
+	};
+	class bravo_gm_ge_uniform_tshirt_90_khkpri : bravo_gm_ge_uniform_tshirt_90_des
+	{
+		displayName = "Combat Suit (T-Shirt, Khaki/Pride)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_khkpri_co"};
+			uniformClass = "bravo_gm_ge_uniform_tshirt_90_khkpri_unit";
+		};
+	};
+	class bravo_gm_ge_uniform_tshirt_90_desion : bravo_gm_ge_uniform_tshirt_90_des
+	{
+		displayName = "Combat Suit (T-Shirt, Tan/ION)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_desion_co"};
+			uniformClass = "bravo_gm_ge_uniform_tshirt_90_desion_unit";
+		};
+	};
+	class bravo_gm_ge_uniform_tshirt_90_desvr : bravo_gm_ge_uniform_tshirt_90_des
+	{
+		displayName = "Combat Suit (T-Shirt, Tan/Vrana)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_desvr_co"};
+			uniformClass = "bravo_gm_ge_uniform_tshirt_90_desvr_unit";
 		};
 	};
 	

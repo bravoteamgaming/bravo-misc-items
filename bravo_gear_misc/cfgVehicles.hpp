@@ -1429,6 +1429,22 @@ class cfgVehicles
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_m90_co"};
 	};
+	class bravo_gm_ge_uniform_tshirt_90_khkion_unit : bravo_gm_ge_uniform_tshirt_90_des_unit
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_khkion_co"};
+	};
+	class bravo_gm_ge_uniform_tshirt_90_khkpri_unit : bravo_gm_ge_uniform_tshirt_90_des_unit
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_khkpri_co"};
+	};
+	class bravo_gm_ge_uniform_tshirt_90_desion_unit : bravo_gm_ge_uniform_tshirt_90_des_unit
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_desion_co"};
+	};
+	class bravo_gm_ge_uniform_tshirt_90_desvr_unit : bravo_gm_ge_uniform_tshirt_90_des_unit
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_desvr_co"};
+	};
 	
 	/*
 	class gm_ge_army_rifleman_parka_80_ols;
