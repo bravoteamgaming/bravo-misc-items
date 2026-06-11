@@ -117,6 +117,8 @@ class CfgPatches
 			"bravo_B_SPE_US_Radio_packboard_light",
 			"bravo_ge_army_backpack_90_khk",
 			"bravo_ge_army_backpack_90_des",
+			"bravo_ge_army_backpack_90_mcam",
+			"bravo_ge_army_backpack_90_org",
 			"bravo_gm_bdu_des_unit",
 			"bravo_gm_bdu_khk_unit",
 			"bravo_gm_bdu_blk_unit",
@@ -208,7 +210,13 @@ class CfgPatches
 			"bravo_gm_mixed_m84_win_unit",
 			"bravo_gm_mixed_m84_mtp_unit",
 			"bravo_gm_mixed_m84_mcm_unit",
-			"bravo_gm_mixed_m84_rmc_unit"
+			"bravo_gm_mixed_m84_rmc_unit",
+			"bravo_gm_uniform_operator_grn_unit",
+			"bravo_gm_uniform_operator_blk_unit",
+			"bravo_gm_uniform_operator_rolled_grn_unit",
+			"bravo_gm_uniform_operator_rolled_blk_unit",
+			"bravo_gm_uniform_operator_rolled_khk_unit",
+			"bravo_gm_uniform_operator_rolled_des_unit"
 		};
 		weapons[] = {
 			"bravo_carrier_nobelt_rf_blk",
@@ -717,7 +725,13 @@ class CfgPatches
 			"bravo_pasgt_m90",
 			"bravo_pasgt_m90_ess",
 			"bravo_pasgt_m90_ess_bare",
-			"bravo_pasgt_m90_rhino"
+			"bravo_pasgt_m90_rhino",
+			"bravo_gm_uniform_operator_grn",
+			"bravo_gm_uniform_operator_blk",
+			"bravo_gm_uniform_operator_rolled_grn",
+			"bravo_gm_uniform_operator_rolled_blk",
+			"bravo_gm_uniform_operator_rolled_khk",
+			"bravo_gm_uniform_operator_rolled_des"
 		};
 		skipWhenMissingDependencies = 1;
 	};
