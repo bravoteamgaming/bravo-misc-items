@@ -213,3 +213,6 @@
 2026-05-30
 - GEAR MISC: added more CS T-Shirt variants
 - GEAR MISC: added Blue cover for MICH2000
+
+2026-06-11
+- FAK: new addon with custom KAT FAK variants

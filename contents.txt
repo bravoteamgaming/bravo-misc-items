@@ -625,3 +625,6 @@ ITEMS
 - Change mass/cap of vanilla kitbag, carryall, radiopack
 - Add new sound sources for Play Sound module
 - Add Cache Sound Sources module to Zeus
+
+FAK
+- Add Bravo FAK variants, which can be unpacked into inventory items and configured by a CBA setting. Similar to KAT FAKs but simpler and there are more types.
