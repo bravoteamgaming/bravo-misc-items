@@ -1,8 +1,10 @@
-params ["_fakItem", "_unit"];
+params ["_unit", "_fakItem"];
 private _data = [_fakItem, "server"] call CBA_settings_fnc_get;
 if ((_data isEqualTo "") or (_data isEqualTo "[]")) exitWith {
 	systemChat format ["FAK unpack failed: no contents set for %1", _fakItem];
 };
+
+_unit removeItem _fakItem;
 
 {
 	_x params ["_item", "_quantity"];
@@ -10,5 +12,3 @@ if ((_data isEqualTo "") or (_data isEqualTo "[]")) exitWith {
 		[_unit, _item, true] call CBA_fnc_addItem;
 	};
 } forEach parseSimpleArray _data;
-
-_unit removeItem _fakItem;

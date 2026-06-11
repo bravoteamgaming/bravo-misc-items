@@ -8,7 +8,15 @@ class CfgPatches
 		requiredVersion = 2.00;
 		requiredAddons[] = {"kat_misc"};
 		units[] = {};
-		weapons[] = {};
+		weapons[] = {
+			"bravo_ifak",
+			"bravo_afak_ww2",
+			"bravo_afak_early",
+			"bravo_afak_modern",
+			"bravo_mfak_ww2",
+			"bravo_mfak_early",
+			"bravo_mfak_modern"
+		};
 		skipWhenMissingDependencies = 1;
 	};
 };
