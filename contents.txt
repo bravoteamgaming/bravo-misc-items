@@ -266,6 +266,7 @@ GEAR MISC
 	Boonie Hat (Auscam)
 	Boonie Hat (M/98)
 	Boonie Hat (M/90)
+	Boonie Hat (Multitarn)
 - Add vest variants:
 	CTRG Plate Carrier Rig (Black)
 	CTRG Plate Carrier Rig (Khaki)
@@ -538,6 +539,10 @@ GEAR MISC
 	Combat Uniform (M/90/T-Shirt)
 	Combat Uniform (M/90)
 	Combat Uniform (M/90/Rolled-Up)
+	Combat Uniform (Multitarn/Combat Shirt)
+	Combat Uniform (Multitarn/T-Shirt)
+	Combat Uniform (Multitarn)
+	Combat Uniform (Multitarn/Rolled-Up)
 	Operator Suit (Black)
 	Operator Suit (Rolled, Black)
 	Operator Suit (Green)

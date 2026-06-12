@@ -2023,6 +2023,14 @@ class cfgWeapons
 			uniformClass = "bravo_combatuniform_m90_unit";
 		};
 	};
+	class bravo_combatuniform_mtr : u_i_combatuniform
+	{
+		displayName = "Combat Uniform (Multitarn)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_mtr_unit";
+		};
+	};
 	
 	class bravo_combatuniform_short_dgt : u_i_combatuniform_shortsleeve
 	{
@@ -2126,6 +2134,14 @@ class cfgWeapons
 		class itemInfo : itemInfo
 		{
 			uniformClass = "bravo_combatuniform_short_m90_unit";
+		};
+	};
+	class bravo_combatuniform_short_mtr : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (Multitarn/Rolled-Up)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_short_mtr_unit";
 		};
 	};
 	
@@ -2250,6 +2266,14 @@ class cfgWeapons
 			uniformClass = "bravo_combatuniform_tactee_m90_ws_unit";
 		};
 	};
+	class bravo_combatuniform_tactee_mtr_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (Multitarn/Combat Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tactee_mtr_ws_unit";
+		};
+	};
 	
 	class bravo_combatuniform_tshirt_cce_ws : u_i_combatuniform_shortsleeve
 	{
@@ -2361,6 +2385,14 @@ class cfgWeapons
 		class itemInfo : itemInfo
 		{
 			uniformClass = "bravo_combatuniform_tshirt_m90_ws_unit";
+		};
+	};
+	class bravo_combatuniform_tshirt_mtr_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (Multitarn/T-Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tshirt_mtr_ws_unit";
 		};
 	};
 	
@@ -4380,6 +4412,15 @@ class cfgWeapons
 		class ItemInfo : ItemInfo
 		{
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_m90_co"};
+		};
+	};
+	class bravo_gm_boonie_mtr : gm_ge_headgear_hat_boonie_oli
+	{
+		displayName = "Boonie Hat (Multitarn)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_mtr_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_mtr_co"};
 		};
 	};
 	

@@ -217,3 +217,6 @@
 2026-06-11
 - FAK: new addon with custom KAT FAK variants
 - GEAR MISC: added colour variants of the GM Operator Suit and Combat Backpack
+
+2026-06-12
+- GEAR MISC: added multitarn equipment
