@@ -1639,6 +1639,10 @@ class cfgVehicles
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_operator_mcam_co","",""};
 	};
+	class bravo_gm_uniform_operator_blu_unit : bravo_gm_uniform_operator_grn_unit
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_operator_blu_co","",""};
+	};
 	
 	class gm_ge_bgs_officer_80_grn;
 	class bravo_gm_uniform_operator_rolled_grn_unit : gm_ge_bgs_officer_80_grn
@@ -1662,5 +1666,9 @@ class cfgVehicles
 	class bravo_gm_uniform_operator_rolled_mcam_unit : bravo_gm_uniform_operator_rolled_grn_unit
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_operator_mcam_co","",""};
+	};
+	class bravo_gm_uniform_operator_rolled_blu_unit : bravo_gm_uniform_operator_rolled_grn_unit
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_operator_blu_co","",""};
 	};
 };

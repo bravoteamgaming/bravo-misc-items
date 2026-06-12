@@ -553,6 +553,8 @@ GEAR MISC
 	Operator Suit (Rolled, Khaki)
 	Operator Suit (Tan)
 	Operator Suit (Rolled, Tan)
+	Operator Suit (Blue)
+	Operator Suit (Rolled, Blue)
 - Add facewear variants:
 	Shemagh w/Goggles (Green/Clear)
 	Shemagh w/Goggles (Green/alt/Clear)

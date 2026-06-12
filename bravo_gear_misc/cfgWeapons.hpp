@@ -4698,6 +4698,16 @@ class cfgWeapons
 			uniformClass = "bravo_gm_uniform_operator_mcam_unit";
 		};
 	};
+	class bravo_gm_uniform_operator_blu : bravo_gm_uniform_operator_grn
+	{
+		displayName = "Operator Suit (Blue)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_operator_blu_co","",""};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_operator_blu_co","",""};
+			uniformClass = "bravo_gm_uniform_operator_blu_unit";
+		};
+	};
 	
 	class gm_ge_bgs_uniform_special_rolled_80_base;
 	class gm_ge_bgs_uniform_special_rolled_80_grn : gm_ge_bgs_uniform_special_rolled_80_base
@@ -4743,6 +4753,16 @@ class cfgWeapons
 		{
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_operator_mcam_co","",""};
 			uniformClass = "bravo_gm_uniform_operator_rolled_mcam_unit";
+		};
+	};
+	class bravo_gm_uniform_operator_rolled_blu : bravo_gm_uniform_operator_rolled_grn
+	{
+		displayName = "Operator Suit (Rolled, Blue)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_operator_blu_co","",""};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_operator_blu_co","",""};
+			uniformClass = "bravo_gm_uniform_operator_rolled_blu_unit";
 		};
 	};
 	
