@@ -220,3 +220,4 @@
 
 2026-06-12
 - GEAR MISC: added multitarn equipment and blue operator suit
+- GEAR MISC: added Multicam boonie

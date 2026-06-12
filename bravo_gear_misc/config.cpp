@@ -701,6 +701,7 @@ class CfgPatches
 			"bravo_gm_boonie_m98",
 			"bravo_gm_boonie_m90",
 			"bravo_gm_boonie_mtr",
+			"bravo_gm_boonie_mcam",
 			"bravo_pasgt_auscam",
 			"bravo_pasgt_auscam_ess",
 			"bravo_pasgt_auscam_ess_bare",

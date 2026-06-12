@@ -4423,6 +4423,15 @@ class cfgWeapons
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_mtr_co"};
 		};
 	};
+	class bravo_gm_boonie_mcam : gm_ge_headgear_hat_boonie_oli
+	{
+		displayName = "Boonie Hat (Multicam)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_mcam_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_mcam_co"};
+		};
+	};
 	
 	class rhssaf_helmet_m97_oakleaf;
 	class bravo_pasgt_auscam : rhssaf_helmet_m97_oakleaf
@@ -4700,7 +4709,7 @@ class cfgWeapons
 	};
 	class bravo_gm_uniform_operator_blu : bravo_gm_uniform_operator_grn
 	{
-		displayName = "Operator Suit (Blue)";
+		displayName = "Operator Suit (Navy Blue)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_operator_blu_co","",""};
 		class ItemInfo : ItemInfo
 		{
@@ -4757,7 +4766,7 @@ class cfgWeapons
 	};
 	class bravo_gm_uniform_operator_rolled_blu : bravo_gm_uniform_operator_rolled_grn
 	{
-		displayName = "Operator Suit (Rolled, Blue)";
+		displayName = "Operator Suit (Rolled, Navy Blue)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_operator_blu_co","",""};
 		class ItemInfo : ItemInfo
 		{

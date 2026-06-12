@@ -267,6 +267,7 @@ GEAR MISC
 	Boonie Hat (M/98)
 	Boonie Hat (M/90)
 	Boonie Hat (Multitarn)
+	Boonie Hat (Multicam)
 - Add vest variants:
 	CTRG Plate Carrier Rig (Black)
 	CTRG Plate Carrier Rig (Khaki)
