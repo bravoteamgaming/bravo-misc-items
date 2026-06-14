@@ -759,6 +759,6 @@ class CfgPatches
 	};
 };
 
-#include "cfgVehicles.hpp"
-#include "cfgWeapons.hpp"
+#include "cfgVehicles\cfgVehicles.hpp"
+#include "cfgWeapons\cfgWeapons.hpp"
 #include "cfgGlasses.hpp"
