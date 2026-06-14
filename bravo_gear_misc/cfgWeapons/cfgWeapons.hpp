@@ -685,4 +685,6 @@ class cfgWeapons
 	#include "pasgt.hpp"
 	
 	#include "operator.hpp"
+	
+	#include "modularcarrier.hpp"
 };

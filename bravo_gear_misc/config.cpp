@@ -753,7 +753,23 @@ class CfgPatches
 			"bravo_gm_uniform_operator_rolled_khk",
 			"bravo_gm_uniform_operator_rolled_des",
 			"bravo_gm_uniform_operator_rolled_mcam",
-			"bravo_gm_uniform_operator_rolled_blu"
+			"bravo_gm_uniform_operator_rolled_blu",
+			"bravo_modularcarrier_vest_mcam",
+			"bravo_modularcarrier_vest_mtr",
+			"bravo_modularcarrier_gl_mcam",
+			"bravo_modularcarrier_gl_mtr",
+			"bravo_modularcarrier_light_mcam",
+			"bravo_modularcarrier_light_mtr",
+			"bravo_modularcarrier_compact_mcam",
+			"bravo_modularcarrier_compact_mtr",
+			"bravo_modularcarrier_recon_mcam",
+			"bravo_modularcarrier_recon_mtr",
+			"bravo_modularcarrier_crew_mcam",
+			"bravo_modularcarrier_crew_mtr",
+			"bravo_modularcarrier_cqb_mcam",
+			"bravo_modularcarrier_cqb_mtr",
+			"bravo_modularcarrier_tac_mcam",
+			"bravo_modularcarrier_tac_mtr"
 		};
 		skipWhenMissingDependencies = 1;
 	};
