@@ -33,4 +33,20 @@ class CfgWeapons
 	{
 		displayName = "Bravo AFAK (Modern)";
 	};
+	
+	class bvt_itemcore;
+	class bvt_item_kitkat : bvt_itemcore
+	{
+		class ItemInfo;
+	};
+	class bravo_kitkatpack : bvt_item_kitkat
+	{
+		displayName = "KitKat Multipack";
+		bravo_fakContents = "[['bvt_item_kitkat', 4]]";
+		descriptionShort = "This neatly wrapped bundle can be unpacked into several refreshing treats.";
+		class ItemInfo : ItemInfo
+		{
+			mass = 4;
+		};
+	};
 };

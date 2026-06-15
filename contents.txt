@@ -668,3 +668,5 @@ ITEMS
 
 FAK
 - Add Bravo FAK variants, which can be unpacked into inventory items and configured by a CBA setting. Similar to KAT FAKs but simpler and there are more types.
+- Add KitKat Multipack
+- Add Billboard (FAK)

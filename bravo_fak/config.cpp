@@ -6,8 +6,10 @@ class CfgPatches
 		author = "NikkoJT";
 		url = "https://github.com/bravoteamgaming/bravo-misc-items";
 		requiredVersion = 2.00;
-		requiredAddons[] = {"kat_misc"};
-		units[] = {};
+		requiredAddons[] = {"bravo_items","kat_misc"};
+		units[] = {
+			"bravo_billboard_fak"
+		};
 		weapons[] = {
 			"bravo_ifak",
 			"bravo_afak_ww2",
@@ -15,7 +17,8 @@ class CfgPatches
 			"bravo_afak_modern",
 			"bravo_mfak_ww2",
 			"bravo_mfak_early",
-			"bravo_mfak_modern"
+			"bravo_mfak_modern",
+			"bravo_kitkatpack"
 		};
 		skipWhenMissingDependencies = 1;
 	};

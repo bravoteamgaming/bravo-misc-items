@@ -140,6 +140,23 @@ class CfgVehicles
 					icon = "\kat_gui\MFAK.paa";
 				};
 			};
+			
+			class bravo_kitkatpack
+			{
+				displayName = "Unpack KitKat Multipack";
+				condition = "[_target, 'bravo_kitkatpack'] call ace_common_fnc_hasItem";
+				statement = "[_target, 'bravo_kitkatpack', true] call bravo_fnc_fakUnpack";
+				exceptions[] = {"isNotSwimming", "isNotInside", "isNotSitting"};
+				showDisabled = 0;
+				icon = "\Bravo_Items\ico\kitkat.paa";
+			};
 		};
+	};
+	
+	class land_billboard_03_blank_f;
+	class bravo_billboard_fak : land_billboard_03_blank_f
+	{
+		displayName = "Billboard (FAK)";
+		hiddenSelectionsTextures[] = { "\bravo_fak\assets\billboard_fak_co" };
 	};
 };
