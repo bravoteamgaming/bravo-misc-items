@@ -24,7 +24,7 @@ class CfgWeapons {
 	{
 		scope = 2;
 		displayName = "KitKat Bar";
-		picture = "\Bravo_Items\ico\kitkat";
+		picture = "\bravo_items\ico\kitkat";
 		descriptionShort = "A chocolate-covered wafer bar confection produced globally by Nestlé. 4 finger variety.";
 	};
 };

@@ -9,7 +9,7 @@ class CfgVehicles
 		displayName = "Flag (Bravo Orange)";
 		class EventHandlers
 		{
-			init = "(_this select 0) setFlagTexture '\Bravo_Items\tex\flags\orange.paa'";
+			init = "(_this select 0) setFlagTexture '\bravo_items\tex\flags\orange.paa'";
 		};
 	};
 	class BVT_Flag_LogoLight: BVT_Flag_Orange
@@ -17,7 +17,7 @@ class CfgVehicles
 		displayName = "Flag (Bravo Logo - Light)";
 		class EventHandlers
 		{
-			init = "(_this select 0) setFlagTexture '\Bravo_Items\tex\flags\logo_white.paa'";
+			init = "(_this select 0) setFlagTexture '\bravo_items\tex\flags\logo_white.paa'";
 		};
 	};
 	class BVT_Flag_LogoDark: BVT_Flag_Orange
@@ -25,7 +25,7 @@ class CfgVehicles
 		displayName = "Flag (Bravo Logo - Dark)";
 		class EventHandlers
 		{
-			init = "(_this select 0) setFlagTexture '\Bravo_Items\tex\flags\logo_dark.paa'";
+			init = "(_this select 0) setFlagTexture '\bravo_items\tex\flags\logo_dark.paa'";
 		};
 	};
 	class BVT_Flag_LogoCamo: BVT_Flag_Orange
@@ -33,7 +33,7 @@ class CfgVehicles
 		displayName = "Flag (Bravo Logo - Camo)";
 		class EventHandlers
 		{
-			init = "(_this select 0) setFlagTexture '\Bravo_Items\tex\flags\logo_camo.paa'";
+			init = "(_this select 0) setFlagTexture '\bravo_items\tex\flags\logo_camo.paa'";
 		};
 	};
 	
