@@ -156,7 +156,7 @@ class CfgVehicles
 	class land_billboard_03_blank_f;
 	class bravo_billboard_fak : land_billboard_03_blank_f
 	{
-		displayName = "Billboard (FAK)";
+		displayName = "Billboard 3 (FAK)";
 		hiddenSelectionsTextures[] = { "\bravo_fak\assets\billboard_fak_co" };
 	};
 };
