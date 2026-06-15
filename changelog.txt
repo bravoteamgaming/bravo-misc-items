@@ -229,3 +229,4 @@
 2026-06-16
 - GEAR MISC: added more Operator Suit variants
 - FAK: added a couple of extras
+- ITEMS: unified formatting of filepaths and CfgPatches name

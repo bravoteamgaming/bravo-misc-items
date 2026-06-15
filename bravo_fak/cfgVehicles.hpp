@@ -148,7 +148,7 @@ class CfgVehicles
 				statement = "[_target, 'bravo_kitkatpack', true] call bravo_fnc_fakUnpack";
 				exceptions[] = {"isNotSwimming", "isNotInside", "isNotSitting"};
 				showDisabled = 0;
-				icon = "\Bravo_Items\ico\kitkat.paa";
+				icon = "\bravo_items\ico\kitkat.paa";
 			};
 		};
 	};
