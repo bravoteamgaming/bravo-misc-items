@@ -389,7 +389,7 @@ class CfgAmmo
 		{
 			class bravo_EH
 			{
-				init = "(_this#0) addEventHandler ['Explode', {[getPosASL (_this#0)] spawn bravo_fnc_create3CBSmoke}]";
+				init = "(_this#0) addEventHandler ['Explode', {[getPosASL (_this#0)] remoteExec 'bravo_fnc_create3CBSmoke'}]";
 			};
 		};
 	};
