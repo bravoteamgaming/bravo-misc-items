@@ -225,3 +225,6 @@
 2026-06-14
 - GEAR MISC: rearranged config files (internal change only)
 - GEAR MISC: added Multicam and Multitarn Modular Carrier variants
+
+2026-06-16
+- GEAR MISC: added more Operator Suit variants

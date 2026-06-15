@@ -55,6 +55,26 @@
 			uniformClass = "bravo_gm_uniform_operator_blu_unit";
 		};
 	};
+	class bravo_gm_uniform_operator_tgr : bravo_gm_uniform_operator_grn
+	{
+		displayName = "Operator Suit (Tiger Stripe)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_operator_tgr_co","",""};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_operator_tgr_co","",""};
+			uniformClass = "bravo_gm_uniform_operator_tgr_unit";
+		};
+	};
+	class bravo_gm_uniform_operator_win : bravo_gm_uniform_operator_grn
+	{
+		displayName = "Operator Suit (White)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_operator_win_co","",""};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_operator_win_co","",""};
+			uniformClass = "bravo_gm_uniform_operator_win_unit";
+		};
+	};
 	
 	class gm_ge_bgs_uniform_special_rolled_80_base;
 	class gm_ge_bgs_uniform_special_rolled_80_grn : gm_ge_bgs_uniform_special_rolled_80_base
@@ -110,6 +130,26 @@
 		{
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_operator_blu_co","",""};
 			uniformClass = "bravo_gm_uniform_operator_rolled_blu_unit";
+		};
+	};
+	class bravo_gm_uniform_operator_rolled_tgr : bravo_gm_uniform_operator_rolled_grn
+	{
+		displayName = "Operator Suit (Rolled, Tiger Stripe)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_operator_tgr_co","",""};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_operator_tgr_co","",""};
+			uniformClass = "bravo_gm_uniform_operator_rolled_tgr_unit";
+		};
+	};
+	class bravo_gm_uniform_operator_rolled_win : bravo_gm_uniform_operator_rolled_grn
+	{
+		displayName = "Operator Suit (Rolled, White)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_operator_win_co","",""};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_operator_win_co","",""};
+			uniformClass = "bravo_gm_uniform_operator_rolled_win_unit";
 		};
 	};
 	

@@ -26,6 +26,14 @@
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_operator_blu_co","",""};
 	};
+	class bravo_gm_uniform_operator_tgr_unit : bravo_gm_uniform_operator_grn_unit
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_operator_tgr_co","",""};
+	};
+	class bravo_gm_uniform_operator_win_unit : bravo_gm_uniform_operator_grn_unit
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_operator_win_co","",""};
+	};
 	
 	class gm_ge_bgs_officer_80_grn;
 	class bravo_gm_uniform_operator_rolled_grn_unit : gm_ge_bgs_officer_80_grn
@@ -53,4 +61,12 @@
 	class bravo_gm_uniform_operator_rolled_blu_unit : bravo_gm_uniform_operator_rolled_grn_unit
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_operator_blu_co","",""};
+	};
+	class bravo_gm_uniform_operator_rolled_tgr_unit : bravo_gm_uniform_operator_rolled_grn_unit
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_operator_tgr_co","",""};
+	};
+	class bravo_gm_uniform_operator_rolled_win_unit : bravo_gm_uniform_operator_rolled_grn_unit
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_operator_win_co","",""};
 	};
