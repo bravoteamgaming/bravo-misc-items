@@ -231,3 +231,6 @@
 - FAK: added a couple of extras
 - ITEMS: unified formatting of filepaths and CfgPatches name
 - MUNITIONS: locality fix for MAAWS smoke
+
+2026-06-19
+- GEAR MISC: fixed G3 uniforms being broken
