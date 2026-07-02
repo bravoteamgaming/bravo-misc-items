@@ -234,3 +234,7 @@
 
 2026-06-19
 - GEAR MISC: fixed G3 uniforms being broken
+
+2026-07-03
+- ITEMS: added RPT and Steam Game Recording events for ACE unconscious
+- TAVOR 7: added black Tavors, and 5.45mm Fort-221/Fort-224

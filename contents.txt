@@ -7,6 +7,8 @@ RFB 7.62
 
 TAVOR 7
 - Add 7.62mm version of CTAR-21
+- Add 5.45mm version of TAR-21, CTAR-21, GTAR-21 (Fort-221, Fort-224)
+- Add black versions of all types
 
 ACR 6.8
 - Add 6.8mm versions of Remington ACR
@@ -665,6 +667,7 @@ ITEMS
 - Change mass/cap of vanilla kitbag, carryall, radiopack
 - Add new sound sources for Play Sound module
 - Add Cache Sound Sources module to Zeus
+- Add RPT and Steam Game Recording logging for ACE unconscious events
 
 FAK
 - Add Bravo FAK variants, which can be unpacked into inventory items and configured by a CBA setting. Similar to KAT FAKs but simpler and there are more types.
