@@ -141,3 +141,19 @@ class CfgUnitInsignia
 		textureVehicle="";
 	};
 };
+
+class SteamManagerConfig
+{
+	class GameRecording
+	{
+		class bravo_aceunconscious
+		{
+			clipPriority = 2;
+			description = "Was downed";
+			icon = "a3_revive";
+			priority = 100;
+			scope = 2;
+			title = "Downed";
+		};
+	};
+};

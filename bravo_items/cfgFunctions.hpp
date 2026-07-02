@@ -9,6 +9,10 @@ class CfgFunctions
 			class scrapeHideTerrainObjects{};
 			class moduleSplendidCam{};
 			class moduleCacheSoundSources{};
+			class aceUnconsciousLogging
+			{
+				postInit = 1;
+			};
 		};
 	};
 };
