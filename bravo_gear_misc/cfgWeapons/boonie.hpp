@@ -140,3 +140,12 @@
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_mcam_co"};
 		};
 	};
+	class bravo_gm_boonie_s2k : gm_ge_headgear_hat_boonie_oli
+	{
+		displayName = "Boonie Hat (Soldier 2000)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_s2k_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_s2k_co"};
+		};
+	};

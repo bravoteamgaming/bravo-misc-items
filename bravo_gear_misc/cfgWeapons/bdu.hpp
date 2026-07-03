@@ -93,6 +93,15 @@ class gm_ge_army_uniform_soldier_bdu_80_wdl;
 			uniformClass = "bravo_gm_bdu_mm14_unit";
 		};
 	};
+	class bravo_gm_bdu_s2k : gm_xx_uniform_soldier_bdu_80_oli
+	{
+		displayName = "Battle Dress Uniform (Gloves, Soldier 2000)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_s2k_co"};
+			uniformClass = "bravo_gm_bdu_s2k_unit";
+		};
+	};
 	
 	class bravo_gm_bdu_nogloves_des : bravo_gm_bdu_des
 	{
@@ -172,6 +181,14 @@ class gm_ge_army_uniform_soldier_bdu_80_wdl;
 		class ItemInfo : ItemInfo
 		{
 			uniformClass = "bravo_gm_bdu_nogloves_mm14_unit";
+		};
+	};
+	class bravo_gm_bdu_nogloves_s2k : bravo_gm_bdu_s2k
+	{
+		displayName = "Battle Dress Uniform (Soldier 2000)";
+		class ItemInfo : ItemInfo
+		{
+			uniformClass = "bravo_gm_bdu_nogloves_s2k_unit";
 		};
 	};
 	
@@ -268,5 +285,14 @@ class gm_ge_army_uniform_soldier_bdu_80_wdl;
 		{
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_mm14_co"};
 			uniformClass = "bravo_gm_bdu_rolled_mm14_unit";
+		};
+	};
+	class bravo_gm_bdu_rolled_s2k : gm_xx_uniform_soldier_bdu_rolled_80_oli
+	{
+		displayName = "Battle Dress Uniform (Rolled, Soldier 2000)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_s2k_co"};
+			uniformClass = "bravo_gm_bdu_rolled_s2k_unit";
 		};
 	};

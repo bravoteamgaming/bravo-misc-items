@@ -11,7 +11,7 @@ class cfgVehicles
 	};
 	
 	#include "combatuniform.hpp"
-
+	
 	#include "cryeg3.hpp"
 	
 	class UK3CB_ION_B_U_TSHIRT_01_URB;

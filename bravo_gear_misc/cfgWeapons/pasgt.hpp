@@ -103,6 +103,11 @@
 		displayName = "PASGT (M/90)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_m90_co"};
 	};
+	class bravo_pasgt_s2k : rhssaf_helmet_m97_oakleaf
+	{
+		displayName = "PASGT (Soldier 2000)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_s2k_co"};
+	};
 	
 	class rhssaf_helmet_m97_oakleaf_black_ess;
 	class bravo_pasgt_auscam_ess : rhssaf_helmet_m97_oakleaf_black_ess
@@ -159,6 +164,11 @@
 	{
 		displayName = "PASGT (M/90/ESS)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_m90_co","\rhssaf\addons\rhssaf_t_headgear_m97\data\rhssaf_m97_ess_black_co.paa"};
+	};
+	class bravo_pasgt_s2k_ess : rhssaf_helmet_m97_oakleaf_black_ess
+	{
+		displayName = "PASGT (Soldier 2000/ESS)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_s2k_co","\rhssaf\addons\rhssaf_t_headgear_m97\data\rhssaf_m97_ess_black_co.paa"};
 	};
 	
 	class rhssaf_helmet_m97_oakleaf_black_ess_bare;
@@ -217,6 +227,11 @@
 		displayName = "PASGT (M/90/ESS Bare)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_m90_co","\rhssaf\addons\rhssaf_t_headgear_m97\data\rhssaf_m97_ess_black_co.paa"};
 	};
+	class bravo_pasgt_s2k_ess_bare : rhssaf_helmet_m97_oakleaf_black_ess_bare
+	{
+		displayName = "PASGT (Soldier 2000/ESS Bare)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_s2k_co","\rhssaf\addons\rhssaf_t_headgear_m97\data\rhssaf_m97_ess_black_co.paa"};
+	};
 	
 	class rhsgref_helmet_pasgt_woodland_rhino;
 	class bravo_pasgt_auscam_rhino : rhsgref_helmet_pasgt_woodland_rhino
@@ -273,4 +288,9 @@
 	{
 		displayName = "PASGT (M/90/Rhino)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_m90_co"};
+	};
+	class bravo_pasgt_s2k_rhino : rhsgref_helmet_pasgt_woodland_rhino
+	{
+		displayName = "PASGT (Soldier 2000/Rhino)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_s2k_co"};
 	};

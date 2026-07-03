@@ -40,6 +40,10 @@
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_mm14_co"};
 	};
+	class bravo_gm_bdu_s2k_unit : gm_xx_army_rifleman_80_oli
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_s2k_co"};
+	};
 	
 	class gm_xx_army_rifleman_nogloves_80_oli;
 	class bravo_gm_bdu_nogloves_des_unit : gm_xx_army_rifleman_nogloves_80_oli
@@ -82,6 +86,10 @@
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_mm14_co"};
 	};
+	class bravo_gm_bdu_nogloves_s2k_unit : gm_xx_army_rifleman_nogloves_80_oli
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_s2k_co"};
+	};
 	
 	class gm_xx_army_rifleman_rolled_80_oli;
 	class bravo_gm_bdu_rolled_des_unit : gm_xx_army_rifleman_rolled_80_oli
@@ -123,4 +131,8 @@
 	class bravo_gm_bdu_rolled_mm14_unit : gm_xx_army_rifleman_rolled_80_oli
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_mm14_co"};
+	};
+	class bravo_gm_bdu_rolled_s2k_unit : gm_xx_army_rifleman_rolled_80_oli
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_s2k_co"};
 	};
