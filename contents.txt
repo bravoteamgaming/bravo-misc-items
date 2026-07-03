@@ -224,6 +224,10 @@ GEAR MISC
 	PASGT (M/90/ESS Bare)
 	PASGT (M/90)
 	PASGT (M/90/Rhino)
+	PASGT (Soldier 2000/ESS)
+	PASGT (Soldier 2000/ESS Bare)
+	PASGT (Soldier 2000)
+	PASGT (Soldier 2000/Rhino)
 	Rangemaster Cap Bravo
 	Combat Helmet Multicam
 	Combat Helmet Green
@@ -270,6 +274,7 @@ GEAR MISC
 	Boonie Hat (M/90)
 	Boonie Hat (Multitarn)
 	Boonie Hat (Multicam)
+	Boonie Hat (Soldier 2000)
 - Add vest variants:
 	CTRG Plate Carrier Rig (Black)
 	CTRG Plate Carrier Rig (Khaki)
@@ -459,6 +464,7 @@ GEAR MISC
 	Battle Dress Uniform (CADPAT-TW)
 	Battle Dress Uniform (CADPAT-AR)
 	Battle Dress Uniform (Auscam)
+	Battle Dress Uniform (Soldier 2000)
 	Battle Dress Uniform (Rolled, Tan)
 	Battle Dress Uniform (Rolled, White)
 	Battle Dress Uniform (Rolled, Black)
@@ -467,6 +473,7 @@ GEAR MISC
 	Battle Dress Uniform (Rolled, CADPAT-TW)
 	Battle Dress Uniform (Rolled, CADPAT-AR)
 	Battle Dress Uniform (Rolled, Auscam)
+	Battle Dress Uniform (Rolled, Soldier 2000)
 	Battle Dress Uniform (Gloves, Tan)
 	Battle Dress Uniform (Gloves, White)
 	Battle Dress Uniform (Gloves, Black)
@@ -475,6 +482,7 @@ GEAR MISC
 	Battle Dress Uniform (Gloves, CADPAT-TW)
 	Battle Dress Uniform (Gloves, CADPAT-AR)
 	Battle Dress Uniform (Gloves, Auscam)
+	Battle Dress Uniform (Gloves, Soldier 2000)
 	Field Service Uniform (UTV, Khaki)
 	Field Service  Uniform (UTV, Tan)
 	Field Service  Uniform (UTV, White)

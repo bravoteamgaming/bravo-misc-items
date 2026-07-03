@@ -238,3 +238,6 @@
 2026-07-03
 - ITEMS: added RPT and Steam Game Recording events for ACE unconscious
 - TAVOR 7: added black Tavors, and 5.45mm Fort-221/Fort-224
+
+2026-07-04
+- GEAR MISC: added Soldier 2000 equipment
