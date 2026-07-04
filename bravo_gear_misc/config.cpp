@@ -439,6 +439,8 @@ class CfgPatches
 			"bravo_mich_cover_norotos_arc_des",
 			"bravo_mich_cover_norotos_arc_headset_khk",
 			"bravo_mich_cover_norotos_arc_khk",
+			"bravo_mich_cover_norotos_arc_headset_oli",
+			"bravo_mich_cover_norotos_arc_oli",
 			"bravo_m97_olive_medic",
 			"bravo_m97_olive_b2d",
 			"bravo_pasgt_tan_medic",
