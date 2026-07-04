@@ -27,4 +27,16 @@ class CfgWeapons {
 		picture = "\bravo_items\ico\kitkat";
 		descriptionShort = "A chocolate-covered wafer bar confection produced globally by Nestlé. 4 finger variety.";
 	};
+	class bravo_item_48gb_ddr5 : BVT_ItemCore
+	{
+		scope = 2;
+		displayName = "Corsair Vengeance 48GB 5600MHz DDR5 Kit";
+		picture = "\bravo_items\ico\bravo_ddr_pack_icon";
+		descriptionShort = "2x24GB RAM sticks. Worth a fortune.";
+		model = "\bravo_items\assets\bravo_ddr_pack.p3d";
+		class ItemInfo : ItemInfo
+		{
+			mass = 2.5;
+		};
+	};
 };

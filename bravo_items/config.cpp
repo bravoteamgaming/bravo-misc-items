@@ -5,7 +5,7 @@ class CfgPatches
 		name = "Bravo Team Misc Items";
 		author = "Jason Olsen";
 		url = "https://github.com/bravoteamgaming/bravo-misc-items";
-		version = 1.7;
+		version = 1.8;
 		requiredVersion = 2.00;
 		units[] = {
 			"BVT_Flag_Orange",
@@ -20,9 +20,11 @@ class CfgPatches
 			"bravo_sound_phoneOld",
 			"bravo_sound_alarmVanilla",
 			"bravo_sound_alarmStarfleet",
-			"bravo_module_cacheSoundSources"
+			"bravo_module_cacheSoundSources",
+			"bravo_land_48gb_ddr5",
+			"bravo_land_48gb_ddr5_item"
 		};
-		weapons[] = {"BVT_ItemCore","BVT_Item_Intelligence"};
+		weapons[] = {"BVT_ItemCore","BVT_Item_Intelligence","BVT_Item_KitKat", "bravo_item_48gb_ddr5"};
 		requiredAddons[] = {"A3_Characters_F","A3_Weapons_F","cba_main"};
 	};
 };

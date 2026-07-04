@@ -97,6 +97,41 @@ class CfgVehicles
 		curatorInfoType = "";
 	};
 	
+	class Items_Base_F;
+	class bravo_land_48gb_ddr5 : Items_Base_F
+	{
+		author = "Bravo Team";
+		scope = 2;
+		scopeCurator = 2;
+		model = "\bravo_items\assets\bravo_ddr_pack.p3d";
+		displayName = "Corsair Vengeance 48GB 5600MHz DDR5 Kit";
+		editorPreview = "\bravo_items\ico\bravo_ddr_pack_icon.paa";
+		editorSubcategory = "EdSubcat_Electronics";
+		mapSize = 0.09;
+		icon = "iconObject_2x1";
+	};
+	
+	class Item_Base_F;
+	class bravo_land_48gb_ddr5_item : Item_Base_F
+	{
+		author = "Bravo Team";
+		scope = 2;
+		scopeCurator = 2;
+		vehicleClass = "Items";
+		displayName = "Corsair Vengeance 48GB 5600MHz DDR5 Kit";
+		editorPreview = "\bravo_items\ico\bravo_ddr_pack_icon.paa";
+		editorCategory = "EdCat_Equipment";
+		editorSubcategory = "EdSubcat_InventoryItems";
+		class TransportItems
+		{
+			class bravo_item_48gb_ddr5
+			{
+				count = 1;
+				name = "bravo_item_48gb_ddr5";
+			};
+		};
+	};
+	
 	/// ======= Sounds
 	class Sound;
 	class bravo_sound_alarmImperial : Sound
