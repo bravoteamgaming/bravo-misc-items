@@ -181,6 +181,14 @@ GEAR MISC
 	MICH 2000 NFP/Norotos/ARC/Headset
 	MICH 2000 Blue/Norotos/ARC
 	MICH 2000 Blue/Norotos/ARC/Headset
+	MICH 2000 White/Norotos/ARC
+	MICH 2000 White/Norotos/ARC/Headset
+	MICH 2000 Tan Cover/Norotos/ARC
+	MICH 2000 Tan Cover/Norotos/ARC/Headset
+	MICH 2000 Olive Cover/Norotos/ARC
+	MICH 2000 Olive Cover/Norotos/ARC/Headset
+	MICH 2000 Khaki/Norotos/ARC
+	MICH 2000 Khaki/Norotos/ARC/Headset
 	PASGT Tan/Medic
 	PASGT Tan/Ukraine
 	PASGT Tan/Defeatist
@@ -676,6 +684,7 @@ ITEMS
 - Add new sound sources for Play Sound module
 - Add Cache Sound Sources module to Zeus
 - Add RPT and Steam Game Recording logging for ACE unconscious events
+- Add DDR5 kit inventory item and prop
 
 FAK
 - Add Bravo FAK variants, which can be unpacked into inventory items and configured by a CBA setting. Similar to KAT FAKs but simpler and there are more types.

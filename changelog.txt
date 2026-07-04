@@ -241,3 +241,5 @@
 
 2026-07-04
 - GEAR MISC: added Soldier 2000 equipment
+- GEAR MISC: added tan, olive, white, and khaki MICH2000
+- ITEMS: added DDR5 kit item
