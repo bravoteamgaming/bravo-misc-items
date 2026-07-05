@@ -8,6 +8,11 @@ class CfgPatches
 		requiredVersion = 2.00;
 		requiredAddons[] = {"rf_data_loadorder", "UK3CB_Factions_Equipment_Vests","UK3CB_Factions_CST", "UK3CB_BAF_Equipment_Uniforms", "rhssaf_c_gear", "rhsusf_c_troops", "WW2_SPE_Assets_c_Weapons_InfantryWeapons_c", "gm_characters_gc_characters", "gm_characters_ge_characters"};
 		units[] = {
+			"bravo_B_SPE_GER_Radio",
+			"bravo_B_SPE_US_Radio_packboard_light",
+			"bravo_B_SPE_US_Radio_packboard",
+			"bravo_B_SPE_US_Radio_alt",
+			"bravo_B_SPE_US_Radio",
 			"bravo_6sh122_gloves_olive_unit",
 			"bravo_cryeg3_bravocam_unit",
 			"bravo_cryeg3_cce_unit",

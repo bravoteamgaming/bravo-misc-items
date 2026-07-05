@@ -56,7 +56,7 @@ DUI CUSTOMINFO PERSIST
 
 GEAR MISC
 - Change RF Glock mass
-- Hide Spearhead US SCR300 bags and add copies that can be saved in ACE loadouts
+- Hide Spearhead US SCR300 and GER radio bags and add copies that can be saved in ACE loadouts
 - Add backpack variants:
 	Combat Backpack (Tan)
 	Combat Backpack (Khaki)

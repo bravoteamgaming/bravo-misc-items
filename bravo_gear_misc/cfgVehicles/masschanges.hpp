@@ -83,6 +83,18 @@
 		{};
 	};
 	
+	class B_SPE_GER_Radio : B_SPE_AssaultPack_Base
+	{
+		scope = 1;
+	};
+	class bravo_B_SPE_GER_Radio : B_SPE_GER_Radio
+	{
+		scope = 2;
+		mass = 40;
+		class transportItems
+		{};
+	};
+	
 	class B_Bergen_Base;
 	class UK3CB_BAF_B_Bergen_Base : B_Bergen_Base
 	{
