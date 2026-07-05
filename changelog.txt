@@ -246,3 +246,4 @@
 
 2026-07-05
 - GEAR MISC: fixed weight and arsenal saving for SPE GER radio bag
+- ITEMS: DDR5 kit no longer visible in arsenal

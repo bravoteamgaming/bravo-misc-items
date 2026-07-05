@@ -30,6 +30,7 @@ class CfgWeapons {
 	class bravo_item_48gb_ddr5 : BVT_ItemCore
 	{
 		scope = 2;
+		scopeArsenal = 0;
 		displayName = "Corsair Vengeance 48GB 5600MHz DDR5 Kit";
 		picture = "\bravo_items\ico\bravo_ddr_pack_icon";
 		descriptionShort = "2x24GB RAM sticks. Worth a fortune.";
