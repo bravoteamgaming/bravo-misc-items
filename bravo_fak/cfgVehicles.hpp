@@ -110,7 +110,7 @@ class CfgVehicles
 					statement = "[_target, 'bravo_afak_modern'] call bravo_fnc_fakUnpack";
 					exceptions[] = {"isNotSwimming", "isNotInside", "isNotSitting"};
 					showDisabled = 0;
-					icon = "\kat_misc\AFAK.paa";
+					icon = "\x\kat\addons\misc\ui\AFAK.paa";
 				};
 				class bravo_mfak_ww2
 				{
@@ -119,7 +119,7 @@ class CfgVehicles
 					statement = "[_target, 'bravo_mfak_ww2'] call bravo_fnc_fakUnpack";
 					exceptions[] = {"isNotSwimming", "isNotInside", "isNotSitting"};
 					showDisabled = 0;
-					icon = "\kat_gui\MFAK.paa";
+					icon = "\x\kat\addons\misc\ui\MFAK.paa";
 				};
 				class bravo_mfak_early
 				{
@@ -128,7 +128,7 @@ class CfgVehicles
 					statement = "[_target, 'bravo_mfak_early'] call bravo_fnc_fakUnpack";
 					exceptions[] = {"isNotSwimming", "isNotInside", "isNotSitting"};
 					showDisabled = 0;
-					icon = "\kat_gui\MFAK.paa";
+					icon = "\x\kat\addons\misc\ui\MFAK.paa";
 				};
 				class bravo_mfak_modern
 				{
@@ -137,7 +137,7 @@ class CfgVehicles
 					statement = "[_target, 'bravo_mfak_modern'] call bravo_fnc_fakUnpack";
 					exceptions[] = {"isNotSwimming", "isNotInside", "isNotSitting"};
 					showDisabled = 0;
-					icon = "\kat_gui\MFAK.paa";
+					icon = "\x\kat\addons\misc\ui\MFAK.paa";
 				};
 			};
 			
