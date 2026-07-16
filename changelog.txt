@@ -251,3 +251,6 @@
 2026-07-10
 - GEAR MISC: reduced brightness of Soldier 2000 equipment
 - GEAR MISC: added khaki, olive, brown, and more patchless variants of RHS SPC
+
+2026-07-16
+- FAK: Kitkat can now be used as Carbonate
