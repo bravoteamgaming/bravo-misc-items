@@ -27,6 +27,7 @@ class CfgPatches
 #include "cfgWeapons.hpp"
 #include "cfgFunctions.hpp"
 #include "cfgVehicles.hpp"
+#include "medicalActions.hpp"
 
 class Extended_PreInit_EventHandlers
 {

@@ -34,7 +34,6 @@ class CfgPatches
 #include "cfgFunctions.hpp"
 #include "ui.hpp"
 #include "cfgSFX.hpp"
-#include "medicalActions.hpp"
 
 class CfgUnitInsignia
 {
