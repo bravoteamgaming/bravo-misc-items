@@ -17,6 +17,6 @@
 	{
 		params ["_medic", "_patient"];
 		
-		[["[Bravo] %1 ACE bandaged %2", name _medic, name _patient]] remoteExec ["bravo_fnc_logToRPT", 2];
+		[["[Bravo] %1 ACE bandaged %2", name _medic, name _patient]] remoteExec ["bravo_fnc_logToRPT", [[2, clientOwner], 2] select isServer];
 	}
 ] call CBA_fnc_addEventHandler;

@@ -728,6 +728,7 @@ ITEMS
 - Add new sound sources for Play Sound module
 - Add Cache Sound Sources module to Zeus
 - Add RPT and Steam Game Recording logging for ACE unconscious events
+- Add RPT logging for ACE bandaged events
 - Add DDR5 kit inventory item and prop
 
 FAK
