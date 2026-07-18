@@ -254,3 +254,6 @@
 
 2026-07-16
 - FAK: Kitkat can now be used as Carbonate
+
+2026-07-18
+- EXTRAS: GSP replaced dog with Special Forces
