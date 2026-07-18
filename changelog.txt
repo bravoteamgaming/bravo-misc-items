@@ -253,6 +253,7 @@
 - GEAR MISC: added khaki, olive, brown, and more patchless variants of RHS SPC
 
 2026-07-16
+- FAK: fixed interaction icons for Bravo FAKs
 - FAK: Kitkat can now be used as Carbonate
 
 2026-07-18
