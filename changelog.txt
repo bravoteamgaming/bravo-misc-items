@@ -258,3 +258,4 @@
 
 2026-07-18
 - EXTRAS: GSP replaced dog with Special Forces
+- ITEMS: added RPT logging for ACE bandage events
