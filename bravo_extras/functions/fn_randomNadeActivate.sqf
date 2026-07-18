@@ -173,12 +173,30 @@ private _baseTypes = [
 	[
 		["dromedary_01_lxws", {_this setDir random 360}, true]
 	],
+	/*
 	[
 		["mfr_c_germanshepherd_black", {
 			private _name = selectRandom ["Patatas", "Grommit", "Flymo", "Fenton", "Blue", "Dogmeat", "Jarnathan", "Lassie", "Jorts"];
 			[_this, [_name, "", _name]] remoteExec ["setName", 0, true];
 			_this setDir random 360;
 		}, true]
+	],
+	*/
+	[
+		["ACE_BananaItem", {
+			private _player = selectRandom (call BIS_fnc_listPlayers);
+			private _side = side group _player;
+			private _targetSides = [east, west, resistance] - [_side];
+			{
+				private _units = units _x;
+				{
+					private _unit = _x;
+					[_unit, [["Tier1_HK416D10_LMT_grip2","Tier1_KAC_556_QDC_CQB_Black","Tier1_416_LA5_M300C_Black","Tier1_Shortdot_Geissele_Docter_Black",["rhs_mag_30Rnd_556x45_Mk318_PMAG",30],[],"rhsusf_acc_grip2"],[],["Tier1_Glock19_WAR_TB","Tier1_TiRant9S","","Tier1_Docter",["Tier1_15Rnd_9x19_JHP",15],[],""],["rhs_uniform_g3_blk",[["bravo_ifak",1],["UK3CB_BAF_SmokeShell",2,1]]],["bravo_carrier_nobelt_rf_blk",[["rhs_mag_30Rnd_556x45_Mk318_PMAG",8,30],["rhs_mag_m67",4,1]]],[],"rhsusf_opscore_bk_pelt","G_Balaclava_TI_G_blk_F",[],["ItemMap","ItemGPS","","ItemCompass","ItemWatch","TiGoggles_RF"]]] remoteExec ["setUnitLoadout", _unit];
+					[_unit, 1] remoteExec ["setSkill"];
+				} forEach _units;
+			} forEach _targetSides;
+			["TaskSucceeded", ["","We weren't expecting special forces..."]] remoteExec ["BIS_fnc_showNotification"];
+		}]
 	],
 	[
 		["c_soldier_vr_f", {_this setDir random 360}, true]
