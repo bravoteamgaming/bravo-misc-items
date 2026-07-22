@@ -262,3 +262,7 @@
 
 2026-07-22
 - RF AP: new addon which hides RF AP mags and adds M855A1 and M856A1 mags with those models
+- MG 34F2: removed 3CB belt magwell config from this addon
+- CBA RAILS RHS3CB: added magwells for 3CB L110 variants
+- CBA RAILS RHS3CB: added 3CB BAF 5.56 boxes to Minimi magwell
+- CBA RAILS RHS3CB: added 3CB 7.62 belts to CBA magwell

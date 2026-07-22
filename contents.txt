@@ -43,7 +43,6 @@ BFT
 MG34F2
 - Add MG 34F2 (7.62x51mm NATO) and mags
 - Add MG 34F1 (.30-06 Springfield) and mags
-- Add 3CB BAF 7.62x51 belts to the CBA 7.62x51 belts magwell
 
 ZAMAK DAKAR
 - Add KamAZ Dakar Flyer Special
