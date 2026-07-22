@@ -29,3 +29,21 @@ class put : default
 	};
 	muzzles[] += {"bravo_trappedGunMineMuzzle"};
 };
+
+class launch_O_Titan_F;
+class rhs_weap_fim92 : launch_O_Titan_F
+{
+	magazines[] += {
+		"bravo_1rnd_missile_fim92f_bad"
+	};
+	magazineWell[] = {"bravo_stinger"};
+};
+
+class rhs_weap_strela;
+class rhs_weap_igla : rhs_weap_strela
+{
+	magazines[] += {
+		"bravo_1rnd_missile_9k38_bad"
+	};
+	magazineWell[] = {"bravo_igla"};
+};

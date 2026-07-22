@@ -440,4 +440,42 @@ class CfgAmmo
 	{
 		timeToLive = 1.752;
 	};
+	
+	class rhs_ammo_fim92_missile;
+	class bravo_missile_fim92f_bad : rhs_ammo_fim92_missile
+	{
+		ace_frag_charge = 600;
+		ace_frag_metal = 1000;
+		cmImmunity = 0.5;
+		maxSpeed = 700;
+		indirectHit = 20;
+		hit = 20;
+		submunitionConeType[] = {"randomcenter", 15};
+	};
+	
+	class rhs_ammo_9k38;
+	class bravo_missile_9k38_bad : rhs_ammo_9k38
+	{
+		ace_frag_charge = 600;
+		ace_frag_metal = 1000;
+		cmImmunity = 0.5;
+		maxSpeed = 700;
+		indirectHit = 20;
+		hit = 20;
+		submunitionConeType[] = {"randomcenter", 15};
+	};
+	
+	class gm_rocket_72mm_he_9m32m
+	class bravo_missile_9m32m_bad : gm_rocket_72mm_he_9m32m
+	{
+		hit = 20;
+		indirectHit = 20;
+	};
+	
+	class gm_rocket_70mm_he_m585;
+	class bravo_missile_m585_bad : gm_rocket_70mm_he_m585
+	{
+		hit = 20;
+		indirectHit = 20;
+	};
 };
