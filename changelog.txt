@@ -266,3 +266,5 @@
 - CBA RAILS RHS3CB: added magwells for 3CB L110 variants
 - CBA RAILS RHS3CB: added 3CB BAF 5.56 boxes to Minimi magwell
 - CBA RAILS RHS3CB: added 3CB 7.62 belts to CBA magwell
+- MUNITIONS: added defective FIM-92F, FIM-43, 9K38, and 9M32M
+- MUNITIONS: removed Titan missiles from RHS MANPADS
