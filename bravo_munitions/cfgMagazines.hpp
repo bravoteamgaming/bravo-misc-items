@@ -274,6 +274,13 @@ class CfgMagazines
 		displayName = "72mm HE 9M32M (Defective)";
 		ammo = "bravo_missile_9m32m_bad";
 	};
+	
+	class Titan_AA;
+	class bravo_1rnd_missile_titan_aa_bad : Titan_AA
+	{
+		displayName = "Titan AA (Defective)";
+		ammo = "bravo_missile_titan_aa_bad";
+	};
 };
 class CfgMagazineWells
 {
@@ -340,6 +347,12 @@ class CfgMagazineWells
 		bravo_munitions_magazines[] = {
 			"bravo_1rnd_missile_9k38_bad",
 			"rhs_mag_9k38_rocket"
+		};
+	};
+	class Titan_Long
+	{
+		bravo_munitions_magazines[] = {
+			"bravo_1rnd_missile_titan_aa_bad"
 		};
 	};
 };

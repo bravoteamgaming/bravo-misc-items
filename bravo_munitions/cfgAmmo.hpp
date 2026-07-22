@@ -478,4 +478,15 @@ class CfgAmmo
 		hit = 20;
 		indirectHit = 20;
 	};
+	
+	class M_Titan_AA;
+	class bravo_missile_titan_aa_bad : M_Titan_AA
+	{
+		ace_frag_charge = 600;
+		ace_frag_metal = 1000;
+		cmImmunity = 0.5;
+		maxSpeed = 700;
+		indirectHit = 20;
+		hit = 20;
+	};
 };
