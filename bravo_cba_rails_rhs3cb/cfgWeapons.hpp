@@ -5,6 +5,14 @@ class CfgMagazineWells
 	{
 		bravo_3cb_mags[] = {"UK3CB_BAF_762_20Rnd","UK3CB_BAF_762_20Rnd_T","UK3CB_BAF_762_20Rnd_Blank"};
 	};
+	class CBA_762x51_LINKS
+	{
+		bravo_3cb_baf_mags[] = { "UK3CB_BAF_762_100Rnd", "UK3CB_BAF_762_100Rnd_Blank", "UK3CB_BAF_762_100Rnd_T", "UK3CB_BAF_762_200Rnd", "UK3CB_BAF_762_200Rnd_Blank", "UK3CB_BAF_762_200Rnd_T" };
+	};
+	class CBA_556x45_MINIMI
+	{
+		bravo_3cb_baf_mags[] = { "UK3CB_BAF_556_200Rnd","UK3CB_BAF_556_200Rnd_Blank","UK3CB_BAF_556_200Rnd_T","UK3CB_BAF_556_100Rnd","UK3CB_BAF_556_100Rnd_Blank","UK3CB_BAF_556_100Rnd_T","UK3CB_BAF_556_30Rnd","UK3CB_BAF_556_30Rnd_Blank","UK3CB_BAF_556_30Rnd_T" };
+	};
 };
 class asdg_OpticRail1913_short;
 class asdg_OpticRail1913_short_MG : asdg_OpticRail1913_short
@@ -55,6 +63,7 @@ class CfgWeapons
 			class CowsSlot : asdg_OpticRail1913_short_MG
 			{};
 		};
+		magazineWell[] = {"STANAG_556x45","CBA_556x45_STANAG","CBA_556x45_STANAG_L","CBA_556x45_STANAG_XL","M249_556x45","CBA_556x45_MINIMI"};
 	};
 	class UK3CB_BAF_L110_762_Base : UK3CB_BAF_L110_Base
 	{
@@ -63,6 +72,7 @@ class CfgWeapons
 			class CowsSlot : asdg_OpticRail1913_short_MG
 			{};
 		};
+		magazineWell[] = {"CBA_762x51_LINKS"};
 	};
 	class UK3CB_BAF_L110A2 : UK3CB_BAF_L110_556_Base
 	{
@@ -159,6 +169,11 @@ class CfgWeapons
 	class UK3CB_BAF_L1A1 : Rifle_Base_F
 	{
 		magazineWell[] = {"CBA_762x51_FAL","CBA_762x51_FAL_L"};
+	};
+	
+	class uk3cb_ar18_base
+	{
+		magazineWell[] = {"STANAG_556x45","XMS_556x45_Large","CBA_556x45_STANAG","CBA_556x45_STANAG_L","CBA_556x45_STANAG_XL", "CBA_556x45_STANAG_2D", "CBA_556x45_STANAG_2D_XL"};
 	};
 	
 	// =========

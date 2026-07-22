@@ -54,8 +54,4 @@ class CfgMagazineWells
 	{
 		bravo_mg34f1_mags[] = { "bravo_50rnd_762x63_mg34", "bravo_50rnd_762x63_mg34_red" };
 	};
-	class CBA_762x51_LINKS
-	{
-		bravo_3cb_baf_mags[] = { "UK3CB_BAF_762_100Rnd", "UK3CB_BAF_762_100Rnd_Blank", "UK3CB_BAF_762_100Rnd_T", "UK3CB_BAF_762_200Rnd", "UK3CB_BAF_762_200Rnd_Blank", "UK3CB_BAF_762_200Rnd_T" };
-	};
 };
