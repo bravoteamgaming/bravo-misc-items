@@ -171,7 +171,7 @@ class CfgWeapons
 		magazineWell[] = {"CBA_762x51_FAL","CBA_762x51_FAL_L"};
 	};
 	
-	class uk3cb_ar18_base
+	class uk3cb_ar18_base : Rifle_Base_F
 	{
 		magazineWell[] = {"STANAG_556x45","XMS_556x45_Large","CBA_556x45_STANAG","CBA_556x45_STANAG_L","CBA_556x45_STANAG_XL", "CBA_556x45_STANAG_2D", "CBA_556x45_STANAG_2D_XL"};
 	};
