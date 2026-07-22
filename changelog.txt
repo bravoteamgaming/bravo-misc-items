@@ -268,3 +268,4 @@
 - CBA RAILS RHS3CB: added 3CB 7.62 belts to CBA magwell
 - MUNITIONS: added defective FIM-92F, FIM-43, 9K38, and 9M32M
 - MUNITIONS: removed Titan missiles from RHS MANPADS
+- MUNITIONS: fixed broken config for trapped gun mines
