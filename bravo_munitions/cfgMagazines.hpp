@@ -325,7 +325,7 @@ class CfgMagazineWells
 	class gm_magazineWell_72mm_strela
 	{
 		bravo_munitions_magazines[] = {
-			"bravo_1rnd_missile_9m32m"
+			"bravo_1rnd_missile_9m32m_bad"
 		};
 	};
 	class bravo_stinger
