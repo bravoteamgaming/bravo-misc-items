@@ -259,3 +259,6 @@
 2026-07-18
 - EXTRAS: GSP replaced dog with Special Forces
 - ITEMS: added RPT logging for ACE bandage events
+
+2026-07-22
+- RF AP: new addon which hides RF AP mags and adds M855A1 and M856A1 mags with those models
