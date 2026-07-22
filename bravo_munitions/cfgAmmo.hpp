@@ -465,7 +465,7 @@ class CfgAmmo
 		submunitionConeType[] = {"randomcenter", 15};
 	};
 	
-	class gm_rocket_72mm_he_9m32m
+	class gm_rocket_72mm_he_9m32m;
 	class bravo_missile_9m32m_bad : gm_rocket_72mm_he_9m32m
 	{
 		hit = 20;
