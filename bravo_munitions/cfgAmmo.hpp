@@ -497,5 +497,7 @@ class CfgAmmo
 		caliber = 0.8;
 		indirectHit = 0.2;
 		indirectHitRange = 2;
+		ace_bulletmass = 2.4;
+		ace_bulletlength = 24;
 	};
 };
