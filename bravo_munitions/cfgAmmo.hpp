@@ -489,4 +489,13 @@ class CfgAmmo
 		indirectHit = 20;
 		hit = 20;
 	};
+	
+	class B_570x28_Ball;
+	class bravo_bullet_57x28_type29 : B_570x28_Ball
+	{
+		ace_muzzlevelocities[] = {850, 890};
+		caliber = 0.8;
+		indirectHit = 0.2;
+		indirectHitRange = 2;
+	};
 };

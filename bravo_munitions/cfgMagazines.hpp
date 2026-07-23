@@ -281,6 +281,15 @@ class CfgMagazines
 		displayName = "Titan AA (Defective)";
 		ammo = "bravo_missile_titan_aa_bad";
 	};
+	
+	class 50Rnd_570x28_SMG_03;
+	class bravo_50rnd_57x28mm_p90_type29 : 50Rnd_570x28_SMG_03
+	{
+		displayName = "5.7 mm 60Rnd P90 Type 29 HVAP Magazine";
+		ammo = "bravo_bullet_57x28_type29";
+		initSpeed = 850;
+		mass = 15;
+	};
 };
 class CfgMagazineWells
 {
@@ -353,6 +362,12 @@ class CfgMagazineWells
 	{
 		bravo_munitions_magazines[] = {
 			"bravo_1rnd_missile_titan_aa_bad"
+		};
+	};
+	class CBA_57x28_P90
+	{
+		bravo_munitions_magazines[] = {
+			"bravo_50rnd_57x28mm_p90_type29"
 		};
 	};
 };

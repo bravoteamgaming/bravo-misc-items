@@ -25,6 +25,7 @@ MUNITIONS
 - Add 84mm FFV469 smoke round
 - Add Trapped Gun mine types
 - Add less powerful variants of RHS FIM92 and 9K38, and GM FIM43 and 9M32M
+- Add Type 29 HVAP magazine for P90
 
 EXTRAS
 - Add Steyr HS-50/20 (20mm conversion of 12.7mm HS-50)
