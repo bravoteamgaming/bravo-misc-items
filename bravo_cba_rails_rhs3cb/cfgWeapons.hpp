@@ -7,11 +7,17 @@ class CfgMagazineWells
 	};
 	class CBA_762x51_LINKS
 	{
-		bravo_3cb_baf_mags[] = { "UK3CB_BAF_762_100Rnd", "UK3CB_BAF_762_100Rnd_Blank", "UK3CB_BAF_762_100Rnd_T", "UK3CB_BAF_762_200Rnd", "UK3CB_BAF_762_200Rnd_Blank", "UK3CB_BAF_762_200Rnd_T" };
+		bravo_3cb_mags[] = { "UK3CB_BAF_762_100Rnd", "UK3CB_BAF_762_100Rnd_Blank", "UK3CB_BAF_762_100Rnd_T", "UK3CB_BAF_762_200Rnd", "UK3CB_BAF_762_200Rnd_Blank", "UK3CB_BAF_762_200Rnd_T" };
 	};
 	class CBA_556x45_MINIMI
 	{
-		bravo_3cb_baf_mags[] = { "UK3CB_BAF_556_200Rnd","UK3CB_BAF_556_200Rnd_Blank","UK3CB_BAF_556_200Rnd_T","UK3CB_BAF_556_100Rnd","UK3CB_BAF_556_100Rnd_Blank","UK3CB_BAF_556_100Rnd_T","UK3CB_BAF_556_30Rnd","UK3CB_BAF_556_30Rnd_Blank","UK3CB_BAF_556_30Rnd_T" };
+		bravo_3cb_mags[] = { "UK3CB_BAF_556_200Rnd","UK3CB_BAF_556_200Rnd_Blank","UK3CB_BAF_556_200Rnd_T","UK3CB_BAF_556_100Rnd","UK3CB_BAF_556_100Rnd_Blank","UK3CB_BAF_556_100Rnd_T","UK3CB_BAF_556_30Rnd","UK3CB_BAF_556_30Rnd_Blank","UK3CB_BAF_556_30Rnd_T" };
+	};
+	class CBA_57x28_P90
+	{
+		bravo_3cb_mags[] = {
+			"UK3CB_P90_50rnd_570x28_Magazine","UK3CB_P90_50rnd_570x28_Magazine_R","UK3CB_P90_50rnd_570x28_Magazine_RM","UK3CB_P90_50rnd_570x28_Magazine_RT","UK3CB_P90_50rnd_570x28_Magazine_G","UK3CB_P90_50rnd_570x28_Magazine_GM","UK3CB_P90_50rnd_570x28_Magazine_GT","UK3CB_P90_50rnd_570x28_Magazine_Y","UK3CB_P90_50rnd_570x28_Magazine_YM","UK3CB_P90_50rnd_570x28_Magazine_YT","UK3CB_P90_50rnd_570x28_Magazine_W","UK3CB_P90_50rnd_570x28_Magazine_WM","UK3CB_P90_50rnd_570x28_Magazine_WT"
+		};
 	};
 };
 class asdg_OpticRail1913_short;
