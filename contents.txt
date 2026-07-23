@@ -236,6 +236,14 @@ GEAR MISC
 	PASGT (Soldier 2000/ESS Bare)
 	PASGT (Soldier 2000)
 	PASGT (Soldier 2000/Rhino)
+	PASGT (Finnish M05/ESS)
+	PASGT (Finnish M05/ESS Bare)
+	PASGT (Finnish M05)
+	PASGT (Finnish M05/Rhino)
+	PASGT (Finnish M05 Winter/ESS)
+	PASGT (Finnish M05 Winter/ESS Bare)
+	PASGT (Finnish M05 Winter)
+	PASGT (Finnish M05 Winter/Rhino)
 	Rangemaster Cap Bravo
 	Combat Helmet Multicam
 	Combat Helmet Green
@@ -283,6 +291,7 @@ GEAR MISC
 	Boonie Hat (Multitarn)
 	Boonie Hat (Multicam)
 	Boonie Hat (Soldier 2000)
+	Boonie Hat (Finnish M05)
 - Add vest variants:
 	CTRG Plate Carrier Rig (Black)
 	CTRG Plate Carrier Rig (Khaki)
@@ -561,6 +570,9 @@ GEAR MISC
 	Combat Uniform M/84 (MTP)
 	Combat Uniform M/84 (Multicam)
 	Combat Uniform M/84 (Multicam RU)
+	Combat Uniform M/84 (Finnish M05)
+	Combat Uniform M/84 (Finnish M05 Winter)
+	Combat Uniform M/84 (Finnish M05 Winter Jacket)
 	Combat Uniform (CCE)
 	Combat Uniform (Daguet)
 	Combat Uniform (CCE/Rolled-Up)

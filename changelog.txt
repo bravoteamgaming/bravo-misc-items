@@ -269,3 +269,6 @@
 - MUNITIONS: added defective FIM-92F, FIM-43, 9K38, and 9M32M
 - MUNITIONS: removed Titan missiles from RHS MANPADS
 - MUNITIONS: fixed broken config for trapped gun mines
+
+2026-07-23
+- GEAR MISC: added Finnish M05 and M05 Winter PASGT, M/84, and boonie
