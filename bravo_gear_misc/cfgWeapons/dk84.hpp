@@ -67,3 +67,21 @@
 			uniformClass = "bravo_dk_army_uniform_soldier_84_f05m_unit";
 		};
 	};
+	class bravo_dk_army_uniform_soldier_84_khk : bravo_dk_army_uniform_soldier_84_oli_noflag
+	{
+		displayName = "Combat Uniform M/84 (Khaki)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_m84_khk_co",""};
+			uniformClass = "bravo_dk_army_uniform_soldier_84_khk_unit";
+		};
+	};
+	class bravo_dk_army_uniform_soldier_84_des : bravo_dk_army_uniform_soldier_84_oli_noflag
+	{
+		displayName = "Combat Uniform M/84 (Tan)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_m84_des_co",""};
+			uniformClass = "bravo_dk_army_uniform_soldier_84_des_unit";
+		};
+	};

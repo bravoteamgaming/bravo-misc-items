@@ -35,3 +35,13 @@
 		scope = 1;
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_m84_f05m_co",""};
 	};
+	class bravo_dk_army_uniform_soldier_84_khk_unit : bravo_dk_army_uniform_soldier_84_oli_noflag_unit
+	{
+		scope = 1;
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_m84_khk_co",""};
+	};
+	class bravo_dk_army_uniform_soldier_84_des_unit : bravo_dk_army_uniform_soldier_84_oli_noflag_unit
+	{
+		scope = 1;
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_m84_des_co",""};
+	};

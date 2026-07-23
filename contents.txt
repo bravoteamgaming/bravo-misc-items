@@ -574,6 +574,8 @@ GEAR MISC
 	Combat Uniform M/84 (Finnish M05)
 	Combat Uniform M/84 (Finnish M05 Winter)
 	Combat Uniform M/84 (Finnish M05 Winter Jacket)
+	Combat Uniform M/84 (Khaki)
+	Combat Uniform M/84 (Tan)
 	Combat Uniform (CCE)
 	Combat Uniform (Daguet)
 	Combat Uniform (CCE/Rolled-Up)

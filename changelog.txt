@@ -274,3 +274,4 @@
 - GEAR MISC: added Finnish M05 and M05 Winter PASGT, M/84, and boonie
 - MUNITIONS: added Type 29 HVAP magazine for P90
 - CBA RAILS RHS3CB: added 3CB P90 mags to CBA magwell
+- GEAR MISC: added khaki and tan M/84 uniform
