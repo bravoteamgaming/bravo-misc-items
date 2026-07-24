@@ -279,3 +279,4 @@
 
 2026-07-24
 - ZEN AISKILL: new addon which sets default values for ZEN global AI skill.
+- GEAR MISC: added Finnish M04 and M05 Frost equipment
