@@ -158,3 +158,21 @@
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_f05_co"};
 		};
 	};
+	class bravo_gm_boonie_f04 : gm_ge_headgear_hat_boonie_oli
+	{
+		displayName = "Boonie Hat (Finnish M04)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_f04_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_f04_co"};
+		};
+	};
+	class bravo_gm_boonie_f05f : gm_ge_headgear_hat_boonie_oli
+	{
+		displayName = "Boonie Hat (Finnish M05 Frost)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_f05f_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_f05f_co"};
+		};
+	};

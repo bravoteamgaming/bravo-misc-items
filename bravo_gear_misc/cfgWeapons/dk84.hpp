@@ -85,3 +85,30 @@
 			uniformClass = "bravo_dk_army_uniform_soldier_84_des_unit";
 		};
 	};
+	class bravo_dk_army_uniform_soldier_84_f04 : bravo_dk_army_uniform_soldier_84_oli_noflag
+	{
+		displayName = "Combat Uniform M/84 (Finnish M04)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_m84_f04_co",""};
+			uniformClass = "bravo_dk_army_uniform_soldier_84_f04_unit";
+		};
+	};
+	class bravo_dk_army_uniform_soldier_84_f05f : bravo_dk_army_uniform_soldier_84_oli_noflag
+	{
+		displayName = "Combat Uniform M/84 (Finnish M05 Frost)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_m84_f05f_co",""};
+			uniformClass = "bravo_dk_army_uniform_soldier_84_f05f_unit";
+		};
+	};
+	class bravo_dk_army_uniform_soldier_84_f05fm : bravo_dk_army_uniform_soldier_84_oli_noflag
+	{
+		displayName = "Combat Uniform M/84 (Finnish M05 Frost Jacket)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_m84_f05fm_co",""};
+			uniformClass = "bravo_dk_army_uniform_soldier_84_f05fm_unit";
+		};
+	};
