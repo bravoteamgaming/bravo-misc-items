@@ -18,6 +18,6 @@ class Extended_PreInit_EventHandlers
 {
 	class bravo_zenskill_xeh
 	{
-		init = "call bravo_fnc_zenskillInitSettings";
+		init = "call bravo_fnc_zenSkillInitSettings";
 	};
 };
