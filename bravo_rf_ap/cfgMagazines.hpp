@@ -3,7 +3,7 @@ class cfgMagazines
 	class CA_Magazine;
 	class 20Rnd_556x45_AP_Stanag_RF : CA_Magazine
 	{
-		scopeArsenal = 0;
+		scope = 1;
 	};
 	
 	class 10Rnd_556x45_AP_Stanag_RF;
@@ -12,7 +12,7 @@ class cfgMagazines
 		displayName = "5.56 mm 10Rnd Hera M855A1 Magazine";
 		ammo = "rhs_ammo_556x45_m855a1_ball";
 		initSpeed = 960;
-		scopeArsenal = 2;
+		scope = 2;
 	};
 	class bravo_10rnd_556x45_hera_m856a1 : 10Rnd_556x45_AP_Stanag_RF
 	{
@@ -20,7 +20,7 @@ class cfgMagazines
 		ammo = "rhs_ammo_556x45_m856a1_ball_red";
 		tracersEvery = 1;
 		initSpeed = 960;
-		scopeArsenal = 2;
+		scope = 2;
 	};
 	
 	class 10Rnd_556x45_AP_Stanag_Tan_RF;
@@ -29,7 +29,7 @@ class cfgMagazines
 		displayName = "5.56 mm 10Rnd Hera M855A1 Sand Magazine";
 		ammo = "rhs_ammo_556x45_m855a1_ball";
 		initSpeed = 960;
-		scopeArsenal = 2;
+		scope = 2;
 	};
 	class bravo_10rnd_556x45_hera_m856a1_snd : 10Rnd_556x45_AP_Stanag_Tan_RF
 	{
@@ -37,7 +37,7 @@ class cfgMagazines
 		ammo = "rhs_ammo_556x45_m856a1_ball_red";
 		tracersEvery = 1;
 		initSpeed = 960;
-		scopeArsenal = 2;
+		scope = 2;
 	};
 	
 	class 10Rnd_556x45_AP_Stanag_khk_RF;
@@ -46,7 +46,7 @@ class cfgMagazines
 		displayName = "5.56 mm 10Rnd Hera M855A1 Olive Magazine";
 		ammo = "rhs_ammo_556x45_m855a1_ball";
 		initSpeed = 960;
-		scopeArsenal = 2;
+		scope = 2;
 	};
 	class bravo_10rnd_556x45_hera_m856a1_oli : 10Rnd_556x45_AP_Stanag_khk_RF
 	{
@@ -54,7 +54,7 @@ class cfgMagazines
 		ammo = "rhs_ammo_556x45_m856a1_ball_red";
 		tracersEvery = 1;
 		initSpeed = 960;
-		scopeArsenal = 2;
+		scope = 2;
 	};
 	
 	class 20Rnd_556x45_AP_Stanag_RF;
@@ -63,7 +63,7 @@ class cfgMagazines
 		displayName = "5.56 mm 20Rnd Hera M855A1 Magazine";
 		ammo = "rhs_ammo_556x45_m855a1_ball";
 		initSpeed = 960;
-		scopeArsenal = 2;
+		scope = 2;
 	};
 	class bravo_20rnd_556x45_hera_m856a1 : 20Rnd_556x45_AP_Stanag_RF
 	{
@@ -71,7 +71,7 @@ class cfgMagazines
 		ammo = "rhs_ammo_556x45_m856a1_ball_red";
 		tracersEvery = 1;
 		initSpeed = 960;
-		scopeArsenal = 2;
+		scope = 2;
 	};
 	
 	class 20Rnd_556x45_AP_Stanag_Tan_RF;
@@ -80,7 +80,7 @@ class cfgMagazines
 		displayName = "5.56 mm 20Rnd Hera M855A1 Sand Magazine";
 		ammo = "rhs_ammo_556x45_m855a1_ball";
 		initSpeed = 960;
-		scopeArsenal = 2;
+		scope = 2;
 	};
 	class bravo_20rnd_556x45_hera_m856a1_snd : 20Rnd_556x45_AP_Stanag_Tan_RF
 	{
@@ -88,7 +88,7 @@ class cfgMagazines
 		ammo = "rhs_ammo_556x45_m856a1_ball_red";
 		tracersEvery = 1;
 		initSpeed = 960;
-		scopeArsenal = 2;
+		scope = 2;
 	};
 	
 	class 20Rnd_556x45_AP_Stanag_khk_RF;
@@ -97,7 +97,7 @@ class cfgMagazines
 		displayName = "5.56 mm 20Rnd Hera M855A1 Olive Magazine";
 		ammo = "rhs_ammo_556x45_m855a1_ball";
 		initSpeed = 960;
-		scopeArsenal = 2;
+		scope = 2;
 	};
 	class bravo_20rnd_556x45_hera_m856a1_oli : 20Rnd_556x45_AP_Stanag_khk_RF
 	{
@@ -105,7 +105,7 @@ class cfgMagazines
 		ammo = "rhs_ammo_556x45_m856a1_ball_red";
 		tracersEvery = 1;
 		initSpeed = 960;
-		scopeArsenal = 2;
+		scope = 2;
 	};
 	
 	class 30Rnd_556x45_AP_Stanag_RF;
@@ -114,7 +114,7 @@ class cfgMagazines
 		displayName = "5.56 mm 30Rnd Hera M855A1 Magazine";
 		ammo = "rhs_ammo_556x45_m855a1_ball";
 		initSpeed = 960;
-		scopeArsenal = 2;
+		scope = 2;
 	};
 	class bravo_30rnd_556x45_hera_m856a1 : 30Rnd_556x45_AP_Stanag_RF
 	{
@@ -122,7 +122,7 @@ class cfgMagazines
 		ammo = "rhs_ammo_556x45_m856a1_ball_red";
 		tracersEvery = 1;
 		initSpeed = 960;
-		scopeArsenal = 2;
+		scope = 2;
 	};
 	
 	class 30Rnd_556x45_AP_Stanag_Tan_RF;
@@ -131,7 +131,7 @@ class cfgMagazines
 		displayName = "5.56 mm 30Rnd Hera M855A1 Sand Magazine";
 		ammo = "rhs_ammo_556x45_m855a1_ball";
 		initSpeed = 960;
-		scopeArsenal = 2;
+		scope = 2;
 	};
 	class bravo_30rnd_556x45_hera_m856a1_snd : 30Rnd_556x45_AP_Stanag_Tan_RF
 	{
@@ -139,7 +139,7 @@ class cfgMagazines
 		ammo = "rhs_ammo_556x45_m856a1_ball_red";
 		tracersEvery = 1;
 		initSpeed = 960;
-		scopeArsenal = 2;
+		scope = 2;
 	};
 	
 	class 30Rnd_556x45_AP_Stanag_khk_RF;
@@ -148,7 +148,7 @@ class cfgMagazines
 		displayName = "5.56 mm 30Rnd Hera M855A1 Olive Magazine";
 		ammo = "rhs_ammo_556x45_m855a1_ball";
 		initSpeed = 960;
-		scopeArsenal = 2;
+		scope = 2;
 	};
 	class bravo_30rnd_556x45_hera_m856a1_oli : 30Rnd_556x45_AP_Stanag_khk_RF
 	{
@@ -156,7 +156,7 @@ class cfgMagazines
 		ammo = "rhs_ammo_556x45_m856a1_ball_red";
 		tracersEvery = 1;
 		initSpeed = 960;
-		scopeArsenal = 2;
+		scope = 2;
 	};
 };
 
