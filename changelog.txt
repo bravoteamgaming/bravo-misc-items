@@ -276,3 +276,6 @@
 - CBA RAILS RHS3CB: added 3CB P90 mags to CBA magwell
 - GEAR MISC: added khaki and tan M/84 uniform
 - GEAR MISC: updated colours of M05 FAST and G3; tweaked colours of all G3
+
+2026-07-24
+- ZEN AISKILL: new addon which sets default values for ZEN global AI skill.

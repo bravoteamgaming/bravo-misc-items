@@ -754,3 +754,7 @@ FAK
 RF AP
 - Hide RF AP mags
 - Add M855A1 and M856A1 mags using RF models
+
+ZEN AISKILL
+- Set default values for ZEN global AI skill and turn it on by default
+- Provide CBA settings for changing the default values
