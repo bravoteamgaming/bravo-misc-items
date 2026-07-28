@@ -283,3 +283,6 @@
 
 2026-07-24 (2)
 - RF AP: changed from scopeArsenal to scope because apparently that doesn't work on the BI arsenal
+
+2026-07-28
+- RF AP: fixed wrong ammo in M856A1 Hera mags
