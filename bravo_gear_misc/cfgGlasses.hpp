@@ -122,4 +122,16 @@ class CfgGlasses
 		mass = 2;
 		model = "\uk3cb_baf_equipment\bowman\Bowman_headset.p3d";
 	};
+	
+	class G_Aviator;
+	class bravo_aviator_blk : G_Aviator
+	{
+		displayName = "Aviator Glasses (Black)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\glass_blk_ca"};
+	};
+	class bravo_aviator_slv : G_Aviator
+	{
+		displayName = "Aviator Glasses (Silver)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\glass_slv_ca"};
+	};
 };

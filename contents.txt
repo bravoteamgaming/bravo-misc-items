@@ -700,6 +700,8 @@ GEAR MISC
 	Shemagh (Orange)
 	Shemagh (Orange/alt)
 	Headset PRR
+	Aviator Glasses (Black)
+	Aviator Glasses (Silver)
 - Add NVG slot variants:
 	(US) M-1944 SWDG (Low)
 	(US) M-1944 SWDG (Helmet)

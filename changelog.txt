@@ -295,3 +295,4 @@
 - RF AP: fixed not all RF AP mags being hidden
 - GEAR MISC: fixed missing Olive Marksman SPC
 - GEAR MISC: add Finnish M05 modular carrier
+- GEAR MISC: add silver and black aviators
