@@ -162,7 +162,7 @@ class CfgWeapons
 		displayName = "QBZ-95-762";
 		descriptionShort = "Assault rifle<br />Caliber: 7.62x39 mm";
 		magazines[] = {"rhs_30Rnd_762x39mm_bakelite","rhs_30Rnd_762x39mm_bakelite_tracer","rhs_30Rnd_762x39mm_bakelite_89","rhs_30Rnd_762x39mm_bakelite_U"};
-		magazineWell[] = {"AK_762x39","CBA_762x39_AK"};
+		magazineWell[] = {"AK_762x39","CBA_762x39_AK", "bravo_762x39_qjb"};
 	};
 	class bravo_qbz95_762_gl : arifle_CTAR_GL_blk_F
 	{
@@ -170,7 +170,7 @@ class CfgWeapons
 		displayName = "QBZ-95-762 GL";
 		descriptionShort = "Assault rifle<br />Caliber: 7.62x39 mm";
 		magazines[] = {"rhs_30Rnd_762x39mm_bakelite","rhs_30Rnd_762x39mm_bakelite_tracer","rhs_30Rnd_762x39mm_bakelite_89","rhs_30Rnd_762x39mm_bakelite_U"};
-		magazineWell[] = {"AK_762x39","CBA_762x39_AK"};
+		magazineWell[] = {"AK_762x39","CBA_762x39_AK", "bravo_762x39_qjb"};
 	};
 	class bravo_qjb95_762 : arifle_CTARS_blk_F
 	{
@@ -178,6 +178,6 @@ class CfgWeapons
 		displayName = "QJB-95-762";
 		descriptionShort = "Automatic rifle<br />Caliber: 7.62x39 mm";
 		magazines[] = {"rhs_30Rnd_762x39mm_bakelite","rhs_30Rnd_762x39mm_bakelite_tracer","rhs_30Rnd_762x39mm_bakelite_89","rhs_30Rnd_762x39mm_bakelite_U"};
-		magazineWell[] = {"AK_762x39","CBA_762x39_AK"};
+		magazineWell[] = {"AK_762x39","CBA_762x39_AK", "bravo_762x39_qjb"};
 	};
 };

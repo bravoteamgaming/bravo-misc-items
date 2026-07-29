@@ -14,7 +14,11 @@ class bravo_75rnd_762x39mm_qjb95_tracer_mag : bravo_75rnd_762x39mm_qjb95_mag
 
 class cfgMagazineWells
 {
-	class CBA_762x39_AK
+	class CBA_762x39_RPK
+	{
+		bravo_qbzak_mags[] = { "bravo_75rnd_762x39mm_qjb95_mag", "bravo_75rnd_762x39mm_qjb95_tracer_mag" };
+	};
+	class bravo_762x39_qjb
 	{
 		bravo_qbzak_mags[] = { "bravo_75rnd_762x39mm_qjb95_mag", "bravo_75rnd_762x39mm_qjb95_tracer_mag" };
 	};
