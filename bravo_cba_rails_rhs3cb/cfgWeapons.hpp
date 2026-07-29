@@ -20,11 +20,11 @@ class CfgMagazineWells
 	};
 	class CBA_762x39_AK
 	{
-		class UK3CB_RK62_mags[] = {"UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine_G","UK3CB_RK62_30Rnd_Magazine_GT","UK3CB_RK62_30Rnd_Magazine_R","UK3CB_RK62_30Rnd_Magazine_RT","UK3CB_RK62_30Rnd_Magazine_Y","UK3CB_RK62_30Rnd_Magazine_YT","UK3CB_RK62_30Rnd_Magazine_W","UK3CB_RK62_30Rnd_Magazine_WT","UK3CB_RK62_40Rnd_Magazine","UK3CB_RK62_40Rnd_Magazine_G","UK3CB_RK62_40Rnd_Magazine_GT","UK3CB_RK62_40Rnd_Magazine_R","UK3CB_RK62_40Rnd_Magazine_RT","UK3CB_RK62_40Rnd_Magazine_Y","UK3CB_RK62_40Rnd_Magazine_YT","UK3CB_RK62_40Rnd_Magazine_W","UK3CB_RK62_40Rnd_Magazine_WT"};
+		UK3CB_RK62_mags[] = {"UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine_G","UK3CB_RK62_30Rnd_Magazine_GT","UK3CB_RK62_30Rnd_Magazine_R","UK3CB_RK62_30Rnd_Magazine_RT","UK3CB_RK62_30Rnd_Magazine_Y","UK3CB_RK62_30Rnd_Magazine_YT","UK3CB_RK62_30Rnd_Magazine_W","UK3CB_RK62_30Rnd_Magazine_WT","UK3CB_RK62_40Rnd_Magazine","UK3CB_RK62_40Rnd_Magazine_G","UK3CB_RK62_40Rnd_Magazine_GT","UK3CB_RK62_40Rnd_Magazine_R","UK3CB_RK62_40Rnd_Magazine_RT","UK3CB_RK62_40Rnd_Magazine_Y","UK3CB_RK62_40Rnd_Magazine_YT","UK3CB_RK62_40Rnd_Magazine_W","UK3CB_RK62_40Rnd_Magazine_WT"};
 	};
 	class CBA_762x39_RPK
 	{
-		class UK3CB_RK62_mags[] = {"UK3CB_RK62_75Rnd_Magazine","UK3CB_RK62_75Rnd_Magazine_G","UK3CB_RK62_75Rnd_Magazine_GM","UK3CB_RK62_75Rnd_Magazine_GT","UK3CB_RK62_75Rnd_Magazine_R","UK3CB_RK62_75Rnd_Magazine_RM","UK3CB_RK62_75Rnd_Magazine_RT","UK3CB_RK62_75Rnd_Magazine_Y","UK3CB_RK62_75Rnd_Magazine_YM","UK3CB_RK62_75Rnd_Magazine_YT","UK3CB_RK62_75Rnd_Magazine_W","UK3CB_RK62_75Rnd_Magazine_WM","UK3CB_RK62_75Rnd_Magazine_WT"};
+		UK3CB_RK62_mags[] = {"UK3CB_RK62_75Rnd_Magazine","UK3CB_RK62_75Rnd_Magazine_G","UK3CB_RK62_75Rnd_Magazine_GM","UK3CB_RK62_75Rnd_Magazine_GT","UK3CB_RK62_75Rnd_Magazine_R","UK3CB_RK62_75Rnd_Magazine_RM","UK3CB_RK62_75Rnd_Magazine_RT","UK3CB_RK62_75Rnd_Magazine_Y","UK3CB_RK62_75Rnd_Magazine_YM","UK3CB_RK62_75Rnd_Magazine_YT","UK3CB_RK62_75Rnd_Magazine_W","UK3CB_RK62_75Rnd_Magazine_WM","UK3CB_RK62_75Rnd_Magazine_WT"};
 	};
 			
 };
