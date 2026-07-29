@@ -7,7 +7,6 @@ RFB 7.62
 
 TAVOR 7
 - Add 7.62mm version of CTAR-21
-- Add 5.45mm version of TAR-21, CTAR-21, GTAR-21 (Fort-221, Fort-224)
 - Add black versions of all types
 
 ACR 6.8

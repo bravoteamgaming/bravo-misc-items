@@ -90,6 +90,7 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = {"\bravo_tavor_7\assets\tar21_base_blk_co"};
 	};
 	
+	/*
 	class bravo_fort224_545 : arifle_TRG20_F
 	{
 		baseWeapon = "bravo_fort224_545";
@@ -103,6 +104,7 @@ class CfgWeapons
 		displayName = "Fort-224 545 (Black)";
 		hiddenSelectionsTextures[] = {"\bravo_tavor_7\assets\tar21_base_blk_co"};
 	};
+	*/
 	
 	class bravo_tar21c_blk : arifle_TRG20_F
 	{
@@ -120,6 +122,8 @@ class CfgWeapons
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\bravo_tavor_7\assets\tar21_base_blk_co"};
 	};
+	
+	/*
 	class bravo_fort221_545 : arifle_TRG21_F
 	{
 		baseWeapon = "bravo_fort221_545";
@@ -134,6 +138,7 @@ class CfgWeapons
 		displayName = "Fort-221 545 (Black)";
 		hiddenSelectionsTextures[] = {"\bravo_tavor_7\assets\tar21_base_blk_co"};
 	};
+	*/
 	
 	class arifle_TRG21_GL_F : arifle_TRG21_F
 	{};
@@ -143,6 +148,8 @@ class CfgWeapons
 		displayName = "GTAR-21 EGLM (Black)";
 		hiddenSelectionsTextures[] = {"\bravo_tavor_7\assets\tar21_base_blk_co","\a3\weapons_f\rifles\trg20\data\tar21_eglm_co.paa","\a3\weapons_f\data\gl_holo_co.paa"};
 	};
+	
+	/*
 	class bravo_fort221_545_gl : arifle_TRG21_GL_F
 	{
 		baseWeapon = "bravo_fort221_545_gl";
@@ -156,4 +163,5 @@ class CfgWeapons
 		displayName = "Fort-221 545 EGLM (Black)";
 		hiddenSelectionsTextures[] = {"\bravo_tavor_7\assets\tar21_base_blk_co","\a3\weapons_f\rifles\trg20\data\tar21_eglm_co.paa","\a3\weapons_f\data\gl_holo_co.paa"};
 	};
+	*/
 };
