@@ -1,3 +1,5 @@
+class asdg_MuzzleSlot_58;
+
 class CfgWeapons
 {	
 	class arifle_AK12_base_F;
