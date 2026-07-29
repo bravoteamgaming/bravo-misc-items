@@ -134,4 +134,9 @@ class CfgGlasses
 		displayName = "Aviator Glasses (Silver)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\glass_slv_ca"};
 	};
+	class bravo_aviator_org : G_Aviator
+	{
+		displayName = "Aviator Glasses (Orange)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\glass_org_ca"};
+	};
 };
