@@ -293,3 +293,4 @@
 - GEAR MISC: added Black SPC
 - CBA RAILS RHS3CB: corrected magwell distribution of RK62 drum mags
 - RF AP: fixed not all RF AP mags being hidden
+- GEAR MISC: fixed missing Olive Marksman SPC
