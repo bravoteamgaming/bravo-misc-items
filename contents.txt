@@ -771,3 +771,9 @@ RF AP
 ZEN AISKILL
 - Set default values for ZEN global AI skill and turn it on by default
 - Provide CBA settings for changing the default values
+
+QBZAK
+- Add 5.8x42mm AK-12 and RPK-12 variants
+- Add 5.45x39mm QBZ-95 and QJB-95 variants
+- Add 7.62x39mm QBZ-95 and QJB-95 variants
+- Add 7.62x39mm 75rnd QJB-95 (offset) drum mags

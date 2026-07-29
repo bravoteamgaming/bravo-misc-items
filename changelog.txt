@@ -286,3 +286,6 @@
 
 2026-07-28
 - RF AP: fixed wrong ammo in M856A1 Hera mags
+
+2026-07-29
+- QBZAK: new addon which adds 5.8mm AK-12/RPK-12, 5.45mm and 7.62x39mm QBZ-95/QJB-95
