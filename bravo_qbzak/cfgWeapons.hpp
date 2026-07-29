@@ -1,12 +1,11 @@
 class CfgWeapons
 {	
-
-	class AK12_F;
-	class AK12_GL_F;
-	class AK12U_F;
-	class RPK12_F;
+	class arifle_AK12_F;
+	class arifle_AK12_GL_F;
+	class arifle_AK12U_F;
+	class arifle_RPK12_F;
 	
-	class bravo_type215 : AK12_F
+	class bravo_type215 : arifle_AK12_F
 	{
 		baseWeapon = "bravo_type215";
 		displayName = "Type 215";
@@ -15,7 +14,7 @@ class CfgWeapons
 		magazines[] = {"30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_Tracer_F"};
 		recoil = "recoil_spar";
 	};
-	class bravo_type215_gl : AK12_GL_F
+	class bravo_type215_gl : arifle_AK12_GL_F
 	{
 		baseWeapon = "bravo_type215_gl";
 		displayName = "Type 215 GL";
@@ -24,7 +23,7 @@ class CfgWeapons
 		magazines[] = {"30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_Tracer_F"};
 		recoil = "recoil_spar";
 	};
-	class bravo_type215_k : AK12_F
+	class bravo_type215_k : arifle_AK12_F
 	{
 		baseWeapon = "bravo_type215_k";
 		displayName = "Type 215 Carbine";
@@ -33,7 +32,7 @@ class CfgWeapons
 		magazines[] = {"30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_Tracer_F"};
 		recoil = "recoil_spar";
 	};
-	class bravo_type215_lsw : AK12_F
+	class bravo_type215_lsw : arifle_RPK12_F
 	{
 		baseWeapon = "bravo_type215_lsw";
 		displayName = "Type 215 LSW";
