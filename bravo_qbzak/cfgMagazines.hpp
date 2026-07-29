@@ -5,8 +5,10 @@ class cfgMagazines
 	{
 		displayName = "7.62x39 mm 75Rnd QJB-95 Magazine";
 		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsMaterials[] = {};
 		hiddenSelectionsTextures[] = {"a3\Weapons_F_Exp\Rifles\CTARS\Data\CTARS_F_co.paa"};
 		modelSpecial = "a3\Weapons_F_exp\MagazineProxies\mag_58x42_CTAR_100rnd";
+		picture = "\a3\Weapons_F_Exp\MagazineProxies\data\UI\icon_100Rnd_580x42_Mag_F_CA.paa";
 	};
 	class bravo_75rnd_762x39mm_qjb95_tracer_mag : bravo_75rnd_762x39mm_qjb95_mag
 	{

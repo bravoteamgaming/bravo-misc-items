@@ -80,10 +80,22 @@ class CfgWeapons
 		};
 	};
 	
-	class arifle_AK12_arid_F;
-	class arifle_AK12_GL_arid_F;
-	class arifle_AK12U_arid_F;
-	class arifle_RPK12_arid_F;
+	class arifle_AK12_arid_F : arifle_AK12_base_F
+	{
+		class WeaponSlotsInfo;
+	};
+	class arifle_AK12_GL_arid_F : arifle_AK12_GL_base_F
+	{
+		class WeaponSlotsInfo;
+	};
+	class arifle_AK12U_arid_F : arifle_AK12U_base_F
+	{
+		class WeaponSlotsInfo;
+	};
+	class arifle_RPK12_arid_F : arifle_RPK12_base_F
+	{
+		class WeaponSlotsInfo;
+	};
 	
 	class bravo_type215_arid : arifle_AK12_arid_F
 	{
@@ -142,10 +154,22 @@ class CfgWeapons
 		};
 	};
 	
-	class arifle_AK12_lush_F;
-	class arifle_AK12_GL_lush_F;
-	class arifle_AK12U_lush_F;
-	class arifle_RPK12_lush_F;
+	class arifle_AK12_lush_F : arifle_AK12_base_F
+	{
+		class WeaponSlotsInfo;
+	};
+	class arifle_AK12_GL_lush_F : arifle_AK12_GL_base_F
+	{
+		class WeaponSlotsInfo;
+	};
+	class arifle_AK12U_lush_F : arifle_AK12U_base_F
+	{
+		class WeaponSlotsInfo;
+	};
+	class arifle_RPK12_lush_F : arifle_RPK12_base_F
+	{
+		class WeaponSlotsInfo;
+	};
 	
 	class bravo_type215_lush : arifle_AK12_lush_F
 	{
