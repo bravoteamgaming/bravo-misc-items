@@ -867,7 +867,18 @@ class CfgPatches
 			"bravo_spc_rifleman_khk",
 			"bravo_spc_sniper_khk",
 			"bravo_spc_squadleader_khk",
-			"bravo_spc_teamleader_khk"
+			"bravo_spc_teamleader_khk",
+			"bravo_spc_blk",
+			"bravo_spc_corpsman_blk",
+			"bravo_spc_crewman_blk",
+			"bravo_spc_iar_blk",
+			"bravo_spc_light_blk",
+			"bravo_spc_marksman_blk",
+			"bravo_spc_mg_blk",
+			"bravo_spc_rifleman_blk",
+			"bravo_spc_sniper_blk",
+			"bravo_spc_squadleader_blk",
+			"bravo_spc_teamleader_blk"
 		};
 		skipWhenMissingDependencies = 1;
 	};
