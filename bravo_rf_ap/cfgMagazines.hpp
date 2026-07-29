@@ -5,6 +5,38 @@ class cfgMagazines
 	{
 		scope = 1;
 	};
+	class 20Rnd_556x45_AP_Stanag_Tan_RF : 20Rnd_556x45_AP_Stanag_RF
+	{
+		scope = 1;
+	};
+	class 20Rnd_556x45_AP_Stanag_khk_RF : 20Rnd_556x45_AP_Stanag_RF
+	{
+		scope = 1;
+	};
+	class 10Rnd_556x45_AP_Stanag_RF : 20Rnd_556x45_AP_Stanag_RF
+	{
+		scope = 1;
+	};
+	class 10Rnd_556x45_AP_Stanag_Tan_RF : 10Rnd_556x45_AP_Stanag_RF
+	{
+		scope = 1;
+	};
+	class 10Rnd_556x45_AP_Stanag_khk_RF : 10Rnd_556x45_AP_Stanag_RF
+	{
+		scope = 1;
+	};
+	class 30Rnd_556x45_AP_Stanag_RF : 20Rnd_556x45_AP_Stanag_RF
+	{
+		scope = 1;
+	};
+	class 30Rnd_556x45_AP_Stanag_Tan_RF : 30Rnd_556x45_AP_Stanag_RF
+	{
+		scope = 1;
+	};
+	class 30Rnd_556x45_AP_Stanag_khk_RF : 30Rnd_556x45_AP_Stanag_RF
+	{
+		scope = 1;
+	};
 	
 	class 10Rnd_556x45_AP_Stanag_RF;
 	class bravo_10rnd_556x45_hera_m855a1 : 10Rnd_556x45_AP_Stanag_RF

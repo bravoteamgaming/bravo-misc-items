@@ -292,3 +292,4 @@
 - TAVOR 7: removed Fort-22x 5.45mm variants because the magazines are not positioned correctly
 - GEAR MISC: added Black SPC
 - CBA RAILS RHS3CB: corrected magwell distribution of RK62 drum mags
+- RF AP: fixed not all RF AP mags being hidden
