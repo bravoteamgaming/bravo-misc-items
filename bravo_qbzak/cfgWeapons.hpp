@@ -18,7 +18,7 @@ class CfgWeapons
 	{
 		class WeaponSlotsInfo;
 	};
-	class arifle_RPK12_F : class arifle_RPK12_base_F
+	class arifle_RPK12_F : arifle_RPK12_base_F
 	{
 		class WeaponSlotsInfo;
 	};
