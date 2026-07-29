@@ -16,9 +16,17 @@ class CfgMagazineWells
 	class CBA_57x28_P90
 	{
 		bravo_3cb_mags[] = {
-			"UK3CB_P90_50rnd_570x28_Magazine","UK3CB_P90_50rnd_570x28_Magazine_R","UK3CB_P90_50rnd_570x28_Magazine_RM","UK3CB_P90_50rnd_570x28_Magazine_RT","UK3CB_P90_50rnd_570x28_Magazine_G","UK3CB_P90_50rnd_570x28_Magazine_GM","UK3CB_P90_50rnd_570x28_Magazine_GT","UK3CB_P90_50rnd_570x28_Magazine_Y","UK3CB_P90_50rnd_570x28_Magazine_YM","UK3CB_P90_50rnd_570x28_Magazine_YT","UK3CB_P90_50rnd_570x28_Magazine_W","UK3CB_P90_50rnd_570x28_Magazine_WM","UK3CB_P90_50rnd_570x28_Magazine_WT"
-		};
+			"UK3CB_P90_50rnd_570x28_Magazine","UK3CB_P90_50rnd_570x28_Magazine_R","UK3CB_P90_50rnd_570x28_Magazine_RM","UK3CB_P90_50rnd_570x28_Magazine_RT","UK3CB_P90_50rnd_570x28_Magazine_G","UK3CB_P90_50rnd_570x28_Magazine_GM","UK3CB_P90_50rnd_570x28_Magazine_GT","UK3CB_P90_50rnd_570x28_Magazine_Y","UK3CB_P90_50rnd_570x28_Magazine_YM","UK3CB_P90_50rnd_570x28_Magazine_YT","UK3CB_P90_50rnd_570x28_Magazine_W","UK3CB_P90_50rnd_570x28_Magazine_WM","UK3CB_P90_50rnd_570x28_Magazine_WT"};
 	};
+	class CBA_762x39_AK
+	{
+		class UK3CB_RK62_mags[] = {"UK3CB_RK62_30Rnd_Magazine","UK3CB_RK62_30Rnd_Magazine_G","UK3CB_RK62_30Rnd_Magazine_GT","UK3CB_RK62_30Rnd_Magazine_R","UK3CB_RK62_30Rnd_Magazine_RT","UK3CB_RK62_30Rnd_Magazine_Y","UK3CB_RK62_30Rnd_Magazine_YT","UK3CB_RK62_30Rnd_Magazine_W","UK3CB_RK62_30Rnd_Magazine_WT","UK3CB_RK62_40Rnd_Magazine","UK3CB_RK62_40Rnd_Magazine_G","UK3CB_RK62_40Rnd_Magazine_GT","UK3CB_RK62_40Rnd_Magazine_R","UK3CB_RK62_40Rnd_Magazine_RT","UK3CB_RK62_40Rnd_Magazine_Y","UK3CB_RK62_40Rnd_Magazine_YT","UK3CB_RK62_40Rnd_Magazine_W","UK3CB_RK62_40Rnd_Magazine_WT"};
+	};
+	class CBA_762x39_RPK
+	{
+		class UK3CB_RK62_mags[] = {"UK3CB_RK62_75Rnd_Magazine","UK3CB_RK62_75Rnd_Magazine_G","UK3CB_RK62_75Rnd_Magazine_GM","UK3CB_RK62_75Rnd_Magazine_GT","UK3CB_RK62_75Rnd_Magazine_R","UK3CB_RK62_75Rnd_Magazine_RM","UK3CB_RK62_75Rnd_Magazine_RT","UK3CB_RK62_75Rnd_Magazine_Y","UK3CB_RK62_75Rnd_Magazine_YM","UK3CB_RK62_75Rnd_Magazine_YT","UK3CB_RK62_75Rnd_Magazine_W","UK3CB_RK62_75Rnd_Magazine_WM","UK3CB_RK62_75Rnd_Magazine_WT"};
+	};
+			
 };
 class asdg_OpticRail1913_short;
 class asdg_OpticRail1913_short_MG : asdg_OpticRail1913_short

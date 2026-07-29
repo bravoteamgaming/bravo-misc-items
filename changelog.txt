@@ -291,3 +291,4 @@
 - QBZAK: new addon which adds 5.8mm AK-12/RPK-12, 5.45mm and 7.62x39mm QBZ-95/QJB-95
 - TAVOR 7: removed Fort-22x 5.45mm variants because the magazines are not positioned correctly
 - GEAR MISC: added Black SPC
+- CBA RAILS RHS3CB: corrected magwell distribution of RK62 drum mags
