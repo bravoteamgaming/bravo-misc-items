@@ -794,7 +794,7 @@ ZEN AISKILL
 - Provide CBA settings for changing the default values
 
 QBZAK
-- Add 5.8x42mm AK-12 and RPK-12 variants
-- Add 5.45x39mm QBZ-95 and QJB-95 variants
-- Add 7.62x39mm QBZ-95 and QJB-95 variants
+- Add 5.8x42mm AK-12 and RPK-12 variants (Type 215)
+- Add 5.45x39mm QBZ-95 and QJB-95 variants (QBZ-95-545)
+- Add 7.62x39mm QBZ-95 and QJB-95 variants (QBZ-95-762)
 - Add 7.62x39mm 75rnd QJB-95 (offset) drum mags
