@@ -296,3 +296,6 @@
 - GEAR MISC: fixed missing Olive Marksman SPC
 - GEAR MISC: add Finnish M05 modular carrier
 - GEAR MISC: add silver and black aviators
+
+2026-08-03
+- GEAR MISC: fixed desert UTV uniforms having GM rank insignia

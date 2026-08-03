@@ -66,6 +66,7 @@
 	};
 	class bravo_gm_gc_army_uniform_soldier_rolled_90_des : gm_gc_army_uniform_soldier_rolled_90_sgr
 	{
+		useGMuniformDetails = 0;
 		displayName = "Field Service Uniform (UTV, Rolled, Tan)";
 		class ItemInfo : ItemInfo
 		{
