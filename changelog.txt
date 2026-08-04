@@ -304,3 +304,4 @@
 - QBZAK: fixed Type 215 Carbine just being another standard Type 215
 - QBZAK: changed QBZ-95-545 and QBZ-95-762 muzzle slots to appropriate calibres
 - CBA RAILS RHS3CB: removed optics attachments from RK 62
+- GEAR MISC: fixed name of PASGT M05 Frost ESS

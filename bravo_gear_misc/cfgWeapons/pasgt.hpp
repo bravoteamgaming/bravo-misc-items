@@ -208,7 +208,7 @@
 	};
 	class bravo_pasgt_f05f_ess : rhssaf_helmet_m97_oakleaf_black_ess
 	{
-		displayName = "PASGT (Finnish M05 Frost Winter/ESS)";
+		displayName = "PASGT (Finnish M05 Frost/ESS)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_f05f_co","\rhssaf\addons\rhssaf_t_headgear_m97\data\rhssaf_m97_ess_black_co.paa"};
 	};
 	
