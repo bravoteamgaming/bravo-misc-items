@@ -190,6 +190,19 @@ class CfgWeapons
 		magazineWell[] = {"STANAG_556x45","XMS_556x45_Large","CBA_556x45_STANAG","CBA_556x45_STANAG_L","CBA_556x45_STANAG_XL", "CBA_556x45_STANAG_2D", "CBA_556x45_STANAG_2D_XL"};
 	};
 	
+	class uk3cb_rk62_base : Rifle_Base_F
+	{
+		class WeaponSlotsInfo;
+	};
+	class uk3cb_rk62 : uk3cb_rk62_base
+	{
+		class WeaponSlotsInfo : WeaponSlotsInfo
+		{
+			class CowsSlot
+			{};
+		};
+	};
+	
 	// =========
 	// Flashlights
 	class ItemCore;
