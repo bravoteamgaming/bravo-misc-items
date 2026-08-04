@@ -299,3 +299,7 @@
 
 2026-08-03
 - GEAR MISC: fixed desert UTV uniforms having GM rank insignia
+
+2026-08-04
+- QBZAK: fixed Type 215 Carbine just being another standard Type 215
+- QBZAK: changed QBZ-95-545 and QBZ-95-762 muzzle slots to appropriate calibres

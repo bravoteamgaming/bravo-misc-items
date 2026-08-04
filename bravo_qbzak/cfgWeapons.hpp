@@ -1,4 +1,6 @@
 class asdg_MuzzleSlot_58;
+class asdg_MuzzleSlot_556;
+class asdg_MuzzleSlot_762;
 
 class CfgWeapons
 {	
@@ -51,7 +53,7 @@ class CfgWeapons
 			{};
 		};
 	};
-	class bravo_type215_k : arifle_AK12_F
+	class bravo_type215_k : arifle_AK12U_F
 	{
 		baseWeapon = "bravo_type215_k";
 		displayName = "Type 215 Carbine";
@@ -228,10 +230,21 @@ class CfgWeapons
 		};
 	};
 	
-	
-	class arifle_CTAR_blk_F;
-	class arifle_CTAR_GL_blk_F;
-	class arifle_CTARS_blk_F;
+	class arifle_CTARS_base_F;
+	class arifle_CTAR_GL_base_F;
+	class arifle_CTAR_base_F;
+	class arifle_CTAR_blk_F : arifle_CTAR_base_F
+	{
+		class WeaponSlotsInfo;
+	};
+	class arifle_CTAR_GL_blk_F : arifle_CTAR_GL_base_F
+	{
+		class WeaponSlotsInfo;
+	};
+	class arifle_CTARS_blk_F : arifle_CTARS_base_F
+	{
+		class WeaponSlotsInfo;
+	};
 	
 	class bravo_qbz95_545 : arifle_CTAR_blk_F
 	{
@@ -240,6 +253,11 @@ class CfgWeapons
 		descriptionShort = "Assault rifle<br />Caliber: 5.45x39 mm";
 		magazineWell[] = {"AK_545x39","CBA_545x39_AK","CBA_545x39_RPK"};
 		magazines[] = {"rhs_30Rnd_545x39_7N10_AK","rhs_30Rnd_545x39_7N10_plum_AK","rhs_30Rnd_545x39_7N10_desert_AK","rhs_30Rnd_545x39_7N10_camo_AK"};
+		class WeaponSlotsInfo : WeaponSlotsInfo
+		{
+			class MuzzleSlot : asdg_MuzzleSlot_556
+			{};
+		};
 	};
 	class bravo_qbz95_545_gl : arifle_CTAR_GL_blk_F
 	{
@@ -248,6 +266,11 @@ class CfgWeapons
 		descriptionShort = "Assault rifle<br />Caliber: 5.45x39 mm";
 		magazineWell[] = {"AK_545x39","CBA_545x39_AK","CBA_545x39_RPK"};
 		magazines[] = {"rhs_30Rnd_545x39_7N10_AK","rhs_30Rnd_545x39_7N10_plum_AK","rhs_30Rnd_545x39_7N10_desert_AK","rhs_30Rnd_545x39_7N10_camo_AK"};
+		class WeaponSlotsInfo : WeaponSlotsInfo
+		{
+			class MuzzleSlot : asdg_MuzzleSlot_556
+			{};
+		};
 	};
 	class bravo_qjb95_545 : arifle_CTARS_blk_F
 	{
@@ -256,6 +279,11 @@ class CfgWeapons
 		descriptionShort = "Automatic rifle<br />Caliber: 5.45x39 mm";
 		magazineWell[] = {"AK_545x39","CBA_545x39_AK","CBA_545x39_RPK"};
 		magazines[] = {"rhs_30Rnd_545x39_7N10_AK","rhs_30Rnd_545x39_7N10_plum_AK","rhs_30Rnd_545x39_7N10_desert_AK","rhs_30Rnd_545x39_7N10_camo_AK"};
+		class WeaponSlotsInfo : WeaponSlotsInfo
+		{
+			class MuzzleSlot : asdg_MuzzleSlot_556
+			{};
+		};
 	};
 	
 	class bravo_qbz95_762 : arifle_CTAR_blk_F
@@ -265,6 +293,11 @@ class CfgWeapons
 		descriptionShort = "Assault rifle<br />Caliber: 7.62x39 mm";
 		magazines[] = {"rhs_30Rnd_762x39mm_bakelite","rhs_30Rnd_762x39mm_bakelite_tracer","rhs_30Rnd_762x39mm_bakelite_89","rhs_30Rnd_762x39mm_bakelite_U"};
 		magazineWell[] = {"CBA_762x39_AK", "bravo_762x39_qjb"};
+		class WeaponSlotsInfo : WeaponSlotsInfo
+		{
+			class MuzzleSlot : asdg_MuzzleSlot_762
+			{};
+		};
 	};
 	class bravo_qbz95_762_gl : arifle_CTAR_GL_blk_F
 	{
@@ -273,6 +306,11 @@ class CfgWeapons
 		descriptionShort = "Assault rifle<br />Caliber: 7.62x39 mm";
 		magazines[] = {"rhs_30Rnd_762x39mm_bakelite","rhs_30Rnd_762x39mm_bakelite_tracer","rhs_30Rnd_762x39mm_bakelite_89","rhs_30Rnd_762x39mm_bakelite_U"};
 		magazineWell[] = {"CBA_762x39_AK", "bravo_762x39_qjb"};
+		class WeaponSlotsInfo : WeaponSlotsInfo
+		{
+			class MuzzleSlot : asdg_MuzzleSlot_762
+			{};
+		};
 	};
 	class bravo_qjb95_762 : arifle_CTARS_blk_F
 	{
@@ -281,5 +319,10 @@ class CfgWeapons
 		descriptionShort = "Automatic rifle<br />Caliber: 7.62x39 mm";
 		magazines[] = {"rhs_30Rnd_762x39mm_bakelite","rhs_30Rnd_762x39mm_bakelite_tracer","rhs_30Rnd_762x39mm_bakelite_89","rhs_30Rnd_762x39mm_bakelite_U"};
 		magazineWell[] = {"CBA_762x39_AK", "bravo_762x39_qjb"};
+		class WeaponSlotsInfo : WeaponSlotsInfo
+		{
+			class MuzzleSlot : asdg_MuzzleSlot_762
+			{};
+		};
 	};
 };
