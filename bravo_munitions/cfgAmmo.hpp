@@ -440,4 +440,64 @@ class CfgAmmo
 	{
 		timeToLive = 1.752;
 	};
+	
+	class rhs_ammo_fim92_missile;
+	class bravo_missile_fim92f_bad : rhs_ammo_fim92_missile
+	{
+		ace_frag_charge = 600;
+		ace_frag_metal = 1000;
+		cmImmunity = 0.5;
+		maxSpeed = 700;
+		indirectHit = 20;
+		hit = 20;
+		submunitionConeType[] = {"randomcenter", 15};
+	};
+	
+	class rhs_ammo_9k38;
+	class bravo_missile_9k38_bad : rhs_ammo_9k38
+	{
+		ace_frag_charge = 600;
+		ace_frag_metal = 1000;
+		cmImmunity = 0.5;
+		maxSpeed = 700;
+		indirectHit = 20;
+		hit = 20;
+		submunitionConeType[] = {"randomcenter", 15};
+	};
+	
+	class gm_rocket_72mm_he_9m32m;
+	class bravo_missile_9m32m_bad : gm_rocket_72mm_he_9m32m
+	{
+		hit = 20;
+		indirectHit = 20;
+	};
+	
+	class gm_rocket_70mm_he_m585;
+	class bravo_missile_m585_bad : gm_rocket_70mm_he_m585
+	{
+		hit = 20;
+		indirectHit = 20;
+	};
+	
+	class M_Titan_AA;
+	class bravo_missile_titan_aa_bad : M_Titan_AA
+	{
+		ace_frag_charge = 600;
+		ace_frag_metal = 1000;
+		cmImmunity = 0.5;
+		maxSpeed = 700;
+		indirectHit = 20;
+		hit = 20;
+	};
+	
+	class B_570x28_Ball;
+	class bravo_bullet_57x28_type29 : B_570x28_Ball
+	{
+		ace_muzzlevelocities[] = {850, 890};
+		caliber = 0.8;
+		indirectHit = 0.2;
+		indirectHitRange = 2;
+		ace_bulletmass = 2.4;
+		ace_bulletlength = 24;
+	};
 };

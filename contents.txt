@@ -7,7 +7,6 @@ RFB 7.62
 
 TAVOR 7
 - Add 7.62mm version of CTAR-21
-- Add 5.45mm version of TAR-21, CTAR-21, GTAR-21 (Fort-221, Fort-224)
 - Add black versions of all types
 
 ACR 6.8
@@ -24,6 +23,8 @@ MUNITIONS
 - Add 84mm FFV448 programmable HE round
 - Add 84mm FFV469 smoke round
 - Add Trapped Gun mine types
+- Add less powerful variants of RHS FIM92 and 9K38, and GM FIM43 and 9M32M
+- Add Type 29 HVAP magazine for P90
 
 EXTRAS
 - Add Steyr HS-50/20 (20mm conversion of 12.7mm HS-50)
@@ -43,7 +44,6 @@ BFT
 MG34F2
 - Add MG 34F2 (7.62x51mm NATO) and mags
 - Add MG 34F1 (.30-06 Springfield) and mags
-- Add 3CB BAF 7.62x51 belts to the CBA 7.62x51 belts magwell
 
 ZAMAK DAKAR
 - Add KamAZ Dakar Flyer Special
@@ -236,6 +236,22 @@ GEAR MISC
 	PASGT (Soldier 2000/ESS Bare)
 	PASGT (Soldier 2000)
 	PASGT (Soldier 2000/Rhino)
+	PASGT (Finnish M05/ESS)
+	PASGT (Finnish M05/ESS Bare)
+	PASGT (Finnish M05)
+	PASGT (Finnish M05/Rhino)
+	PASGT (Finnish M05 Winter/ESS)
+	PASGT (Finnish M05 Winter/ESS Bare)
+	PASGT (Finnish M05 Winter)
+	PASGT (Finnish M05 Winter/Rhino)
+	PASGT (Finnish M05 Frost/ESS)
+	PASGT (Finnish M05 Frost/ESS Bare)
+	PASGT (Finnish M05 Frost)
+	PASGT (Finnish M05 Frost/Rhino)
+	PASGT (Finnish M04/ESS)
+	PASGT (Finnish M04/ESS Bare)
+	PASGT (Finnish M04)
+	PASGT (Finnish M04/Rhino)
 	Rangemaster Cap Bravo
 	Combat Helmet Multicam
 	Combat Helmet Green
@@ -283,6 +299,9 @@ GEAR MISC
 	Boonie Hat (Multitarn)
 	Boonie Hat (Multicam)
 	Boonie Hat (Soldier 2000)
+	Boonie Hat (Finnish M05)
+	Boonie Hat (Finnish M05 Frost)
+	Boonie Hat (Finnish M04)
 - Add vest variants:
 	CTRG Plate Carrier Rig (Black)
 	CTRG Plate Carrier Rig (Khaki)
@@ -356,21 +375,29 @@ GEAR MISC
 	Belt Rig, Medic (Tan)
 	Belt Rig, Medic (Khaki)
 	Modular Carrier (Multicam)
-	Modular Carrier (Multitarn)
 	Modular Carrier GL Rig (Multicam)
-	Modular Carrier GL Rig (Multitarn)
 	Modular Carrier Lite (Multicam)
-	Modular Carrier Lite (Multitarn)
 	Modular Carrier Vest Compact (Multicam)
-	Modular Carrier Vest Compact (Multitarn)
 	Modular Carrier Vest CQB (Multicam)
-	Modular Carrier Vest CQB (Multitarn)
 	Modular Carrier Vest Crew (Multicam)
-	Modular Carrier Vest Crew (Multitarn)
 	Modular Carrier Vest Recon (Multicam)
-	Modular Carrier Vest Recon (Multitarn)
 	Modular Carrier Vest Tactical (Multicam)
+	Modular Carrier (Multitarn)
+	Modular Carrier GL Rig (Multitarn)
+	Modular Carrier Lite (Multitarn)
+	Modular Carrier Vest Compact (Multitarn)
+	Modular Carrier Vest CQB (Multitarn)
+	Modular Carrier Vest Crew (Multitarn)
+	Modular Carrier Vest Recon (Multitarn)
 	Modular Carrier Vest Tactical (Multitarn)
+	Modular Carrier (Finnish M05)
+	Modular Carrier GL Rig (Finnish M05)
+	Modular Carrier Lite (Finnish M05)
+	Modular Carrier Vest Compact (Finnish M05)
+	Modular Carrier Vest CQB (Finnish M05)
+	Modular Carrier Vest Crew (Finnish M05)
+	Modular Carrier Vest Recon (Finnish M05)
+	Modular Carrier Vest Tactical (Finnish M05)
 	SPC (Patchless)
 	SPC (Corpsman/Patchless)
 	SPC (Crewman/Patchless)
@@ -415,6 +442,17 @@ GEAR MISC
 	SPC (Sniper/Brown)
 	SPC (Squadleader/Brown)
 	SPC (Teamleader/Brown)
+	SPC (Black)
+	SPC (Corpsman/Black)
+	SPC (Crewman/Black)
+	SPC (IAR/Black)
+	SPC (Light/Black)
+	SPC (Machinegunner/Black)
+	SPC (Marksman/Black)
+	SPC (Rifleman/Black)
+	SPC (Sniper/Black)
+	SPC (Squadleader/Black)
+	SPC (Teamleader/Black)
 - Enable hidden vest variants:
 	CTRG Carrier Mk. 1 (No Flag)
 	CTRG Carrier Mk. 2 (No Flag)
@@ -561,6 +599,14 @@ GEAR MISC
 	Combat Uniform M/84 (MTP)
 	Combat Uniform M/84 (Multicam)
 	Combat Uniform M/84 (Multicam RU)
+	Combat Uniform M/84 (Finnish M05)
+	Combat Uniform M/84 (Finnish M05 Winter)
+	Combat Uniform M/84 (Finnish M05 Winter Jacket)
+	Combat Uniform M/84 (Khaki)
+	Combat Uniform M/84 (Tan)
+	Combat Uniform M/84 (Finnish M04)
+	Combat Uniform M/84 (Finnish M05 Frost)
+	Combat Uniform M/84 (Finnish M05 Frost Jacket)
 	Combat Uniform (CCE)
 	Combat Uniform (Daguet)
 	Combat Uniform (CCE/Rolled-Up)
@@ -654,6 +700,9 @@ GEAR MISC
 	Shemagh (Orange)
 	Shemagh (Orange/alt)
 	Headset PRR
+	Aviator Glasses (Black)
+	Aviator Glasses (Silver)
+	Aviator Glasses (Orange)
 - Add NVG slot variants:
 	(US) M-1944 SWDG (Low)
 	(US) M-1944 SWDG (Helmet)
@@ -728,9 +777,24 @@ ITEMS
 - Add new sound sources for Play Sound module
 - Add Cache Sound Sources module to Zeus
 - Add RPT and Steam Game Recording logging for ACE unconscious events
+- Add RPT logging for ACE bandaged events
 - Add DDR5 kit inventory item and prop
 
 FAK
 - Add Bravo FAK variants, which can be unpacked into inventory items and configured by a CBA setting. Similar to KAT FAKs but simpler and there are more types.
 - Add KitKat Multipack
 - Add Billboard (FAK)
+
+RF AP
+- Hide RF AP mags
+- Add M855A1 and M856A1 mags using RF models
+
+ZEN AISKILL
+- Set default values for ZEN global AI skill and turn it on by default
+- Provide CBA settings for changing the default values
+
+QBZAK
+- Add 5.8x42mm AK-12 and RPK-12 variants (Type 215)
+- Add 5.45x39mm QBZ-95 and QJB-95 variants (QBZ-95-545)
+- Add 7.62x39mm QBZ-95 and QJB-95 variants (QBZ-95-762)
+- Add 7.62x39mm 75rnd QJB-95 (offset) drum mags

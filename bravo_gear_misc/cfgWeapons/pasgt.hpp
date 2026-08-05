@@ -46,7 +46,7 @@
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\Pasgt_tan_loss_co.paa"};
 	};
 	
-	
+	// ============= PASGT
 	class rhssaf_helmet_m97_oakleaf;
 	class bravo_pasgt_auscam : rhssaf_helmet_m97_oakleaf
 	{
@@ -108,7 +108,28 @@
 		displayName = "PASGT (Soldier 2000)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_s2k_co"};
 	};
+	class bravo_pasgt_f05 : rhssaf_helmet_m97_oakleaf
+	{
+		displayName = "PASGT (Finnish M05)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_f05_co"};
+	};
+	class bravo_pasgt_f05w : rhssaf_helmet_m97_oakleaf
+	{
+		displayName = "PASGT (Finnish M05 Winter)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_f05w_co"};
+	};
+	class bravo_pasgt_f04 : rhssaf_helmet_m97_oakleaf
+	{
+		displayName = "PASGT (Finnish M04)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_f04_co"};
+	};
+	class bravo_pasgt_f05f : rhssaf_helmet_m97_oakleaf
+	{
+		displayName = "PASGT (Finnish M05 Frost)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_f05f_co"};
+	};
 	
+	// ============= ESS
 	class rhssaf_helmet_m97_oakleaf_black_ess;
 	class bravo_pasgt_auscam_ess : rhssaf_helmet_m97_oakleaf_black_ess
 	{
@@ -170,7 +191,28 @@
 		displayName = "PASGT (Soldier 2000/ESS)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_s2k_co","\rhssaf\addons\rhssaf_t_headgear_m97\data\rhssaf_m97_ess_black_co.paa"};
 	};
+	class bravo_pasgt_f05_ess : rhssaf_helmet_m97_oakleaf_black_ess
+	{
+		displayName = "PASGT (Finnish M05/ESS)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_f05_co","\rhssaf\addons\rhssaf_t_headgear_m97\data\rhssaf_m97_ess_black_co.paa"};
+	};
+	class bravo_pasgt_f05w_ess : rhssaf_helmet_m97_oakleaf_black_ess
+	{
+		displayName = "PASGT (Finnish M05 Winter/ESS)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_f05w_co","\rhssaf\addons\rhssaf_t_headgear_m97\data\rhssaf_m97_ess_black_co.paa"};
+	};
+	class bravo_pasgt_f04_ess : rhssaf_helmet_m97_oakleaf_black_ess
+	{
+		displayName = "PASGT (Finnish M04 Winter/ESS)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_f04_co","\rhssaf\addons\rhssaf_t_headgear_m97\data\rhssaf_m97_ess_black_co.paa"};
+	};
+	class bravo_pasgt_f05f_ess : rhssaf_helmet_m97_oakleaf_black_ess
+	{
+		displayName = "PASGT (Finnish M05 Frost/ESS)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_f05f_co","\rhssaf\addons\rhssaf_t_headgear_m97\data\rhssaf_m97_ess_black_co.paa"};
+	};
 	
+	// ===================== ESS BARE
 	class rhssaf_helmet_m97_oakleaf_black_ess_bare;
 	class bravo_pasgt_auscam_ess_bare : rhssaf_helmet_m97_oakleaf_black_ess_bare
 	{
@@ -232,7 +274,28 @@
 		displayName = "PASGT (Soldier 2000/ESS Bare)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_s2k_co","\rhssaf\addons\rhssaf_t_headgear_m97\data\rhssaf_m97_ess_black_co.paa"};
 	};
+	class bravo_pasgt_f05_ess_bare : rhssaf_helmet_m97_oakleaf_black_ess_bare
+	{
+		displayName = "PASGT (Finnish M05/ESS Bare)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_f05_co","\rhssaf\addons\rhssaf_t_headgear_m97\data\rhssaf_m97_ess_black_co.paa"};
+	};
+	class bravo_pasgt_f05w_ess_bare : rhssaf_helmet_m97_oakleaf_black_ess_bare
+	{
+		displayName = "PASGT (Finnish M05 Winter/ESS Bare)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_f05w_co","\rhssaf\addons\rhssaf_t_headgear_m97\data\rhssaf_m97_ess_black_co.paa"};
+	};
+	class bravo_pasgt_f04_ess_bare : rhssaf_helmet_m97_oakleaf_black_ess_bare
+	{
+		displayName = "PASGT (Finnish M04/ESS Bare)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_f04_co","\rhssaf\addons\rhssaf_t_headgear_m97\data\rhssaf_m97_ess_black_co.paa"};
+	};
+	class bravo_pasgt_f05f_ess_bare : rhssaf_helmet_m97_oakleaf_black_ess_bare
+	{
+		displayName = "PASGT (Finnish M05 Frost/ESS Bare)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_f05f_co","\rhssaf\addons\rhssaf_t_headgear_m97\data\rhssaf_m97_ess_black_co.paa"};
+	};
 	
+	// ================= RHINO
 	class rhsgref_helmet_pasgt_woodland_rhino;
 	class bravo_pasgt_auscam_rhino : rhsgref_helmet_pasgt_woodland_rhino
 	{
@@ -293,4 +356,24 @@
 	{
 		displayName = "PASGT (Soldier 2000/Rhino)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_s2k_co"};
+	};
+	class bravo_pasgt_f05_rhino : rhsgref_helmet_pasgt_woodland_rhino
+	{
+		displayName = "PASGT (Finnish M05/Rhino)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_f05_co"};
+	};
+	class bravo_pasgt_f05w_rhino : rhsgref_helmet_pasgt_woodland_rhino
+	{
+		displayName = "PASGT (Finnish M05 Winter/Rhino)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_f05w_co"};
+	};
+	class bravo_pasgt_f04_rhino : rhsgref_helmet_pasgt_woodland_rhino
+	{
+		displayName = "PASGT (Finnish M04/Rhino)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_f04_co"};
+	};
+	class bravo_pasgt_f05f_rhino : rhsgref_helmet_pasgt_woodland_rhino
+	{
+		displayName = "PASGT (Finnish M05 Frost/Rhino)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_f05f_co"};
 	};

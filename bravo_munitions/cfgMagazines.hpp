@@ -246,6 +246,50 @@ class CfgMagazines
 		descriptionShort = "Type: Grenade-Launched Counter-UAS Munition. Range 500 metres.<br />Caliber: 40 mm<br />Rounds: 1<br />Used in: Russian 40mm grenade launchers";
 		ammo = "bravo_40mm_gl_cuas_launch";
 	};
+	
+	class rhs_fim92_mag;
+	class bravo_1rnd_missile_fim92f_bad : rhs_fim92_mag
+	{
+		displayName = "FIM-92F (Defective)";
+		ammo = "bravo_missile_fim92f_bad";
+	};
+	
+	class rhs_mag_9k38_rocket;
+	class bravo_1rnd_missile_9k38_bad : rhs_mag_9k38_rocket
+	{
+		displayName = "9K38 (Defective)";
+		ammo = "bravo_missile_9k38_bad";
+	};
+	
+	class gm_1rnd_70mm_he_m585_fim43;
+	class bravo_1rnd_missile_m585_bad : gm_1rnd_70mm_he_m585_fim43
+	{
+		displayName = "70mm HE M585 (Defective)";
+		ammo = "bravo_missile_m585_bad";
+	};
+	
+	class gm_1rnd_72mm_he_9m32m;
+	class bravo_1rnd_missile_9m32m_bad : gm_1rnd_72mm_he_9m32m
+	{
+		displayName = "72mm HE 9M32M (Defective)";
+		ammo = "bravo_missile_9m32m_bad";
+	};
+	
+	class Titan_AA;
+	class bravo_1rnd_missile_titan_aa_bad : Titan_AA
+	{
+		displayName = "Titan AA (Defective)";
+		ammo = "bravo_missile_titan_aa_bad";
+	};
+	
+	class 50Rnd_570x28_SMG_03;
+	class bravo_50rnd_57x28mm_p90_type29 : 50Rnd_570x28_SMG_03
+	{
+		displayName = "5.7 mm 60Rnd P90 Type 29 HVAP Magazine";
+		ammo = "bravo_bullet_57x28_type29";
+		initSpeed = 850;
+		mass = 15;
+	};
 };
 class CfgMagazineWells
 {
@@ -286,6 +330,44 @@ class CfgMagazineWells
 			"bravo_1rnd_84mm_delayfuze_he2_impact",
 	//		"bravo_1rnd_84mm_flechette",
 			"bravo_1rnd_84mm_smoke"
+		};
+	};
+	class gm_magazineWell_70mm_fim43
+	{
+		bravo_munitions_magazines[] = {
+			"bravo_1rnd_missile_m585_bad"
+		};
+	};
+	class gm_magazineWell_72mm_strela
+	{
+		bravo_munitions_magazines[] = {
+			"bravo_1rnd_missile_9m32m_bad"
+		};
+	};
+	class bravo_stinger
+	{
+		bravo_munitions_magazines[] = {
+			"bravo_1rnd_missile_fim92f_bad",
+			"rhs_fim92_mag"
+		};
+	};
+	class bravo_igla
+	{
+		bravo_munitions_magazines[] = {
+			"bravo_1rnd_missile_9k38_bad",
+			"rhs_mag_9k38_rocket"
+		};
+	};
+	class Titan_Long
+	{
+		bravo_munitions_magazines[] = {
+			"bravo_1rnd_missile_titan_aa_bad"
+		};
+	};
+	class CBA_57x28_P90
+	{
+		bravo_munitions_magazines[] = {
+			"bravo_50rnd_57x28mm_p90_type29"
 		};
 	};
 };

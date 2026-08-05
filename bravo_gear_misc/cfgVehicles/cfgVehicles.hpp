@@ -72,28 +72,7 @@ class cfgVehicles
 	
 	#include "fsuutv.hpp"
 	
-	class gm_dk_army_crew_84_oli;
-	class bravo_dk_army_uniform_soldier_84_oli_noflag_unit : gm_dk_army_crew_84_oli
-	{
-		useGMuniformDetails = 0;
-		scope = 1;
-		hiddenSelectionsTextures[] = {"\gm\gm_characters\gm_dk_characters\data\uniform\gm_dk_uniform_soldier_84_oli_co",""};
-	};
-	class bravo_dk_army_uniform_soldier_84_mtp_unit : bravo_dk_army_uniform_soldier_84_oli_noflag_unit
-	{
-		scope = 1;
-		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_m84_mtp_co",""};
-	};
-	class bravo_dk_army_uniform_soldier_84_mcm_unit : bravo_dk_army_uniform_soldier_84_oli_noflag_unit
-	{
-		scope = 1;
-		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_m84_mcm_co",""};
-	};
-	class bravo_dk_army_uniform_soldier_84_rmc_unit : bravo_dk_army_uniform_soldier_84_oli_noflag_unit
-	{
-		scope = 1;
-		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_uniform_m84_rmc_co",""};
-	};
+	#include "dk84.hpp"
 	
 	class gm_xx_army_antitank_hk53a2_rpg7_80_oli;
 	class bravo_gm_mixed_jeans_dcu_unit : gm_xx_army_antitank_hk53a2_rpg7_80_oli

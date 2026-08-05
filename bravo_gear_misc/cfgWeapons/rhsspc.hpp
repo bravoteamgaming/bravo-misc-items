@@ -1,3 +1,4 @@
+// SPC ================
 	class rhsusf_spc;
 	class bravo_spc_patchless : rhsusf_spc
 	{
@@ -19,7 +20,13 @@
 		displayName = "SPC (Brown)";
 		hiddenSelectionsTextures[] = {"bravo_gear_misc\assets\bravo_rhsspc_brn_co", "bravo_gear_misc\assets\bravo_rhsspc_gear1_brn_co","bravo_gear_misc\assets\bravo_rhsspc_gear2_brn_co","bravo_gear_misc\assets\bravo_rhs_usmccamelbak_brn_co"};
 	};
+	class bravo_spc_blk : rhsusf_spc
+	{
+		displayName = "SPC (Black)";
+		hiddenSelectionsTextures[] = {"bravo_gear_misc\assets\bravo_rhsspc_blk_co", "bravo_gear_misc\assets\bravo_rhsspc_gear1_blk_co","bravo_gear_misc\assets\bravo_rhsspc_gear2_blk_co","bravo_gear_misc\assets\bravo_rhs_usmccamelbak_blk_co"};
+	};
 	
+// Corpsman ================
 	class rhsusf_spc_corpsman;
 	class bravo_spc_corspman_patchless : rhsusf_spc_corpsman
 	{
@@ -41,7 +48,13 @@
 		displayName = "SPC (Corpsman/Brown)";
 		hiddenSelectionsTextures[] = {"bravo_gear_misc\assets\bravo_rhsspc_brn_co", "bravo_gear_misc\assets\bravo_rhsspc_gear1_brn_co","bravo_gear_misc\assets\bravo_rhsspc_gear2_brn_co","bravo_gear_misc\assets\bravo_rhs_usmccamelbak_brn_co"};
 	};
-	
+	class bravo_spc_corpsman_blk : rhsusf_spc_corpsman
+	{
+		displayName = "SPC (Corpsman/Black)";
+		hiddenSelectionsTextures[] = {"bravo_gear_misc\assets\bravo_rhsspc_blk_co", "bravo_gear_misc\assets\bravo_rhsspc_gear1_blk_co","bravo_gear_misc\assets\bravo_rhsspc_gear2_blk_co","bravo_gear_misc\assets\bravo_rhs_usmccamelbak_blk_co"};
+	};
+
+// Crewman ================
 	class rhsusf_spc_crewman;
 	class bravo_spc_crewman_patchless : rhsusf_spc_crewman
 	{
@@ -63,7 +76,13 @@
 		displayName = "SPC (Crewman/Brown)";
 		hiddenSelectionsTextures[] = {"bravo_gear_misc\assets\bravo_rhsspc_brn_co", "bravo_gear_misc\assets\bravo_rhsspc_gear1_brn_co","bravo_gear_misc\assets\bravo_rhsspc_gear2_brn_co","bravo_gear_misc\assets\bravo_rhs_usmccamelbak_brn_co"};
 	};
+	class bravo_spc_crewman_blk : rhsusf_spc_crewman
+	{
+		displayName = "SPC (Crewman/Black)";
+		hiddenSelectionsTextures[] = {"bravo_gear_misc\assets\bravo_rhsspc_blk_co", "bravo_gear_misc\assets\bravo_rhsspc_gear1_blk_co","bravo_gear_misc\assets\bravo_rhsspc_gear2_blk_co","bravo_gear_misc\assets\bravo_rhs_usmccamelbak_blk_co"};
+	};
 	
+// IAR ================
 	class rhsusf_spc_iar;
 	class bravo_spc_iar_patchless : rhsusf_spc_iar
 	{
@@ -85,7 +104,13 @@
 		displayName = "SPC (IAR/Brown)";
 		hiddenSelectionsTextures[] = {"bravo_gear_misc\assets\bravo_rhsspc_brn_co", "bravo_gear_misc\assets\bravo_rhsspc_gear1_brn_co","bravo_gear_misc\assets\bravo_rhsspc_gear2_brn_co","bravo_gear_misc\assets\bravo_rhs_usmccamelbak_brn_co"};
 	};
+	class bravo_spc_iar_blk : rhsusf_spc_iar
+	{
+		displayName = "SPC (IAR/Black)";
+		hiddenSelectionsTextures[] = {"bravo_gear_misc\assets\bravo_rhsspc_blk_co", "bravo_gear_misc\assets\bravo_rhsspc_gear1_blk_co","bravo_gear_misc\assets\bravo_rhsspc_gear2_blk_co","bravo_gear_misc\assets\bravo_rhs_usmccamelbak_blk_co"};
+	};
 	
+// Light ================
 	class rhsusf_spc_light;
 	class rhsusf_spc_patchless : rhsusf_spc_light
 	{
@@ -106,7 +131,13 @@
 		displayName = "SPC (Light/Brown)";
 		hiddenSelectionsTextures[] = {"bravo_gear_misc\assets\bravo_rhsspc_brn_co", "bravo_gear_misc\assets\bravo_rhsspc_gear1_brn_co","bravo_gear_misc\assets\bravo_rhsspc_gear2_brn_co","bravo_gear_misc\assets\bravo_rhs_usmccamelbak_brn_co"};
 	};
-	
+	class bravo_spc_light_blk : rhsusf_spc_light
+	{
+		displayName = "SPC (Light/Black)";
+		hiddenSelectionsTextures[] = {"bravo_gear_misc\assets\bravo_rhsspc_blk_co", "bravo_gear_misc\assets\bravo_rhsspc_gear1_blk_co","bravo_gear_misc\assets\bravo_rhsspc_gear2_blk_co","bravo_gear_misc\assets\bravo_rhs_usmccamelbak_blk_co"};
+	};
+
+// Marksman ================
 	class rhsusf_spc_marksman;
 	class bravo_spc_marksman_patchless : rhsusf_spc_marksman
 	{
@@ -118,12 +149,23 @@
 		displayName = "SPC (Marksman/Khaki)";
 		hiddenSelectionsTextures[] = {"bravo_gear_misc\assets\bravo_rhsspc_khk_co", "bravo_gear_misc\assets\bravo_rhsspc_gear1_khk_co","bravo_gear_misc\assets\bravo_rhsspc_gear2_khk_co","bravo_gear_misc\assets\bravo_rhs_usmccamelbak_khk_co"};
 	};
+	class bravo_spc_marksman_oli : rhsusf_spc_marksman
+	{
+		displayName = "SPC (Marksman/Olive)";
+		hiddenSelectionsTextures[] = {"bravo_gear_misc\assets\bravo_rhsspc_oli_co", "bravo_gear_misc\assets\bravo_rhsspc_gear1_oli_co","bravo_gear_misc\assets\bravo_rhsspc_gear2_oli_co","bravo_gear_misc\assets\bravo_rhs_usmccamelbak_oli_co"};
+	};
 	class bravo_spc_marksman_brn : rhsusf_spc_marksman
 	{
 		displayName = "SPC (Marksman/Brown)";
 		hiddenSelectionsTextures[] = {"bravo_gear_misc\assets\bravo_rhsspc_brn_co", "bravo_gear_misc\assets\bravo_rhsspc_gear1_brn_co","bravo_gear_misc\assets\bravo_rhsspc_gear2_brn_co","bravo_gear_misc\assets\bravo_rhs_usmccamelbak_brn_co"};
 	};
+	class bravo_spc_marksman_blk : rhsusf_spc_marksman
+	{
+		displayName = "SPC (Marksman/Black)";
+		hiddenSelectionsTextures[] = {"bravo_gear_misc\assets\bravo_rhsspc_blk_co", "bravo_gear_misc\assets\bravo_rhsspc_gear1_blk_co","bravo_gear_misc\assets\bravo_rhsspc_gear2_blk_co","bravo_gear_misc\assets\bravo_rhs_usmccamelbak_blk_co"};
+	};
 	
+// MG ================
 	class rhsusf_spc_mg;
 	class bravo_spc_mg_patchless : rhsusf_spc_mg
 	{
@@ -145,7 +187,13 @@
 		displayName = "SPC (Machinegunner/Brown)";
 		hiddenSelectionsTextures[] = {"bravo_gear_misc\assets\bravo_rhsspc_brn_co", "bravo_gear_misc\assets\bravo_rhsspc_gear1_brn_co","bravo_gear_misc\assets\bravo_rhsspc_gear2_brn_co","bravo_gear_misc\assets\bravo_rhs_usmccamelbak_brn_co"};
 	};
+	class bravo_spc_mg_blk : rhsusf_spc_mg
+	{
+		displayName = "SPC (Machinegunner/Black)";
+		hiddenSelectionsTextures[] = {"bravo_gear_misc\assets\bravo_rhsspc_blk_co", "bravo_gear_misc\assets\bravo_rhsspc_gear1_blk_co","bravo_gear_misc\assets\bravo_rhsspc_gear2_blk_co","bravo_gear_misc\assets\bravo_rhs_usmccamelbak_blk_co"};
+	};
 	
+// Rifleman ================
 	class rhsusf_spc_rifleman;
 	class bravo_spc_rifleman_patchless : rhsusf_spc_rifleman
 	{
@@ -167,7 +215,13 @@
 		displayName = "SPC (Rifleman/Brown)";
 		hiddenSelectionsTextures[] = {"bravo_gear_misc\assets\bravo_rhsspc_brn_co", "bravo_gear_misc\assets\bravo_rhsspc_gear1_brn_co","bravo_gear_misc\assets\bravo_rhsspc_gear2_brn_co","bravo_gear_misc\assets\bravo_rhs_usmccamelbak_brn_co"};
 	};
+	class bravo_spc_rifleman_blk : rhsusf_spc_rifleman
+	{
+		displayName = "SPC (Rifleman/Black)";
+		hiddenSelectionsTextures[] = {"bravo_gear_misc\assets\bravo_rhsspc_blk_co", "bravo_gear_misc\assets\bravo_rhsspc_gear1_blk_co","bravo_gear_misc\assets\bravo_rhsspc_gear2_blk_co","bravo_gear_misc\assets\bravo_rhs_usmccamelbak_blk_co"};
+	};
 	
+// Sniper ================
 	class rhsusf_spc_sniper;
 	class bravo_spc_sniper_patchless : rhsusf_spc_sniper
 	{
@@ -189,7 +243,13 @@
 		displayName = "SPC (Sniper/Brown)";
 		hiddenSelectionsTextures[] = {"bravo_gear_misc\assets\bravo_rhsspc_brn_co", "bravo_gear_misc\assets\bravo_rhsspc_gear1_brn_co","bravo_gear_misc\assets\bravo_rhsspc_gear2_brn_co","bravo_gear_misc\assets\bravo_rhs_usmccamelbak_brn_co"};
 	};
+	class bravo_spc_sniper_blk : rhsusf_spc_sniper
+	{
+		displayName = "SPC (Sniper/Black)";
+		hiddenSelectionsTextures[] = {"bravo_gear_misc\assets\bravo_rhsspc_blk_co", "bravo_gear_misc\assets\bravo_rhsspc_gear1_blk_co","bravo_gear_misc\assets\bravo_rhsspc_gear2_blk_co","bravo_gear_misc\assets\bravo_rhs_usmccamelbak_blk_co"};
+	};
 	
+// Squadleader ================
 	class rhsusf_spc_squadleader;
 	class rhsusf_spc_patchless_radio : rhsusf_spc_squadleader
 	{
@@ -210,7 +270,13 @@
 		displayName = "SPC (Squadleader/Brown)";
 		hiddenSelectionsTextures[] = {"bravo_gear_misc\assets\bravo_rhsspc_brn_co", "bravo_gear_misc\assets\bravo_rhsspc_gear1_brn_co","bravo_gear_misc\assets\bravo_rhsspc_gear2_brn_co","bravo_gear_misc\assets\bravo_rhs_usmccamelbak_brn_co"};
 	};
+	class bravo_spc_squadleader_blk : rhsusf_spc_squadleader
+	{
+		displayName = "SPC (Squadleader/Black)";
+		hiddenSelectionsTextures[] = {"bravo_gear_misc\assets\bravo_rhsspc_blk_co", "bravo_gear_misc\assets\bravo_rhsspc_gear1_blk_co","bravo_gear_misc\assets\bravo_rhsspc_gear2_blk_co","bravo_gear_misc\assets\bravo_rhs_usmccamelbak_blk_co"};
+	};
 	
+// Teamleader ================
 	class rhsusf_spc_teamleader;
 	class bravo_spc_teamleader_patchless : rhsusf_spc_teamleader
 	{
@@ -231,4 +297,9 @@
 	{
 		displayName = "SPC (Teamleader/Brown)";
 		hiddenSelectionsTextures[] = {"bravo_gear_misc\assets\bravo_rhsspc_brn_co", "bravo_gear_misc\assets\bravo_rhsspc_gear1_brn_co","bravo_gear_misc\assets\bravo_rhsspc_gear2_brn_co","bravo_gear_misc\assets\bravo_rhs_usmccamelbak_brn_co"};
+	};
+	class bravo_spc_teamleader_blk : rhsusf_spc_teamleader
+	{
+		displayName = "SPC (Teamleader/Black)";
+		hiddenSelectionsTextures[] = {"bravo_gear_misc\assets\bravo_rhsspc_blk_co", "bravo_gear_misc\assets\bravo_rhsspc_gear1_blk_co","bravo_gear_misc\assets\bravo_rhsspc_gear2_blk_co","bravo_gear_misc\assets\bravo_rhs_usmccamelbak_blk_co"};
 	};

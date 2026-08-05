@@ -253,4 +253,55 @@
 - GEAR MISC: added khaki, olive, brown, and more patchless variants of RHS SPC
 
 2026-07-16
+- FAK: fixed interaction icons for Bravo FAKs
 - FAK: Kitkat can now be used as Carbonate
+
+2026-07-18
+- EXTRAS: GSP replaced dog with Special Forces
+- ITEMS: added RPT logging for ACE bandage events
+
+2026-07-22
+- RF AP: new addon which hides RF AP mags and adds M855A1 and M856A1 mags with those models
+- MG 34F2: removed 3CB belt magwell config from this addon
+- CBA RAILS RHS3CB: added magwells for 3CB L110 variants
+- CBA RAILS RHS3CB: added 3CB BAF 5.56 boxes to Minimi magwell
+- CBA RAILS RHS3CB: added 3CB 7.62 belts to CBA magwell
+- MUNITIONS: added defective FIM-92F, FIM-43, 9K38, and 9M32M
+- MUNITIONS: removed Titan missiles from RHS MANPADS
+- MUNITIONS: fixed broken config for trapped gun mines
+
+2026-07-23
+- GEAR MISC: added Finnish M05 and M05 Winter PASGT, M/84, and boonie
+- MUNITIONS: added Type 29 HVAP magazine for P90
+- CBA RAILS RHS3CB: added 3CB P90 mags to CBA magwell
+- GEAR MISC: added khaki and tan M/84 uniform
+- GEAR MISC: updated colours of M05 FAST and G3; tweaked colours of all G3
+
+2026-07-24
+- ZEN AISKILL: new addon which sets default values for ZEN global AI skill.
+- GEAR MISC: added Finnish M04 and M05 Frost equipment
+
+2026-07-24 (2)
+- RF AP: changed from scopeArsenal to scope because apparently that doesn't work on the BI arsenal
+
+2026-07-28
+- RF AP: fixed wrong ammo in M856A1 Hera mags
+
+2026-07-29
+- QBZAK: new addon which adds 5.8mm AK-12/RPK-12, 5.45mm and 7.62x39mm QBZ-95/QJB-95
+- TAVOR 7: removed Fort-22x 5.45mm variants because the magazines are not positioned correctly
+- GEAR MISC: added Black SPC
+- CBA RAILS RHS3CB: corrected magwell distribution of RK62 drum mags
+- RF AP: fixed not all RF AP mags being hidden
+- GEAR MISC: fixed missing Olive Marksman SPC
+- GEAR MISC: add Finnish M05 modular carrier
+- GEAR MISC: add silver and black aviators
+
+2026-08-03
+- GEAR MISC: fixed desert UTV uniforms having GM rank insignia
+
+2026-08-04
+- QBZAK: fixed Type 215 Carbine just being another standard Type 215
+- QBZAK: changed QBZ-95-545 and QBZ-95-762 muzzle slots to appropriate calibres
+- CBA RAILS RHS3CB: removed optics attachments from RK 62
+- GEAR MISC: fixed name of PASGT M05 Frost ESS

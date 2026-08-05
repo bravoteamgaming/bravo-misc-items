@@ -6,7 +6,7 @@ class CfgPatches
 		author = "NikkoJT";
 		url = "https://github.com/bravoteamgaming/bravo-misc-items";
 		requiredVersion = 2.00;
-		requiredAddons[] = {"A3_Data_F_Decade_Loadorder", "UK3CB_BAF_Weapons_Ammo", "rhs_main_loadorder", "rf_data_loadorder"};
+		requiredAddons[] = {"A3_Data_F_Decade_Loadorder", "UK3CB_BAF_Weapons_Ammo", "rhs_main_loadorder", "rf_data_loadorder", "rhsusf_main_loadorder", "gm_weapons_launchers_strela", "gm_weapons_launchers_fim43"};
 		units[] = {
 			"bravo_trapped_gun_mine_nato",
 			"bravo_trapped_gun_mine_natocw",
