@@ -305,3 +305,6 @@
 - QBZAK: changed QBZ-95-545 and QBZ-95-762 muzzle slots to appropriate calibres
 - CBA RAILS RHS3CB: removed optics attachments from RK 62
 - GEAR MISC: fixed name of PASGT M05 Frost ESS
+
+2026-08-05
+- GEAR MISC: added olive, tan, and khaki variants of GM M/00 vest
