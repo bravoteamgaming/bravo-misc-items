@@ -689,4 +689,6 @@ class cfgWeapons
 	#include "modularcarrier.hpp"
 	
 	#include "rhsspc.hpp"
+
+	#include "dkvest.hpp"
 };

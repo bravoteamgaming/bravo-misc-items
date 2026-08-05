@@ -832,7 +832,25 @@ class CfgPatches
 			"bravo_spc_rifleman_khk",
 			"bravo_spc_sniper_khk",
 			"bravo_spc_squadleader_khk",
-			"bravo_spc_teamleader_khk"
+			"bravo_spc_teamleader_khk",
+			"bravo_vest_m00_oli",
+			"bravo_vest_m00_rifleman_oli",
+			"bravo_vest_m00_machinegunner_oli",
+			"bravo_vest_m00_oli_np",
+			"bravo_vest_m00_rifleman_oli_np",
+			"bravo_vest_m00_machinegunner_oli_np",
+			"bravo_vest_m00_des",
+			"bravo_vest_m00_rifleman_des",
+			"bravo_vest_m00_machinegunner_des",
+			"bravo_vest_m00_des_np",
+			"bravo_vest_m00_rifleman_des_np",
+			"bravo_vest_m00_machinegunner_des_np",
+			"bravo_vest_m00_khk",
+			"bravo_vest_m00_rifleman_khk",
+			"bravo_vest_m00_machinegunner_khk",
+			"bravo_vest_m00_khk_np",
+			"bravo_vest_m00_rifleman_khk_np",
+			"bravo_vest_m00_machinegunner_khk_np"
 		};
 		skipWhenMissingDependencies = 1;
 	};
