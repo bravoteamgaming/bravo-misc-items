@@ -886,7 +886,7 @@ class CfgPatches
 			"bravo_spc_rifleman_blk",
 			"bravo_spc_sniper_blk",
 			"bravo_spc_squadleader_blk",
-			"bravo_spc_teamleader_blk"
+			"bravo_spc_teamleader_blk",
 			"bravo_vest_m00_oli",
 			"bravo_vest_m00_rifleman_oli",
 			"bravo_vest_m00_machinegunner_oli",
