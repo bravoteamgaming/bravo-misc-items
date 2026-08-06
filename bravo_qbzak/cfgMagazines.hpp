@@ -59,6 +59,6 @@ class cfgMagazineWells
 	};
 	class bravo_556x45_qbu97a
 	{
-		class bravo_qbzak_mags[] = { "bravo_20rnd_556x45mm_qbu97a_m855a1", "bravo_20rnd_556x45mm_qbu97a_m856a1", "bravo_20rnd_556x45mm_qbu97a_mk262", "bravo_20rnd_556x45mm_qbu97a_m995"};
+		bravo_qbzak_mags[] = { "bravo_20rnd_556x45mm_qbu97a_m855a1", "bravo_20rnd_556x45mm_qbu97a_m856a1", "bravo_20rnd_556x45mm_qbu97a_mk262", "bravo_20rnd_556x45mm_qbu97a_m995"};
 	};
 };
