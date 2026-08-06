@@ -904,7 +904,13 @@ class CfgPatches
 			"bravo_vest_m00_machinegunner_khk",
 			"bravo_vest_m00_khk_np",
 			"bravo_vest_m00_rifleman_khk_np",
-			"bravo_vest_m00_machinegunner_khk_np"
+			"bravo_vest_m00_machinegunner_khk_np",
+			"bravo_vest_m00_brn",
+			"bravo_vest_m00_rifleman_brn",
+			"bravo_vest_m00_machinegunner_brn",
+			"bravo_vest_m00_brn_np",
+			"bravo_vest_m00_rifleman_brn_np",
+			"bravo_vest_m00_machinegunner_brn_np"
 		};
 		skipWhenMissingDependencies = 1;
 	};

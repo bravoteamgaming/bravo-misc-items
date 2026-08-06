@@ -311,3 +311,4 @@
 
 2026-08-06
 - ITEMS: added new insignia
+- GEAR MISC: added brown M/00 vest

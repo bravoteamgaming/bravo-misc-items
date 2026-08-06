@@ -471,6 +471,12 @@ GEAR MISC
 	Frag Vest M/00 (Khaki/No Pads)
 	Frag Vest M/00, Rifleman (Khaki/No Pads)
 	Frag Vest M/00, Machinegunner (Khaki/No Pads)
+	Frag Vest M/00 (Brown)
+	Frag Vest M/00, Rifleman (Brown)
+	Frag Vest M/00, Machinegunner (Brown)
+	Frag Vest M/00 (Brown/No Pads)
+	Frag Vest M/00, Rifleman (Brown/No Pads)
+	Frag Vest M/00, Machinegunner (Brown/No Pads)
 - Enable hidden vest variants:
 	CTRG Carrier Mk. 1 (No Flag)
 	CTRG Carrier Mk. 2 (No Flag)

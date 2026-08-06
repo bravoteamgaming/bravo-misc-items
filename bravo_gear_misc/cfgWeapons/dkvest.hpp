@@ -31,6 +31,15 @@
 			hiddenSelectionsTextures[] = {"\gm\gm_characters\gm_dk_characters\data\vest\gm_dk_vest_54_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co"};
 		};
 	};
+	class bravo_vest_m00_brn : gm_dk_army_vest_m00_m84
+	{
+		displayName = "Frag Vest M/00 (Brown)";
+		hiddenSelectionsTextures[] = {"\gm\gm_characters\gm_dk_characters\data\vest\gm_dk_vest_54_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_brn_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_brn_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\gm\gm_characters\gm_dk_characters\data\vest\gm_dk_vest_54_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_brn_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_brn_co"};
+		};
+	};
 
 	// ========== Vest NP
 	class bravo_vest_m00_des_np : gm_dk_army_vest_m00_m84
@@ -58,6 +67,15 @@
 		class ItemInfo : ItemInfo
 		{
 			hiddenSelectionsTextures[] = {"\gm\gm_characters\gm_dk_characters\data\vest\gm_dk_vest_54_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co"};
+		};
+	};
+	class bravo_vest_m00_brn_np : gm_dk_army_vest_m00_m84
+	{
+		displayName = "Frag Vest M/00 (Brown/No Pads)";
+		hiddenSelectionsTextures[] = {"\gm\gm_characters\gm_dk_characters\data\vest\gm_dk_vest_54_brn_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_brn_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\gm\gm_characters\gm_dk_characters\data\vest\gm_dk_vest_54_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_brn_co"};
 		};
 	};
 
@@ -93,6 +111,15 @@
 			hiddenSelectionsTextures[] = {"\gm\gm_characters\gm_dk_characters\data\vest\gm_dk_vest_54_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co"};
 		};
 	};
+	class bravo_vest_m00_rifleman_brn : gm_dk_army_vest_m00_m84_rifleman
+	{
+		displayName = "Frag Vest M/00, Rifleman (Brown)";
+		hiddenSelectionsTextures[] = {"\gm\gm_characters\gm_dk_characters\data\vest\gm_dk_vest_54_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_brn_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_brn_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\gm\gm_characters\gm_dk_characters\data\vest\gm_dk_vest_54_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_brn_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_brn_co"};
+		};
+	};
 
 	// ========== Rifleman NP
 	class bravo_vest_m00_rifleman_des_np : gm_dk_army_vest_m00_m84_rifleman
@@ -120,6 +147,15 @@
 		class ItemInfo : ItemInfo
 		{
 			hiddenSelectionsTextures[] = {"\gm\gm_characters\gm_dk_characters\data\vest\gm_dk_vest_54_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co"};
+		};
+	};
+	class bravo_vest_m00_rifleman_brn_np : gm_dk_army_vest_m00_m84_rifleman
+	{
+		displayName = "Frag Vest M/00, Rifleman (Brown/No Pads)";
+		hiddenSelectionsTextures[] = {"\gm\gm_characters\gm_dk_characters\data\vest\gm_dk_vest_54_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_brn_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\gm\gm_characters\gm_dk_characters\data\vest\gm_dk_vest_54_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_brn_co"};
 		};
 	};
 
@@ -155,6 +191,15 @@
 			hiddenSelectionsTextures[] = {"\gm\gm_characters\gm_dk_characters\data\vest\gm_dk_vest_54_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co"};
 		};
 	};
+	class bravo_vest_m00_machinegunner_brn : gm_dk_army_vest_m00_m84_machinegunner
+	{
+		displayName = "Frag Vest M/00, Machinegunner (Brown)";
+		hiddenSelectionsTextures[] = {"\gm\gm_characters\gm_dk_characters\data\vest\gm_dk_vest_54_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_brn_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_brn_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\gm\gm_characters\gm_dk_characters\data\vest\gm_dk_vest_54_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_brn_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_brn_co"};
+		};
+	};
 
 	// ========== Machinegunner NP
 	class bravo_vest_m00_machinegunner_des_np : gm_dk_army_vest_m00_m84_machinegunner
@@ -182,5 +227,14 @@
 		class ItemInfo : ItemInfo
 		{
 			hiddenSelectionsTextures[] = {"\gm\gm_characters\gm_dk_characters\data\vest\gm_dk_vest_54_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co"};
+		};
+	};
+	class bravo_vest_m00_machinegunner_brn_np : gm_dk_army_vest_m00_m84_machinegunner
+	{
+		displayName = "Frag Vest M/00, Machinegunner (Brown/No Pads)";
+		hiddenSelectionsTextures[] = {"\gm\gm_characters\gm_dk_characters\data\vest\gm_dk_vest_54_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_brn_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\gm\gm_characters\gm_dk_characters\data\vest\gm_dk_vest_54_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_brn_co"};
 		};
 	};
