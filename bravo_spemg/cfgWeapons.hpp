@@ -24,17 +24,27 @@ class CfgWeapons
 	class bravo_ksp42b_65 : SPE_M1919A6
 	{
 		baseWeapon = "bravo_ksp42B_65";
-		displayName = "Ksp M/42B (early)";
+		displayName = "Ksp m/42B (early)";
 		descriptionShort = "Medium machine gun<br />Caliber: 6.5x55 mm Swedish";
 		magazines[] = {"bravo_50rnd_65x55mm_m1919"};
 		magazineWell[] = {"bravo_65x55_m1919"};
 	};
 	class bravo_ksp42b_762 : SPE_M1919A6
 	{
-		baseWeapon = "bravo_ksp42B_65";
-		displayName = "Ksp M/42B (late)";
+		baseWeapon = "bravo_ksp42B_762";
+		displayName = "Ksp m/42B (late)";
 		descriptionShort = "Medium machine gun<br />Caliber: 7.62x51 mm NATO";
 		magazines[] = {"bravo_50rnd_762x51mm_m1919"};
 		magazineWell[] = {"bravo_762x51_m1919", "CBA_762x51_LINKS"};
+	};
+	
+	class SPE_K98ZF39;
+	class bravo_gv1941 : SPE_K98ZF39
+	{
+		baseWeapon = "bravo_gv1941";
+		displayName = "Gv m/1941";
+		descriptionShort = "Sniper rifle<br />Caliber: 6.5x55 mm Swedish";
+		magazines[] = {"bravo_5rnd_65x55mm_clip"};
+		magazineWell[] = {"bravo_5rnd_65x55_clip"};
 	};
 };
