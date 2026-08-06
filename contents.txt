@@ -41,9 +41,11 @@ BFT
 - Add Force Tracker monitor system (displays Force Tracker markers if player has a GPS or is in a vehicle)
 - Add Zeus module to manage an object's Force Tracker data
 
-MG34F2
+SPEMG
 - Add MG 34F2 (7.62x51mm NATO) and mags
 - Add MG 34F1 (.30-06 Springfield) and mags
+- Add Ksp M/42B (early) (6.5x55mm Swedish) and mags
+- Add Ksp M/42B (late) (7.62x51mm NATO) and mags
 
 ZAMAK DAKAR
 - Add KamAZ Dakar Flyer Special

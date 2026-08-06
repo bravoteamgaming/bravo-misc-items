@@ -312,3 +312,5 @@
 2026-08-06
 - ITEMS: added new insignia
 - GEAR MISC: added brown M/00 vest
+- MG34F2: renamed to SPEMG
+- SPEMG: added M1919 Swedish variants
