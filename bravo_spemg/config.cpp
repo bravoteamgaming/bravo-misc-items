@@ -1,8 +1,8 @@
 class CfgPatches
 {
-	class bravo_m34f2
+	class bravo_spemg
 	{
-		name = "MG 34F2";
+		name = "SPE MG conversions";
 		author = "NikkoJT";
 		url = "https://github.com/bravoteamgaming/bravo-misc-items";
 		requiredVersion = 2.00;
@@ -16,3 +16,5 @@ class CfgPatches
 #include "cfgWeapons.hpp"
 
 #include "cfgMagazines.hpp"
+
+#include "cfgAmmo.hpp"
