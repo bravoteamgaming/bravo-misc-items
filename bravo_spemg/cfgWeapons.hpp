@@ -21,7 +21,7 @@ class CfgWeapons
 	};
 	
 	class SPE_M1919A6;
-	class bravo_ksp42b_65 : SPE_M1919A4
+	class bravo_ksp42b_65 : SPE_M1919A6
 	{
 		baseWeapon = "bravo_ksp42B_65";
 		displayName = "Ksp M/42B (early)";
@@ -29,7 +29,7 @@ class CfgWeapons
 		magazines[] = {"bravo_50rnd_65x55mm_m1919"};
 		magazineWell[] = {"bravo_65x55_m1919"};
 	};
-	class bravo_ksp42b_762 : SPE_M1919A4
+	class bravo_ksp42b_762 : SPE_M1919A6
 	{
 		baseWeapon = "bravo_ksp42B_65";
 		displayName = "Ksp M/42B (late)";
