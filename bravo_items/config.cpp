@@ -5,7 +5,7 @@ class CfgPatches
 		name = "Bravo Team Misc Items";
 		author = "Jason Olsen";
 		url = "https://github.com/bravoteamgaming/bravo-misc-items";
-		version = 1.8;
+		version = 1.9;
 		requiredVersion = 2.00;
 		units[] = {
 			"BVT_Flag_Orange",
@@ -43,6 +43,7 @@ class CfgUnitInsignia
 		author="Bravo Team";
 		texture="\bravo_items\patch\medic_1.paa";
 		textureVehicle="";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
 	class BVT_Patch_Light_CO
 	{
@@ -50,6 +51,7 @@ class CfgUnitInsignia
 		author="Bravo Team";
 		texture="\bravo_items\patch\co_light.paa";
 		textureVehicle="";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
 	class BVT_Patch_Light_Wings
 	{
@@ -57,6 +59,7 @@ class CfgUnitInsignia
 		author="Bravo Team";
 		texture="\bravo_items\patch\wings_light.paa";
 		textureVehicle="";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
 	class BVT_Patch_Light_1st
 	{
@@ -64,6 +67,7 @@ class CfgUnitInsignia
 		author="Bravo Team";
 		texture="\bravo_items\patch\1st_light.paa";
 		textureVehicle="";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
 	class BVT_Patch_Light_2nd
 	{
@@ -71,6 +75,7 @@ class CfgUnitInsignia
 		author="Bravo Team";
 		texture="\bravo_items\patch\2nd_light.paa";
 		textureVehicle="";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
 	class BVT_Patch_Light_3rd
 	{
@@ -78,6 +83,7 @@ class CfgUnitInsignia
 		author="Bravo Team";
 		texture="\bravo_items\patch\3rd_light.paa";
 		textureVehicle="";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
 	class BVT_Patch_Dark_CO
 	{
@@ -85,6 +91,7 @@ class CfgUnitInsignia
 		author="Bravo Team";
 		texture="\bravo_items\patch\co_dark.paa";
 		textureVehicle="";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
 	class BVT_Patch_Dark_Wings
 	{
@@ -92,6 +99,7 @@ class CfgUnitInsignia
 		author="Bravo Team";
 		texture="\bravo_items\patch\wings_dark.paa";
 		textureVehicle="";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
 	class BVT_Patch_Dark_1st
 	{
@@ -99,6 +107,7 @@ class CfgUnitInsignia
 		author="Bravo Team";
 		texture="\bravo_items\patch\1st_dark.paa";
 		textureVehicle="";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
 	class BVT_Patch_Dark_2nd
 	{
@@ -106,6 +115,7 @@ class CfgUnitInsignia
 		author="Bravo Team";
 		texture="\bravo_items\patch\2nd_dark.paa";
 		textureVehicle="";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
 	class BVT_Patch_Dark_3rd
 	{
@@ -113,6 +123,7 @@ class CfgUnitInsignia
 		author="Bravo Team";
 		texture="\bravo_items\patch\3rd_dark.paa";
 		textureVehicle="";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
 	class BVT_Patch_EOD_orange
 	{
@@ -120,6 +131,7 @@ class CfgUnitInsignia
 		author="Bravo Team";
 		texture="\bravo_items\patch\patch_orange_eod.paa";
 		textureVehicle="";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
 	class BVT_Patch_JTAC_orange
 	{
@@ -127,6 +139,7 @@ class CfgUnitInsignia
 		author="Bravo Team";
 		texture="\bravo_items\patch\patch_orange_jtac.paa";
 		textureVehicle="";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
 	class BVT_Patch_team_red
 	{
@@ -134,6 +147,7 @@ class CfgUnitInsignia
 		author="Bravo Team";
 		texture="\bravo_items\patch\patch_team_red.paa";
 		textureVehicle="";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
 	class BVT_Patch_team_blue
 	{
@@ -141,6 +155,15 @@ class CfgUnitInsignia
 		author="Bravo Team";
 		texture="\bravo_items\patch\patch_team_blue.paa";
 		textureVehicle="";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+	};
+	class BVT_Patch_darby_spiff
+	{
+		displayName="Spaceman Spiff";
+		author="Bravo Team";
+		texture="\bravo_items\patch\patch_darby_spiff.paa";
+		textureVehicle="";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
 };
 

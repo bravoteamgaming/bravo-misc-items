@@ -308,3 +308,6 @@
 
 2026-08-05
 - GEAR MISC: added olive, tan, and khaki variants of GM M/00 vest
+
+2026-08-06
+- ITEMS: added new insignia
