@@ -41,7 +41,7 @@ class cfgMagazines
 	};
 	class bravo_20rnd_556x45mm_qbu97a_m995 : bravo_20rnd_556x45mm_qbu97a_m855a1
 	{
-		displayName = "5.56 mm 20Rnd QBU-97A Mk262 Mod 1 Magazine";
+		displayName = "5.56 mm 20Rnd QBU-97A M995 AP Magazine";
 		ammo = "rhs_ammo_556x45_M995_AP";
 		initSpeed = 1024;
 	};
