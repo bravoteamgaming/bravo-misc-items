@@ -825,3 +825,4 @@ QBZAK
 - Add 5.45x39mm QBZ-95 and QJB-95 variants (QBZ-95-545)
 - Add 7.62x39mm QBZ-95 and QJB-95 variants (QBZ-95-762)
 - Add 7.62x39mm 75rnd QJB-95 (offset) drum mags
+- Add QBU-97A and mags

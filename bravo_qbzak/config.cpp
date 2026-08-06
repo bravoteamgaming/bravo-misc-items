@@ -6,7 +6,7 @@ class CfgPatches
 		author = "NikkoJT";
 		url = "https://github.com/bravoteamgaming/bravo-misc-items";
 		requiredVersion = 2.00;
-		requiredAddons[] = {"A3_Weapons_F_Enoch_Machineguns_M200"};
+		requiredAddons[] = {"A3_Data_F_Decade_Loadorder", "rhsusf_c_weapons"};
 		units[] = {};
 		weapons[] = { 
 			"bravo_qbz95_545",
@@ -26,7 +26,8 @@ class CfgPatches
 			"bravo_type215_lush",
 			"bravo_type215_gl_lush",
 			"bravo_type215_lsw_lush",
-			"bravo_type215_k_lush"
+			"bravo_type215_k_lush",
+			"bravo_qbu97a"
 		};
 		skipWhenMissingDependencies = 1;
 	};

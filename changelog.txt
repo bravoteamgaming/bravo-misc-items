@@ -314,3 +314,4 @@
 - GEAR MISC: added brown M/00 vest
 - MG34F2: renamed to SPEMG
 - SPEMG: added M1919 Swedish variants and Gv m/1941
+- QBZAK: added QBU-97A

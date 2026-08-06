@@ -325,4 +325,23 @@ class CfgWeapons
 			{};
 		};
 	};
+	
+	class DMR_07_base_F;
+	class srifle_DMR_07_blk_F : DMR_07_base_F
+	{
+		class WeaponSlotsInfo;
+	};
+	class bravo_qbu97a : srifle_DMR_07_blk_F
+	{
+		baseWeapon = "bravo_qbu97a";
+		displayName = "QBU-97A";
+		descriptionShort = "Marksman rifle<br />Caliber: 5.56x45 mm";
+		magazines[] = {"bravo_20rnd_556x45mm_qbu97a_m855a1"};
+		magazineWell[] = {"bravo_556x45_qbu97a"};
+		class WeaponSlotsInfo : WeaponSlotsInfo
+		{
+			class MuzzleSlot : asdg_MuzzleSlot_556
+			{};
+		};
+	};
 };
