@@ -315,4 +315,4 @@
 - MG34F2: renamed to SPEMG
 - SPEMG: added M1919 Swedish variants and Gv m/1941
 - QBZAK: added QBU-97A
-- GEAR MISC: added brown SOV
+- GEAR MISC: added brown SOV and khaki, tan, and brown Type 3/Type 3A1

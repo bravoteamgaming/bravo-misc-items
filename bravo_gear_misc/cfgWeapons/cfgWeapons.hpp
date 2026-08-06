@@ -615,6 +615,8 @@ class cfgWeapons
 		};
 	};
 	
+	#include "type3vest.hpp"
+	
 	#include "gmsov.hpp"
 	
 	#include "boonie.hpp"
