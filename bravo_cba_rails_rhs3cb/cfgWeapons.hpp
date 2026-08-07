@@ -204,23 +204,6 @@ class CfgWeapons
 		};
 	};
 	
-	class arifle_katiba_base_f;
-	class uk3cb_kh2002_base : arifle_katiba_base_f
-	{
-		class weaponSlotsInfo;
-	};
-	class uk3cb_kh2002 : uk3cb_kh2002_base
-	{
-		class WeaponSlotsInfo: WeaponSlotsInfo
-		{
-			class UnderBarrelSlot: asdg_underslot
-			{
-				iconPosition[] = {0.24,0.8};
-				iconScale = 0.3;
-			};
-		};
-	};
-	
 	// =========
 	// Flashlights
 	class ItemCore;
