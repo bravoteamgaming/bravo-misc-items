@@ -1,8 +1,3 @@
-
-class asdg_MuzzleSlot_762;
-
-class CfgWeapons
-{	
 	class Tavor_base_F;
 	class arifle_TRG20_F : Tavor_base_F
 	{
@@ -87,7 +82,7 @@ class CfgWeapons
 	{
 		baseWeapon = "bravo_tavor_7_black";
 		displayName = "Tavor 7 (Black)";
-		hiddenSelectionsTextures[] = {"\bravo_tavor_7\assets\tar21_base_blk_co"};
+		hiddenSelectionsTextures[] = {"\bravo_vanillaguns\assets\tar21_base_blk_co"};
 	};
 	
 	/*
@@ -102,7 +97,7 @@ class CfgWeapons
 	{
 		baseWeapon = "bravo_fort224_545_blk";
 		displayName = "Fort-224 545 (Black)";
-		hiddenSelectionsTextures[] = {"\bravo_tavor_7\assets\tar21_base_blk_co"};
+		hiddenSelectionsTextures[] = {"\bravo_vanillaguns\assets\tar21_base_blk_co"};
 	};
 	*/
 	
@@ -110,7 +105,7 @@ class CfgWeapons
 	{
 		baseWeapon = "bravo_tar21c_blk";
 		displayName = "CTAR-21 (Black)";
-		hiddenSelectionsTextures[] = {"\bravo_tavor_7\assets\tar21_base_blk_co"};
+		hiddenSelectionsTextures[] = {"\bravo_vanillaguns\assets\tar21_base_blk_co"};
 	};
 	
 	class arifle_TRG21_F : Tavor_base_F
@@ -120,7 +115,7 @@ class CfgWeapons
 		baseWeapon = "bravo_tar21_blk";
 		displayName = "TAR-21 (Black)";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"\bravo_tavor_7\assets\tar21_base_blk_co"};
+		hiddenSelectionsTextures[] = {"\bravo_vanillaguns\assets\tar21_base_blk_co"};
 	};
 	
 	/*
@@ -136,7 +131,7 @@ class CfgWeapons
 	{
 		baseWeapon = "bravo_fort221_545_blk";
 		displayName = "Fort-221 545 (Black)";
-		hiddenSelectionsTextures[] = {"\bravo_tavor_7\assets\tar21_base_blk_co"};
+		hiddenSelectionsTextures[] = {"\bravo_vanillaguns\assets\tar21_base_blk_co"};
 	};
 	*/
 	
@@ -146,7 +141,7 @@ class CfgWeapons
 	{
 		baseWeapon = "bravo_tar21_gl_blk";
 		displayName = "GTAR-21 EGLM (Black)";
-		hiddenSelectionsTextures[] = {"\bravo_tavor_7\assets\tar21_base_blk_co","\a3\weapons_f\rifles\trg20\data\tar21_eglm_co.paa","\a3\weapons_f\data\gl_holo_co.paa"};
+		hiddenSelectionsTextures[] = {"\bravo_vanillaguns\assets\tar21_base_blk_co","\a3\weapons_f\rifles\trg20\data\tar21_eglm_co.paa","\a3\weapons_f\data\gl_holo_co.paa"};
 	};
 	
 	/*
@@ -161,7 +156,6 @@ class CfgWeapons
 	{
 		baseWeapon = "bravo_fort221_545_gl_blk";
 		displayName = "Fort-221 545 EGLM (Black)";
-		hiddenSelectionsTextures[] = {"\bravo_tavor_7\assets\tar21_base_blk_co","\a3\weapons_f\rifles\trg20\data\tar21_eglm_co.paa","\a3\weapons_f\data\gl_holo_co.paa"};
+		hiddenSelectionsTextures[] = {"\bravo_vanillaguns\assets\tar21_base_blk_co","\a3\weapons_f\rifles\trg20\data\tar21_eglm_co.paa","\a3\weapons_f\data\gl_holo_co.paa"};
 	};
 	*/
-};

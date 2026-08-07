@@ -1,8 +1,3 @@
-
-class asdg_MuzzleSlot_556;
-
-class CfgWeapons
-{	
 	class Rifle_Base_F;
 	class arifle_MSBS65_base_F : Rifle_Base_F
 	{
@@ -178,4 +173,3 @@ class CfgWeapons
 		picture = "a3\Weapons_F_Enoch\Rifles\MSBS\Data\UI\icon_arifle_MSBS65_GL_sand_F_ca.paa";
 		hiddenSelectionsTextures[] = {"a3\Weapons_F_Enoch\Rifles\MSBS\Data\MSBS_01_sand_CO.paa","a3\Weapons_F_Enoch\Rifles\MSBS\Data\MSBS_02_sand_CO.paa","a3\Weapons_F_Enoch\Rifles\MSBS\Data\MSBS_03_sand_CO.paa"};
 	};
-};

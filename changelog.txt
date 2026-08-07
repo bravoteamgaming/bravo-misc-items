@@ -316,3 +316,6 @@
 - SPEGUNS: added M1919 Swedish variants and Gv m/1941
 - QBZAK: added QBU-97A
 - GEAR MISC: added brown SOV and khaki, tan, and brown Type 3/Type 3A1
+
+2026-08-07
+- QBZAK, TAVOR 7, RFB 762, MSBS 556, MK200 556: merged into VANILLAGUNS

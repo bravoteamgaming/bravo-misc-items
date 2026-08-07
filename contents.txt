@@ -1,13 +1,15 @@
 contents:
-MSBS 5.56
+VANILLAGUNS
 - Add 5.56mm versions of MSBS Grot
-
-RFB 7.62
 - Add 7.62mm version of RFB SDAR
-
-TAVOR 7
 - Add 7.62mm version of CTAR-21
-- Add black versions of all types
+- Add black versions of all CTAR-2x types
+- Add 5.56mm NATO variant of the Mk200 (Stoner 99), using Minimi boxes
+- Add 5.8x42mm AK-12 and RPK-12 variants (Type 215)
+- Add 5.45x39mm QBZ-95 and QJB-95 variants (QBZ-95-545)
+- Add 7.62x39mm QBZ-95 and QJB-95 variants (QBZ-95-762)
+- Add 7.62x39mm 75rnd QJB-95 (offset) drum mags
+- Add QBU-97A and mags
 
 ACR 6.8
 - Add 6.8mm versions of Remington ACR
@@ -776,9 +778,6 @@ PHONE
 - Add cellphone tool: Photo with flash
 - Add Zeus module: burner phone
 
-MK200 556
-- Add 5.56mm NATO variant of the Mk200 (Stoner 99), using Minimi boxes
-
 CBA RAILS GM
 - Change GM weapons to make use of CBA attachment slots
 
@@ -831,10 +830,3 @@ RF AP
 ZEN AISKILL
 - Set default values for ZEN global AI skill and turn it on by default
 - Provide CBA settings for changing the default values
-
-QBZAK
-- Add 5.8x42mm AK-12 and RPK-12 variants (Type 215)
-- Add 5.45x39mm QBZ-95 and QJB-95 variants (QBZ-95-545)
-- Add 7.62x39mm QBZ-95 and QJB-95 variants (QBZ-95-762)
-- Add 7.62x39mm 75rnd QJB-95 (offset) drum mags
-- Add QBU-97A and mags
