@@ -6,6 +6,7 @@ class asdg_OpticRail1913_long : asdg_OpticRail1913
 class asdg_MuzzleSlot_556;
 class asdg_FrontSideRail;
 class asdg_PistolOpticRail1913;
+class asdg_UnderSlot;
 
 class CfgWeapons
 {	
@@ -79,5 +80,65 @@ class CfgWeapons
 			class CowsSlot
 			{};
 		};
+	};
+	
+	// ===== Katiba magproxies
+	class arifle_Katiba_Base_F: Rifle_Base_F
+	{
+		class WeaponSlotsInfo;
+	};
+	class arifle_Katiba_F: arifle_Katiba_Base_F
+	{
+		model = "lxrf\weapons_rf\Rifles\khaybar\Khaybar_RF.p3d";
+		magazineReloadSwitchPhase = 0.48;
+	  
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class UnderBarrelSlot: asdg_underslot
+			{
+				iconPosition[] = {0.24,0.8};
+				iconScale = 0.3;
+			};
+		};
+	};
+	class arifle_Katiba_C_F: arifle_Katiba_Base_F
+	{
+		model = "lxrf\weapons_rf\Rifles\khaybar\KhaybarC_RF.p3d";
+		magazineReloadSwitchPhase = 0.48;
+	};
+	class arifle_Katiba_GL_F: arifle_Katiba_Base_F
+	{
+		model = "lxrf\weapons_rf\Rifles\khaybar\Khaybar_GL_RF.p3d";
+		magazineReloadSwitchPhase = 0.48;
+	};
+	
+	class UK3CB_KH2002_BASE : arifle_Katiba_Base_F
+	{
+		class WeaponSlotsInfo : WeaponSlotsInfo
+		{};
+	};
+	class UK3CB_KH2002 : UK3CB_KH2002_BASE
+	{
+		model = "lxrf\weapons_rf\Rifles\khaybar\Khaybar_RF.p3d";
+		magazineReloadSwitchPhase = 0.48;
+	  
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class UnderBarrelSlot: asdg_underslot
+			{
+				iconPosition[] = {0.24,0.8};
+				iconScale = 0.3;
+			};
+		};
+	};
+	class UK3CB_KH2002_Carbine : UK3CB_KH2002_BASE
+	{
+		model = "lxrf\weapons_rf\Rifles\khaybar\KhaybarC_RF.p3d";
+		magazineReloadSwitchPhase = 0.48;
+	};
+	class UK3CB_KH2002_UGL : UK3CB_KH2002_BASE
+	{
+		model = "lxrf\weapons_rf\Rifles\khaybar\Khaybar_GL_RF.p3d";
+		magazineReloadSwitchPhase = 0.48;
 	};
 };

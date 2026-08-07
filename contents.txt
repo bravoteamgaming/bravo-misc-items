@@ -783,6 +783,7 @@ CBA RAILS GM
 
 CBA RAILS RF
 - Change RF weapons to make use of CBA attachment slots
+- Enable RF models for Katiba with mag proxies
 
 CBA RAILS RHS3CB
 - Change RHS/3CB weapons to make use of CBA attachment slots and magwells
