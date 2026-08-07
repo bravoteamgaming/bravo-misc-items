@@ -1,8 +1,8 @@
 class CfgPatches
 {
-	class bravo_spemg
+	class bravo_speguns
 	{
-		name = "SPE MG conversions";
+		name = "SPE gun conversions";
 		author = "NikkoJT";
 		url = "https://github.com/bravoteamgaming/bravo-misc-items";
 		requiredVersion = 2.00;
