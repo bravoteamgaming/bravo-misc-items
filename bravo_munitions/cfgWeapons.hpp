@@ -48,4 +48,22 @@ class cfgWeapons
 		};
 		magazineWell[] = {"bravo_igla"};
 	};
+	
+	class UK3CB_KH2002_BASE;
+	class UK3CB_KH2002 : UK3CB_KH2002_BASE
+	{
+		model = "lxrf\weapons_rf\Rifles\khaybar\Khaybar_RF.p3d";
+		magazineReloadSwitchPhase = 0.48;
+	};
+	
+	class UK3CB_KH2002_Carbine : UK3CB_KH2002_BASE
+	{
+		model = "lxrf\weapons_rf\Rifles\khaybar\KhaybarC_RF.p3d";
+		magazineReloadSwitchPhase = 0.48;
+	};
+	class UK3CB_KH2002_UGL : UK3CB_KH2002_BASE
+	{
+		model = "lxrf\weapons_rf\Rifles\khaybar\Khaybar_GL_RF.p3d";
+		magazineReloadSwitchPhase = 0.48;
+	};
 };

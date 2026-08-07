@@ -14,3 +14,4 @@ class CfgPatches
 };
 
 #include "cfgWeapons.hpp"
+#include "cfgMagazines.hpp"

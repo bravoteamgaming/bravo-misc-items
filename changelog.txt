@@ -319,5 +319,7 @@
 
 2026-08-07
 - QBZAK, TAVOR 7, RFB 762, MSBS 556, MK200 556: merged into VANILLAGUNS
-- CBA RAILS RF: enabled RF model for Katiba/KH2002 with mag proxies
+- CBA RAILS RF: enabled RF model for Katiba with mag proxies
 - CBA RAILS RF: added RF 20rnd and 30rnd 6.5mm mag model for Katiba
+- CBA RAILS RHS3CB: enabled bipod slot for KH2002
+- MUNITIONS: enabled RF model for KH2002 (used this addon because it already has both 3CB and RF requirements)
