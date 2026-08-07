@@ -31,6 +31,7 @@ class CfgMagazineWells
 class asdg_OpticRail1913_short;
 class asdg_OpticRail1913_short_MG : asdg_OpticRail1913_short
 {};
+class asdg_UnderSlot;
 
 class CfgWeapons
 {	
