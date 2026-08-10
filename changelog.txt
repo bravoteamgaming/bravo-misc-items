@@ -322,3 +322,7 @@
 - CBA RAILS RF: enabled RF model for Katiba with mag proxies
 - CBA RAILS RF: added RF 20rnd and 30rnd 6.5mm mag model for Katiba
 - MUNITIONS: enabled RF model for KH2002 (used this addon because it already has both 3CB and RF requirements)
+
+2026-08-10
+- RF AP: overwrite short names of Hera magazines
+- RHS AMMO: fix loadorder requirements

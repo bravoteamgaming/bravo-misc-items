@@ -42,6 +42,7 @@ class cfgMagazines
 	class bravo_10rnd_556x45_hera_m855a1 : 10Rnd_556x45_AP_Stanag_RF
 	{
 		displayName = "5.56 mm 10Rnd Hera M855A1 Magazine";
+		displayNameShort = "M855A1 EPR";
 		ammo = "rhs_ammo_556x45_m855a1_ball";
 		initSpeed = 960;
 		scope = 2;
@@ -49,6 +50,7 @@ class cfgMagazines
 	class bravo_10rnd_556x45_hera_m856a1 : 10Rnd_556x45_AP_Stanag_RF
 	{
 		displayName = "5.56 mm 10Rnd Hera M856A1 (Tracer) Magazine";
+		displayNameShort = "M856A1 EPR";
 		ammo = "rhs_ammo_556x45_m855a1_ball_red";
 		tracersEvery = 1;
 		initSpeed = 960;
@@ -59,6 +61,7 @@ class cfgMagazines
 	class bravo_10rnd_556x45_hera_m855a1_snd : 10Rnd_556x45_AP_Stanag_Tan_RF
 	{
 		displayName = "5.56 mm 10Rnd Hera M855A1 Sand Magazine";
+		displayNameShort = "M855A1 EPR";
 		ammo = "rhs_ammo_556x45_m855a1_ball";
 		initSpeed = 960;
 		scope = 2;
@@ -66,6 +69,7 @@ class cfgMagazines
 	class bravo_10rnd_556x45_hera_m856a1_snd : 10Rnd_556x45_AP_Stanag_Tan_RF
 	{
 		displayName = "5.56 mm 10Rnd Hera M856A1 (Tracer) Sand Magazine";
+		displayNameShort = "M856A1 EPR";
 		ammo = "rhs_ammo_556x45_m855a1_ball_red";
 		tracersEvery = 1;
 		initSpeed = 960;
@@ -76,6 +80,7 @@ class cfgMagazines
 	class bravo_10rnd_556x45_hera_m855a1_oli : 10Rnd_556x45_AP_Stanag_khk_RF
 	{
 		displayName = "5.56 mm 10Rnd Hera M855A1 Olive Magazine";
+		displayNameShort = "M855A1 EPR";
 		ammo = "rhs_ammo_556x45_m855a1_ball";
 		initSpeed = 960;
 		scope = 2;
@@ -83,6 +88,7 @@ class cfgMagazines
 	class bravo_10rnd_556x45_hera_m856a1_oli : 10Rnd_556x45_AP_Stanag_khk_RF
 	{
 		displayName = "5.56 mm 10Rnd Hera M856A1 (Tracer) Olive Magazine";
+		displayNameShort = "M856A1 EPR";
 		ammo = "rhs_ammo_556x45_m855a1_ball_red";
 		tracersEvery = 1;
 		initSpeed = 960;
@@ -93,6 +99,7 @@ class cfgMagazines
 	class bravo_20rnd_556x45_hera_m855a1 : 20Rnd_556x45_AP_Stanag_RF
 	{
 		displayName = "5.56 mm 20Rnd Hera M855A1 Magazine";
+		displayNameShort = "M855A1 EPR";
 		ammo = "rhs_ammo_556x45_m855a1_ball";
 		initSpeed = 960;
 		scope = 2;
@@ -100,6 +107,7 @@ class cfgMagazines
 	class bravo_20rnd_556x45_hera_m856a1 : 20Rnd_556x45_AP_Stanag_RF
 	{
 		displayName = "5.56 mm 20Rnd Hera M856A1 (Tracer) Magazine";
+		displayNameShort = "M856A1 EPR";
 		ammo = "rhs_ammo_556x45_m855a1_ball_red";
 		tracersEvery = 1;
 		initSpeed = 960;
@@ -110,6 +118,7 @@ class cfgMagazines
 	class bravo_20rnd_556x45_hera_m855a1_snd : 20Rnd_556x45_AP_Stanag_Tan_RF
 	{
 		displayName = "5.56 mm 20Rnd Hera M855A1 Sand Magazine";
+		displayNameShort = "M855A1 EPR";
 		ammo = "rhs_ammo_556x45_m855a1_ball";
 		initSpeed = 960;
 		scope = 2;
@@ -117,6 +126,7 @@ class cfgMagazines
 	class bravo_20rnd_556x45_hera_m856a1_snd : 20Rnd_556x45_AP_Stanag_Tan_RF
 	{
 		displayName = "5.56 mm 20Rnd Hera M856A1 (Tracer) Sand Magazine";
+		displayNameShort = "M856A1 EPR";
 		ammo = "rhs_ammo_556x45_m855a1_ball_red";
 		tracersEvery = 1;
 		initSpeed = 960;
@@ -127,6 +137,7 @@ class cfgMagazines
 	class bravo_20rnd_556x45_hera_m855a1_oli : 20Rnd_556x45_AP_Stanag_khk_RF
 	{
 		displayName = "5.56 mm 20Rnd Hera M855A1 Olive Magazine";
+		displayNameShort = "M855A1 EPR";
 		ammo = "rhs_ammo_556x45_m855a1_ball";
 		initSpeed = 960;
 		scope = 2;
@@ -134,6 +145,7 @@ class cfgMagazines
 	class bravo_20rnd_556x45_hera_m856a1_oli : 20Rnd_556x45_AP_Stanag_khk_RF
 	{
 		displayName = "5.56 mm 20Rnd Hera M856A1 (Tracer) Olive Magazine";
+		displayNameShort = "M856A1 EPR";
 		ammo = "rhs_ammo_556x45_m855a1_ball_red";
 		tracersEvery = 1;
 		initSpeed = 960;
@@ -144,6 +156,7 @@ class cfgMagazines
 	class bravo_30rnd_556x45_hera_m855a1 : 30Rnd_556x45_AP_Stanag_RF
 	{
 		displayName = "5.56 mm 30Rnd Hera M855A1 Magazine";
+		displayNameShort = "M855A1 EPR";
 		ammo = "rhs_ammo_556x45_m855a1_ball";
 		initSpeed = 960;
 		scope = 2;
@@ -151,6 +164,7 @@ class cfgMagazines
 	class bravo_30rnd_556x45_hera_m856a1 : 30Rnd_556x45_AP_Stanag_RF
 	{
 		displayName = "5.56 mm 30Rnd Hera M856A1 (Tracer) Magazine";
+		displayNameShort = "M856A1 EPR";
 		ammo = "rhs_ammo_556x45_m855a1_ball_red";
 		tracersEvery = 1;
 		initSpeed = 960;
@@ -161,6 +175,7 @@ class cfgMagazines
 	class bravo_30rnd_556x45_hera_m855a1_snd : 30Rnd_556x45_AP_Stanag_Tan_RF
 	{
 		displayName = "5.56 mm 30Rnd Hera M855A1 Sand Magazine";
+		displayNameShort = "M855A1 EPR";
 		ammo = "rhs_ammo_556x45_m855a1_ball";
 		initSpeed = 960;
 		scope = 2;
@@ -168,6 +183,7 @@ class cfgMagazines
 	class bravo_30rnd_556x45_hera_m856a1_snd : 30Rnd_556x45_AP_Stanag_Tan_RF
 	{
 		displayName = "5.56 mm 30Rnd Hera M856A1 (Tracer) Sand Magazine";
+		displayNameShort = "M856A1 EPR";
 		ammo = "rhs_ammo_556x45_m855a1_ball_red";
 		tracersEvery = 1;
 		initSpeed = 960;
@@ -178,6 +194,7 @@ class cfgMagazines
 	class bravo_30rnd_556x45_hera_m855a1_oli : 30Rnd_556x45_AP_Stanag_khk_RF
 	{
 		displayName = "5.56 mm 30Rnd Hera M855A1 Olive Magazine";
+		displayNameShort = "M855A1 EPR";
 		ammo = "rhs_ammo_556x45_m855a1_ball";
 		initSpeed = 960;
 		scope = 2;
@@ -185,6 +202,7 @@ class cfgMagazines
 	class bravo_30rnd_556x45_hera_m856a1_oli : 30Rnd_556x45_AP_Stanag_khk_RF
 	{
 		displayName = "5.56 mm 30Rnd Hera M856A1 (Tracer) Olive Magazine";
+		displayNameShort = "M856A1 EPR";
 		ammo = "rhs_ammo_556x45_m855a1_ball_red";
 		tracersEvery = 1;
 		initSpeed = 960;
