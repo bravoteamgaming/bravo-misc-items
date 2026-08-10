@@ -326,3 +326,4 @@
 2026-08-10
 - RF AP: overwrite short names of Hera magazines
 - RHS AMMO: fix loadorder requirements
+- RHS AMMO: fix M855A1 not being applied correctly
