@@ -73,7 +73,7 @@ class CfgAmmo
 	{
 		caliber = 0.7;
 	};
-	class rhs_ammo_556x45_M885A1_Ball : B_556x45_Ball
+	class rhs_ammo_556x45_M855A1_Ball : B_556x45_Ball
 	{
 		caliber = 0.87;
 	};
