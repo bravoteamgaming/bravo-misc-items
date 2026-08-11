@@ -63,7 +63,7 @@
 	class bravo_vest_m00_khk_np : gm_dk_army_vest_m00_m84
 	{
 		displayName = "Frag Vest M/00 (Khaki/No Pads)";
-		hiddenSelectionsTextures[] = {"\gm\gm_characters\gm_dk_characters\data\vest\gm_dk_vest_54_khk_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co"};
+		hiddenSelectionsTextures[] = {"\gm\gm_characters\gm_dk_characters\data\vest\gm_dk_vest_54_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co"};
 		class ItemInfo : ItemInfo
 		{
 			hiddenSelectionsTextures[] = {"\gm\gm_characters\gm_dk_characters\data\vest\gm_dk_vest_54_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co"};
@@ -72,7 +72,7 @@
 	class bravo_vest_m00_brn_np : gm_dk_army_vest_m00_m84
 	{
 		displayName = "Frag Vest M/00 (Brown/No Pads)";
-		hiddenSelectionsTextures[] = {"\gm\gm_characters\gm_dk_characters\data\vest\gm_dk_vest_54_brn_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_brn_co"};
+		hiddenSelectionsTextures[] = {"\gm\gm_characters\gm_dk_characters\data\vest\gm_dk_vest_54_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_brn_co"};
 		class ItemInfo : ItemInfo
 		{
 			hiddenSelectionsTextures[] = {"\gm\gm_characters\gm_dk_characters\data\vest\gm_dk_vest_54_oli_co","\bravo_gear_misc\assets\bravo_gm_ge_splischu_brn_co"};
