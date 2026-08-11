@@ -327,3 +327,6 @@
 - RF AP: overwrite short names of Hera magazines
 - RHS AMMO: fix loadorder requirements
 - RHS AMMO: fix M855A1 not being applied correctly
+
+2026-08-11
+- GEAR MISC: fixed some M00 vests having broken textures
