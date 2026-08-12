@@ -330,3 +330,7 @@
 
 2026-08-11
 - GEAR MISC: fixed some M00 vests having broken textures
+
+2026-08-12:
+- VANILLAGUNS: added MXCQC (5.7mm MXC)
+- MUNITIONS: added Type 29 HVAP mag for MXCQC

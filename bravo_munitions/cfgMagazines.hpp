@@ -285,25 +285,34 @@ class CfgMagazines
 	class 50Rnd_570x28_SMG_03;
 	class bravo_50rnd_57x28mm_p90_type29 : 50Rnd_570x28_SMG_03
 	{
-		displayName = "5.7 mm 60Rnd P90 Type 29 HVAP Magazine";
+		displayName = "5.7 mm 50Rnd P90 Type 29 HVAP Magazine";
 		ammo = "bravo_bullet_57x28_type29";
 		initSpeed = 850;
 		mass = 15;
+	};
+	
+	class rhsgref_30rnd_1143x23_m1911b_smg;
+	class bravo_30rnd_57x28mm_mx_type29 : rhsgref_30rnd_1143x23_m1911b_smg
+	{
+		ammo = "bravo_bullet_57x28_type29";
+		displayName = "5.7 mm 30Rnd MX Type 29 HVAP Magazine";
+		initSpeed = 850;
+		mass = 12;
 	};
 };
 class CfgMagazineWells
 {
 	class UGL_40x36
 	{
-		bravo_munitions_magazines[] = {"bravo_1rnd_40mm_gl_mine", "bravo_1rnd_40mm_gl_cuas"};
+		bravo_munitions_mags[] = {"bravo_1rnd_40mm_gl_mine", "bravo_1rnd_40mm_gl_cuas"};
 	};
 	class VOG_40mm
 	{
-		bravo_munitions_magazines[] = {"bravo_1rnd_40mm_gl_mine_vog", "bravo_1rnd_40mm_gl_cuas_vog"};
+		bravo_munitions_mags[] = {"bravo_1rnd_40mm_gl_mine_vog", "bravo_1rnd_40mm_gl_cuas_vog"};
 	};
 	class CBA_Carl_Gustaf
 	{
-		bravo_munitions_magazines[] = {
+		bravo_munitions_mags[] = {
 			"bravo_1rnd_84mm_delayfuze_he_100",
 			"bravo_1rnd_84mm_delayfuze_he_125",
 			"bravo_1rnd_84mm_delayfuze_he_150",
@@ -334,39 +343,45 @@ class CfgMagazineWells
 	};
 	class gm_magazineWell_70mm_fim43
 	{
-		bravo_munitions_magazines[] = {
+		bravo_munitions_mags[] = {
 			"bravo_1rnd_missile_m585_bad"
 		};
 	};
 	class gm_magazineWell_72mm_strela
 	{
-		bravo_munitions_magazines[] = {
+		bravo_munitions_mags[] = {
 			"bravo_1rnd_missile_9m32m_bad"
 		};
 	};
 	class bravo_stinger
 	{
-		bravo_munitions_magazines[] = {
+		bravo_munitions_mags[] = {
 			"bravo_1rnd_missile_fim92f_bad",
 			"rhs_fim92_mag"
 		};
 	};
 	class bravo_igla
 	{
-		bravo_munitions_magazines[] = {
+		bravo_munitions_mags[] = {
 			"bravo_1rnd_missile_9k38_bad",
 			"rhs_mag_9k38_rocket"
 		};
 	};
 	class Titan_Long
 	{
-		bravo_munitions_magazines[] = {
+		bravo_munitions_mags[] = {
 			"bravo_1rnd_missile_titan_aa_bad"
 		};
 	};
 	class CBA_57x28_P90
 	{
-		bravo_munitions_magazines[] = {
+		bravo_munitions_mags[] = {
+			"bravo_50rnd_57x28mm_p90_type29"
+		};
+	};
+	class bravo_30rnd_57x28mm_mx
+	{
+		bravo_munitions_mags[] = {
 			"bravo_50rnd_57x28mm_p90_type29"
 		};
 	};

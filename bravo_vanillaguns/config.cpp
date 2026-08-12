@@ -51,7 +51,10 @@ class CfgPatches
 			"bravo_msbs_556_ubs_black",
 			"bravo_msbs_556_ubs_sand",
 			"bravo_mk200_556",
-			"bravo_mk200_556_blk"
+			"bravo_mk200_556_blk",
+			"bravo_mxcqc",
+			"bravo_mxcqc_blk",
+			"bravo_mxcqc_khk"
 		};
 		skipWhenMissingDependencies = 1;
 	};

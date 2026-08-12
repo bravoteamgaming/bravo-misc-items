@@ -45,20 +45,35 @@ class cfgMagazines
 		ammo = "rhs_ammo_556x45_M995_AP";
 		initSpeed = 1024;
 	};
+	
+	class rhsgref_30rnd_1143x23_m1911b_smg;
+	class bravo_30rnd_57x28mm_mx : rhsgref_30rnd_1143x23_m1911b_smg
+	{
+		ammo = "b_570x28_ball";
+		displayName = "5.7 mm 30Rnd MX Magazine";
+		initSpeed = 716;
+		mass = 12;
+	};
 };
 
 class cfgMagazineWells
 {
 	class CBA_762x39_RPK
 	{
-		bravo_qbzak_mags[] = { "bravo_75rnd_762x39mm_qjb95_mag", "bravo_75rnd_762x39mm_qjb95_tracer_mag" };
+		bravo_vanillaguns_mags[] = { "bravo_75rnd_762x39mm_qjb95_mag", "bravo_75rnd_762x39mm_qjb95_tracer_mag" };
 	};
 	class bravo_762x39_qjb
 	{
-		bravo_qbzak_mags[] = { "bravo_75rnd_762x39mm_qjb95_mag", "bravo_75rnd_762x39mm_qjb95_tracer_mag" };
+		bravo_vanillaguns_mags[] = { "bravo_75rnd_762x39mm_qjb95_mag", "bravo_75rnd_762x39mm_qjb95_tracer_mag" };
 	};
 	class bravo_556x45_qbu97a
 	{
-		bravo_qbzak_mags[] = { "bravo_20rnd_556x45mm_qbu97a_m855a1", "bravo_20rnd_556x45mm_qbu97a_m856a1", "bravo_20rnd_556x45mm_qbu97a_mk262", "bravo_20rnd_556x45mm_qbu97a_m995"};
+		bravo_vanillaguns_mags[] = { "bravo_20rnd_556x45mm_qbu97a_m855a1", "bravo_20rnd_556x45mm_qbu97a_m856a1", "bravo_20rnd_556x45mm_qbu97a_mk262", "bravo_20rnd_556x45mm_qbu97a_m995"};
+	};
+	class bravo_30rnd_57x28mm_mx
+	{
+		bravo_vanillaguns_mags[] = {
+			"bravo_30rnd_57x28mm_mx"
+		};
 	};
 };
