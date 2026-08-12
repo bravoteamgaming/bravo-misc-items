@@ -46,8 +46,8 @@ class cfgMagazines
 		initSpeed = 1024;
 	};
 	
-	class rhsgref_30rnd_1143x23_m1911b_smg;
-	class bravo_30rnd_57x28mm_mx : rhsgref_30rnd_1143x23_m1911b_smg
+	class gm_30rnd_9x19mm_b_dm11_mp5_blk;
+	class bravo_30rnd_57x28mm_mx : gm_30rnd_9x19mm_b_dm11_mp5_blk
 	{
 		ammo = "b_570x28_ball";
 		displayName = "5.7 mm 30Rnd MX Magazine";
@@ -70,7 +70,7 @@ class cfgMagazineWells
 	{
 		bravo_vanillaguns_mags[] = { "bravo_20rnd_556x45mm_qbu97a_m855a1", "bravo_20rnd_556x45mm_qbu97a_m856a1", "bravo_20rnd_556x45mm_qbu97a_mk262", "bravo_20rnd_556x45mm_qbu97a_m995"};
 	};
-	class bravo_30rnd_57x28mm_mx
+	class bravo_57x28_mx
 	{
 		bravo_vanillaguns_mags[] = {
 			"bravo_30rnd_57x28mm_mx"
