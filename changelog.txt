@@ -334,3 +334,4 @@
 2026-08-12:
 - VANILLAGUNS: added MXCQC (5.7mm MXC)
 - MUNITIONS: added Type 29 HVAP mag for MXCQC
+- CBA RAILS VANILLA: added vanilla 150rnd C-Mag colour variants to CBA magwell
