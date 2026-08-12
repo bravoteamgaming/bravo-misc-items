@@ -51,6 +51,7 @@ class cfgMagazines
 	{
 		ammo = "b_570x28_ball";
 		displayName = "5.7 mm 30Rnd MX Magazine";
+		descriptionShort = "Caliber: 5.7x28 mm<br />Rounds: 30<br />Used in: MXCQC";
 		initSpeed = 716;
 		mass = 12;
 	};

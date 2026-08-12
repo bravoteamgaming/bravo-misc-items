@@ -6,7 +6,7 @@ class CfgPatches
 		author = "NikkoJT";
 		url = "https://github.com/bravoteamgaming/bravo-misc-items";
 		requiredVersion = 2.00;
-		requiredAddons[] = {"A3_Data_F_Decade_Loadorder", "cba_jr", "rhssaf_c_weapons", "WW2_SPEX_Assets_c_Weapons_Sounds_c"};
+		requiredAddons[] = {"A3_Data_F_Decade_Loadorder", "cba_jr", "rhssaf_c_weapons", "WW2_SPEX_Assets_c_Weapons_Sounds_c", "gm_weapons_rifles_mp5", "rhsgref_c_weapons"};
 		units[] = {};
 		weapons[] = { 
 			"bravo_sdar_762",

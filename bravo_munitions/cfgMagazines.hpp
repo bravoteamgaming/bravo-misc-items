@@ -296,6 +296,7 @@ class CfgMagazines
 	{
 		ammo = "bravo_bullet_57x28_type29";
 		displayName = "5.7 mm 30Rnd MX Type 29 HVAP Magazine";
+		descriptionShort = "Caliber: 5.7x28 mm<br />Rounds: 30<br />Used in: MXCQC";
 		initSpeed = 850;
 		mass = 12;
 	};
@@ -382,7 +383,7 @@ class CfgMagazineWells
 	class bravo_57x28_mx
 	{
 		bravo_munitions_mags[] = {
-			"bravo_50rnd_57x28mm_p90_type29"
+			"bravo_30rnd_57x28mm_mx_type29"
 		};
 	};
 };
