@@ -291,8 +291,8 @@ class CfgMagazines
 		mass = 15;
 	};
 	
-	class rhsgref_30rnd_1143x23_m1911b_smg;
-	class bravo_30rnd_57x28mm_mx_type29 : rhsgref_30rnd_1143x23_m1911b_smg
+	class gm_30rnd_9x19mm_b_dm11_mp5_blk;
+	class bravo_30rnd_57x28mm_mx_type29 : gm_30rnd_9x19mm_b_dm11_mp5_blk
 	{
 		ammo = "bravo_bullet_57x28_type29";
 		displayName = "5.7 mm 30Rnd MX Type 29 HVAP Magazine";
@@ -379,7 +379,7 @@ class CfgMagazineWells
 			"bravo_50rnd_57x28mm_p90_type29"
 		};
 	};
-	class bravo_30rnd_57x28mm_mx
+	class bravo_57x28_mx
 	{
 		bravo_munitions_mags[] = {
 			"bravo_50rnd_57x28mm_p90_type29"
