@@ -21,7 +21,7 @@ class CfgPatches
 			"bravo_module_trapped_gun_mine_rucw",
 			"bravo_module_trapped_gun_mine_csat",
 			"bravo_module_trapped_gun_mine_ww2ger",
-			"bravo_module_trapped_gun_mine_ww2allied"
+			"bravo_module_trapped_gun_mine_ww2allied",
 			"bravo_fgm202",
 			"bravo_fgm202_used"
 		};

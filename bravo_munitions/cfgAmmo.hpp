@@ -516,7 +516,7 @@ class CfgAmmo
 	};
 	
 	class rhs_ammo_m72a7_rocket;
-	class bravo_missile_fgm202 : rhs_ammo_m727a7_rocket
+	class bravo_missile_fgm202 : rhs_ammo_m72a7_rocket
 	{
 		simulation = "shotMissile";
 		maneuvrability = 4;
