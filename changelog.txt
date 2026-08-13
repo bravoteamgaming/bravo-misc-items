@@ -338,3 +338,4 @@
 
 2026-08-13
 - VANILLAGUNS: added F2000 black variants
+- CBA RAILS VANILLA: added 7.62 CBA muzzle slot to VS-121

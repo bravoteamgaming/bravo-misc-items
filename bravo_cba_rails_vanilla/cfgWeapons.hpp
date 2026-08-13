@@ -162,6 +162,21 @@ class CfgWeapons
 		};
 	};
 	
+	class DMR_01_base_F : Rifle_Long_Base_F
+	{
+		class WeaponSlotsInfo : WeaponSlotsInfo
+		{};
+	};
+	
+	class srifle_DMR_01_F : DMR_01_base_F
+	{
+		class WeaponSlotsInfo : WeaponSlotsInfo
+		{
+			class MuzzleSlot : asdg_MuzzleSlot_762
+			{};
+		};
+	};
+	
 	
 	// ==================
 	// FLASHLIGHTS
