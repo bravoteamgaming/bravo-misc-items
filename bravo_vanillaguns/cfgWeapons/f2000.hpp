@@ -19,5 +19,5 @@
 	{
 		baseWeapon = "bravo_f2000_gl_blk";
 		displayName = "F2000 EGLM (Black)";
-		hiddenSelectionsTextures[] = {"\bravo_vanillaguns\assets\mk20_blk_co"};
+		hiddenSelectionsTextures[] = {"\bravo_vanillaguns\assets\mk20_blk_co", "\bravo_vanillaguns\assetse\mk20_utilities_blk_co"};
 	};
