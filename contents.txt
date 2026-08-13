@@ -10,6 +10,8 @@ VANILLAGUNS
 - Add 7.62x39mm QBZ-95 and QJB-95 variants (QBZ-95-762)
 - Add 7.62x39mm 75rnd QJB-95 (offset) drum mags
 - Add QBU-97A and mags
+- Add MXCQC (5.7mm MXC)
+- Add black versions of F2000
 
 ACR 6.8
 - Add 6.8mm versions of Remington ACR

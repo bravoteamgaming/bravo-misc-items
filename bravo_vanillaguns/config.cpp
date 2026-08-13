@@ -54,7 +54,10 @@ class CfgPatches
 			"bravo_mk200_556_blk",
 			"bravo_mxcqc",
 			"bravo_mxcqc_blk",
-			"bravo_mxcqc_khk"
+			"bravo_mxcqc_khk",
+			"bravo_f2000_blk",
+			"bravo_f2000c_blk",
+			"bravo_f2000_gl_blk"
 		};
 		skipWhenMissingDependencies = 1;
 	};
