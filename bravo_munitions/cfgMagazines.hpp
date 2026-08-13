@@ -286,6 +286,7 @@ class CfgMagazines
 	class bravo_50rnd_57x28mm_p90_type29 : 50Rnd_570x28_SMG_03
 	{
 		displayName = "5.7 mm 50Rnd P90 Type 29 HVAP Magazine";
+		displayNameShort = "HVAP";
 		ammo = "bravo_bullet_57x28_type29";
 		initSpeed = 850;
 		mass = 15;
@@ -297,8 +298,27 @@ class CfgMagazines
 		ammo = "bravo_bullet_57x28_type29";
 		displayName = "5.7 mm 30Rnd MX Type 29 HVAP Magazine";
 		descriptionShort = "Caliber: 5.7x28 mm<br />Rounds: 30<br />Used in: MXCQC";
+		displayNameShort = "HVAP";
 		initSpeed = 850;
 		mass = 12;
+	};
+	
+	class 6Rnd_45ACP_Cylinder;
+	class bravo_6rnd_45acp_type29_cylinder : 6Rnd_45ACP_Cylinder
+	{
+		displayNameShort = "HVAP";
+		ammo = "bravo_bullet_45acp_type29";
+		displayName = ".45 ACP 6Rnd Type 29 HVAP Cylinder";
+		initSpeed = 300;
+	};
+	
+	class rhs_m72a7_mag;
+	class bravo_1rnd_missile_fgm202 : rhs_m72a7_mag
+	{
+		displayName = "FGM-202 Predator-NG";
+		descriptionShort = "Type: High Explosive, Dual Purpose Fire-and-Forget Missile";
+		displayNameShort = "FGM-202";
+		ammo = "bravo_missile_fgm202";
 	};
 };
 class CfgMagazineWells
@@ -384,6 +404,12 @@ class CfgMagazineWells
 	{
 		bravo_munitions_mags[] = {
 			"bravo_30rnd_57x28mm_mx_type29"
+		};
+	};
+	class Cylinder_45ACP
+	{
+		bravo_munitions_mags[] = {
+			"bravo_6rnd_45acp_type29_cylinder"
 		};
 	};
 };

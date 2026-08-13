@@ -66,4 +66,27 @@ class cfgWeapons
 		model = "lxrf\weapons_rf\Rifles\khaybar\Khaybar_GL_RF.p3d";
 		magazineReloadSwitchPhase = 0.48;
 	};
+	
+	class rhs_weap_m72a7;
+	class bravo_fgm202 : rhs_weap_m72a7
+	{
+		baseWeapon = "bravo_fgm202";
+		displayName = "FGM-202 Predator-NG";
+		descriptionShort = "Missile launcher<br/>Caliber: 66 mm<br/>Type: Single-shot Anti-Tank with visual and IR guidance";
+		magazines[] = {"bravo_1rnd_missile_fgm202"};
+		lockedTargetSound[] = {"\FIR_AirWeaponSystem_US\sound\Sidewinder_growling.wss",4.5,1.1};
+		lockingTargetSound[] = {"\FIR_AirWeaponSystem_US\sound\Sidewinder_growling.wss",4,1};
+		canLock = 2;
+		cmImmunity = 0.8;
+		weaponLockDelay = 3;
+		weaponLockSystem = 0;
+		lockAcquire = 1;
+	};
+	
+	class rhs_weap_m72a7_used;
+	class bravo_fgm202_used : rhs_weap_m72a7_used
+	{
+		baseWeapon = "bravo_fgm202_used";
+		displayName = "FGM-202 Predator-NG (used)";
+	};
 };

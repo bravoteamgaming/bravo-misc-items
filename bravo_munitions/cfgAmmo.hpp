@@ -1,3 +1,6 @@
+class SensorTemplateIR;
+class SensorTemplateVisual;
+
 class CfgAmmo
 {
 	class g_40mm_he;
@@ -499,5 +502,85 @@ class CfgAmmo
 		indirectHitRange = 2;
 		ace_bulletmass = 2.4;
 		ace_bulletlength = 24;
+	};
+	
+	class B_45ACP_Ball;
+	class bravo_bullet_45acp_type29 : B_45ACP_Ball
+	{
+		ace_muzzleVelocities[] = {300, 315, 330};
+		caliber = 1.6;
+		indirectHit = 0.2;
+		indirectHitRange = 2;
+		ace_bulletMass = 15.1;
+		ace_bulletLength = 19;
+	};
+	
+	class rhs_ammo_m72a7_rocket;
+	class bravo_missile_fgm202 : rhs_ammo_m727a7_rocket
+	{
+		simulation = "shotMissile";
+		maneuvrability = 4;
+		missileKeepLockedCone = 90;
+		missileLockCone = 10;
+		missileLockMaxDistance = 1000;
+		missileLockMinDistance = 50;
+		missileLockMaxSpeed = 35;
+		trackLead = 0.9;
+		trackOversteer = 0.99;
+		weaponLockSystem = "1+2";
+		cmImmunity = 0.9;
+		airLock = 1;
+		class Components
+		{
+			class SensorsManagerComponent
+			{
+				class Components
+				{
+					class VisualSensorComponent : SensorTemplateVisual
+					{
+						angleRangeHorizontal = 5;
+						angleRangeVertical = 5;
+						maxTrackableATL = 20;
+						maxTrackableSpeed = 35;
+						nightRangeCoef = 0.8;
+						class AirTarget
+						{
+							maxRange = 500;
+							minRange = 500;
+							objectDistanceLimitCoef = -1;
+							viewDistanceLimitCoef = 1;
+						};
+						class GroundTarget
+						{
+							maxRange = 500;
+							minRange = 500;
+							objectDistanceLimitCoef = 1;
+							viewDistanceLimitCoef = 1;
+						};
+					};
+					class IRSensorComponent : SensorTemplateIR
+					{
+						angleRangeHorizontal = 5;
+						angleRangeVertical = 5;
+						maxTrackableATL = 50;
+						maxTrackableSpeed = 35;
+						class AirTarget
+						{
+							maxRange = 800;
+							minRange = 600;
+							objectDistanceLimitCoef = -1;
+							viewDistanceLimitCoef = 1;
+						};
+						class GroundTarget
+						{
+							maxRange = 800;
+							minRange = 600;
+							objectDistanceLimitCoef = -1;
+							viewDistanceLimitCoef = 1;
+						};
+					};
+				};
+			};
+		};
 	};
 };
