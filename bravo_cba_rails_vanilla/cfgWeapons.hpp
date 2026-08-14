@@ -177,6 +177,28 @@ class CfgWeapons
 		};
 	};
 	
+	class PistolCore;
+	class Pistol : PistolCore
+	{
+		class WeaponSlotsInfo;
+	};
+	class Pistol_Base_F : Pistol
+	{
+		class WeaponSlotsInfo : WeaponSlotsInfo
+		{
+			class MuzzleSlot;
+		};
+	};
+	class hgun_Pistol_heavy_02_F : Pistol_Base_F
+	{
+		class WeaponSlotsInfo : WeaponSlotsInfo
+		{
+			class MuzzleSlot : MuzzleSlot
+			{
+				compatibleItems[] = {};
+			};
+		};
+	};
 	
 	// ==================
 	// FLASHLIGHTS
