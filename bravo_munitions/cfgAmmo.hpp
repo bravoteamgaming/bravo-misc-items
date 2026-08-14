@@ -507,7 +507,7 @@ class CfgAmmo
 	class B_45ACP_Ball;
 	class bravo_bullet_45acp_type29 : B_45ACP_Ball
 	{
-		ace_muzzleVelocities[] = {300, 315, 330};
+		ace_muzzleVelocities[] = {350, 365, 380};
 		caliber = 1.6;
 		indirectHit = 0.2;
 		indirectHitRange = 2;

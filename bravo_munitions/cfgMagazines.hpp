@@ -309,7 +309,7 @@ class CfgMagazines
 		displayNameShort = "HVAP";
 		ammo = "bravo_bullet_45acp_type29";
 		displayName = ".45 ACP 6Rnd Type 29 HVAP Cylinder";
-		initSpeed = 300;
+		initSpeed = 360;
 	};
 	
 	class rhs_m72a7_mag;
