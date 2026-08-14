@@ -346,3 +346,4 @@
 
 2026-08-14
 - CBA RAILS (VANILLA, T1, RHS3CB, WS): rebalanced flashlights
+- GEAR MISC: added black M/00 vests
