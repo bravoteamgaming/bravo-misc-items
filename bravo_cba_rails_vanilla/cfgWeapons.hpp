@@ -202,7 +202,38 @@ class CfgWeapons
 	
 	// ==================
 	// FLASHLIGHTS
+	#define VANILLA_LIGHT_RIFLE\
+		color[] = {26,23,18};\
+		outerAngle = 35;\
+		innerAngle = 5;\
+		coneFadeCoef = 2;\
+		intensity = 330;\
+		class Attenuation\
+		{\
+			start = 0;\
+			constant = 0.2;\
+			linear = 0.1;\
+			quadratic = 0.05;\
+			hardLimitStart = 100;\
+			hardLimitEnd = 150;\
+		};
 	
+	#define VANILLA_LIGHT_PISTOL\
+		color[] = {26,23,18};\
+		outerAngle = 70;\
+		innerAngle = 5;\
+		coneFadeCoef = 10;\
+		intensity = 100;\
+		class Attenuation\
+		{\
+			start = 0;\
+			constant = 0.5;\
+			linear = 0.2;\
+			quadratic = 0.6;\
+			hardLimitStart = 100;\
+			hardLimitEnd = 150;\
+		};
+		
 	class ItemCore;
 	class InventoryFlashLightItem_Base_F;
 	class acc_flashlight : ItemCore
@@ -211,18 +242,7 @@ class CfgWeapons
 		{
 			class FlashLight
 			{
-				outerAngle = 50;
-				innerAngle = 5;
-				coneFadeCoef = 2;
-				class Attenuation
-				{
-					start = 0;
-					constant = 0.2;
-					linear = 0.1;
-					quadratic = 0.2;
-					hardLimitStart = 100;
-					hardLimitEnd = 150;
-				};
+				VANILLA_LIGHT_RIFLE
 			};
 		};
 	};
@@ -233,19 +253,7 @@ class CfgWeapons
 		{
 			class FlashLight
 			{
-				outerAngle = 50;
-				innerAngle = 5;
-				coneFadeCoef = 3;
-				intensity = 70;
-				class Attenuation
-				{
-					start = 0;
-					constant = 0.4;
-					linear = 0.2;
-					quadratic = 0.2;
-					hardLimitStart = 100;
-					hardLimitEnd = 150;
-				};
+				VANILLA_LIGHT_PISTOL
 			};
 		};
 	};

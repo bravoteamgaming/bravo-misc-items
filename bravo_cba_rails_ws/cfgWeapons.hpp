@@ -135,6 +135,39 @@ class CfgWeapons
 	
 	// ====================
 	// Flashlights
+	
+	#define WS_LIGHT_RIFLE\
+		color[] = {24,22,23};\
+		outerAngle = 32;\
+		innerAngle = 5;\
+		coneFadeCoef = 2;\
+		intensity = 330;\
+		class Attenuation\
+		{\
+			start = 0;\
+			constant = 0.2;\
+			linear = 0.1;\
+			quadratic = 0.05;\
+			hardLimitStart = 100;\
+			hardLimitEnd = 150;\
+		};
+	
+	#define WS_LIGHT_RIFLE_IR\
+		color[] = {24,22,23};\
+		outerAngle = 32;\
+		innerAngle = 5;\
+		coneFadeCoef = 2;\
+		intensity = 80;\
+		class Attenuation\
+		{\
+			start = 0;\
+			constant = 0.2;\
+			linear = 0.1;\
+			quadratic = 0.05;\
+			hardLimitStart = 100;\
+			hardLimitEnd = 150;\
+		};
+		
 	class acc_flashlight;
 	class InventoryFlashLightItem_Base_F;
 	class saber_light_lxWS : acc_flashlight
@@ -143,19 +176,7 @@ class CfgWeapons
 		{
 			class FlashLight
 			{
-				outerAngle = 40;
-				innerAngle = 5;
-				coneFadeCoef = 2;
-				intensity = 80;
-				class Attenuation
-				{
-					start = 0;
-					constant = 0.2;
-					linear = 0.1;
-					quadratic = 0.2;
-					hardLimitStart = 100;
-					hardLimitEnd = 150;
-				};
+				WS_LIGHT_RIFLE
 			};
 		};
 	};
@@ -165,19 +186,7 @@ class CfgWeapons
 		{
 			class FlashLight
 			{
-				outerAngle = 40;
-				innerAngle = 5;
-				coneFadeCoef = 2;
-				intensity = 80;
-				class Attenuation
-				{
-					start = 0;
-					constant = 0.2;
-					linear = 0.1;
-					quadratic = 0.2;
-					hardLimitStart = 10;
-					hardLimitEnd = 150;
-				};
+				WS_LIGHT_RIFLE_IR
 			};
 		};
 	};

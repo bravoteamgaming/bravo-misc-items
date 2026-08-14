@@ -343,3 +343,6 @@
 - MUNITIONS: added Type 29 HVAP magazine for Chiappa Rhino
 - PHONE: add date condition to top-level messenger shortcut
 - CBA RAILS VANILLA: remove 9mm suppressor from Chiappa Rhino
+
+2026-08-14
+- CBA RAILS (VANILLA, T1, RHS3CB, WS): rebalanced flashlights

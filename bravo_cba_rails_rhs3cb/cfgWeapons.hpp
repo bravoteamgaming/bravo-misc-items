@@ -206,6 +206,39 @@ class CfgWeapons
 	
 	// =========
 	// Flashlights
+	
+	#define RHS_LIGHT_2DP\
+		color[] = {25,22,20};\
+		outerAngle = 50;\
+		innerAngle = 5;\
+		coneFadeCoef = 3;\
+		intensity = 270;\
+		class Attenuation\
+		{\
+			start = 0;\
+			constant = 0.2;\
+			linear = 0.1;\
+			quadratic = 0.05;\
+			hardLimitStart = 100;\
+			hardLimitEnd = 150;\
+		};
+		
+	#define RHS_LIGHT_RIFLE\
+		color[] = {25,22,20};\
+		outerAngle = 35;\
+		innerAngle = 5;\
+		coneFadeCoef = 2;\
+		intensity = 330;\
+		class Attenuation\
+		{\
+			start = 0;\
+			constant = 0.2;\
+			linear = 0.1;\
+			quadratic = 0.05;\
+			hardLimitStart = 100;\
+			hardLimitEnd = 150;\
+		};
+	
 	class ItemCore;
 	class InventoryFlashLightItem_Base_F;
 	class acc_pointer_IR;
@@ -219,19 +252,7 @@ class CfgWeapons
 		{
 			class FlashLight
 			{
-				outerAngle = 50;
-				innerAngle = 5;
-				coneFadeCoef = 3;
-				intensity = 270;
-				class Attenuation
-				{
-					start = 0;
-					constant = 0.2;
-					linear = 0.1;
-					quadratic = 0.2;
-					hardLimitStart = 27;
-					hardLimitEnd = 50;
-				};
+				RHS_LIGHT_2DP
 			};
 		};
 	};
@@ -247,19 +268,7 @@ class CfgWeapons
 		{
 			class FlashLight
 			{
-				outerAngle = 50;
-				innerAngle = 5;
-				coneFadeCoef = 3;
-				intensity = 270;
-				class Attenuation
-				{
-					start = 0;
-					constant = 0.2;
-					linear = 0.1;
-					quadratic = 0.2;
-					hardLimitStart = 100;
-					hardLimitEnd = 150;
-				};
+				RHS_LIGHT_2DP
 			};
 		};
 	};
@@ -274,19 +283,7 @@ class CfgWeapons
 		{
 			class FlashLight
 			{
-				outerAngle = 35;
-				innerAngle = 5;
-				coneFadeCoef = 2;
-				// intensity = 80;
-				class Attenuation
-				{
-					start = 0;
-					constant = 0.2;
-					linear = 0.1;
-					quadratic = 0.2;
-					hardLimitStart = 100;
-					hardLimitEnd = 150;
-				};
+				RHS_LIGHT_RIFLE
 			};
 		};
 	};
@@ -297,19 +294,7 @@ class CfgWeapons
 		{
 			class FlashLight
 			{
-				outerAngle = 35;
-				innerAngle = 5;
-				coneFadeCoef = 2;
-				intensity = 30;
-				class Attenuation
-				{
-					start = 0;
-					constant = 0.2;
-					linear = 0.1;
-					quadratic = 0.2;
-					hardLimitStart = 100;
-					hardLimitEnd = 150;
-				};
+				RHS_LIGHT_RIFLE
 			};
 		};
 	};
