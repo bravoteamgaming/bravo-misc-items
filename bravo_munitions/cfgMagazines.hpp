@@ -319,6 +319,7 @@ class CfgMagazines
 		descriptionShort = "Type: High Explosive, Dual Purpose Fire-and-Forget Missile";
 		displayNameShort = "FGM-202";
 		ammo = "bravo_missile_fgm202";
+		initSpeed = 150;
 	};
 };
 class CfgMagazineWells

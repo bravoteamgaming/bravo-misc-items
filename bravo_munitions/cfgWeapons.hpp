@@ -67,7 +67,11 @@ class cfgWeapons
 		magazineReloadSwitchPhase = 0.48;
 	};
 	
-	class rhs_weap_m72a7;
+	class rhs_weap_m136;
+	class rhs_weap_m72a7 : rhs_weap_m136
+	{
+		class WeaponSlotsInfo;
+	};
 	class bravo_fgm202 : rhs_weap_m72a7
 	{
 		baseWeapon = "bravo_fgm202";
@@ -79,8 +83,17 @@ class cfgWeapons
 		canLock = 2;
 		cmImmunity = 0.8;
 		weaponLockDelay = 3;
-		weaponLockSystem = 0;
+		weaponLockSystem = "1 + 2";
 		lockAcquire = 1;
+		class ItemInfo
+		{
+			onHoverText = "FGM-202";
+			RMBhint = "FGM-202";
+		};
+		class WeaponSlotsInfo : WeaponSlotsInfo
+		{
+			mass = 82;
+		};
 	};
 	
 	class rhs_weap_m72a7_used;

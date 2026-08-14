@@ -519,16 +519,25 @@ class CfgAmmo
 	class bravo_missile_fgm202 : rhs_ammo_m72a7_rocket
 	{
 		simulation = "shotMissile";
-		maneuvrability = 4;
+		maneuvrability = 5;
 		missileKeepLockedCone = 90;
-		missileLockCone = 10;
+		missileLockCone = 20;
 		missileLockMaxDistance = 1000;
 		missileLockMinDistance = 50;
 		missileLockMaxSpeed = 35;
+		maxControlRange = 1000;
+		manualControl = 0;
+		lockType = 0;
+		irLock = 1;
 		trackLead = 0.9;
+		sideAirFriction = 0.5;
 		trackOversteer = 0.99;
-		weaponLockSystem = "1+2";
+		weaponLockSystem = "1 + 2";
+		simulationStep = 0.002;
 		cmImmunity = 0.9;
+		thrust = 100;
+		maxSpeed = 230;
+		thrustTime = 1;
 		airLock = 1;
 		class Components
 		{
@@ -545,14 +554,14 @@ class CfgAmmo
 						nightRangeCoef = 0.8;
 						class AirTarget
 						{
-							maxRange = 500;
+							maxRange = 600;
 							minRange = 500;
 							objectDistanceLimitCoef = -1;
 							viewDistanceLimitCoef = 1;
 						};
 						class GroundTarget
 						{
-							maxRange = 500;
+							maxRange = 600;
 							minRange = 500;
 							objectDistanceLimitCoef = 1;
 							viewDistanceLimitCoef = 1;
