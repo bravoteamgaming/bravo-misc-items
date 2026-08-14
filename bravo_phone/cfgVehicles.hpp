@@ -11,7 +11,7 @@ class cfgVehicles
 				condition = "[_target, 'ACE_Cellphone'] call ace_common_fnc_hasItem";
 				exceptions[] = {"isNotInside", "isNotSitting", "notOnMap", "isNotInZeus"};
 				icon = "\z\ace\addons\explosives\Data\UI\Cellphone_UI.paa";
-				statement = "private _display = createDialog ['bravo_messenger_display',false]; uiNamespace setVariable ['bravo_messenger_display', _display];";
+				statement = "if ((date select 0) > 1985) then {private _display = createDialog ['bravo_messenger_display',false]; uiNamespace setVariable ['bravo_messenger_display', _display]};";
 				
 				class bravo_zdas
 				{

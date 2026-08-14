@@ -341,3 +341,4 @@
 - CBA RAILS VANILLA: added 7.62 CBA muzzle slot to VS-121
 - MUNITIONS: added FGM-202 Predator-NG disposable F&F AT
 - MUNITIONS: added Type 29 HVAP magazine for Chiappa Rhino
+- PHONE: add date condition to top-level messenger shortcut
