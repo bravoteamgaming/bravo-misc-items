@@ -107,6 +107,7 @@
 	{
 		baseWeapon = "bravo_mxcqc_blk";
 		displayName = "MXCQC (Black)";
+		hiddenSelections[] = {"camo1"};
 		hiddenSelectionsTextures[] = {"\A3\Weapons_F_EPB\Rifles\MX_Black\Data\XMX_short_Black_co.paa"};
 		picture = "\A3\Weapons_F_EPB\Rifles\MX_Black\Data\UI\gear_mx_cqc_black_X_CA.paa";
 	};
@@ -114,6 +115,7 @@
 	{
 		baseWeapon = "bravo_mxcqc_khk";
 		displayName = "MXCQC (Khaki)";
+		hiddenSelections[] = {"camo1"};
 		hiddenSelectionsTextures[] = {"\A3\Weapons_F_Exp\Rifles\MX\Data\XMX_Short_khk_co.paa"};
 		picture = "\A3\Weapons_F_Exp\Rifles\MX\Data\UI\icon_arifle_MXC_khk_F_X_CA.paa";
 	};
