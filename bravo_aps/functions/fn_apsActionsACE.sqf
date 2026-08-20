@@ -34,6 +34,7 @@ private _actionReload = [
 		params ["_target", "_player"];
 		('bravo_apscharge' in magazines _player) && {(_target getVariable ['bravo_var_apsCooldown',false]) && (alive _target)}
 	},
+	{},
 	[],
 	[0,0,0],
 	5
@@ -59,6 +60,7 @@ private _actionArm = [
 		params ["_target", "_player"];
 		(_player in [commander _target, driver _target]) && {!(_target getVariable ['bravo_var_apsEnabled',false])}
 	},
+	{},
 	[true],
 	[0,0,0],
 	5
@@ -84,6 +86,7 @@ private _actionDisarm = [
 		params ["_target", "_player"];
 		(_player in [commander _target, driver _target]) && {_target getVariable ['bravo_var_apsEnabled',false]}
 	},
+	{},
 	[false],
 	[0,0,0],
 	5

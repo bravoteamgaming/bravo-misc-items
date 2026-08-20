@@ -63,8 +63,8 @@ class bravo_aps_moduleDisplay : RscDisplayEmpty
 	{
 		class group : RscControlsGroup
 		{
-			w = 20 * GUI_GRID_CENTER_W;
-			h = 21.5 * GUI_GRID_CENTER_H;
+			w = 15.5 * GUI_GRID_CENTER_W;
+			h = 10.5 * GUI_GRID_CENTER_H;
 			x = GUI_GRID_CENTER_X + 10 * GUI_GRID_CENTER_W;
 			y = GUI_GRID_CENTER_Y + 0 * GUI_GRID_CENTER_H;
 			
@@ -77,7 +77,7 @@ class bravo_aps_moduleDisplay : RscDisplayEmpty
 					style = 0;
 					moving = 0;
 					w = 20 * GUI_GRID_CENTER_W;
-					h = 13.5 * GUI_GRID_CENTER_H;
+					h = 10.5 * GUI_GRID_CENTER_H;
 					x = 0;
 					y = 0;
 					sizeEx = 1;
@@ -93,10 +93,12 @@ class bravo_aps_moduleDisplay : RscDisplayEmpty
 					idc = -1;
 					colorBackground[] = {0.8,0.1,0.1,0.8};
 					colorBackgroundActive[] = {0.8,0.5,0.5,1};
+					colorActive[] = {0.8,0.1,0.1,0.8};
+					colorFocused[] = {0.8,0.1,0.1,0.8};
 					w = 7 * GUI_GRID_CENTER_W;
 					h = 1.5 * GUI_GRID_CENTER_H;
 					x = 0.5 * GUI_GRID_CENTER_W;
-					y = 2 * GUI_GRID_CENTER_H;
+					y = 2.5 * GUI_GRID_CENTER_H;
 				};
 				class buttonDisarm : RscButton
 				{
@@ -105,10 +107,12 @@ class bravo_aps_moduleDisplay : RscDisplayEmpty
 					idc = -1;
 					colorBackground[] = {0.8,0.1,0.1,0.8};
 					colorBackgroundActive[] = {0.8,0.5,0.5,1};
+					colorActive[] = {0.8,0.1,0.1,0.8};
+					colorFocused[] = {0.8,0.1,0.1,0.8};
 					w = 7 * GUI_GRID_CENTER_W;
 					h = 1.5 * GUI_GRID_CENTER_H;
 					x = 8 * GUI_GRID_CENTER_W;
-					y = 2 * GUI_GRID_CENTER_H;
+					y = 2.5 * GUI_GRID_CENTER_H;
 				};
 				class buttonArm : RscButton
 				{
@@ -117,10 +121,12 @@ class bravo_aps_moduleDisplay : RscDisplayEmpty
 					idc = -1;
 					colorBackground[] = {0.1,0.8,0.1,0.8};
 					colorBackgroundActive[] = {0.5,0.8,0.5,1};
+					colorActive[] = {0.1,0.8,0.1,0.8};
+					colorFocused[] = {0.1,0.8,0.1,0.8};
 					w = 7 * GUI_GRID_CENTER_W;
 					h = 1.5 * GUI_GRID_CENTER_H;
 					x = 8 * GUI_GRID_CENTER_W;
-					y = 4 * GUI_GRID_CENTER_H;
+					y = 4.5 * GUI_GRID_CENTER_H;
 				};
 				class buttonOK : RscButton
 				{
@@ -129,10 +135,12 @@ class bravo_aps_moduleDisplay : RscDisplayEmpty
 					idc = -1;
 					colorBackground[] = {0.1,0.8,0.1,0.8};
 					colorBackgroundActive[] = {0.5,0.8,0.5,1};
+					colorActive[] = {0.1,0.8,0.1,0.8};
+					colorFocused[] = {0.1,0.8,0.1,0.8};
 					w = 7 * GUI_GRID_CENTER_W;
 					h = 2.5 * GUI_GRID_CENTER_H;
 					x = 0.5 * GUI_GRID_CENTER_W;
-					y = 4 * GUI_GRID_CENTER_H;
+					y = 4.5 * GUI_GRID_CENTER_H;
 				};
 				class buttonCancel : RscButton
 				{
@@ -142,7 +150,7 @@ class bravo_aps_moduleDisplay : RscDisplayEmpty
 					w = 7 * GUI_GRID_CENTER_W;
 					h = 2.5 * GUI_GRID_CENTER_H;
 					x = 8 * GUI_GRID_CENTER_W;
-					y = 6 * GUI_GRID_CENTER_H;
+					y = 7.5 * GUI_GRID_CENTER_H;
 				};
 				class objectname : RscText
 				{

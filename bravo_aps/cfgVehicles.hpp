@@ -6,7 +6,7 @@ class CfgVehicles
 		scope = 1;
 		scopeCurator = 2;
 		displayName = "Manage APS";
-		category = "zen_modules_objects";
+		category = "ObjectModifiers";
 		function = "bravo_fnc_apsModule";
 		isGlobal = 1;
 		isTriggerActivated = 0;
