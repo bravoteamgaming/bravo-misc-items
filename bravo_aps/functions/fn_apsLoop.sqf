@@ -2,16 +2,19 @@
 // This function performs maintenance tasks on vehicles.
 params ["_vehicle"];
 
+if (_vehicle isNil "bravo_var_apsCleanupLoop") then {
 // Cleanup: regularly empty the vehicle's tracked objects array of old junk
-[_vehicle] spawn {
-	params ["_vehicle"];
-	while {alive _vehicle} do {
-		private _handledProjectiles = _vehicle getVariable ["bravo_var_apsTracked",[]];
-		_handledProjectiles = _handledProjectiles - [objNull];
-		_vehicle setVariable ["bravo_var_apsTracked",_handledProjectiles];
-		
-		sleep 10;
+	private _handle = [_vehicle] spawn {
+		params ["_vehicle"];
+		while {alive _vehicle} do {
+			private _handledProjectiles = _vehicle getVariable ["bravo_var_apsTracked",[]];
+			_handledProjectiles = _handledProjectiles - [objNull];
+			_vehicle setVariable ["bravo_var_apsTracked",_handledProjectiles];
+			
+			sleep 10;
+		};
 	};
+	_vehicle setVariable ["bravo_var_apsCleanupLoop", _handle];
 };
 
 // Regularly check for all vehicles' APS status and remove/add from global array
