@@ -349,3 +349,6 @@
 - GEAR MISC: added black M/00 vests
 - SPEGUNS: fixed this addon not being included
 - VANILLAGUNS: added orange F2000 variants
+
+2026-08-20
+- ITEMS: added more sound sources

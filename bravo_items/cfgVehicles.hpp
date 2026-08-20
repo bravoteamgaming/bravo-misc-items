@@ -176,4 +176,32 @@ class CfgVehicles
 		author = "Bravo Team";
 		scope = 2;
 	};
+	class bravo_sound_radioMuitinkinyakkin : Sound
+	{
+		displayName = "Radio (Muitinkinyakkin)";
+		sound = "bravo_radioMuitinkinyakkin";
+		author = "Bravo Team";
+		scope = 2;
+	};
+	class bravo_sound_radioLithiumFlower : Sound
+	{
+		displayName = "Radio (Lithium Flower)";
+		sound = "bravo_radioLithiumFlower";
+		author = "Bravo Team";
+		scope = 2;
+	};
+	class bravo_sound_alarmCar : Sound
+	{
+		displayName = "Alarm (Car)";
+		sound = "bravo_alarmCar";
+		author = "Bravo Team";
+		scope = 2;
+	};
+	class bravo_sound_radioPumpUpTheJam : Sound
+	{
+		displayName = "Radio (Pump Up The Jam)";
+		sound = "bravo_radioPumpUpTheJam";
+		author = "Bravo Team";
+		scope = 2;
+	};
 };
