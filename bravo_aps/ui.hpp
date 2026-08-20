@@ -65,7 +65,7 @@ class bravo_aps_moduleDisplay : RscDisplayEmpty
 		{
 			w = 15.5 * GUI_GRID_CENTER_W;
 			h = 10.5 * GUI_GRID_CENTER_H;
-			x = GUI_GRID_CENTER_X + 10 * GUI_GRID_CENTER_W;
+			x = GUI_GRID_CENTER_X + 11 * GUI_GRID_CENTER_W;
 			y = GUI_GRID_CENTER_Y + 0 * GUI_GRID_CENTER_H;
 			
 			class controls
@@ -76,7 +76,7 @@ class bravo_aps_moduleDisplay : RscDisplayEmpty
 					idc = -1;
 					style = 0;
 					moving = 0;
-					w = 20 * GUI_GRID_CENTER_W;
+					w = 15.5 * GUI_GRID_CENTER_W;
 					h = 10.5 * GUI_GRID_CENTER_H;
 					x = 0;
 					y = 0;
@@ -138,9 +138,23 @@ class bravo_aps_moduleDisplay : RscDisplayEmpty
 					colorActive[] = {0.1,0.8,0.1,0.8};
 					colorFocused[] = {0.1,0.8,0.1,0.8};
 					w = 7 * GUI_GRID_CENTER_W;
-					h = 2.5 * GUI_GRID_CENTER_H;
+					h = 1.5 * GUI_GRID_CENTER_H;
 					x = 0.5 * GUI_GRID_CENTER_W;
 					y = 4.5 * GUI_GRID_CENTER_H;
+				};
+				class buttonLoad : RscButton
+				{
+					onButtonClick = "[uiNamespace getVariable ['bravo_aps_currentObject', objNull]] remoteExec ['bravo_fnc_apsLoad']";
+					text = "Load APS";
+					idc = -1;
+					colorBackground[] = {0.1,0.8,0.1,0.8};
+					colorBackgroundActive[] = {0.5,0.8,0.5,1};
+					colorActive[] = {0.1,0.8,0.1,0.8};
+					colorFocused[] = {0.1,0.8,0.1,0.8};
+					w = 7 * GUI_GRID_CENTER_W;
+					h = 1.5 * GUI_GRID_CENTER_H;
+					x = 0.5 * GUI_GRID_CENTER_W;
+					y = 6.5 * GUI_GRID_CENTER_H;
 				};
 				class buttonCancel : RscButton
 				{
