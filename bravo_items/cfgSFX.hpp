@@ -70,4 +70,11 @@ class CfgSFX
 		empty[] = { "", 0, 0, 0, 0, 0, 0, 0 };
 		name = "Radio (Pump Up The Jam)";
 	};
+	class bravo_radioHalfLife
+	{
+		sound0[] = { "\bravo_items\assets\radio_halflife.ogg", db-8, 1.1, 100, 1, 20, 30, 50 };
+		sounds[] = { "sound0"};
+		empty[] = { "", 0, 0, 0, 0, 0, 0, 0 };
+		name = "Radio (Half-Life)";
+	};
 };

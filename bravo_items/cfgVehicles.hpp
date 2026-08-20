@@ -204,4 +204,11 @@ class CfgVehicles
 		author = "Bravo Team";
 		scope = 2;
 	};
+	class bravo_sound_radioHalfLife : Sound
+	{
+		displayName = "Radio (Half-Life)";
+		sound = "bravo_radioHalfLife";
+		author = "Bravo Team";
+		scope = 2;
+	};
 };

@@ -26,6 +26,7 @@ class CfgPatches
 			"bravo_sound_radioMuitinkinyakkin",
 			"bravo_sound_radioLithiumFlower",
 			"bravo_sound_radioPumpUpTheJam",
+			"bravo_sound_radioHalfLife",
 			"bravo_module_cacheSoundSources",
 			"bravo_land_48gb_ddr5",
 			"bravo_land_48gb_ddr5_item"
