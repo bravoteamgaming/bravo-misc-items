@@ -842,3 +842,7 @@ RF AP
 ZEN AISKILL
 - Set default values for ZEN global AI skill and turn it on by default
 - Provide CBA settings for changing the default values
+
+APS
+- Provides a system for basic simulation of active projection systems
+- Provides Zeus module for managing this system

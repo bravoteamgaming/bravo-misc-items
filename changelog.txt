@@ -355,3 +355,4 @@
 - ITEMS: added CBA version mismatch detection
 - VANILLAGUNS: added 5.7mm CPW (CPW 57)
 - MUNITIONS: added Type 29 HVAP magazine for CPW 57
+- APS: new addon with active protection system framework
