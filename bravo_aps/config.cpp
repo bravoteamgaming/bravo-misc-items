@@ -7,7 +7,9 @@ class CfgPatches
 		url = "https://github.com/bravoteamgaming/bravo-misc-items";
 		requiredVersion = 2.00;
 		requiredAddons[] = {};
-		units[] = {};
+		units[] = {
+			"bravo_module_aps"
+		};
 		weapons[] = {};
 		skipWhenMissingDependencies = 1;
 	};

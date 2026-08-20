@@ -6,7 +6,7 @@ class CfgVehicles
 		scope = 1;
 		scopeCurator = 2;
 		displayName = "Manage APS";
-		category = "Intel";
+		category = "zen_modules_objects";
 		function = "bravo_fnc_apsModule";
 		isGlobal = 1;
 		isTriggerActivated = 0;
