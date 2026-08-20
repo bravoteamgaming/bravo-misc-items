@@ -18,6 +18,7 @@ class CfgFunctions
 			class apsLoad{};
 			class apsLocalWarning{};
 			class apsModule{};
+			class apsLoadUIData{};
 		};
 	};
 };

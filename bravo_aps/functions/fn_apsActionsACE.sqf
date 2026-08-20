@@ -28,7 +28,7 @@ private _actionReload = [
 				(_this#0) params ["_target", "_player"];
 				((_target distance _player) < 5) && {alive _target};
 			}
-		] call ace_common_fnc_progressBar;		
+		] call ace_common_fnc_progressBar;
 	},
 	{
 		params ["_target", "_player"];
@@ -57,7 +57,7 @@ private _actionArm = [
 	},
 	{
 		params ["_target", "_player"];
-		(_player == commander _target) && {!(_target getVariable ['bravo_var_apsEnabled',false])}
+		(_player in [commander _target, driver _target]) && {!(_target getVariable ['bravo_var_apsEnabled',false])}
 	},
 	[true],
 	[0,0,0],
@@ -82,7 +82,7 @@ private _actionDisarm = [
 	},
 	{
 		params ["_target", "_player"];
-		(_player == commander _target) && {_target getVariable ['bravo_var_apsEnabled',false]}
+		(_player in [commander _target, driver _target]) && {_target getVariable ['bravo_var_apsEnabled',false]}
 	},
 	[false],
 	[0,0,0],

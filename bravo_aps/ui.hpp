@@ -92,6 +92,7 @@ class bravo_aps_moduleDisplay : RscDisplayEmpty
 					text = "Remove APS";
 					idc = -1;
 					colorBackground[] = {0.8,0.1,0.1,0.8};
+					colorBackgroundActive[] = {0.8,0.5,0.5,1};
 					w = 7 * GUI_GRID_CENTER_W;
 					h = 1.5 * GUI_GRID_CENTER_H;
 					x = 0.5 * GUI_GRID_CENTER_W;
@@ -99,10 +100,11 @@ class bravo_aps_moduleDisplay : RscDisplayEmpty
 				};
 				class buttonDisarm : RscButton
 				{
-					onButtonClick = "[uiNamespace getVariable ['bravo_aps_currentObject', objNull], player, false] remoteExec ['bravo_fnc_apsArm']";
+					onButtonClick = "[uiNamespace getVariable ['bravo_aps_currentObject', objNull], player, [false]] remoteExec ['bravo_fnc_apsArm']";
 					text = "Disarm APS";
 					idc = -1;
 					colorBackground[] = {0.8,0.1,0.1,0.8};
+					colorBackgroundActive[] = {0.8,0.5,0.5,1};
 					w = 7 * GUI_GRID_CENTER_W;
 					h = 1.5 * GUI_GRID_CENTER_H;
 					x = 8 * GUI_GRID_CENTER_W;
@@ -110,10 +112,11 @@ class bravo_aps_moduleDisplay : RscDisplayEmpty
 				};
 				class buttonArm : RscButton
 				{
-					onButtonClick = "[uiNamespace getVariable ['bravo_aps_currentObject', objNull], player, true] remoteExec ['bravo_fnc_apsArm']";
+					onButtonClick = "[uiNamespace getVariable ['bravo_aps_currentObject', objNull], player, [true]] remoteExec ['bravo_fnc_apsArm']";
 					text = "Arm APS";
 					idc = -1;
 					colorBackground[] = {0.1,0.8,0.1,0.8};
+					colorBackgroundActive[] = {0.5,0.8,0.5,1};
 					w = 7 * GUI_GRID_CENTER_W;
 					h = 1.5 * GUI_GRID_CENTER_H;
 					x = 8 * GUI_GRID_CENTER_W;
@@ -125,6 +128,7 @@ class bravo_aps_moduleDisplay : RscDisplayEmpty
 					text = "Add APS";
 					idc = -1;
 					colorBackground[] = {0.1,0.8,0.1,0.8};
+					colorBackgroundActive[] = {0.5,0.8,0.5,1};
 					w = 7 * GUI_GRID_CENTER_W;
 					h = 2.5 * GUI_GRID_CENTER_H;
 					x = 0.5 * GUI_GRID_CENTER_W;

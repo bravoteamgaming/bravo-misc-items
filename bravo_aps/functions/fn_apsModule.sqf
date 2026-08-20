@@ -1,11 +1,11 @@
 params ["_module"];
 if !(local _module) exitWith{};
 if (isNull attachedTo _module) exitWith {
-	systemChat "BFT module: exited, not placed on an object";
+	systemChat "APS module: exited, not placed on an object";
 	deleteVehicle _module;
+	closeDialog 2;
 };
 
-uiNamespace setVariable ["bravo_bft_currentObject", attachedTo _module];
-// private _display = (findDisplay 312) createDisplay "bravo_bft_moduleDisplay";
-// uiNamespace setVariable ["bravo_bft_moduleDisplay", _display];
+uiNamespace setVariable ["bravo_aps_currentObject", attachedTo _module];
+
 deleteVehicle _module;
