@@ -27,7 +27,7 @@ _vehicle setVariable ["bravo_apsReloadAction",_apsReloadAction];
 private _apsArmAction = _vehicle addAction [
 	"Arm APS",	
 	{
-		[_this#0, _this#1, [true]]) call bravo_fnc_apsArm;
+		[_this#0, _this#1, [true]] call bravo_fnc_apsArm;
 	},
 	nil,	
 	-1,	
@@ -45,7 +45,7 @@ _vehicle setVariable ["bravo_apsArmAction",_apsArmAction];
 private _apsDisarmAction = _vehicle addAction [
 	"Disarm APS",	
 	{
-		[_this#0, _this#1, [false]]) call bravo_fnc_apsArm;
+		[_this#0, _this#1, [false]] call bravo_fnc_apsArm;
 	},
 	nil,	
 	-1,	
