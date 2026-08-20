@@ -44,7 +44,7 @@ class CfgSFX
 	};
 	class bravo_radioMuitinkinyakkin
 	{
-		sound0[] = { "\bravo_items\assets\radio_muitinkinyakkin.ogg", db-8, 1.1, 100, 1, 20, 30, 50 };
+		sound0[] = { "\bravo_items\assets\radio_muitinkinyakkin.ogg", db-8, 1.2, 100, 1, 20, 30, 50 };
 		sounds[] = { "sound0"};
 		empty[] = { "", 0, 0, 0, 0, 0, 0, 0 };
 		name = "Radio (Muitinkinyakkin)";
@@ -65,14 +65,14 @@ class CfgSFX
 	};
 	class bravo_radioPumpUpTheJam
 	{
-		sound0[] = { "\bravo_items\assets\radio_pumpupthejam.ogg", db-8, 1.1, 100, 1, 20, 30, 50 };
+		sound0[] = { "\bravo_items\assets\radio_pumpupthejam.ogg", db-8, 1.2, 100, 1, 20, 30, 50 };
 		sounds[] = { "sound0"};
 		empty[] = { "", 0, 0, 0, 0, 0, 0, 0 };
 		name = "Radio (Pump Up The Jam)";
 	};
 	class bravo_radioHalfLife
 	{
-		sound0[] = { "\bravo_items\assets\radio_halflife.ogg", db-8, 1.1, 100, 1, 20, 30, 50 };
+		sound0[] = { "\bravo_items\assets\radio_halflife.ogg", db-8, 1.4, 100, 1, 20, 30, 50 };
 		sounds[] = { "sound0"};
 		empty[] = { "", 0, 0, 0, 0, 0, 0, 0 };
 		name = "Radio (Half-Life)";
