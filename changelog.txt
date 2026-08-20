@@ -353,6 +353,7 @@
 2026-08-20
 - ITEMS: added more sound sources
 - ITEMS: added CBA version mismatch detection
-- VANILLAGUNS: added 5.7mm CPW (CPW 57)
+- VANILLAGUNS: added 5.7mm CPW (CPW 57) and 4.6mm CPW (CPW 46)
+- VANILLAGUNS: changed MXCQC muzzle slot to 5.7mm
 - MUNITIONS: added Type 29 HVAP magazine for CPW 57
 - APS: new addon with active protection system framework

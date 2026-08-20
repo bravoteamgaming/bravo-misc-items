@@ -2,6 +2,8 @@ class asdg_OpticRail1913;
 class asdg_MuzzleSlot_762;
 class asdg_MuzzleSlot_58;
 class asdg_MuzzleSlot_556;
+class asdg_MuzzleSlot_46;
+class MuzzleSlot_57;
 
 class CfgWeapons
 {	
@@ -70,7 +72,11 @@ class CfgWeapons
 	
 	#include "f2000.hpp"
 	
-	class hgun_PDW2000_F;
+	class pdw2000_base_F;
+	class hgun_PDW2000_F : pdw2000_base_F
+	{
+		class WeaponSlotsInfo;
+	};
 	class bravo_cpw_57 : hgun_PDW2000_F
 	{
 		baseWeapon = "bravo_cpw_57";
@@ -78,6 +84,26 @@ class CfgWeapons
 		descriptionShort = "Submachine Gun<br />Caliber: 5.7x28 mm";
 		magazineWell[] = {"bravo_57x28_cpw"};
 		magazines[] = {"bravo_30rnd_57x28mm_cpw"};
+		class WeaponSlotsInfo : WeaponSlotsInfo
+		{
+			mass = 69;
+			class MuzzleSlot : MuzzleSlot_57
+			{};
+		};
+	};
+	class bravo_cpw_46 : hgun_PDW2000_F
+	{
+		baseWeapon = "bravo_cpw_46";
+		displayName = "CPW 46";
+		descriptionShort = "Submachine Gun<br />Caliber: 4.6x30 mm";
+		magazineWell[] = {"bravo_46x30_cpw"};
+		magazines[] = {"bravo_30rnd_46x30mm_cpw"};
+		class WeaponSlotsInfo : WeaponSlotsInfo
+		{
+			mass = 69;
+			class MuzzleSlot : asdg_MuzzleSlot_46
+			{};
+		};
 	};
 };
 

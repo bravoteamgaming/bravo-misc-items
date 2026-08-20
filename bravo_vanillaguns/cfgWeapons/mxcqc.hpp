@@ -26,7 +26,7 @@
 		class WeaponSlotsInfo : WeaponSlotsInfo
 		{
 			mass = 69;
-			class MuzzleSlot : asdg_MuzzleSlot_556
+			class MuzzleSlot : MuzzleSlot_57
 			{};
 		};
 		class single : single

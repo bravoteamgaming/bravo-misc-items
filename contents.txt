@@ -12,6 +12,7 @@ VANILLAGUNS
 - Add QBU-97A and mags
 - Add MXCQC (5.7mm MXC)
 - Add black and orange versions of F2000
+- Add 5.7mm and 4.6mm CPW
 
 ACR 6.8
 - Add 6.8mm versions of Remington ACR

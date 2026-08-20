@@ -64,6 +64,27 @@ class cfgMagazines
 		descriptionShort = "Caliber: 5.7x28 mm<br />Rounds: 30<br />Used in: CPW";
 		initSpeed = 716;
 	};
+	class bravo_30rnd_46x30mm_ap_cpw : 30Rnd_9x21_Mag
+	{
+		ammo = "rhs_ammo_46x30_AP";
+		displayName = "4.6 mm 30Rnd AP CPW Magazine";
+		descriptionShort = "Caliber: 4.6x30 mm<br />Rounds: 30<br />Used in: CPW";
+		initSpeed = 681;
+	};
+	class bravo_30rnd_46x30mm_fmj_cpw : 30Rnd_9x21_Mag
+	{
+		ammo = "rhs_ammo_46x30_FMJ";
+		displayName = "4.6 mm 30Rnd FMJ CPW Magazine";
+		descriptionShort = "Caliber: 4.6x30 mm<br />Rounds: 30<br />Used in: CPW";
+		initSpeed = 621;
+	};
+	class bravo_30rnd_46x30mm_jhp_cpw : 30Rnd_9x21_Mag
+	{
+		ammo = "rhs_ammo_46x30_JHP";
+		displayName = "4.6 mm 30Rnd JHP CPW Magazine";
+		descriptionShort = "Caliber: 4.6x30 mm<br />Rounds: 30<br />Used in: CPW";
+		initSpeed = 691;
+	};
 };
 
 class cfgMagazineWells
@@ -90,6 +111,14 @@ class cfgMagazineWells
 	{
 		bravo_vanillaguns_mags[] = {
 			"bravo_30rnd_57x28mm_cpw"
+		};
+	};
+	class bravo_46x30_cpw
+	{
+		bravo_vanillaguns_mags[] = {
+			"bravo_30rnd_46x30mm_jhp_cpw",
+			"bravo_30rnd_46x30mm_fmj_cpw",
+			"bravo_30rnd_46x30mm_ap_cpw"
 		};
 	};
 };
