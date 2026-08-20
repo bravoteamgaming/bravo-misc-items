@@ -44,28 +44,28 @@ class CfgSFX
 	};
 	class bravo_radioMuitinkinyakkin
 	{
-		sound0[] = { "\bravo_items\assets\radio_muitinkinyakkin.ogg", db-8, 1.0, 100, 1, 20, 30, 50 };
+		sound0[] = { "\bravo_items\assets\radio_muitinkinyakkin.ogg", db-8, 1.1, 100, 1, 20, 30, 50 };
 		sounds[] = { "sound0"};
 		empty[] = { "", 0, 0, 0, 0, 0, 0, 0 };
 		name = "Radio (Muitinkinyakkin)";
 	};
 	class bravo_radioLithiumFlower
 	{
-		sound0[] = { "\bravo_items\assets\radio_lithiumflower.ogg", db-8, 1.0, 75, 1, 20, 30, 50 };
+		sound0[] = { "\bravo_items\assets\radio_lithiumflower.ogg", db-8, 1.1, 100, 1, 20, 30, 50 };
 		sounds[] = { "sound0"};
 		empty[] = { "", 0, 0, 0, 0, 0, 0, 0 };
 		name = "Radio (Lithium Flower)";
 	};
 	class bravo_alarmCar
 	{
-		sound0[] = { "\bravo_items\assets\alarm_car.ogg", db-13, 1.0, 300, 1, 0, 0, 0 };
+		sound0[] = { "\bravo_items\assets\alarm_car.ogg", db-13, 1.2, 300, 1, 0, 0, 0 };
 		sounds[] = { "sound0"};
 		empty[] = { "", 0, 0, 0, 0, 0, 0, 0 };
 		name = "Alarm (Car)";
 	};
 	class bravo_radioPumpUpTheJam
 	{
-		sound0[] = { "\bravo_items\assets\radio_pumpupthejam.ogg", db-8, 1.0, 75, 1, 20, 30, 50 };
+		sound0[] = { "\bravo_items\assets\radio_pumpupthejam.ogg", db-8, 1.1, 100, 1, 20, 30, 50 };
 		sounds[] = { "sound0"};
 		empty[] = { "", 0, 0, 0, 0, 0, 0, 0 };
 		name = "Radio (Pump Up The Jam)";
