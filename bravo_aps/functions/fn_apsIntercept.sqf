@@ -45,8 +45,14 @@ playSound3D ["A3\Sounds_F\arsenal\explosives\rockets\Rocket_closeExp_02.wss",_ve
 playSound3D ["A3\Sounds_F\arsenal\explosives\rockets\RocketHeavy_tailMeadows_01.wss",_vehicle,false,getPosASL _vehicle,1,1,150];
 
 // APS aren't completely safe...
-private _fxgrenade = createVehicle ["BombCluster_01_UXO3_Ammo_F",_projectilePos,[],0,"CAN_COLLIDE"];
-triggerAmmo _fxgrenade;
+private _intgrenade = createVehicle ["bravo_aps_interceptor",_projectilePos,[],0,"CAN_COLLIDE"];
+triggerAmmo _intgrenade;
+
+private _vicPos = getPosASL _vehicle;
+private _dir = (_vicPos vectorFromTo (ATLtoASL _projectilePos)) vectorMultiply 8;
+private _launcherPos = ASLtoATL (_vicPos vectorAdd _dir);
+private _laugrenade = createVehicle ["bravo_aps_launcher",_launcherPos,[],0,"CAN_COLLIDE"];
+triggerAmmo _laugrenade;
 
 // grace period during which any additional shots will still be intercepted
 uisleep 2;

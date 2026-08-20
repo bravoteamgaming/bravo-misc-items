@@ -19,6 +19,7 @@ class CfgPatches
 #include "cfgMagazines.hpp"
 #include "ui.hpp"
 #include "cfgVehicles.hpp"
+#include "cfgAmmo.hpp"
 
 class CfgSounds
 {
