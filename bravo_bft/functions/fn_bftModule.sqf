@@ -2,6 +2,7 @@ params ["_module"];
 if !(local _module) exitWith{};
 if (isNull attachedTo _module) exitWith {
 	systemChat "BFT module: exited, not placed on an object";
+	closeDialog 2;
 	deleteVehicle _module;
 };
 
