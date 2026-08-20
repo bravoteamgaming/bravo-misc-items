@@ -36,14 +36,14 @@ private _actionReload = [
 	},
 	{},
 	[],
-	[0,0,0],
+	{call ace_interaction_fnc_getVehiclePos},
 	5
 ] call ace_interact_menu_fnc_createAction;
 
 [
 	_vehicle,
 	0,
-	["ACE_Actions"],
+	["ACE_Actions", "ACE_MainActions"],
 	_actionReload
 ] call ace_interact_menu_fnc_addActionToObject;
 
@@ -62,7 +62,7 @@ private _actionArm = [
 	},
 	{},
 	[true],
-	[0,0,0],
+	{call ace_interaction_fnc_getVehiclePos},
 	5
 ] call ace_interact_menu_fnc_createAction;
 
@@ -88,7 +88,7 @@ private _actionDisarm = [
 	},
 	{},
 	[false],
-	[0,0,0],
+	{call ace_interaction_fnc_getVehiclePos},
 	5
 ] call ace_interact_menu_fnc_createAction;
 
