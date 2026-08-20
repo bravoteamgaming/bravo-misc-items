@@ -323,7 +323,7 @@ class CfgMagazines
 	};
 	
 	class 30Rnd_9x21_Mag;
-	class bravo_30rnd_57x28mm_cpw_type29 : gm_30rnd_9x19mm_b_dm11_mp5_blk
+	class bravo_30rnd_57x28mm_cpw_type29 : 30Rnd_9x21_Mag
 	{
 		ammo = "bravo_bullet_57x28_type29";
 		displayName = "5.7 mm 30Rnd CPW Type 29 HVAP Magazine";
