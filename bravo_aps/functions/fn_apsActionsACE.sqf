@@ -43,7 +43,7 @@ private _actionReload = [
 [
 	_vehicle,
 	0,
-	["ACE_Actions", "ACE_MainActions"],
+	["ACE_MainActions"],
 	_actionReload
 ] call ace_interact_menu_fnc_addActionToObject;
 

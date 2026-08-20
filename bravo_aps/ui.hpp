@@ -98,7 +98,7 @@ class bravo_aps_moduleDisplay : RscDisplayEmpty
 					w = 7 * GUI_GRID_CENTER_W;
 					h = 1.5 * GUI_GRID_CENTER_H;
 					x = 0.5 * GUI_GRID_CENTER_W;
-					y = 2.5 * GUI_GRID_CENTER_H;
+					y = 0.5 * GUI_GRID_CENTER_H;
 				};
 				class buttonDisarm : RscButton
 				{
@@ -112,7 +112,7 @@ class bravo_aps_moduleDisplay : RscDisplayEmpty
 					w = 7 * GUI_GRID_CENTER_W;
 					h = 1.5 * GUI_GRID_CENTER_H;
 					x = 8 * GUI_GRID_CENTER_W;
-					y = 2.5 * GUI_GRID_CENTER_H;
+					y = 0.5 * GUI_GRID_CENTER_H;
 				};
 				class buttonArm : RscButton
 				{
@@ -126,7 +126,7 @@ class bravo_aps_moduleDisplay : RscDisplayEmpty
 					w = 7 * GUI_GRID_CENTER_W;
 					h = 1.5 * GUI_GRID_CENTER_H;
 					x = 8 * GUI_GRID_CENTER_W;
-					y = 4.5 * GUI_GRID_CENTER_H;
+					y = 3.5 * GUI_GRID_CENTER_H;
 				};
 				class buttonOK : RscButton
 				{
@@ -140,7 +140,7 @@ class bravo_aps_moduleDisplay : RscDisplayEmpty
 					w = 7 * GUI_GRID_CENTER_W;
 					h = 2.5 * GUI_GRID_CENTER_H;
 					x = 0.5 * GUI_GRID_CENTER_W;
-					y = 4.5 * GUI_GRID_CENTER_H;
+					y = 3.5 * GUI_GRID_CENTER_H;
 				};
 				class buttonCancel : RscButton
 				{
@@ -150,7 +150,7 @@ class bravo_aps_moduleDisplay : RscDisplayEmpty
 					w = 7 * GUI_GRID_CENTER_W;
 					h = 2.5 * GUI_GRID_CENTER_H;
 					x = 8 * GUI_GRID_CENTER_W;
-					y = 7.5 * GUI_GRID_CENTER_H;
+					y = 6.5 * GUI_GRID_CENTER_H;
 				};
 				class objectname : RscText
 				{
@@ -159,7 +159,7 @@ class bravo_aps_moduleDisplay : RscDisplayEmpty
 					w = 19 * GUI_GRID_CENTER_W;
 					h = 2.5 * GUI_GRID_CENTER_H;
 					x = 0.5 * GUI_GRID_CENTER_W;
-					y = 0.5 * GUI_GRID_CENTER_H;
+					y = 6.5 * GUI_GRID_CENTER_H;
 				};
 			};
 		};
