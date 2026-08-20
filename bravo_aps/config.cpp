@@ -18,6 +18,7 @@ class CfgPatches
 #include "cfgFunctions.hpp"
 #include "cfgMagazines.hpp"
 #include "ui.hpp"
+#include "cfgVehicles.hpp"
 
 class CfgSounds
 {
