@@ -321,6 +321,16 @@ class CfgMagazines
 		ammo = "bravo_missile_fgm202";
 		initSpeed = 150;
 	};
+	
+	class 30Rnd_9x21_Mag;
+	class bravo_30rnd_57x28mm_cpw_type29 : gm_30rnd_9x19mm_b_dm11_mp5_blk
+	{
+		ammo = "bravo_bullet_57x28_type29";
+		displayName = "5.7 mm 30Rnd CPW Type 29 HVAP Magazine";
+		descriptionShort = "Caliber: 5.7x28 mm<br />Rounds: 30<br />Used in: CPW";
+		displayNameShort = "HVAP";
+		initSpeed = 850;
+	};
 };
 class CfgMagazineWells
 {
@@ -411,6 +421,12 @@ class CfgMagazineWells
 	{
 		bravo_munitions_mags[] = {
 			"bravo_6rnd_45acp_type29_cylinder"
+		};
+	};
+	class bravo_57x28_cpw
+	{
+		bravo_munitions_mags[] = {
+			"bravo_30rnd_57x28mm_cpw_type29"
 		};
 	};
 };

@@ -55,6 +55,15 @@ class cfgMagazines
 		initSpeed = 716;
 		mass = 12;
 	};
+	
+	class 30Rnd_9x21_Mag;
+	class bravo_30rnd_57x28mm_cpw : 30Rnd_9x21_Mag
+	{
+		ammo = "b_570x28_ball";
+		displayName = "5.7 mm 30Rnd CPW Magazine";
+		descriptionShort = "Caliber: 5.7x28 mm<br />Rounds: 30<br />Used in: CPW";
+		initSpeed = 716;
+	};
 };
 
 class cfgMagazineWells
@@ -75,6 +84,12 @@ class cfgMagazineWells
 	{
 		bravo_vanillaguns_mags[] = {
 			"bravo_30rnd_57x28mm_mx"
+		};
+	};
+	class bravo_57x28_cpw
+	{
+		bravo_vanillaguns_mags[] = {
+			"bravo_30rnd_57x28mm_cpw"
 		};
 	};
 };

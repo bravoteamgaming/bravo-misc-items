@@ -353,3 +353,5 @@
 2026-08-20
 - ITEMS: added more sound sources
 - ITEMS: added CBA version mismatch detection
+- VANILLAGUNS: added 5.7mm CPW (CPW 57)
+- MUNITIONS: added Type 29 HVAP magazine for CPW 57

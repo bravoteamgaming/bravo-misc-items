@@ -69,6 +69,16 @@ class CfgWeapons
 	#include "mxcqc.hpp"
 	
 	#include "f2000.hpp"
+	
+	class hgun_PDW2000_F;
+	class bravo_cpw_57 : hgun_PDW2000_F
+	{
+		baseWeapon = "bravo_cpw_57";
+		displayName = "CPW 57";
+		descriptionShort = "Submachine Gun<br />Caliber: 5.7x28 mm";
+		magazineWell[] = {"bravo_57x28_cpw"};
+		magazines[] = {"bravo_30rnd_57x28mm_cpw"};
+	};
 };
 
 class CfgRecoils
