@@ -76,7 +76,7 @@ class CfgHints
 			arguments[] = {};
 			tip = "Fight fire with fire.";
 			image = "\a3\ui_f\data\gui\cfg\hints\Miss_icon_ca.paa";
-			description = "The active protection system attempts to intercept shells, missiles, and rockets that are about to hit the vehicle. %1%1The APS starts in the disarmed state. It can be armed, and then disarmed again, by the vehicle commander or driver from the action menu (if ACE is not loaded) or the ACE interaction menu.%%1%1The APS will provide an auditory alert to the vehicle crew when it attempts an interception, as well as a visual warning to crewmembers looking at their optics.%1%1The maximum interception range is 50 metres.%1%1%3THE APS IS DANGEROUS%4. Intercepting a projectile creates an explosion which can injure or kill nearby units.%1%1%3THE APS IS NOT A PERFECT SHIELD%4 It may struggle to intercept high-velocity projectiles or projectiles with unusual trajectories.";
+			description = "The active protection system attempts to intercept shells, missiles, and rockets that are about to hit the vehicle. %1%1The APS starts in the disarmed state. It can be armed, and then disarmed again, by the vehicle commander or driver from the action menu (if ACE is not loaded) or the ACE interaction menu.%%1%1The APS will provide an auditory alert to the vehicle crew when it attempts an interception, as well as a visual warning to crewmembers looking at their optics.%1%1The maximum interception range is 50 metres.%1%1%3THE APS IS DANGEROUS.%4 Intercepting a projectile creates an explosion which can injure or kill nearby units.%1%1%3THE APS IS NOT A PERFECT SHIELD.%4 It may struggle to intercept high-velocity projectiles or projectiles with unusual trajectories.";
 		};
 		class Technical
 		{
