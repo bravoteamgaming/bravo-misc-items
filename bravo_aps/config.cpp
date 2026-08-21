@@ -71,27 +71,30 @@ class CfgHints
 		displayName = "Active Protection System";
 		class Operation
 		{
+			logicalOrder = 1;
 			displayName = "Operation";
 			arguments[] = {};
-			description = "Vehicles can be equipped with an active protection system.";
+			tip = "Fight fire with fire.";
 			image = "\a3\ui_f\data\gui\cfg\hints\Miss_icon_ca.paa";
-			tip = "The active protection system attempts to intercept shells, missiles, and rockets that are about to hit the vehicle. %1%1The APS starts in the disarmed state. It can be armed, and then disarmed again, by the vehicle commander or driver from the action menu (if ACE is not loaded) or the ACE interaction menu.%%1%1The APS will provide an auditory alert to the vehicle crew when it attempts an interception, as well as a visual warning to crewmembers looking at their optics.%1%1The maximum interception range is 50 metres.%1%1%3THE APS IS DANGEROUS%4. Intercepting a projectile creates an explosion which can injure or kill nearby units.%1%1%3THE APS IS NOT A PERFECT SHIELD%4 It may struggle to intercept high-velocity projectiles or projectiles with unusual trajectories.";
+			description = "The active protection system attempts to intercept shells, missiles, and rockets that are about to hit the vehicle. %1%1The APS starts in the disarmed state. It can be armed, and then disarmed again, by the vehicle commander or driver from the action menu (if ACE is not loaded) or the ACE interaction menu.%%1%1The APS will provide an auditory alert to the vehicle crew when it attempts an interception, as well as a visual warning to crewmembers looking at their optics.%1%1The maximum interception range is 50 metres.%1%1%3THE APS IS DANGEROUS%4. Intercepting a projectile creates an explosion which can injure or kill nearby units.%1%1%3THE APS IS NOT A PERFECT SHIELD%4 It may struggle to intercept high-velocity projectiles or projectiles with unusual trajectories.";
 		};
 		class Technical
 		{
+			logicalOrder = 3;
 			displayName = "Technical";
 			arguments[] = {};
-			description = "Implementation of the APS";
+			tip = "You can inspect the code and UI in the functions and config viewers.";
 			image = "\a3\ui_f\data\gui\cfg\hints\Miss_icon_ca.paa";
-			tip = "APS can be added to a vehicle by scripting (bravo_fnc_apsInit) or by using the Zeus module provided. Note that the script function must be run on all clients with JIP.%1%1The system's efficiency can depend on the shooter's frame rate. Low frame rates on the shooter's machine can reduce the APS's maximum interception velocity.";
+			description = "APS can be added to a vehicle by scripting (bravo_fnc_apsInit) or by using the Zeus module provided. Note that the script function must be run on all clients with JIP.%1%1The system's efficiency can depend on the shooter's frame rate. Low frame rates on the shooter's machine can reduce the APS's maximum interception velocity.";
 		};
 		class Maintenance
 		{
+			logicalOrder = 2;
 			displayName = "Maintenance";
 			arguments[] = {};
-			description = "How to help the APS help you";
+			tip = "Remember to reload your APS after an interception.";
 			image = "\a3\ui_f\data\gui\cfg\hints\Miss_icon_ca.paa";
-			tip = "The APS contains a single interception charge. After firing, it can be reloaded from outside the vehicle if you have a replacement charge in your inventory. You can check if the APS is loaded by disarming and arming it - the system indicates 'NO CHARGE' in the HUD notification for arming if the APS is not loaded.";
+			description = "The APS contains a single interception charge. After firing, it can be reloaded from outside the vehicle if you have a replacement charge in your inventory. You can check if the APS is loaded by disarming and arming it - the system indicates 'NO CHARGE' in the HUD notification for arming if the APS is not loaded.";
 		};
 	};
 };
