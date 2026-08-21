@@ -7,7 +7,6 @@ class CfgMagazines
 		ammo = "Default";
 		count = 1;
 		scope = 2;
-		scopeArsenal = 2;
 		ace_asItem = 1;
 		picture = "\bravo_aps\assets\apscharge_ui.paa";
 		displayName = "APS Charge";
