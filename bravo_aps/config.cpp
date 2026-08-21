@@ -6,7 +6,7 @@ class CfgPatches
 		author = "NikkoJT";
 		url = "https://github.com/bravoteamgaming/bravo-misc-items";
 		requiredVersion = 2.00;
-		requiredAddons[] = {};
+		requiredAddons[] = {"A3_Data_F_Decade_Loadorder"};
 		units[] = {
 			"bravo_module_aps"
 		};
