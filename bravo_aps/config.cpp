@@ -8,7 +8,8 @@ class CfgPatches
 		requiredVersion = 2.00;
 		requiredAddons[] = {"A3_Data_F_Decade_Loadorder"};
 		units[] = {
-			"bravo_module_aps"
+			"bravo_module_aps",
+			"bravo_case_olive_aps"
 		};
 		weapons[] = {};
 		skipWhenMissingDependencies = 1;
