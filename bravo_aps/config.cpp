@@ -26,7 +26,7 @@ class CfgSounds
 	class bravo_aps_activation
 	{
 		name = "APS activation alarm";
-		sound[] = {"\bravo_aps\assets\aps_activate.ogg", 5, 1, 100};
+		sound[] = {"\bravo_aps\assets\aps_activate.ogg", 2, 1, 100};
 		titles[] = {};
 	};
 	class bravo_aps_activation_front

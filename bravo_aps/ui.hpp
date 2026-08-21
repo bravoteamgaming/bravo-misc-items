@@ -17,10 +17,7 @@ class RscStructuredText;
 
 class bravo_aps_hudTextLeft : RscStructuredText
 {
-	type = 0;
 	idc = -1;
-	style = 0;
-	moving = 0;
 	w = 20 * GUI_GRID_CENTER_W;
 	h = 4.5 * GUI_GRID_CENTER_H;
 	x = 0 * GUI_GRID_CENTER_W;
@@ -28,17 +25,19 @@ class bravo_aps_hudTextLeft : RscStructuredText
 	sizeEx = 1;
 	colorText[] = {1,0.1,0.1,1};
 	colorBackground[] = {0,0,0,0};
-	font = "PuristaBold";
 	text = "";
 	shadow = 0;
+	class Attributes
+	{
+		font = "PuristaBold";
+		color = "#ff1a1a";
+		shadow = 0;
+	};
 };
 
 class bravo_aps_hudTextRight : RscStructuredText
 {
-	type = 0;
 	idc = -1;
-	style = 0;
-	moving = 0;
 	w = 20 * GUI_GRID_CENTER_W;
 	h = 4.5 * GUI_GRID_CENTER_H;
 	x = 20 * GUI_GRID_CENTER_W;
@@ -49,6 +48,12 @@ class bravo_aps_hudTextRight : RscStructuredText
 	font = "PuristaBold";
 	text = "";
 	shadow = 0;
+	class Attributes
+	{
+		font = "PuristaBold";
+		color = "#ff1a1a";
+		shadow = 0;
+	};
 };
 
 

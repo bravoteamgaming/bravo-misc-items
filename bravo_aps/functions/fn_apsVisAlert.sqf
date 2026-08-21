@@ -14,10 +14,10 @@ private _type = [
 ] select _position;
 
 if (cameraView == "GUNNER") then {
-	private _overrideWarningDisplay = findDisplay 46 ctrlCreate [_type, 4404];
-	_overrideWarningDisplay ctrlSetStructuredText parseText ("<t shadow='0' size='1.1' align='left'>" + _text + "</t>");
+	private _ctrl = findDisplay 46 ctrlCreate [_type, -1];
+	_ctrl ctrlSetStructuredText parseText ("<t shadow='0' size='1.1' align='left'>" + _text + "</t>");
 	// _overrideWarningDisplay ctrlSetTextColor [1,0.1,0.1,1];
-	_overrideWarningDisplay ctrlCommit 0;
+	_ctrl ctrlCommit 0;
 	sleep _delay;
-	ctrlDelete _overrideWarningDisplay;
+	ctrlDelete _ctrl;
 };
