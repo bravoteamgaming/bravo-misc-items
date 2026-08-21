@@ -57,7 +57,7 @@ class CfgSounds
 
 class CfgHintCategories
 {
-	class bravo_aps
+	class bravo_aps_cat
 	{
 		displayName = "Bravo Active Protection System";
 	};
@@ -67,7 +67,7 @@ class CfgHints
 {
 	class bravo_aps
 	{
-		category = "bravo_aps";
+		category = "bravo_aps_cat";
 		displayName = "Active Protection System";
 		class userManual
 		{
