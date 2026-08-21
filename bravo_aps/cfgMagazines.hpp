@@ -3,7 +3,9 @@ class CfgMagazines
 	class CA_Magazine;
 	class bravo_apscharge : CA_Magazine
 	{
-		ammo = "";
+		author = "Bravo Team";
+		ammo = "Default";
+		count = 1;
 		scope = 2;
 		scopeArsenal = 2;
 		ace_asItem = 1;
