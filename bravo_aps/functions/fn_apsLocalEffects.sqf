@@ -1,12 +1,13 @@
 // APS - LOCAL EFFECTS MODULE
 // This function generates particle effects when the APS activates.
 
-params ["_projectilePos","_vehicle"];
+params ["_projectilePos","_vicPos", "_projectilePosASL"];
+private _vicPosATL = ASLtoATL _vicPos;
 
 private _emitter1 = "#particlesource" createVehicleLocal _projectilePos;
-private _emitter2 = "#particlesource" createVehicleLocal (getPosATL _vehicle);
-private _emitter3 = "#particlesource" createVehicleLocal (getPosATL _vehicle);
-private _emitter4 = "#particlesource" createVehicleLocal ((getPosATL _vehicle) vectorAdd ((getPosATL _vehicle vectorFromTo _projectilePos) vectorMultiply 3));
+private _emitter2 = "#particlesource" createVehicleLocal _vicPosATL;
+private _emitter3 = "#particlesource" createVehicleLocal _vicPosATL;
+private _emitter4 = "#particlesource" createVehicleLocal (_vicPosATL vectorAdd ((_vicPos vectorFromTo _projectilePosASL) vectorMultiply 3));
 
 
 _emitter1 setParticleParams [["\A3\data_f\ParticleEffects\Universal\Universal.p3d",16,7,48,1],"","Billboard",1,18,[0,0,0],[0,0,0],1,1.00,0.8,0.15,[4,15],[[0.158897,0.143513,0.116593,0.693464],[0.6,0.6,0.6,0.15],[0.7,0.7,0.7,0.06],[1,1,1,0.01]],[0.5],0.2,0.1,"","","",0,false,0,[[0,0,0,0]],[0,1,0]];

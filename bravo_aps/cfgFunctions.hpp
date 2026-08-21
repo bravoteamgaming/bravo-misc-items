@@ -16,7 +16,8 @@ class CfgFunctions
 			class apsRemove{};
 			class apsArm{};
 			class apsLoad{};
-			class apsLocalWarning{};
+			class apsVisAlert{};
+			class apsSoundAlert{};
 			class apsModule{};
 			class apsLoadUIData{};
 		};
