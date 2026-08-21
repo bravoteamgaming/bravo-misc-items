@@ -15,4 +15,20 @@ class CfgVehicles
 		curatorCanAttach = 1;
 		curatorInfoType = "bravo_aps_moduleDisplay";
 	};
+	
+	class Land_PlasticCase_01_medium_olive_F;
+	class bravo_case_olive_aps : Land_PlasticCase_01_medium_olive_F
+	{
+		displayName = "Case of APS Charges";
+		editorCategory = "EdCat_Supplies";
+		editorSubcategory = "";
+		class TransportMagazines
+		{
+			class bravo_apscharge
+			{
+				magazine = "bravo_apscharge";
+				count = 5;
+			};
+		};
+	};
 };
