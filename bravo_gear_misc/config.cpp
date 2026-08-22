@@ -246,7 +246,8 @@ class CfgPatches
 			"bravo_gm_uniform_operator_rolled_mcam_unit",
 			"bravo_gm_uniform_operator_rolled_blu_unit",
 			"bravo_gm_uniform_operator_rolled_tgr_unit",
-			"bravo_gm_uniform_operator_rolled_win_unit"
+			"bravo_gm_uniform_operator_rolled_win_unit",
+			"bravo_vrsuit_plain_unit"
 		};
 		weapons[] = {
 			"bravo_carrier_nobelt_rf_blk",
@@ -924,7 +925,8 @@ class CfgPatches
 			"bravo_vest_m00_machinegunner_blk",
 			"bravo_vest_m00_blk_np",
 			"bravo_vest_m00_rifleman_blk_np",
-			"bravo_vest_m00_machinegunner_blk_np"
+			"bravo_vest_m00_machinegunner_blk_np",
+			"bravo_vrsuit_plain"
 		};
 		skipWhenMissingDependencies = 1;
 	};

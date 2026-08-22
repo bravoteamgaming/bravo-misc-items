@@ -630,4 +630,18 @@ class cfgWeapons
 	#include "rhsspc.hpp"
 
 	#include "dkvest.hpp"
+	
+	class Uniform_Base;
+	class U_B_Protagonist_VR : Uniform_Base
+	{
+		class ItemInfo;
+	};
+	class bravo_vrsuit_plain : U_B_Protagonist_VR
+	{
+		displayName = "VR Suit";
+		class ItemInfo : ItemInfo
+		{
+			uniformClass = "bravo_vrsuit_plain_unit";
+		};
+	};
 };

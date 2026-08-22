@@ -358,3 +358,6 @@
 - MUNITIONS: added Type 29 HVAP magazine for CPW 57
 - APS: new addon with active protection system framework
 - BFT: fixed Zeus module menu staying open when the module isn't placed on an object
+
+2026-08-21
+- GEAR MISC: added plain VR Suit
