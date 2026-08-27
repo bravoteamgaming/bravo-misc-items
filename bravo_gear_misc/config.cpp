@@ -926,7 +926,8 @@ class CfgPatches
 			"bravo_vest_m00_blk_np",
 			"bravo_vest_m00_rifleman_blk_np",
 			"bravo_vest_m00_machinegunner_blk_np",
-			"bravo_vrsuit_plain"
+			"bravo_vrsuit_plain",
+			"bravo_vrsuit_des"
 		};
 		skipWhenMissingDependencies = 1;
 	};

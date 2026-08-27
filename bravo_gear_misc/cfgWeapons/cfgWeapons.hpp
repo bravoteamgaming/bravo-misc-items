@@ -644,4 +644,12 @@ class cfgWeapons
 			uniformClass = "bravo_vrsuit_plain_unit";
 		};
 	};
+	class bravo_vrsuit_des : U_B_Protagonist_VR
+	{
+		displayName = "VR Suit (Tan)";
+		class ItemInfo : ItemInfo
+		{
+			uniformClass = "bravo_vrsuit_des_unit";
+		};
+	};
 };

@@ -134,7 +134,11 @@ class cfgVehicles
 	class bravo_vrsuit_plain_unit : B_Protagonist_VR_F
 	{
 		scope = 1;
-		hiddenSelectionsTextures[] = {"#(argb,8,8,3)color(0.3,0.3,0.3,0.3,co)","a3\characters_f_bootcamp\common\data\vrsuit_01_co.paa","a3\characters_f_bootcamp\common\data\vrsuit_02_co.paa","a3\characters_f_bootcamp\common\data\vrarmor_co.paa"};
+		hiddenSelectionsTextures[] = {"","a3\characters_f_bootcamp\common\data\vrsuit_01_co.paa","a3\characters_f_bootcamp\common\data\vrsuit_02_co.paa","a3\characters_f_bootcamp\common\data\vrarmor_co.paa"};
 		hiddenSelectionsMaterials[] = {"\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat"};
+	};
+	class bravo_vrsuit_des_unit : bravo_vrsuit_plain_unit
+	{
+		hiddenSelectionsTextures[] = {"","\bravo_gear_misc\assets\vrsuit_01_des_co","\bravo_gear_misc\assets\vrsuit_02_des_co","\bravo_gear_misc\assets\vrarmor_des_co"};
 	};
 };
