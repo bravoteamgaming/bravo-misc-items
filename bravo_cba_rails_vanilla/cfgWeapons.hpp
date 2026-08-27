@@ -204,32 +204,32 @@ class CfgWeapons
 	// FLASHLIGHTS
 	#define VANILLA_LIGHT_RIFLE\
 		color[] = {26,23,18};\
-		outerAngle = 35;\
+		outerAngle = 30;\
 		innerAngle = 5;\
 		coneFadeCoef = 2;\
-		intensity = 330;\
+		intensity = 100;\
 		class Attenuation\
 		{\
-			start = 0;\
-			constant = 0.2;\
-			linear = 0.1;\
-			quadratic = 0.05;\
-			hardLimitStart = 100;\
-			hardLimitEnd = 150;\
+			start = 50;\
+			constant = 0.01;\
+			linear = 0;\
+			quadratic = 0.003;\
+			hardLimitStart = 150;\
+			hardLimitEnd = 200;\
 		};
 	
 	#define VANILLA_LIGHT_PISTOL\
 		color[] = {26,23,18};\
-		outerAngle = 70;\
+		outerAngle = 40;\
 		innerAngle = 5;\
 		coneFadeCoef = 10;\
-		intensity = 100;\
+		intensity = 90;\
 		class Attenuation\
 		{\
-			start = 0;\
-			constant = 0.5;\
-			linear = 0.2;\
-			quadratic = 0.6;\
+			start = 25;\
+			constant = 0.01;\
+			linear = 0;\
+			quadratic = 0.003;\
 			hardLimitStart = 100;\
 			hardLimitEnd = 150;\
 		};

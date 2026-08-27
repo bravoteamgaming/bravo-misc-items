@@ -138,34 +138,35 @@ class CfgWeapons
 	
 	#define WS_LIGHT_RIFLE\
 		color[] = {24,22,23};\
-		outerAngle = 32;\
+		outerAngle = 30;\
 		innerAngle = 5;\
 		coneFadeCoef = 2;\
-		intensity = 330;\
+		intensity = 100;\
 		class Attenuation\
 		{\
-			start = 0;\
-			constant = 0.2;\
-			linear = 0.1;\
-			quadratic = 0.05;\
-			hardLimitStart = 100;\
-			hardLimitEnd = 150;\
+			start = 50;\
+			constant = 0.01;\
+			linear = 0;\
+			quadratic = 0.003;\
+			hardLimitStart = 150;\
+			hardLimitEnd = 200;\
 		};
 	
 	#define WS_LIGHT_RIFLE_IR\
 		color[] = {24,22,23};\
-		outerAngle = 32;\
+		outerAngle = 30;\
 		innerAngle = 5;\
 		coneFadeCoef = 2;\
-		intensity = 80;\
+		intensity = 100;\
+		irLight = 1;\
 		class Attenuation\
 		{\
-			start = 0;\
-			constant = 0.2;\
-			linear = 0.1;\
-			quadratic = 0.05;\
-			hardLimitStart = 100;\
-			hardLimitEnd = 150;\
+			start = 50;\
+			constant = 0.01;\
+			linear = 0;\
+			quadratic = 0.003;\
+			hardLimitStart = 150;\
+			hardLimitEnd = 200;\
 		};
 		
 	class acc_flashlight;

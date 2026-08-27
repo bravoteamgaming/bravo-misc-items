@@ -204,39 +204,45 @@ class CfgWeapons
 		};
 	};
 	
+	class uk3cb_g36_base;
+	class uk3cb_g36_mlic : uk3cb_g36_base
+	{
+		magazineWell[] = { "CBA_65x39_MX", "CBA_65x39_MX" };
+	};
+	
 	// =========
 	// Flashlights
 	
 	#define RHS_LIGHT_2DP\
-		color[] = {25,22,20};\
-		outerAngle = 50;\
+		color[] = {29,20,18};\
+		outerAngle = 35;\
 		innerAngle = 5;\
 		coneFadeCoef = 3;\
-		intensity = 270;\
+		intensity = 90;\
 		class Attenuation\
 		{\
-			start = 0;\
-			constant = 0.2;\
-			linear = 0.1;\
-			quadratic = 0.05;\
-			hardLimitStart = 100;\
-			hardLimitEnd = 150;\
+			start = 50;\
+			constant = 0.01;\
+			linear = 0;\
+			quadratic = 0.003;\
+			hardLimitStart = 150;\
+			hardLimitEnd = 200;\
 		};
 		
 	#define RHS_LIGHT_RIFLE\
 		color[] = {25,22,20};\
-		outerAngle = 35;\
+		outerAngle = 30;\
 		innerAngle = 5;\
 		coneFadeCoef = 2;\
-		intensity = 330;\
+		intensity = 100;\
 		class Attenuation\
 		{\
-			start = 0;\
-			constant = 0.2;\
-			linear = 0.1;\
-			quadratic = 0.05;\
-			hardLimitStart = 100;\
-			hardLimitEnd = 150;\
+			start = 50;\
+			constant = 0.01;\
+			linear = 0;\
+			quadratic = 0.003;\
+			hardLimitStart = 150;\
+			hardLimitEnd = 200;\
 		};
 	
 	class ItemCore;
