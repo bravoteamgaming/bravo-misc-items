@@ -943,7 +943,12 @@ class CfgPatches
 			"bravo_vrsuit_plain",
 			"bravo_vrsuit_des",
 			"bravo_vrsuit_oli",
-			"bravo_vrsuit_mcam"
+			"bravo_vrsuit_mcam",
+			"bravo_ferod51_gen2_oli",
+			"bravo_anpvs7_gen2",
+			"bravo_1pn138_gen2",
+			"bravo_nsg66_gen2_oli",
+			"bravo_pvs5a_gen2"
 		};
 		skipWhenMissingDependencies = 1;
 	};

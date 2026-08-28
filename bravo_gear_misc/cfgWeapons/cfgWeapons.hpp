@@ -668,4 +668,43 @@ class cfgWeapons
 			uniformClass = "bravo_vrsuit_mcam_unit";
 		};
 	};
+	
+	// =========== nightvision
+	class gm_ferod51_oli;
+	class bravo_ferod51_gen2_oli : gm_ferod51_oli
+	{
+		displayName = "FeroD-51 ZUB (Early)";
+		ace_nightvision_generation = 2;
+		ace_nightvision_eyecups = 1;
+	};
+	
+	class rhs_1PN138;
+	class bravo_1pn138_gen2 : rhs_1PN138
+	{
+		displayName = "1PN138 (Early)";
+		ace_nightvision_generation = 2;
+	};
+	
+	class UK3CB_ANPVS7;
+	class bravo_anpvs7_gen2 : UK3CB_ANPVS7
+	{
+		displayName = "AN/PVS-7B (Early)";
+		ace_nightvision_generation = 2;
+	};
+	
+	class gm_nsg66_oli;
+	class bravo_nsg66_gen2_oli : gm_nsg66_oli
+	{
+		displayName = "NSG-66 (Early)";
+		ace_nightvision_generation = 2;
+		ace_nightvision_eyecups = 1;
+	};
+	
+	class UK3CB_PVS5A;
+	class bravo_pvs5a_gen2 : UK3CB_PVS5A
+	{
+		displayName = "PVS-5A (Early)";
+		ace_nightvision_generation = 2;
+		ace_nightvision_eyecups = 1;
+	};
 };
