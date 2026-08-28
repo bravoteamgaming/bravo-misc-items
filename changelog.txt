@@ -368,4 +368,5 @@
 
 2026-08-28
 - GEAR MISC: added olive, tan, and multicam VR Suit
-- GEAR MISC: added CADPAT-MT Combat Uniform and Boonie
+- GEAR MISC: added CADPAT-MT and UNSC Woodland Combat Uniform and Boonie
+- GEAR MISC: added BME Boonie

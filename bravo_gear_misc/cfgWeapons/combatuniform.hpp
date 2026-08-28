@@ -366,6 +366,14 @@
 			uniformClass = "bravo_combatuniform_camt_unit";
 		};
 	};
+	class bravo_combatuniform_unsc : u_i_combatuniform
+	{
+		displayName = "Combat Uniform (UNSC Woodland)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_unsc_unit";
+		};
+	};
 	
 	// =================== ROLLED
 	class bravo_combatuniform_short_dgt : u_i_combatuniform_shortsleeve
@@ -488,6 +496,14 @@
 			uniformClass = "bravo_combatuniform_short_camt_unit";
 		};
 	};
+	class bravo_combatuniform_short_unsc : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (UNSC Woodland/Rolled-Up)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_short_unsc_unit";
+		};
+	};
 	
 	
 	// ================ CUT
@@ -497,6 +513,14 @@
 		class itemInfo : itemInfo
 		{
 			uniformClass = "bravo_combatuniform_cut_amc_ws_unit";
+		};
+	};
+	class bravo_combatuniform_cut_unsc_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (UNSC Woodland/Cut-Off)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_cut_unsc_ws_unit";
 		};
 	};
 	
@@ -629,6 +653,14 @@
 			uniformClass = "bravo_combatuniform_tactee_camt_ws_unit";
 		};
 	};
+	class bravo_combatuniform_tactee_unsc_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (UNSC Woodland/Combat Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tactee_unsc_ws_unit";
+		};
+	};
 	
 	// =================== TSHIRT
 	class bravo_combatuniform_tshirt_cce_ws : u_i_combatuniform_shortsleeve
@@ -757,5 +789,13 @@
 		class itemInfo : itemInfo
 		{
 			uniformClass = "bravo_combatuniform_tshirt_camt_ws_unit";
+		};
+	};
+	class bravo_combatuniform_tshirt_unsc_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (UNSC Woodland/T-Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tshirt_unsc_ws_unit";
 		};
 	};

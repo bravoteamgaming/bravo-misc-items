@@ -185,3 +185,21 @@
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_camt_co"};
 		};
 	};
+	class bravo_gm_boonie_unsc : gm_ge_headgear_hat_boonie_oli
+	{
+		displayName = "Boonie Hat (UNSC Woodland)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_unsc_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_unsc_co"};
+		};
+	};
+	class bravo_gm_boonie_bme : gm_ge_headgear_hat_boonie_oli
+	{
+		displayName = "Boonie Hat (BME)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_bme_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_bme_co"};
+		};
+	};
