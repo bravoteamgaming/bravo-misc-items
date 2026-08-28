@@ -205,7 +205,7 @@ class CfgWeapons
 	#define VANILLA_LIGHT_RIFLE\
 		color[] = {26,23,18};\
 		outerAngle = 30;\
-		innerAngle = 5;\
+		innerAngle = 15;\
 		coneFadeCoef = 2;\
 		intensity = 100;\
 		class Attenuation\
@@ -221,7 +221,7 @@ class CfgWeapons
 	#define VANILLA_LIGHT_PISTOL\
 		color[] = {26,23,18};\
 		outerAngle = 40;\
-		innerAngle = 5;\
+		innerAngle = 15;\
 		coneFadeCoef = 10;\
 		intensity = 90;\
 		class Attenuation\

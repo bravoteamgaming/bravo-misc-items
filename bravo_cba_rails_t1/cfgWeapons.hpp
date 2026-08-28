@@ -62,7 +62,7 @@ class CfgWeapons
 	#define T1_LIGHT_RIFLE\
 		color[] = {25,22,20};\
 		outerAngle = 30;\
-		innerAngle = 5;\
+		innerAngle = 15;\
 		coneFadeCoef = 2;\
 		intensity = 100;\
 		class Attenuation\
@@ -78,7 +78,7 @@ class CfgWeapons
 	#define T1_LIGHT_PISTOL\
 		color[] = {25,22,20};\
 		outerAngle = 40;\
-		innerAngle = 5;\
+		innerAngle = 15;\
 		coneFadeCoef = 10;\
 		intensity = 90;\
 		class Attenuation\

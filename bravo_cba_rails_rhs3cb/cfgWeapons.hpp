@@ -216,7 +216,7 @@ class CfgWeapons
 	#define RHS_LIGHT_2DP\
 		color[] = {29,20,18};\
 		outerAngle = 35;\
-		innerAngle = 5;\
+		innerAngle = 15;\
 		coneFadeCoef = 3;\
 		intensity = 90;\
 		class Attenuation\
@@ -232,7 +232,7 @@ class CfgWeapons
 	#define RHS_LIGHT_RIFLE\
 		color[] = {25,22,20};\
 		outerAngle = 30;\
-		innerAngle = 5;\
+		innerAngle = 15;\
 		coneFadeCoef = 2;\
 		intensity = 100;\
 		class Attenuation\

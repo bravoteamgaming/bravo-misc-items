@@ -139,7 +139,7 @@ class CfgWeapons
 	#define WS_LIGHT_RIFLE\
 		color[] = {24,22,23};\
 		outerAngle = 30;\
-		innerAngle = 5;\
+		innerAngle = 15;\
 		coneFadeCoef = 2;\
 		intensity = 100;\
 		class Attenuation\
@@ -153,9 +153,10 @@ class CfgWeapons
 		};
 	
 	#define WS_LIGHT_RIFLE_IR\
-		color[] = {24,22,23};\
-		outerAngle = 30;\
-		innerAngle = 5;\
+		color[] = {1,1,1};\
+		ambient[] = {1,1,1};\
+		outerAngle = 20;\
+		innerAngle = 15;\
 		coneFadeCoef = 2;\
 		intensity = 100;\
 		irLight = 1;\
