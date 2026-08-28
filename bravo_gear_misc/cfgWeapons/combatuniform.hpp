@@ -358,7 +358,16 @@
 			uniformClass = "bravo_combatuniform_mtr_unit";
 		};
 	};
+	class bravo_combatuniform_camt : u_i_combatuniform
+	{
+		displayName = "Combat Uniform (CADPAT-MT)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_camt_unit";
+		};
+	};
 	
+	// =================== ROLLED
 	class bravo_combatuniform_short_dgt : u_i_combatuniform_shortsleeve
 	{
 		displayName = "Combat Uniform (Daguet/Rolled-Up)";
@@ -471,7 +480,17 @@
 			uniformClass = "bravo_combatuniform_short_mtr_unit";
 		};
 	};
+	class bravo_combatuniform_short_camt : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (CADPAT-MT/Rolled-Up)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_short_camt_unit";
+		};
+	};
 	
+	
+	// ================ CUT
 	class bravo_combatuniform_cut_amc_ws : u_i_combatuniform_shortsleeve
 	{
 		displayName = "Combat Uniform (AMC/Cut-Off)";
@@ -481,6 +500,7 @@
 		};
 	};
 	
+	// ================= TACTEE
 	class bravo_combatuniform_tactee_cce_ws : u_i_combatuniform_shortsleeve
 	{
 		displayName = "Combat Uniform (CCE/Combat Shirt)";
@@ -601,7 +621,16 @@
 			uniformClass = "bravo_combatuniform_tactee_mtr_ws_unit";
 		};
 	};
+	class bravo_combatuniform_tactee_camt_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (CADPAT-MT/Combat Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tactee_camt_ws_unit";
+		};
+	};
 	
+	// =================== TSHIRT
 	class bravo_combatuniform_tshirt_cce_ws : u_i_combatuniform_shortsleeve
 	{
 		displayName = "Combat Uniform (CCE/T-Shirt)";
@@ -720,5 +749,13 @@
 		class itemInfo : itemInfo
 		{
 			uniformClass = "bravo_combatuniform_tshirt_mtr_ws_unit";
+		};
+	};
+	class bravo_combatuniform_tshirt_camt_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (CADPAT-MT/T-Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tshirt_camt_ws_unit";
 		};
 	};

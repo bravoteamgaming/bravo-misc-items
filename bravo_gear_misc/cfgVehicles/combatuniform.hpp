@@ -1,4 +1,5 @@
 
+	// ============= TACTEE BAF
 	class i_soldier_universal_f;
 	class bravo_combatuniform_tactee_base_ws_unit : i_soldier_universal_f
 	{
@@ -54,6 +55,7 @@
 		hiddenSelectionsTextures[] = {"\UK3CB_BAF_Equipment\uniform\data\mtp_uk_basic.paa","\UK3CB_Factions\addons\UK3CB_Factions_ION\data\ion_basicbody_black_co.paa"};
 	};
 	
+	// ============== TSHIRT BAF
 	class bravo_combatuniform_tshirt_base_ws_unit : i_soldier_universal_f
 	{
 		model = "\lxws\characters_1_f_lxws\uniform\U_CombatUniform_01_tshirt_lxws.p3d";
@@ -104,6 +106,7 @@
 		hiddenSelectionsTextures[] = {"\UK3CB_BAF_Equipment\uniform\data\mtp_uk_basic.paa","\UK3CB_Factions\addons\UK3CB_Factions_ION\data\ion_jeans_tshirt_blu_01_co.paa"};
 	};
 	
+	// ============================== STANDARD
 	class bravo_combatuniform_cce_unit : i_soldier_universal_f
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_cce_co.paa"};
@@ -164,7 +167,12 @@
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_mtr_co.paa"};
 	};
+	class bravo_combatuniform_camt_unit : i_soldier_universal_f
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_camt_co.paa"};
+	};
 	
+	// ================== ROLLED
 	class bravo_combatuniform_short_base_unit : i_soldier_universal_f
 	{
 		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02.p3d";
@@ -230,7 +238,12 @@
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_mtr_co.paa"};
 	};
+	class bravo_combatuniform_short_camt_unit : bravo_combatuniform_short_base_unit
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_camt_co.paa"};
+	};
 	
+	// ============== TACTEE
 	class bravo_combatuniform_tactee_cce_ws_unit : bravo_combatuniform_tactee_base_ws_unit
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_cce_co.paa","a3\Characters_F_Enoch\Uniforms\Data\basicbody_wdl_co.paa"};
@@ -291,7 +304,12 @@
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_mtr_co.paa","\a3\characters_f\common\data\basicbody_brown_co.paa"};
 	};
+	class bravo_combatuniform_tactee_camt_ws_unit : bravo_combatuniform_tactee_base_ws_unit
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_camt_co.paa","\a3\characters_f\common\data\basicbody_brown_co.paa"};
+	};
 	
+	// ==================== TSHIRT
 	class bravo_combatuniform_tshirt_cce_ws_unit : bravo_combatuniform_tshirt_base_ws_unit
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_cce_co.paa","a3\Characters_F_Enoch\Uniforms\Data\I_L_Uniform_01_tshirt_olive_1_co.paa"};
@@ -352,7 +370,12 @@
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_mtr_co.paa","\UK3CB_Factions\addons\UK3CB_Factions_MEC\data\mec_tshirt_brown_03_co.paa"};
 	};
+	class bravo_combatuniform_tshirt_camt_ws_unit : bravo_combatuniform_tshirt_base_ws_unit
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_camt_co.paa","\UK3CB_Factions\addons\UK3CB_Factions_MEC\data\mec_tshirt_khaki_01_co.paa"};
+	};
 	
+	// ========================== CUT
 	class bravo_combatuniform_cut_base_ws_unit : i_soldier_universal_f
 	{
 		model = "\lxws\characters_1_f_lxws\uniform\U_CombatUniform_01_cut_lxws.p3d";

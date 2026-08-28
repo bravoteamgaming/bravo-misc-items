@@ -313,6 +313,7 @@ GEAR MISC
 	Boonie Hat (Finnish M05)
 	Boonie Hat (Finnish M05 Frost)
 	Boonie Hat (Finnish M04)
+	Boonie Hat (CADPAT-MT)
 - Add vest variants:
 	CTRG Plate Carrier Rig (Black)
 	CTRG Plate Carrier Rig (Khaki)
@@ -721,6 +722,10 @@ GEAR MISC
 	Combat Uniform (Multitarn/T-Shirt)
 	Combat Uniform (Multitarn)
 	Combat Uniform (Multitarn/Rolled-Up)
+	Combat Uniform (CADPAT-MT/Combat Shirt)
+	Combat Uniform (CADPAT-MT/T-Shirt)
+	Combat Uniform (CADPAT-MT)
+	Combat Uniform (CADPAT-MT/Rolled-Up)
 	Operator Suit (Black)
 	Operator Suit (Rolled, Black)
 	Operator Suit (Green)
