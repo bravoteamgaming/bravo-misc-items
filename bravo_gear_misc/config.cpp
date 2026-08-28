@@ -948,7 +948,13 @@ class CfgPatches
 			"bravo_anpvs7_gen2",
 			"bravo_1pn138_gen2",
 			"bravo_nsg66_gen2_oli",
-			"bravo_pvs5a_gen2"
+			"bravo_pvs5a_gen2",
+			"bravo_nvg_binoculars",
+			"bravo_nvg_pipe_sir_winston",
+			"bravo_nvg_cigarette_belomorkanal",
+			"bravo_nvg_cigarette_grundstein",
+			"bravo_nvg_cigarette_strike_outs",
+			"bravo_nvg_cigar_moza"
 		};
 		skipWhenMissingDependencies = 1;
 	};

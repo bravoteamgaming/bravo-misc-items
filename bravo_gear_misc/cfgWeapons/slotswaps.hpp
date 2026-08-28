@@ -266,3 +266,123 @@
 			hiddenSelectionsTextures[] = {"\A3\Characters_F_Orange\Headgear\Data\H_WirelessEarpiece_co.paa"};
 		};
 	};
+	class bravo_nvg_binoculars : UK3CB_Earpiece_NVG
+	{
+		displayName = "Binoculars";
+		author = "Heavy Ordnance Works";
+		DLC = "SPE";
+		picture = "\WW2\SPE_Assets_t\Weapons\Equipment_t\Weapons\Binoculars\Gear_Binocular_ca.paa";
+		hiddenSelections[] = {};
+		hiddenSelectionsTextures[] = {};
+		model = "\WW2\SPE_Assets_m\Characters\Headgear_m\SPE_Binoculars.p3d";
+		class ItemInfo
+		{
+			mass = 4;
+			modelOff = "\WW2\SPE_Assets_m\Characters\Headgear_m\SPE_Binoculars.p3d";
+			uniformModel = "\WW2\SPE_Assets_m\Characters\Headgear_m\SPE_Binoculars.p3d";
+			hmdType = 0;
+			type = 616;
+			hiddenSelections[] = {};
+			hiddenSelectionsTextures[] = {};
+		};
+	};
+	class bravo_nvg_cigar_moza : UK3CB_Earpiece_NVG
+	{
+		displayName = "Cigar (Moza de Trujillo)";
+		author = "Heavy Ordnance Works";
+		DLC = "SPE";
+		picture = "\WW2\SPE_Assets_t\Characters\Pictures_t\Clothing\Facewear\G_Cigars_ca.paa";
+		hiddenSelections[] = {};
+		hiddenSelectionsTextures[] = {};
+		model = "\WW2\SPE_Assets_m\Characters\Headgear_m\SPE_Cigar_Moza.p3d";
+		class ItemInfo
+		{
+			mass = 1;
+			modelOff = "\WW2\SPE_Assets_m\Characters\Headgear_m\SPE_Cigar_Moza.p3d";
+			uniformModel = "\WW2\SPE_Assets_m\Characters\Headgear_m\SPE_Cigar_Moza.p3d";
+			hmdType = 0;
+			type = 616;
+			hiddenSelections[] = {};
+			hiddenSelectionsTextures[] = {};
+		};
+	};
+	class bravo_nvg_cigarette_belomorkanal : UK3CB_Earpiece_NVG
+	{
+		displayName = "Cigarette (Belomorkanal)";
+		author = "Heavy Ordnance Works";
+		DLC = "SPE";
+		picture = "\WW2\SPE_Assets_t\Characters\Pictures_t\Clothing\Facewear\G_Cigars_ca.paa";
+		hiddenSelections[] = {};
+		hiddenSelectionsTextures[] = {};
+		model = "\WW2\SPE_Assets_m\Characters\Headgear_m\SPE_Cigarette_Belomorkanal.p3d";
+		class ItemInfo
+		{
+			mass = 1;
+			modelOff = "\WW2\SPE_Assets_m\Characters\Headgear_m\SPE_Cigarette_Belomorkanal.p3d";
+			uniformModel = "\WW2\SPE_Assets_m\Characters\Headgear_m\SPE_Cigarette_Belomorkanal.p3d";
+			hmdType = 0;
+			type = 616;
+			hiddenSelections[] = {};
+			hiddenSelectionsTextures[] = {};
+		};
+	};
+	class bravo_nvg_cigarette_grundstein : UK3CB_Earpiece_NVG
+	{
+		displayName = "Cigarette (Grundstein)";
+		author = "Heavy Ordnance Works";
+		DLC = "SPE";
+		picture = "\WW2\SPE_Assets_t\Characters\Pictures_t\Clothing\Facewear\G_Cigars_ca.paa";
+		hiddenSelections[] = {};
+		hiddenSelectionsTextures[] = {};
+		model = "\WW2\SPE_Assets_m\Characters\Headgear_m\SPE_Cigarette_Grundstein.p3d";
+		class ItemInfo
+		{
+			mass = 1;
+			modelOff = "\WW2\SPE_Assets_m\Characters\Headgear_m\SPE_Cigarette_Grundstein.p3d";
+			uniformModel = "\WW2\SPE_Assets_m\Characters\Headgear_m\SPE_Cigarette_Grundstein.p3d";
+			hmdType = 0;
+			type = 616;
+			hiddenSelections[] = {};
+			hiddenSelectionsTextures[] = {};
+		};
+	};
+	class bravo_nvg_cigarette_strike_outs : UK3CB_Earpiece_NVG
+	{
+		displayName = "Cigarette (Strike-Outs)";
+		author = "Heavy Ordnance Works";
+		DLC = "SPE";
+		picture = "\WW2\SPE_Assets_t\Characters\Pictures_t\Clothing\Facewear\G_Cigars_ca.paa";
+		hiddenSelections[] = {};
+		hiddenSelectionsTextures[] = {};
+		model = "\WW2\SPE_Assets_m\Characters\Headgear_m\SPE_Cigarette_Strike_Outs.p3d";
+		class ItemInfo
+		{
+			mass = 1;
+			modelOff = "\WW2\SPE_Assets_m\Characters\Headgear_m\SPE_Cigarette_Strike_Outs.p3d";
+			uniformModel = "\WW2\SPE_Assets_m\Characters\Headgear_m\SPE_Cigarette_Strike_Outs.p3d";
+			hmdType = 0;
+			type = 616;
+			hiddenSelections[] = {};
+			hiddenSelectionsTextures[] = {};
+		};
+	};
+	class bravo_nvg_pipe_sir_winston : UK3CB_Earpiece_NVG
+	{
+		displayName = "Pipe (Sir Winston)";
+		author = "Heavy Ordnance Works";
+		DLC = "SPE";
+		picture = "\WW2\SPE_Assets_t\Characters\Pictures_t\Clothing\Facewear\G_Pipe_ca.paa";
+		hiddenSelections[] = {};
+		hiddenSelectionsTextures[] = {};
+		model = "\WW2\SPE_Assets_m\Characters\Headgear_m\SPE_Pipe_Sir_Winston.p3d";
+		class ItemInfo
+		{
+			mass = 1;
+			modelOff = "\WW2\SPE_Assets_m\Characters\Headgear_m\SPE_Pipe_Sir_Winston.p3d";
+			uniformModel = "\WW2\SPE_Assets_m\Characters\Headgear_m\SPE_Pipe_Sir_Winston.p3d";
+			hmdType = 0;
+			type = 616;
+			hiddenSelections[] = {};
+			hiddenSelectionsTextures[] = {};
+		};
+	};

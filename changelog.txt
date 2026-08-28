@@ -371,3 +371,4 @@
 - GEAR MISC: added CADPAT-MT and UNSC Woodland Combat Uniform and Boonie
 - GEAR MISC: added BME Boonie
 - GEAR MISC: added Early (gen2) variants of some older NVDs
+- GEAR MISC: added Spearhead Binoculars, Cigar, Cigarettes, Pipe facewear items to NVG slot

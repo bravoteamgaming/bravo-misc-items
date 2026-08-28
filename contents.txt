@@ -793,6 +793,12 @@ GEAR MISC
 	AN/PVS7B (Early)
 	1PN138 (Early)
 	FeroD-51 ZUB (Early)
+	Binoculars
+	Cigar (Moza de Trujillo)
+	Cigarette (Belomorkanal)
+	Cigarette (Grundstein)
+	Cigarette (Strike-Outs)
+	Pipe (Sir Winston)
 - Add weapon optic variants:
 	SU230/PVS MRDS [B]
 	SU230A/PVS MRDS [B]
