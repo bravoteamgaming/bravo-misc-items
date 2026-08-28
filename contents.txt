@@ -738,6 +738,9 @@ GEAR MISC
 	Operator Suit (Tiger Stripe)
 	Operator Suit (Rolled, Tiger Stripe)
 	VR Suit
+	VR Suit (Olive)
+	VR Suit (Tan)
+	VR Suit (Multicam)
 - Add facewear variants:
 	Shemagh w/Goggles (Green/Clear)
 	Shemagh w/Goggles (Green/alt/Clear)
