@@ -652,4 +652,20 @@ class cfgWeapons
 			uniformClass = "bravo_vrsuit_des_unit";
 		};
 	};
+	class bravo_vrsuit_oli : U_B_Protagonist_VR
+	{
+		displayName = "VR Suit (Olive)";
+		class ItemInfo : ItemInfo
+		{
+			uniformClass = "bravo_vrsuit_oli_unit";
+		};
+	};
+	class bravo_vrsuit_mcam : U_B_Protagonist_VR
+	{
+		displayName = "VR Suit (Multicam)";
+		class ItemInfo : ItemInfo
+		{
+			uniformClass = "bravo_vrsuit_mcam_unit";
+		};
+	};
 };

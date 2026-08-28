@@ -365,3 +365,6 @@
 2026-08-27
 - CBA RAILS RHS3CB: added CBA magwell to 3CB G36 MLI (note: no mag proxies)
 - CBA RAILS RHS3CB, WS, VANILLA, T1: flashlights are now less bright, slightly narrower, and longer range
+
+2026-08-28
+- GEAR MISC: added olive, tan, and multicam VR Suit

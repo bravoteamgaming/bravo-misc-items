@@ -141,4 +141,12 @@ class cfgVehicles
 	{
 		hiddenSelectionsTextures[] = {"","\bravo_gear_misc\assets\vrsuit_01_des_co","\bravo_gear_misc\assets\vrsuit_02_des_co","\bravo_gear_misc\assets\vrarmor_des_co"};
 	};
+	class bravo_vrsuit_oli_unit : bravo_vrsuit_plain_unit
+	{
+		hiddenSelectionsTextures[] = {"","\bravo_gear_misc\assets\vrsuit_01_oli_co","\bravo_gear_misc\assets\vrsuit_02_oli_co","\bravo_gear_misc\assets\vrarmor_oli_co"};
+	};
+	class bravo_vrsuit_mcam_unit : bravo_vrsuit_plain_unit
+	{
+		hiddenSelectionsTextures[] = {"","\bravo_gear_misc\assets\vrsuit_01_mcam_co","\bravo_gear_misc\assets\vrsuit_02_mcam_co","\bravo_gear_misc\assets\vrarmor_des_co"};
+	};
 };
