@@ -375,3 +375,4 @@
 
 2026-08-29
 - GEAR MISC: added LRRDU Combat Uniform and Boonie
+- MUNITIONS: FGM-202 now has a unique seeker sound

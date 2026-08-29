@@ -78,8 +78,8 @@ class cfgWeapons
 		displayName = "FGM-202 Predator-NG";
 		descriptionShort = "Missile launcher<br/>Caliber: 66 mm<br/>Type: Single-shot Anti-Tank with visual and IR guidance";
 		magazines[] = {"bravo_1rnd_missile_fgm202"};
-		lockedTargetSound[] = {"\FIR_AirWeaponSystem_US\sound\Sidewinder_growling.wss",4.5,1.1};
-		lockingTargetSound[] = {"\FIR_AirWeaponSystem_US\sound\Sidewinder_growling.wss",4,1};
+		lockedTargetSound[] = {"\bravo_munitions\assets\predator_seeker_high.ogg",3.5,1};
+		lockingTargetSound[] = {"\bravo_munitions\assets\predator_seeker_low.ogg",3.5,1};
 		canLock = 2;
 		cmImmunity = 0.8;
 		weaponLockDelay = 3;
