@@ -372,3 +372,6 @@
 - GEAR MISC: added BME Boonie
 - GEAR MISC: added Early (gen2) variants of some older NVDs
 - GEAR MISC: added Spearhead Binoculars, Cigar, Cigarettes, Pipe facewear items to NVG slot
+
+2026-08-29
+- GEAR MISC: added LRRDU Combat Uniform and Boonie
