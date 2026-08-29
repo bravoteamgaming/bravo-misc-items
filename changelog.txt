@@ -376,3 +376,6 @@
 2026-08-29
 - GEAR MISC: added LRRDU Combat Uniform and Boonie
 - MUNITIONS: FGM-202 now has a unique seeker sound
+
+2026-08-29 (2)
+- GEAR MISC: corrected colouring of UNSC Woodland equipment
