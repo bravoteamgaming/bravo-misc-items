@@ -379,3 +379,7 @@
 
 2026-08-29 (2)
 - GEAR MISC: corrected colouring of UNSC Woodland equipment
+
+2026-08-30
+- CBA RAILS RHS3CB: fixed G36MLI XL magwell
+- CBA RAILS RHS3CB: adjusted mass of G36MLI Carbine and Compact Carbine

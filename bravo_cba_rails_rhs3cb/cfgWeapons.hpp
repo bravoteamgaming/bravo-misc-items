@@ -207,7 +207,22 @@ class CfgWeapons
 	class uk3cb_g36_base;
 	class uk3cb_g36_mlic : uk3cb_g36_base
 	{
-		magazineWell[] = { "CBA_65x39_MX", "CBA_65x39_MX" };
+		magazineWell[] = { "CBA_65x39_MX", "CBA_65x39_MX_XL" };
+		class WeaponSlotsInfo;
+	};
+	class uk3cb_g36_mlic_c : uk3cb_g36_mlic
+	{
+		class WeaponSlotsInfo : WeaponSlotsInfo
+		{
+			mass = 63;
+		};
+	};
+	class uk3cb_g36_mlic_k : uk3cb_g36_mlic
+	{
+		class WeaponSlotsInfo : WeaponSlotsInfo
+		{
+			mass = 66;
+		};
 	};
 	
 	// =========
