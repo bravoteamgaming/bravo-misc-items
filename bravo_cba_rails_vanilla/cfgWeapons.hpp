@@ -103,6 +103,7 @@ class CfgWeapons
 			{};
 		};
 	};
+
 	class arifle_MSBS65_base_F : Rifle_Base_F
 	{
 		class WeaponSlotsInfo : WeaponSlotsInfo
@@ -115,6 +116,19 @@ class CfgWeapons
 			{};
 		};
 	};
+
+	class arifle_MSBS65_Mark_base_F : arifle_MSBS65_base_F
+	{
+		class WeaponSlotsInfo : WeaponSlotsInfo
+		{
+			class CowsSlot : asdg_OpticRail1913
+			{};
+			class MuzzleSlot : asdg_MuzzleSlot_65
+			{};
+			class PointerSlot : asdg_FrontSideRail
+			{};
+		}
+	}
 	
 	class arifle_MX_Base_F : Rifle_Base_F
 	{
