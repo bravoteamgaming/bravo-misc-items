@@ -383,3 +383,6 @@
 2026-08-30
 - CBA RAILS RHS3CB: fixed G36MLI XL magwell
 - CBA RAILS RHS3CB: adjusted mass of G36MLI Carbine and Compact Carbine
+
+2026-09-06
+- CBA RAILS VANILLA: added CBA rail to MSBS MR
