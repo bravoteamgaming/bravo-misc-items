@@ -389,3 +389,6 @@
 
 2026-09-08
 - ITEMS: fixed pitch and volume of some sound sources
+
+2026-09-10
+- ITEMS: version > 2.2
