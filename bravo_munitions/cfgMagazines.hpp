@@ -1,3 +1,4 @@
+class SensorTemplateLaser;
 class CfgMagazines
 {
 	class 1rnd_he_grenade_shell;
@@ -330,6 +331,30 @@ class CfgMagazines
 		descriptionShort = "Caliber: 5.7x28 mm<br />Rounds: 30<br />Used in: CPW";
 		displayNameShort = "HVAP";
 		initSpeed = 850;
+	};
+	
+	class PylonTargetingPod_Base;
+	class PylonRadarPod_01_F : PylonTargetingPod_Base
+	{
+		class Components;
+	};
+	class bravo_pylon_lasersensor_helo : PylonRadarPod_01_F
+	{
+		displayName = "Laser Sensor Pod";
+		descriptionShort = "Passive laser sensor targeting pod capable of locking on to laser targets. No designator. Includes day/night camera with 5x magnification.";
+		hiddenSelectionsTextures[] = {"\a3\Weapons_F\DynamicLoadout\Data\PylonPod_Camera_01_CO.paa"};
+		model = "a3\Weapons_F\DynamicLoadout\PylonPod_Camera_01_F.p3d";
+		class Components : Components
+		{
+			class AdditionalSensorsComponent
+			{
+				class Components
+				{
+					class LaserSensorComponent : SensorTemplateLaser
+					{};
+				};
+			};
+		};
 	};
 };
 class CfgMagazineWells
