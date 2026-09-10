@@ -33,6 +33,7 @@ MUNITIONS
 - Enable RF model for 3CB KH2002
 - Add Type 29 HVAP magazine for Chiappa Rhino
 - Add FGM-202 Predator-NG disposable AT
+- Add passive laser sensor/camera pod pylon
 
 EXTRAS
 - Add Steyr HS-50/20 (20mm conversion of 12.7mm HS-50)
@@ -861,6 +862,7 @@ ITEMS
 - Add RPT and Steam Game Recording logging for ACE unconscious events
 - Add RPT logging for ACE bandaged events
 - Add DDR5 kit inventory item and prop
+- This addon is CBA versioned
 
 FAK
 - Add Bravo FAK variants, which can be unpacked into inventory items and configured by a CBA setting. Similar to KAT FAKs but simpler and there are more types.
