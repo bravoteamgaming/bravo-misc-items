@@ -12,6 +12,7 @@ class CfgPatches
 		};
 		weapons[] = {
 			"bravo_ifak",
+			"bravo_enemy_ifak",
 			"bravo_afak_ww2",
 			"bravo_afak_early",
 			"bravo_afak_modern",

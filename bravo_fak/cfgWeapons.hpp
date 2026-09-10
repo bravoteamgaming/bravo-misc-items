@@ -5,6 +5,10 @@ class CfgWeapons
 	{
 		displayName = "Bravo IFAK";
 	};
+	class bravo_enemy_ifak : kat_ifak
+	{
+		displayName = "Enemy IFAK";
+	};
 	
 	class kat_mfak;
 	class bravo_mfak_ww2 : kat_mfak

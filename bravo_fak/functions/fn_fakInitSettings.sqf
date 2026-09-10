@@ -67,3 +67,13 @@
 	1,
 	{}
 ] call CBA_fnc_addSetting;
+
+[
+	"bravo_enemy_ifak",
+	"EDITBOX",
+	["Enemy IFAK contents", "Array of arrays [['item',2], ['item2',1]])"],
+	["Bravo Team Misc Items", "FAKs"],
+	"[['ACE_elasticBandage', 4], ['ACE_splint',1], ['ACE_tourniquet',1], ['kat_painkiller',1]]",
+	1,
+	{}
+] call CBA_fnc_addSetting;

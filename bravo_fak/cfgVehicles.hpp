@@ -16,6 +16,15 @@ class CfgVehicles
 					showDisabled = 0;
 					icon = "\x\kat\addons\misc\ui\IFAK.paa";
 				};
+				class bravo_enemy_ifak
+				{
+					displayName = "Unpack Enemy IFAK";
+					condition = "([_target, 'bravo_enemy_ifak'] call ace_common_fnc_hasItem) && !([_target] call ace_common_fnc_isAwake)";
+					statement = "[_target, 'bravo_enemy_ifak'] call bravo_fnc_fakUnpack";
+					exceptions[] = {"isNotSwimming", "isNotInside", "notOnMap", "isNotSitting"};
+					showDisabled = 0;
+					icon = "\x\kat\addons\misc\ui\IFAK.paa";
+				};
 				class bravo_afak_ww2
 				{
 					displayName = "Unpack Bravo AFAK (WW2)";
@@ -81,6 +90,15 @@ class CfgVehicles
 					displayName = "Unpack Bravo IFAK";
 					condition = "[_target, 'bravo_ifak'] call ace_common_fnc_hasItem";
 					statement = "[_target, 'bravo_ifak'] call bravo_fnc_fakUnpack";
+					exceptions[] = {"isNotSwimming", "isNotInside", "isNotSitting"};
+					showDisabled = 0;
+					icon = "\x\kat\addons\misc\ui\IFAK.paa";
+				};
+				class bravo_enemy_ifak
+				{
+					displayName = "Unpack Enemy IFAK";
+					condition = "[_target, 'bravo_enemy_ifak'] call ace_common_fnc_hasItem";
+					statement = "[_target, 'bravo_enemy_ifak'] call bravo_fnc_fakUnpack";
 					exceptions[] = {"isNotSwimming", "isNotInside", "isNotSitting"};
 					showDisabled = 0;
 					icon = "\x\kat\addons\misc\ui\IFAK.paa";
