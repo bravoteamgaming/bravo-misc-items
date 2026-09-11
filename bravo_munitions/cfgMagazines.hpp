@@ -374,12 +374,21 @@ class CfgMagazines
 		model = "a3\Weapons_F\DynamicLoadout\PylonPod_ECM_01_L_F.p3d";
 		hiddenSelections[] = {"Camo1","CamoFlare","CamoCamera"};
 		hiddenSelectionsTextures[] = {"\a3\Weapons_F\DynamicLoadout\Data\PylonPod_ECM_01_CO.paa","","\a3\Weapons_F\DynamicLoadout\Data\PylonPod_ECM_01_CO.paa"};
-		pylonMirrorClass = "bravo_pylon_lasersensor_rail_l";
+		pylonMirrorClass = "bravo_pylon_lasersensor_rail_r";
+		class AnimationSources
+		{
+			class CameraHead
+			{
+				animPeriod = 0.3;
+				initPhase = 0;
+				source = "user";
+			};
+		};
 		class Components : Components
 		{
 			class CameraComponent : CameraComponent
 			{
-				memoryPointDriverOptics = "camerahead";
+				memoryPointDriverOptics = "ecm_sensor_2_dir";
 				class PilotCamera : PilotCamera
 				{
 					maxTurn = 70;
@@ -391,7 +400,7 @@ class CfgMagazines
 	class bravo_pylon_lasersensor_rail_r : bravo_pylon_lasersensor_rail_l
 	{
 		hardpoints[] = {"B_BOMB_PYLON", "O_BOMB_PYLON", "I_BOMB_PYLON", "ECM_POD_R"};
-		pylonMirrorClass = "bravo_pylon_lasersensor_rail_r";
+		pylonMirrorClass = "bravo_pylon_lasersensor_rail_l";
 		model = "a3\Weapons_F\DynamicLoadout\PylonPod_ECM_01_R_F.p3d";
 	};
 };
