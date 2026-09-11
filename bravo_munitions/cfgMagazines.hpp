@@ -340,6 +340,7 @@ class CfgMagazines
 		{
 			class CameraComponent;
 			class AdditionalSensorsComponent;
+		};
 	};
 	class bravo_pylon_lasersensor_helo : PylonRadarPod_01_F
 	{
