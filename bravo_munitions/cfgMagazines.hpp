@@ -336,7 +336,10 @@ class CfgMagazines
 	class PylonTargetingPod_Base;
 	class PylonRadarPod_01_F : PylonTargetingPod_Base
 	{
-		class Components;
+		class Components
+		{
+			class CameraComponent;
+			class AdditionalSensorsComponent;
 	};
 	class bravo_pylon_lasersensor_helo : PylonRadarPod_01_F
 	{
@@ -353,6 +356,19 @@ class CfgMagazines
 					class LaserSensorComponent : SensorTemplateLaser
 					{};
 				};
+			};
+		};
+	};
+	class bravo_pylon_lasersensor_rail : bravo_pylon_lasersensor_helo
+	{
+		hiddenSelectionsTextures[] = {};
+		hardpoint[] = {"B_BOMB_PYLON", "O_BOMB_PYLON", "I_BOMB_PYLON", "ECM_POD", "ECM_POD_L", "ECM_POD_R"};
+		model = "\fir_airweaponSystem_US\data\etc\Lantirnpod_2.p3d";
+		class Components : Components
+		{
+			class CameraComponent : CameraComponent
+			{
+				memoryPointDriverOptics = "";
 			};
 		};
 	};

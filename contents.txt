@@ -33,7 +33,7 @@ MUNITIONS
 - Enable RF model for 3CB KH2002
 - Add Type 29 HVAP magazine for Chiappa Rhino
 - Add FGM-202 Predator-NG disposable AT
-- Add passive laser sensor/camera pod pylon
+- Add passive laser sensor/camera pod pylon (2 types)
 
 EXTRAS
 - Add Steyr HS-50/20 (20mm conversion of 12.7mm HS-50)
