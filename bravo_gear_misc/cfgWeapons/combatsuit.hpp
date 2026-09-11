@@ -95,6 +95,17 @@
 			uniformClass = "bravo_gm_ge_uniform_90_m90_unit";
 		};
 	};
+	class bravo_gm_ge_uniform_90_granb : bravo_gm_ge_uniform_90_des
+	{
+		displayName = "Combat Suit (Granite-B)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_granb_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_granb_co"};
+			uniformClass = "bravo_gm_ge_uniform_90_granb_unit";
+		};
+	};
+	
+	// ============ ROLLED
 	
 	class gm_ge_uniform_soldier_rolled_90_flk : gm_ge_uniform_soldier_90_base
 	{
@@ -191,7 +202,18 @@
 			uniformClass = "bravo_gm_ge_uniform_rolled_90_m90_unit";
 		};
 	};
+	class bravo_gm_ge_uniform_rolled_90_granb : bravo_gm_ge_uniform_rolled_90_des
+	{
+		displayName = "Combat Suit (Rolled, Granite-B)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_granb_co","\bravo_gear_misc\assets\bravo_gm_ge_uniform_90_granb_co"};
+			uniformClass = "bravo_gm_ge_uniform_rolled_90_granb_unit";
+		};
+	};
 	
+	
+	// ========== TSHIRT
 	class gm_ge_uniform_soldier_tshirt_90_base;
 	class gm_ge_uniform_soldier_tshirt_90_oli : gm_ge_uniform_soldier_tshirt_90_base
 	{
@@ -368,5 +390,14 @@
 		{
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_desvr_co"};
 			uniformClass = "bravo_gm_ge_uniform_tshirt_90_desvr_unit";
+		};
+	};
+	class bravo_gm_ge_uniform_tshirt_90_granb : bravo_gm_ge_uniform_tshirt_90_des
+	{
+		displayName = "Combat Suit (T-Shirt, Granite-B)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_uniform_tshirt_90_granb_co"};
+			uniformClass = "bravo_gm_ge_uniform_tshirt_90_granb_unit";
 		};
 	};

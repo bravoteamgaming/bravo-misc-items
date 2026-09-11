@@ -175,6 +175,11 @@
 		displayName = "MICH 2000 (Olive Cover/Norotos/ARC)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\mich_covered_norotos_arc_oli_co.paa","\rhsusf\addons\rhsusf_infantry\gear\head\data\mich_acc_od_co.paa"};
 	};
+	class bravo_mich_cover_norotos_arc_granb : rhsusf_mich_helmet_marpatwd_norotos_arc
+	{
+		displayName = "MICH 2000 (Granite-B/Norotos/ARC)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\mich_covered_norotos_arc_granb_co.paa","\rhsusf\addons\rhsusf_infantry\gear\head\data\mich_acc_od_co.paa"};
+	};
 	
 	class rhsusf_mich_helmet_marpatwd_norotos_arc_headset : rhsusf_mich_helmet_marpatwd_norotos_arc
 	{};
@@ -222,4 +227,9 @@
 	{
 		displayName = "MICH 2000 (Olive Cover/Norotos/ARC/Headset)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\mich_covered_norotos_arc_oli_co.paa","\rhsusf\addons\rhsusf_infantry\gear\head\data\mich_acc_od_co.paa"};
+	};
+	class bravo_mich_cover_norotos_arc_headset_granb : rhsusf_mich_helmet_marpatwd_norotos_arc_headset
+	{
+		displayName = "MICH 2000 (Granite-B/Norotos/ARC/Headset)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\mich_covered_norotos_arc_granb_co.paa","\rhsusf\addons\rhsusf_infantry\gear\head\data\mich_acc_od_co.paa"};
 	};

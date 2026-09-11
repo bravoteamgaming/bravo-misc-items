@@ -201,6 +201,8 @@ GEAR MISC
 	MICH 2000 Olive Cover/Norotos/ARC/Headset
 	MICH 2000 Khaki/Norotos/ARC
 	MICH 2000 Khaki/Norotos/ARC/Headset
+	MICH 2000 Granite-B/Norotos/ARC
+	MICH 2000 GRanite-B/Norotos/ARC/Headset
 	PASGT Tan/Medic
 	PASGT Tan/Ukraine
 	PASGT Tan/Defeatist
@@ -264,6 +266,10 @@ GEAR MISC
 	PASGT (Finnish M04/ESS Bare)
 	PASGT (Finnish M04)
 	PASGT (Finnish M04/Rhino)
+	PASGT (Granite-B/ESS)
+	PASGT (Granite-B/ESS Bare)
+	PASGT (Granite-B)
+	PASGT (Granite-B/Rhino)
 	Rangemaster Cap Bravo
 	Combat Helmet Multicam
 	Combat Helmet Green
@@ -317,6 +323,7 @@ GEAR MISC
 	Boonie Hat (CADPAT-MT)
 	Boonie Hat (BME)
 	Boonie Hat (UNSC Woodland)
+	Boonie Hat (Granite-B)
 - Add vest variants:
 	CTRG Plate Carrier Rig (Black)
 	CTRG Plate Carrier Rig (Khaki)
@@ -572,6 +579,7 @@ GEAR MISC
 	Combat Suit (Black)
 	Combat Suit (M/98)
 	Combat Suit (M/90)
+	Combat Suit (Granite-B)
 	Combat Suit (Rolled, Tan)
 	Combat Suit (Rolled, CCE)
 	Combat Suit (Rolled, Daguet)
@@ -579,6 +587,7 @@ GEAR MISC
 	Combat Suit (Rolled, PHILARPAT)
 	Combat Suit (Rolled, M/98)
 	Combat Suit (Rolled, M/90)
+	Combat Suit (Rolled, Granite-B)
 	Combat Suit (T-Shirt, Tan)
 	Combat Suit (T-Shirt, Black)
 	Combat Suit (T-Shirt, Black/Orange)
@@ -597,6 +606,7 @@ GEAR MISC
 	Combat Suit (T-Shirt, Khaki/Pride)
 	Combat Suit (T-Shirt, Tan/ION)
 	Combat Suit (T-Shirt, Tan/Vrana)
+	Combat Suit (T-Shirt, Granite-B)
 	Combat Suit (White)
 	Combat Suit (Rolled, White)
 	Combat Suit (Rolled, Black)
@@ -738,6 +748,10 @@ GEAR MISC
 	Combat Uniform (LRRDU/T-Shirt)
 	Combat Uniform (LRRDU)
 	Combat Uniform (LRRDU/Rolled-Up)
+	Combat Uniform (Granite-B/Combat Shirt)
+	Combat Uniform (Granite-B/T-Shirt)
+	Combat Uniform (Granite-B)
+	Combat Uniform (Granite-B/Rolled-Up)
 	Operator Suit (Black)
 	Operator Suit (Rolled, Black)
 	Operator Suit (Green)

@@ -212,3 +212,12 @@
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_lrrdu_co"};
 		};
 	};
+	class bravo_gm_boonie_granb : gm_ge_headgear_hat_boonie_oli
+	{
+		displayName = "Boonie Hat (Granite-B)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_granb_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_granb_co"};
+		};
+	};

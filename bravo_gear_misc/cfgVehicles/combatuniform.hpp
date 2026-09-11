@@ -179,6 +179,10 @@
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_lrrdu_co.paa"};
 	};
+	class bravo_combatuniform_granb_unit : i_soldier_universal_f
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_granb_co.paa"};
+	};
 	
 	// ================== ROLLED
 	class bravo_combatuniform_short_base_unit : i_soldier_universal_f
@@ -258,6 +262,10 @@
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_lrrdu_co.paa"};
 	};
+	class bravo_combatuniform_short_granb_unit : bravo_combatuniform_short_base_unit
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_granb_co.paa"};
+	};
 	
 	// ============== TACTEE
 	class bravo_combatuniform_tactee_cce_ws_unit : bravo_combatuniform_tactee_base_ws_unit
@@ -332,6 +340,10 @@
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_lrrdu_co.paa","a3\Characters_F_Enoch\Uniforms\Data\basicbody_wdl_co.paa"};
 	};
+	class bravo_combatuniform_tactee_granb_ws_unit : bravo_combatuniform_tactee_base_ws_unit
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_granb_co.paa","\a3\characters_f\common\data\basicbody_green_co.paa"};
+	};
 	
 	// ==================== TSHIRT
 	class bravo_combatuniform_tshirt_cce_ws_unit : bravo_combatuniform_tshirt_base_ws_unit
@@ -405,6 +417,10 @@
 	class bravo_combatuniform_tshirt_lrrdu_ws_unit : bravo_combatuniform_tshirt_base_ws_unit
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_lrrdu_co.paa","\UK3CB_Factions\addons\UK3CB_Factions_MEC\data\mec_tshirt_khaki_01_co.paa"};
+	};
+	class bravo_combatuniform_tshirt_granb_ws_unit : bravo_combatuniform_tshirt_base_ws_unit
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_granb_co.paa","\UK3CB_Factions\addons\UK3CB_Factions_MEC\data\mec_tshirt_brown_03_co.paa"};
 	};
 	
 	// ========================== CUT

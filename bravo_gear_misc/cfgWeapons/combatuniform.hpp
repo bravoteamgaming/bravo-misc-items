@@ -383,6 +383,14 @@
 			uniformClass = "bravo_combatuniform_lrrdu_unit";
 		};
 	};
+	class bravo_combatuniform_granb : u_i_combatuniform
+	{
+		displayName = "Combat Uniform (Granite-B)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_granb_unit";
+		};
+	};
 	
 	// =================== ROLLED
 	class bravo_combatuniform_short_dgt : u_i_combatuniform_shortsleeve
@@ -519,6 +527,14 @@
 		class itemInfo : itemInfo
 		{
 			uniformClass = "bravo_combatuniform_short_lrrdu_unit";
+		};
+	};
+	class bravo_combatuniform_short_granb : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (Granite-B/Rolled-Up)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_short_granb_unit";
 		};
 	};
 	
@@ -686,6 +702,14 @@
 			uniformClass = "bravo_combatuniform_tactee_lrrdu_ws_unit";
 		};
 	};
+	class bravo_combatuniform_tactee_granb_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (Granite-B/Combat Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tactee_granb_ws_unit";
+		};
+	};
 	
 	// =================== TSHIRT
 	class bravo_combatuniform_tshirt_cce_ws : u_i_combatuniform_shortsleeve
@@ -830,5 +854,13 @@
 		class itemInfo : itemInfo
 		{
 			uniformClass = "bravo_combatuniform_tshirt_lrrdu_ws_unit";
+		};
+	};
+	class bravo_combatuniform_tshirt_granb_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (Granite-B/T-Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tshirt_granb_ws_unit";
 		};
 	};

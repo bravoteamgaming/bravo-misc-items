@@ -394,3 +394,6 @@
 - ITEMS: version > 2.2
 - FAK: added Enemy IFAK and settings
 - MUNITIONS: added passive laser sensor/camera pods
+
+2026-09-11
+- GEAR MISC: added Granite-B equipment
