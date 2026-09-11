@@ -397,3 +397,4 @@
 
 2026-09-11
 - GEAR MISC: added Granite-B equipment
+- ITEMS: added 1 new sound source

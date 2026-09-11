@@ -211,4 +211,11 @@ class CfgVehicles
 		author = "Bravo Team";
 		scope = 2;
 	};
+	class bravo_sound_radioPiano : Sound
+	{
+		displayName = "Radio (Piano)";
+		sound = "bravo_radioPiano";
+		author = "Bravo Team";
+		scope = 2;
+	};
 };
