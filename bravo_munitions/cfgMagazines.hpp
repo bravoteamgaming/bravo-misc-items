@@ -333,15 +333,23 @@ class CfgMagazines
 		initSpeed = 850;
 	};
 	
-	class PylonTargetingPod_Base;
-	class PylonRadarPod_01_F : PylonTargetingPod_Base
+	class VehicleMagazine;
+	class PylonTargetingPod_Base : VehicleMagazine
 	{
 		class Components
 		{
-			class CameraComponent;
+			class CameraComponent
+			{
+				class PilotCamera
+				{
+					class OpticsIn;
+				};
+			};
 			class AdditionalSensorsComponent;
 		};
 	};
+	class PylonRadarPod_01_F : PylonTargetingPod_Base
+	{};
 	class bravo_pylon_lasersensor_helo : PylonRadarPod_01_F
 	{
 		displayName = "Laser Sensor Pod";
@@ -363,13 +371,18 @@ class CfgMagazines
 	class bravo_pylon_lasersensor_rail : bravo_pylon_lasersensor_helo
 	{
 		hiddenSelectionsTextures[] = {};
-		hardpoint[] = {"B_BOMB_PYLON", "O_BOMB_PYLON", "I_BOMB_PYLON", "ECM_POD", "ECM_POD_L", "ECM_POD_R"};
-		model = "\fir_airweaponSystem_US\data\etc\Lantirnpod_2.p3d";
+		hardpoints[] = {"B_BOMB_PYLON", "O_BOMB_PYLON", "I_BOMB_PYLON", "ECM_POD", "ECM_POD_L", "ECM_POD_R"};
+		model = "\FIR_AirWeaponSystem_US\data\TARPS\TARPS.p3d";
 		class Components : Components
 		{
 			class CameraComponent : CameraComponent
 			{
 				memoryPointDriverOptics = "";
+				class PilotCamera : PilotCamera
+				{
+					maxTurn = 70;
+					minTurn = -70;
+				};
 			};
 		};
 	};
