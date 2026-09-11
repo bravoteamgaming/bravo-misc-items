@@ -368,16 +368,18 @@ class CfgMagazines
 			};
 		};
 	};
-	class bravo_pylon_lasersensor_rail : bravo_pylon_lasersensor_helo
+	class bravo_pylon_lasersensor_rail_l : bravo_pylon_lasersensor_helo
 	{
-		hiddenSelectionsTextures[] = {};
-		hardpoints[] = {"B_BOMB_PYLON", "O_BOMB_PYLON", "I_BOMB_PYLON", "ECM_POD", "ECM_POD_L", "ECM_POD_R"};
-		model = "\FIR_AirWeaponSystem_US\data\TARPS\TARPS.p3d";
+		hardpoints[] = {"B_BOMB_PYLON", "O_BOMB_PYLON", "I_BOMB_PYLON", "ECM_POD_L"};
+		model = "a3\Weapons_F\DynamicLoadout\PylonPod_ECM_01_L_F.p3d";
+		hiddenSelections[] = {"Camo1","CamoFlare","CamoCamera"};
+		hiddenSelectionsTextures[] = {"\a3\Weapons_F\DynamicLoadout\Data\PylonPod_ECM_01_CO.paa","","\a3\Weapons_F\DynamicLoadout\Data\PylonPod_ECM_01_CO.paa"};
+		pylonMirrorClass = "bravo_pylon_lasersensor_rail_l";
 		class Components : Components
 		{
 			class CameraComponent : CameraComponent
 			{
-				memoryPointDriverOptics = "";
+				memoryPointDriverOptics = "camerahead";
 				class PilotCamera : PilotCamera
 				{
 					maxTurn = 70;
@@ -385,6 +387,12 @@ class CfgMagazines
 				};
 			};
 		};
+	};
+	class bravo_pylon_lasersensor_rail_r : bravo_pylon_lasersensor_rail_l
+	{
+		hardpoints[] = {"B_BOMB_PYLON", "O_BOMB_PYLON", "I_BOMB_PYLON", "ECM_POD_R"};
+		pylonMirrorClass = "bravo_pylon_lasersensor_rail_r";
+		model = "a3\Weapons_F\DynamicLoadout\PylonPod_ECM_01_R_F.p3d";
 	};
 };
 class CfgMagazineWells
