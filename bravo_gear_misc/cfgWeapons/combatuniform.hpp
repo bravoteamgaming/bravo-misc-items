@@ -114,6 +114,14 @@
 			uniformClass = "bravo_combatuniform_tshirt_mtp_ws_unit";
 		};
 	};
+	class bravo_combatuniform_tshirt_mtp_vladpat_ws : uk3cb_baf_u_combatuniform_mtp_shortsleeve
+	{
+		displayName = "Combat Uniform MTP T-Shirt (VLADPAT)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tshirt_mtp_vladpat_ws_unit";
+		};
+	};
 	
 	class uk3cb_baf_u_combatuniform_ddpm_shortsleeve : u_i_combatuniform_shortsleeve
 	{
@@ -806,6 +814,14 @@
 		class itemInfo : itemInfo
 		{
 			uniformClass = "bravo_combatuniform_tshirt_mcam_ws_unit";
+		};
+	};
+	class bravo_combatuniform_tshirt_mcam_vladpat_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (Multicam/VLADPAT/T-Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tshirt_mcam_vladpat_ws_unit";
 		};
 	};
 	class bravo_combatuniform_tshirt_m98_ws : u_i_combatuniform_shortsleeve

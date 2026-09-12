@@ -398,3 +398,6 @@
 2026-09-11
 - GEAR MISC: added Granite-B equipment
 - ITEMS: added 1 new sound source
+
+2026-09-12
+- GEAR MISC: added Combat Uniform T-Shirt MTP/VLADPAT and Multicam/VLADPAT

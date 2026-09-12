@@ -81,6 +81,10 @@
 	{
 		hiddenSelectionsTextures[] = {"\UK3CB_BAF_Equipment\uniform\data\mtp_uk_basic.paa","a3\Characters_F_Enoch\Uniforms\Data\I_L_Uniform_01_tshirt_olive_1_co.paa"};
 	};
+	class bravo_combatuniform_tshirt_mtp_vladpat_ws_unit : bravo_combatuniform_tshirt_base_ws_unit
+	{
+		hiddenSelectionsTextures[] = {"\UK3CB_BAF_Equipment\uniform\data\mtp_uk_basic.paa","\bravo_gear_misc\assets\tshirt_vladpat_co.paa"};
+	};
 	class bravo_combatuniform_tshirt_ddpm_ws_unit : bravo_combatuniform_tshirt_base_ws_unit
 	{
 		hiddenSelectionsTextures[] = {"\UK3CB_BAF_Equipment\uniform\data\uniform_ddpm_co.paa","\UK3CB_Factions\addons\UK3CB_Factions_MEC\data\mec_tshirt_brown_03_co.paa"};
@@ -393,6 +397,10 @@
 	class bravo_combatuniform_tshirt_mcam_ws_unit : bravo_combatuniform_tshirt_base_ws_unit
 	{
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_mcam_co.paa","a3\Characters_F_Enoch\Uniforms\Data\I_L_Uniform_01_tshirt_olive_1_co.paa"};
+	};
+	class bravo_combatuniform_tshirt_mcam_vladpat_ws_unit : bravo_combatuniform_tshirt_base_ws_unit
+	{
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\combatuniform_mcam_co.paa","\bravo_gear_misc\assets\tshirt_vladpat_co.paa"};
 	};
 	class bravo_combatuniform_tshirt_m98_ws_unit : bravo_combatuniform_tshirt_base_ws_unit
 	{
