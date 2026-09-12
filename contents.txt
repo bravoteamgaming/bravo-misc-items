@@ -904,3 +904,6 @@ ZEN AISKILL
 APS
 - Provides a system for basic simulation of active projection systems
 - Provides Zeus module for managing this system
+
+SPEHIPFIRE
+- Adds the Spearhead 1944 MG hipfire mechanic to MGs from other mods
