@@ -404,4 +404,4 @@
 - GEAR MISC: added Combat Fatigues and Recon Fatigues Sage/Classic Woodland (hidden vanilla textures)
 - GEAR MISC: added Worker Coveralls Grey, Black, Urban, Brown (hidden vanilla textures)
 - SPEHIPFIRE: new addon, adds Spearhead hipfire mechanic to non-SPE machineguns
-- GEAR MISC: adjusted texture of existing M/84 MTP uniform
+- GEAR MISC: adjusted texture of existing MTP equipment: M/84, FAST, G3
