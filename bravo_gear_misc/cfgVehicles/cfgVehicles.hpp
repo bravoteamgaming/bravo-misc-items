@@ -130,6 +130,7 @@ class cfgVehicles
 	
 	#include "operator.hpp"
 	
+	// =========== VR suit
 	class B_Protagonist_VR_F;
 	class bravo_vrsuit_plain_unit : B_Protagonist_VR_F
 	{
@@ -148,5 +149,48 @@ class cfgVehicles
 	class bravo_vrsuit_mcam_unit : bravo_vrsuit_plain_unit
 	{
 		hiddenSelectionsTextures[] = {"","\bravo_gear_misc\assets\vrsuit_01_mcam_co","\bravo_gear_misc\assets\vrsuit_02_mcam_co","\bravo_gear_misc\assets\vrarmor_des_co"};
+	};
+	
+	// =========== coveralls
+	class C_man_w_worker_F;
+	class bravo_coveralls_gry_unit : C_man_w_worker_F
+	{
+		scope = 1;
+		hiddenSelectionsTextures[] = {"\A3\characters_f\common\data\coveralls_grey_co.paa"};
+	};
+	class bravo_coveralls_blk_unit : bravo_coveralls_gry_unit
+	{
+		hiddenSelectionsTextures[] = {"\A3\characters_f\common\data\coveralls_black_co.paa"};
+	};
+	class bravo_coveralls_urb_unit : bravo_coveralls_gry_unit
+	{
+		hiddenSelectionsTextures[] = {"\A3\characters_f\common\data\coveralls_urbancamo_co.paa"};
+	};
+	class bravo_coveralls_bnd_unit : bravo_coveralls_gry_unit
+	{
+		hiddenSelectionsTextures[] = {"\A3\characters_f\common\data\coveralls_bandit_co.paa"};
+	};
+	
+	// ======== combat fatigues
+	class B_Soldier_F;
+	class bravo_combatfatigues_sgg_unit : B_Soldier_F
+	{
+		scope = 1;
+		hiddenSelectionsTextures[] = {"\a3\characters_f\BLUFOR\Data\clothing_sage_co.paa"};
+	};
+	class bravo_combatfatigues_wdl_unit : bravo_combatfatigues_sgg_unit
+	{
+		hiddenSelectionsTextures[] = {"\a3\characters_f\BLUFOR\Data\clothing_wdl_co.paa"};
+	};
+	
+	class B_Soldier_SL_F;
+	class bravo_combatfatigues_recon_sgg_unit : B_Soldier_SL_F
+	{
+		scope = 1;
+		hiddenSelectionsTextures[] = {"\a3\characters_f\BLUFOR\Data\clothing_sage_co.paa"};
+	};
+	class bravo_combatfatigues_recon_wdl_unit : bravo_combatfatigues_recon_sgg_unit
+	{
+		hiddenSelectionsTextures[] = {"\a3\characters_f\BLUFOR\Data\clothing_wdl_co.paa"};
 	};
 };

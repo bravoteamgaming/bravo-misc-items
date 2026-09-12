@@ -269,7 +269,18 @@ class CfgPatches
 			"bravo_gm_uniform_operator_rolled_blu_unit",
 			"bravo_gm_uniform_operator_rolled_tgr_unit",
 			"bravo_gm_uniform_operator_rolled_win_unit",
-			"bravo_vrsuit_plain_unit"
+			"bravo_vrsuit_plain_unit",
+			"bravo_vrsuit_mcam_unit",
+			"bravo_vrsuit_oli_unit",
+			"bravo_vrsuit_des_unit",
+			"bravo_coveralls_gry_unit",
+			"bravo_coveralls_blk_unit",
+			"bravo_coveralls_urb_unit",
+			"bravo_coveralls_bnd_unit",
+			"bravo_combatfatigues_sgg_unit",
+			"bravo_combatfatigues_wdl_unit",
+			"bravo_combatfatigues_recon_sgg_unit",
+			"bravo_combatfatigues_recon_wdl_unit"
 		};
 		weapons[] = {
 			"bravo_carrier_nobelt_rf_blk",
@@ -995,7 +1006,15 @@ class CfgPatches
 			"bravo_nvg_cigarette_belomorkanal",
 			"bravo_nvg_cigarette_grundstein",
 			"bravo_nvg_cigarette_strike_outs",
-			"bravo_nvg_cigar_moza"
+			"bravo_nvg_cigar_moza",
+			"bravo_coveralls_gry",
+			"bravo_coveralls_blk",
+			"bravo_coveralls_urb",
+			"bravo_coveralls_bnd",
+			"bravo_combatfatigues_sgg",
+			"bravo_combatfatigues_wdl",
+			"bravo_combatfatigues_recon_sgg",
+			"bravo_combatfatigues_recon_wdl"
 		};
 		skipWhenMissingDependencies = 1;
 	};

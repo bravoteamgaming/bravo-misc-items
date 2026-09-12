@@ -631,7 +631,7 @@ class cfgWeapons
 
 	#include "dkvest.hpp"
 	
-	class Uniform_Base;
+	// =========== VR suit
 	class U_B_Protagonist_VR : Uniform_Base
 	{
 		class ItemInfo;
@@ -666,6 +666,88 @@ class cfgWeapons
 		class ItemInfo : ItemInfo
 		{
 			uniformClass = "bravo_vrsuit_mcam_unit";
+		};
+	};
+	
+	// ========= Coveralls
+	class U_C_WorkerCoveralls : Uniform_Base
+	{
+		class ItemInfo;
+	};
+	class bravo_coveralls_gry : U_C_WorkerCoveralls
+	{
+		displayName = "Worker Coveralls (Grey)";
+		class ItemInfo : ItemInfo
+		{
+			uniformClass = "bravo_coveralls_gry_unit";
+		};
+	};
+	class bravo_coveralls_blk : U_C_WorkerCoveralls
+	{
+		displayName = "Worker Coveralls (Black)";
+		class ItemInfo : ItemInfo
+		{
+			uniformClass = "bravo_coveralls_blk_unit";
+		};
+	};
+	class bravo_coveralls_urb : U_C_WorkerCoveralls
+	{
+		displayName = "Worker Coveralls (Urban)";
+		class ItemInfo : ItemInfo
+		{
+			uniformClass = "bravo_coveralls_urb_unit";
+		};
+	};
+	class bravo_coveralls_bnd : U_C_WorkerCoveralls
+	{
+		displayName = "Worker Coveralls (Bandit)";
+		class ItemInfo : ItemInfo
+		{
+			uniformClass = "bravo_coveralls_bnd_unit";
+		};
+	};
+	
+	// ========== Combat Fatigues
+	
+	class U_B_CombatUniform_mcam : Uniform_Base
+	{
+		class ItemInfo;
+	};
+	class bravo_combatfatigues_sgg : U_B_CombatUniform_mcam
+	{
+		displayName = "Combat Fatigues (Sage)";
+		class ItemInfo : ItemInfo
+		{
+			uniformClass = "bravo_combatfatigues_sgg_unit";
+		};
+	};
+	class bravo_combatfatigues_wdl : U_B_CombatUniform_mcam
+	{
+		displayName = "Combat Fatigues (Classic Woodland)";
+		class ItemInfo : ItemInfo
+		{
+			uniformClass = "bravo_combatfatigues_wdl_unit";
+		};
+	};
+	
+	class U_B_CombatUniform_mcam_vest : Uniform_Base
+	{
+		class ItemInfo;
+	};
+	class bravo_combatfatigues_recon_sgg : U_B_CombatUniform_mcam_vest
+	{
+		displayName = "Recon Fatigues (Sage)";
+		class ItemInfo : ItemInfo
+		{
+			uniformClass = "bravo_combatfatigues_recon_sgg_unit";
+		};
+	};
+	class bravo_combatfatigues_recon_wdl : U_B_CombatUniform_mcam_vest
+	{
+		displayName = "Recon Fatigues (Classic Woodland)";
+		class ItemInfo : ItemInfo
+		{
+			uniformClass = "bravo_combatfatigues_recon_wdl_unit";
 		};
 	};
 	
