@@ -402,4 +402,4 @@
 2026-09-12
 - GEAR MISC: added Combat Uniform T-Shirt MTP/VLADPAT and Multicam/VLADPAT
 - GEAR MISC: added Combat Fatigues and Recon Fatigues Sage/Classic Woodland (hidden vanilla textures)
-- GEAR MISC: added Worker Coveralls Grey, Black, Urban, Bandit (hidden vanilla textures)
+- GEAR MISC: added Worker Coveralls Grey, Black, Urban, Brown (hidden vanilla textures)

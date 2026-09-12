@@ -166,7 +166,7 @@ class cfgVehicles
 	{
 		hiddenSelectionsTextures[] = {"\A3\characters_f\common\data\coveralls_urbancamo_co.paa"};
 	};
-	class bravo_coveralls_bnd_unit : bravo_coveralls_gry_unit
+	class bravo_coveralls_brn_unit : bravo_coveralls_gry_unit
 	{
 		hiddenSelectionsTextures[] = {"\A3\characters_f\common\data\coveralls_bandit_co.paa"};
 	};

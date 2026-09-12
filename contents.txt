@@ -781,7 +781,7 @@ GEAR MISC
 	Worker Coveralls (Grey)
 	Worker Coveralls (Black)
 	Worker Coveralls (Urban)
-	Worker Coveralls (Bandit)
+	Worker Coveralls (Brown)
 - Add facewear variants:
 	Shemagh w/Goggles (Green/Clear)
 	Shemagh w/Goggles (Green/alt/Clear)

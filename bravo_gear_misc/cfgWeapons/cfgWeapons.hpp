@@ -698,12 +698,12 @@ class cfgWeapons
 			uniformClass = "bravo_coveralls_urb_unit";
 		};
 	};
-	class bravo_coveralls_bnd : U_C_WorkerCoveralls
+	class bravo_coveralls_brn : U_C_WorkerCoveralls
 	{
-		displayName = "Worker Coveralls (Bandit)";
+		displayName = "Worker Coveralls (Brown)";
 		class ItemInfo : ItemInfo
 		{
-			uniformClass = "bravo_coveralls_bnd_unit";
+			uniformClass = "bravo_coveralls_brn_unit";
 		};
 	};
 	
