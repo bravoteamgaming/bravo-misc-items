@@ -405,3 +405,4 @@
 - GEAR MISC: added Worker Coveralls Grey, Black, Urban, Brown (hidden vanilla textures)
 - SPEHIPFIRE: new addon, adds Spearhead hipfire mechanic to non-SPE machineguns
 - GEAR MISC: adjusted texture of existing MTP equipment: M/84, FAST, G3 and texture of existing Multicam Combat Uniform and AMH
+- GEAR MISC: reduced mass of RHS empty rhino mount

@@ -751,6 +751,15 @@ class cfgWeapons
 		};
 	};
 	
+	class rhsusf_ANPVS_14;
+	class rhsusf_rhino : rhsusf_ANPVS_14
+	{
+		class ItemInfo
+		{
+			mass = 1;
+		};
+	};
+	
 	// =========== nightvision
 	class gm_ferod51_oli;
 	class bravo_ferod51_gen2_oli : gm_ferod51_oli
