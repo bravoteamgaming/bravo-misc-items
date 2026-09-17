@@ -907,3 +907,6 @@ APS
 
 SPEHIPFIRE
 - Adds the Spearhead 1944 MG hipfire mechanic to MGs from other mods
+
+MOD ENFORCER
+- Provides a CBA setting for requiring specified mods to be loaded in order to play on the server.

@@ -409,3 +409,4 @@
 
 2026-09-17
 - ITEMS: version > 2.3
+- MOD ENFORCER: new addon, requires specified mods to be loaded, configured by CBA setting
