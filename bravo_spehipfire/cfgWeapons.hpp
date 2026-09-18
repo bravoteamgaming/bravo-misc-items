@@ -85,6 +85,15 @@ class CfgWeapons
 			};
 		};
 	};
+	class uk3cb_baf_l115_base : rifle_long_base_f
+	{
+		SPE_HipFire_Only = 0;
+		class EventHandlers : EventHandlers
+		{
+			class bravo_spe_hipfirehandler
+			{};
+		};
+	};
 	class uk3cb_mg42_base : rifle_long_base_f
 	{
 		SPE_HipFire_Only = 1;

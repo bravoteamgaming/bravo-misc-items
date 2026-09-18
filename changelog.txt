@@ -413,3 +413,4 @@
 
 2026-09-18
 - GEAR MISC: SU230 [B] variants can now be hotswapped with non-[B] variants using the CBA Optic Attachment keybinds.
+- SPEHIPFIRE: fixed BAF L115 and L118 being affected
