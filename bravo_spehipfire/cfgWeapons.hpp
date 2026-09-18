@@ -315,7 +315,7 @@ class CfgWeapons
 	class gm_g3_base;
 	class gm_psg1_base : gm_g3_base
 	{
-		SPE_deployment_animation = "RHS_GestureHoldMG42";
+		SPE_deployment_animation = "gestureAltHoldMG42v2";
 	};
 	class gm_msg90_base : gm_psg1_base
 	{
@@ -358,33 +358,28 @@ class CfgWeapons
 	class arifle_ak12_base_f;
 	class arifle_rpk12_base_f : arifle_ak12_base_f
 	{
-		SPE_deployment_animation = "RHS_GestureHoldMG42";
+		SPE_deployment_animation = "RHS_GestureHoldPK";
 	};
 	
 	class gm_ak47_base;
 	class gm_rpk_base : gm_ak47_base
 	{
-		SPE_deployment_animation = "gestureAltHoldMG42v2";
+		SPE_deployment_animation = "RHS_GestureHoldM240";
 	};
 	
 	class gm_ak74_base;
 	class gm_rpk74_base : gm_ak74_base
 	{
-		SPE_deployment_animation = "gestureAltHoldMG42v2";
+		SPE_deployment_animation = "RHS_GestureHoldM240";
 	};
 	
 	class rhs_weap_rpk_base : rifle_long_base_f
 	{
-		SPE_deployment_animation = "gestureAltHoldMG42v2";
+		SPE_deployment_animation = "RHS_GestureHoldM240";
 	};
 	
 	class uk3cb_g36_base;
 	class uk3cb_g36_lsw : uk3cb_g36_base
-	{
-		SPE_deployment_animation = "gestureAltHoldMG42v2";
-	};
-	
-	class lmg_03_base_f : rifle_long_base_f
 	{
 		SPE_deployment_animation = "gestureAltHoldMG42v2";
 	};
