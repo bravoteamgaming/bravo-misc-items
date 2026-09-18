@@ -45,7 +45,7 @@ class bravo_enforcer_popup : RscDisplayEmpty
 					y = 0;
 					sizeEx = 1;
 					colorText[] = {0,0,0,0};
-					colorBackground[] = {0,0,0,0.65};
+					colorBackground[] = {0,0,0,0.8};
 					text = "";
 					shadow = 0;
 				};
@@ -61,7 +61,7 @@ class bravo_enforcer_popup : RscDisplayEmpty
 					y = 0.5 * GUI_GRID_CENTER_H;
 					sizeEx = 1;
 					colorText[] = {0,0,0,0};
-					colorBackground[] = {0,0,0,0.65};
+					colorBackground[] = {0.15,0.15,0.15,1};
 					text = "";
 					shadow = 0;
 				};
