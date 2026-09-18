@@ -373,7 +373,6 @@
 	
 	class rhsusf_acc_su230 : rhsusf_acc_su230_base
 	{
-	{
 		MRT_SwitchItemNextClass = "bravo_rhs_su230_ni";
 		MRT_SwitchItemPrevClass = "bravo_rhs_su230_ni";
 		MRT_switchItemHintText = "Irons";
