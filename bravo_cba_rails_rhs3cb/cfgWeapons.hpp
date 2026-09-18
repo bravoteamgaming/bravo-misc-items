@@ -26,7 +26,14 @@ class CfgMagazineWells
 	{
 		UK3CB_RK62_mags[] = {"UK3CB_RK62_75Rnd_Magazine","UK3CB_RK62_75Rnd_Magazine_G","UK3CB_RK62_75Rnd_Magazine_GM","UK3CB_RK62_75Rnd_Magazine_GT","UK3CB_RK62_75Rnd_Magazine_R","UK3CB_RK62_75Rnd_Magazine_RM","UK3CB_RK62_75Rnd_Magazine_RT","UK3CB_RK62_75Rnd_Magazine_Y","UK3CB_RK62_75Rnd_Magazine_YM","UK3CB_RK62_75Rnd_Magazine_YT","UK3CB_RK62_75Rnd_Magazine_W","UK3CB_RK62_75Rnd_Magazine_WM","UK3CB_RK62_75Rnd_Magazine_WT"};
 	};
-			
+	class CBA_338LM_AI
+	{
+		bravo_3cb_mags[] = {"UK3CB_BAF_338_5Rnd","UK3CB_BAF_338_5Rnd_Blank","UK3CB_BAF_338_5Rnd_Tracer"};
+	};
+	class CBA_762x51_AICS
+	{
+		bravo_3cb_mags[] = {"UK3CB_BAF_762_L42A1_10Rnd","UK3CB_BAF_762_L42A1_10Rnd_Blank","UK3CB_BAF_762_L42A1_10Rnd_T"};
+	};
 };
 class asdg_OpticRail1913_short;
 class asdg_OpticRail1913_short_MG : asdg_OpticRail1913_short
@@ -223,6 +230,40 @@ class CfgWeapons
 		{
 			mass = 66;
 		};
+	};
+	
+	class srifle_LRR_F;
+	class uk3cb_baf_l115_base : srifle_lrr_f
+	{
+		magazineWell[] = {"CBA_338LM_AI"};
+	};
+	class uk3cb_baf_l118a1_covert : uk3cb_baf_l115_base
+	{
+		magazineWell[] = {"CBA_762x51_AICS"};
+	};
+	
+	class uk3cb_baf_l115a3 : uk3cb_baf_l115_base
+	{};
+	class bravo_l115a3_300wm : uk3cb_baf_l115a3
+	{
+		baseWeapon = "bravo_l115a3_300wm";
+		displayName = "L115A3 300WM";
+		magazines[] = {"rhsusf_5Rnd_300winmag_xm2010"};
+		magazineWell[] = {"CBA_300WM_AICS"};
+	};
+	class bravo_l115a3_300wm_blk : bravo_l115a3_300wm
+	{
+		baseWeapon = "bravo_l115a3_300wm_blk";
+		displayName = "L115A3 300WM (Black)";
+		hiddenSelectionsTextures[] = {"\UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_L115\data\AWCSTOCK_black_co.paa","\UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_L115\data\AWC_Scope_co.paa","\UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_L115\data\Magnumbits_ca.paa"};
+		picture = "\UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_L115\data\gear_awmBlack_ca.paa";
+	};
+	class bravo_l115a3_300wm_des : bravo_l115a3_300wm
+	{
+		baseWeapon = "bravo_l115a3_300wm_des";
+		displayName = "L115A3 300WM (Sand)";
+		hiddenSelectionsTextures[] = {"\UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_L115\data\awcstock_FDE_co.paa","\UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_L115\data\AWC_Scope_co.paa","\UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_L115\data\Magnumbits_ca.paa"};
+		picture = "\UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_L115\data\gear_awmFDE_ca.paa";
 	};
 	
 	// =========
