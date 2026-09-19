@@ -14,23 +14,7 @@ class cfgVehicles
 	
 	#include "cryeg3.hpp"
 	
-	class UK3CB_ION_B_U_TSHIRT_01_URB;
-	class bravo_combatuniformn_tactee_ion_mtp_unit : UK3CB_ION_B_U_TSHIRT_01_URB
-	{
-		hiddenSelectionsTextures[] = {"\a3\characters_f\blufor\data\clothing1_co.paa","\UK3CB_Factions\addons\UK3CB_Factions_ION\data\ion_basicbody_grey_co.paa"};
-	};
-	class bravo_combatuniformn_tactee_ion_mtpw_unit : UK3CB_ION_B_U_TSHIRT_01_URB
-	{
-		hiddenSelectionsTextures[] = {"a3\Characters_F_Enoch\Uniforms\Data\clothing_mcam_wdl_co.paa","\UK3CB_Factions\addons\UK3CB_Factions_ION\data\ion_basicbody_blue_co.paa"};
-	};
-	class bravo_combatuniformn_tactee_ion_mtpt_unit : UK3CB_ION_B_U_TSHIRT_01_URB
-	{
-		hiddenSelectionsTextures[] = {"\A3\Characters_F_Exp\BLUFOR\Data\U_BT_Soldier_AR_F_tna_02_co.paa","\UK3CB_Factions\addons\UK3CB_Factions_ION\data\ion_basicbody_green_01_co.paa"};
-	};
-	class bravo_combatuniformn_tactee_ion_mtpd_unit : UK3CB_ION_B_U_TSHIRT_01_URB
-	{
-		hiddenSelectionsTextures[] = {"\lxws\characters_f_lxws\data\NATO\clothing1_desert_CO.paa","\UK3CB_Factions\addons\UK3CB_Factions_ION\data\ion_basicbody_brown_02_co.paa"};
-	};
+	#include "natofatigues.hpp"
 	
 	class gm_ge_army_backpack_90_oli;
 	class bravo_ge_army_backpack_90_khk : gm_ge_army_backpack_90_oli
@@ -169,28 +153,5 @@ class cfgVehicles
 	class bravo_coveralls_brn_unit : bravo_coveralls_gry_unit
 	{
 		hiddenSelectionsTextures[] = {"\A3\characters_f\common\data\coveralls_bandit_co.paa"};
-	};
-	
-	// ======== combat fatigues
-	class B_Soldier_F;
-	class bravo_combatfatigues_sgg_unit : B_Soldier_F
-	{
-		scope = 1;
-		hiddenSelectionsTextures[] = {"\a3\characters_f\BLUFOR\Data\clothing_sage_co.paa"};
-	};
-	class bravo_combatfatigues_wdl_unit : bravo_combatfatigues_sgg_unit
-	{
-		hiddenSelectionsTextures[] = {"\a3\characters_f\BLUFOR\Data\clothing_wdl_co.paa"};
-	};
-	
-	class B_Soldier_SL_F;
-	class bravo_combatfatigues_recon_sgg_unit : B_Soldier_SL_F
-	{
-		scope = 1;
-		hiddenSelectionsTextures[] = {"\a3\characters_f\BLUFOR\Data\clothing_sage_co.paa"};
-	};
-	class bravo_combatfatigues_recon_wdl_unit : bravo_combatfatigues_recon_sgg_unit
-	{
-		hiddenSelectionsTextures[] = {"\a3\characters_f\BLUFOR\Data\clothing_wdl_co.paa"};
 	};
 };

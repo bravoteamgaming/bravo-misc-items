@@ -417,3 +417,6 @@
 - CBA RAILS RHS3CB: corrected magwell assignments for L115A3 and L118A1
 - CBA RAILS RHS3CB: added L115A3 300WM
 - SPEHIPFIRE: more support weapons now use animations for the offhand when deployed
+
+2026-09-19
+- GEAR MISC: add WS Combat Fatigues T-Shirt variants

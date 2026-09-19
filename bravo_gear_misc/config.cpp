@@ -280,7 +280,14 @@ class CfgPatches
 			"bravo_combatfatigues_sgg_unit",
 			"bravo_combatfatigues_wdl_unit",
 			"bravo_combatfatigues_recon_sgg_unit",
-			"bravo_combatfatigues_recon_wdl_unit"
+			"bravo_combatfatigues_recon_wdl_unit",
+			"bravo_combatfatigues_tshirt_mtp_ws_unit",
+			"bravo_combatfatigues_tshirt_mtpw_ws_unit",
+			"bravo_combatfatigues_tshirt_mtpd_ws_unit",
+			"bravo_combatfatigues_tshirt_mtpt_ws_unit",
+			"bravo_combatfatigues_tshirt_des_ws_unit",
+			"bravo_combatfatigues_tshirt_oli_ws_unit",
+			"bravo_combatfatigues_tshirt_blk_ws_unit"
 		};
 		weapons[] = {
 			"bravo_carrier_nobelt_rf_blk",
@@ -1014,7 +1021,14 @@ class CfgPatches
 			"bravo_combatfatigues_sgg",
 			"bravo_combatfatigues_wdl",
 			"bravo_combatfatigues_recon_sgg",
-			"bravo_combatfatigues_recon_wdl"
+			"bravo_combatfatigues_recon_wdl",
+			"bravo_combatfatigues_tshirt_mtp_ws",
+			"bravo_combatfatigues_tshirt_mtpw_ws",
+			"bravo_combatfatigues_tshirt_mtpd_ws",
+			"bravo_combatfatigues_tshirt_mtpt_ws",
+			"bravo_combatfatigues_tshirt_des_ws",
+			"bravo_combatfatigues_tshirt_oli_ws",
+			"bravo_combatfatigues_tshirt_blk_ws"
 		};
 		skipWhenMissingDependencies = 1;
 	};

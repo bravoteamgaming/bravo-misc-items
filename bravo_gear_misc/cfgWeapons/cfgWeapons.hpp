@@ -378,43 +378,7 @@ class cfgWeapons
 	
 	#include "combatuniform.hpp"
 	
-	class uk3cb_ion_b_u_tshirt_uniform_01_wdl : uniform_base
-	{
-		class itemInfo : itemInfo
-		{};
-	};
-	class bravo_combatuniformn_tactee_ion_mtpw : uk3cb_ion_b_u_tshirt_uniform_01_wdl
-	{
-		displayName = "Combat Fatigues T-Shirt [ION] (Woodland MTP)";
-		class itemInfo : itemInfo
-		{
-			uniformClass = "bravo_combatuniformn_tactee_ion_mtpw_unit";
-		};
-	};
-	class bravo_combatuniformn_tactee_ion_mtpt : uk3cb_ion_b_u_tshirt_uniform_01_wdl
-	{
-		displayName = "Combat Fatigues T-Shirt [ION] (Tropic MTP)";
-		class itemInfo : itemInfo
-		{
-			uniformClass = "bravo_combatuniformn_tactee_ion_mtpt_unit";
-		};
-	};
-	class bravo_combatuniformn_tactee_ion_mtp : uk3cb_ion_b_u_tshirt_uniform_01_wdl
-	{
-		displayName = "Combat Fatigues T-Shirt [ION] (MTP)";
-		class itemInfo : itemInfo
-		{
-			uniformClass = "bravo_combatuniformn_tactee_ion_mtp_unit";
-		};
-	};
-	class bravo_combatuniformn_tactee_ion_mtpd : uk3cb_ion_b_u_tshirt_uniform_01_wdl
-	{
-		displayName = "Combat Fatigues T-Shirt [ION] (Desert MTP)";
-		class itemInfo : itemInfo
-		{
-			uniformClass = "bravo_combatuniformn_tactee_ion_mtpd_unit";
-		};
-	};
+	#include "natofatigues.hpp"
 	
 	
 	class gm_vest_armored_base;
@@ -704,50 +668,6 @@ class cfgWeapons
 		class ItemInfo : ItemInfo
 		{
 			uniformClass = "bravo_coveralls_brn_unit";
-		};
-	};
-	
-	// ========== Combat Fatigues
-	
-	class U_B_CombatUniform_mcam : Uniform_Base
-	{
-		class ItemInfo;
-	};
-	class bravo_combatfatigues_sgg : U_B_CombatUniform_mcam
-	{
-		displayName = "Combat Fatigues (Sage)";
-		class ItemInfo : ItemInfo
-		{
-			uniformClass = "bravo_combatfatigues_sgg_unit";
-		};
-	};
-	class bravo_combatfatigues_wdl : U_B_CombatUniform_mcam
-	{
-		displayName = "Combat Fatigues (Classic Woodland)";
-		class ItemInfo : ItemInfo
-		{
-			uniformClass = "bravo_combatfatigues_wdl_unit";
-		};
-	};
-	
-	class U_B_CombatUniform_mcam_vest : Uniform_Base
-	{
-		class ItemInfo;
-	};
-	class bravo_combatfatigues_recon_sgg : U_B_CombatUniform_mcam_vest
-	{
-		displayName = "Recon Fatigues (Sage)";
-		class ItemInfo : ItemInfo
-		{
-			uniformClass = "bravo_combatfatigues_recon_sgg_unit";
-		};
-	};
-	class bravo_combatfatigues_recon_wdl : U_B_CombatUniform_mcam_vest
-	{
-		displayName = "Recon Fatigues (Classic Woodland)";
-		class ItemInfo : ItemInfo
-		{
-			uniformClass = "bravo_combatfatigues_recon_wdl_unit";
 		};
 	};
 	
