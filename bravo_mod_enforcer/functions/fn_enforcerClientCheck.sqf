@@ -5,7 +5,7 @@ if !_doCheck exitWith{};
 
 private _requiredModsStr = toLowerANSI (["bravo_enforcer_modlist", "server"] call CBA_settings_fnc_get);
 
-if (_requiredModsStr == "") exitWith{};
+if (_requiredModsStr in ["", "[]"]) exitWith{};
 
 private _requiredMods = parseSimpleArray _requiredModsStr;
 
