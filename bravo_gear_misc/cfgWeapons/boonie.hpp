@@ -221,3 +221,12 @@
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_granb_co"};
 		};
 	};
+	class bravo_gm_boonie_rtad : gm_ge_headgear_hat_boonie_oli
+	{
+		displayName = "Boonie Hat (RTA Digital)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_rtad_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_rtad_co"};
+		};
+	};

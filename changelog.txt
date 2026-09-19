@@ -420,3 +420,5 @@
 
 2026-09-19
 - GEAR MISC: add WS Combat Fatigues T-Shirt variants
+- GEAR MISC: added variants without headset for FAST Khaki Cover, White Cover, Tan Cover, Blue Cover
+- GEAR MISC: added Royal Thai Army Digital equipment

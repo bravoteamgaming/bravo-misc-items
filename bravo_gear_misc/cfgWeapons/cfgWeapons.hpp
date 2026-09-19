@@ -295,7 +295,7 @@ class cfgWeapons
 	};
 	class bravo_carrier_nobelt_rf_mtpdes : bravo_carrier_nobelt_rf_blk
 	{
-		displayName = "Carrier Lite Vest (Desert MTP)";
+		displayName = "Carrier Lite Vest (Desert Multicam)";
 		hiddenSelectionsTextures[] = {"\lxws\characters_f_lxws\vests\data\vests_desert_CO.paa", ""};
 	};
 	class bravo_carrier_nobelt_rf_win : bravo_carrier_nobelt_rf_blk
@@ -305,7 +305,7 @@ class cfgWeapons
 	};
 	class bravo_carrier_nobelt_rf_mtpwdl : bravo_carrier_nobelt_rf_blk
 	{
-		displayName = "Carrier Lite Vest (Woodland MTP)";
+		displayName = "Carrier Lite Vest (Woodland Multicam)";
 		hiddenSelectionsTextures[] = {"\A3\Characters_F_Enoch\Vests\Data\vests_wdl_co.paa",""};
 	};
 	class bravo_carrier_nobelt_rf_khk : bravo_carrier_nobelt_rf_blk
@@ -320,7 +320,7 @@ class cfgWeapons
 	};
 	class bravo_carrier_nobelt_rf_mtptrp : bravo_carrier_nobelt_rf_blk
 	{
-		displayName = "Carrier Lite Vest (Tropic MTP)";
+		displayName = "Carrier Lite Vest (Tropic Multicam)";
 		hiddenSelectionsTextures[] = {"\A3\Characters_F_Exp\Vests\Data\V_PlateCarrier1_tna_F_co.paa",""};
 	};
 	

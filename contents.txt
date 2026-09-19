@@ -121,6 +121,7 @@ GEAR MISC
 	Advanced Modular Helmet Multicam/Headset
 	FAST Ballistic Black/Headset/Medic
 	FAST Ballistic Blue Cover/Headset
+	FAST Ballistic Blue Cover
 	FAST Ballistic Coyote Cover/Headset
 	FAST Ballistic DCU Cover/Headset
 	FAST Ballistic Flecktarn Cover/Headset
@@ -130,10 +131,17 @@ GEAR MISC
 	FAST Ballistic Jietai Cover/Headset
 	FAST Ballistic AMC Cover/Headset
 	FAST Ballistic AMC Cover
+	FAST Ballistic MTP Cover
 	FAST Ballistic MTP Cover/Headset
 	FAST Ballistic MM-14 Cover/Headset
 	FAST Ballistic Tan Cover/Headset
+	FAST Ballistic Tan Cover
 	FAST Ballistic Khaki Cover/Headset
+	FAST Ballistic Khaki Cover
+	FAST Ballistic Multicam Cover/Headset
+	FAST Ballistic Multicam Cover
+	FAST Ballistic Multicam Cover/Headset/Blue Team
+	FAST Ballistic Multicam Cover/Headset/Red Team
 	FAST Ballistic Finnish M05 Cover/Headset
 	FAST Ballistic CADPAT-TW Cover/Headset
 	FAST Ballistic CADPAT-MT Cover/Headset
@@ -154,7 +162,10 @@ GEAR MISC
 	FAST Ballistic Urban Tan/Headset/Barvo
 	FAST Ballistic Urban Tan/Headset/Medic
 	FAST Ballistic Urban Tan/Headset/Stickers
-	FAST Ballistic Winter Cover/Headset
+	FAST Ballistic White Cover
+	FAST Ballistic White Cover/Headset
+	FAST Ballistic RTA Digital Cover
+	FAST Ballistic RTA Digital Cover/Headset
 	LWH MARPAT-D/Headset/ESS/Medic
 	LWH MARPAT-D/Advisory
 	LWH MARPAT-WD/Headset/Tan ESS/Medic
@@ -270,6 +281,10 @@ GEAR MISC
 	PASGT (Granite-B/ESS Bare)
 	PASGT (Granite-B)
 	PASGT (Granite-B/Rhino)
+	PASGT (RTA Digital/ESS)
+	PASGT (RTA Digital/ESS Bare)
+	PASGT (RTA Digital)
+	PASGT (RTA Digital/Rhino)
 	Rangemaster Cap Bravo
 	Combat Helmet Multicam
 	Combat Helmet Green
@@ -324,6 +339,7 @@ GEAR MISC
 	Boonie Hat (BME)
 	Boonie Hat (UNSC Woodland)
 	Boonie Hat (Granite-B)
+	Boonie Hat (RTA Digital)
 - Add vest variants:
 	CTRG Plate Carrier Rig (Black)
 	CTRG Plate Carrier Rig (Khaki)
@@ -336,9 +352,9 @@ GEAR MISC
 	Carrier Lite Vest (Khaki)
 	Carrier Lite Vest (Desert)
 	Carrier Lite Vest (Green)
-	Carrier Lite Vest (Desert MTP)
-	Carrier Lite Vest (Woodland MTP)
-	Carrier Lite Vest (Tropic MTP)
+	Carrier Lite Vest (Desert Multicam)
+	Carrier Lite Vest (Woodland Multicam)
+	Carrier Lite Vest (Tropic Multicam)
 	Carrier Lite Vest (Winter)
 	Type 18 Vest (Olive)
 	Type 18 Vest (Tan)
@@ -564,8 +580,8 @@ GEAR MISC
 	Combat Uniform DPM Tmp T-Shirt [BAF]
 	Combat Fatigues T-Shirt 02 [ION] (MTP)
 	Combat Fatigues T-Shirt 03 [ION] (MTP)
-	Combat Fatigues T-Shirt [ION] (MTP)
 	Combat Fatigues T-Shirt [ION] (Multicam)
+	Combat Fatigues T-Shirt [ION] (Woodland Multicam)
 	Combat Fatigues T-Shirt [ION] (Tropic Multicam)
 	Combat Fatigues T-Shirt [ION] (Desert Multicam)
 	Combat Suit (Khaki)
@@ -622,6 +638,7 @@ GEAR MISC
 	Battle Dress Uniform (CADPAT-AR)
 	Battle Dress Uniform (Auscam)
 	Battle Dress Uniform (Soldier 2000)
+	Battle Dress Uniform (RTA Digital)
 	Battle Dress Uniform (Rolled, Tan)
 	Battle Dress Uniform (Rolled, White)
 	Battle Dress Uniform (Rolled, Black)
@@ -631,6 +648,7 @@ GEAR MISC
 	Battle Dress Uniform (Rolled, CADPAT-AR)
 	Battle Dress Uniform (Rolled, Auscam)
 	Battle Dress Uniform (Rolled, Soldier 2000)
+	Battle Dress Uniform (Rolled, RTA Digital)
 	Battle Dress Uniform (Gloves, Tan)
 	Battle Dress Uniform (Gloves, White)
 	Battle Dress Uniform (Gloves, Black)
@@ -640,6 +658,7 @@ GEAR MISC
 	Battle Dress Uniform (Gloves, CADPAT-AR)
 	Battle Dress Uniform (Gloves, Auscam)
 	Battle Dress Uniform (Gloves, Soldier 2000)
+	Battle Dress Uniform (Gloves, RTA Digital)
 	Field Service Uniform (UTV, Khaki)
 	Field Service  Uniform (UTV, Tan)
 	Field Service  Uniform (UTV, White)
@@ -752,6 +771,10 @@ GEAR MISC
 	Combat Uniform (Granite-B/T-Shirt)
 	Combat Uniform (Granite-B)
 	Combat Uniform (Granite-B/Rolled-Up)
+	Combat Uniform (RTA Digital/Combat Shirt)
+	Combat Uniform (RTA Digital/T-Shirt)
+	Combat Uniform (RTA Digital)
+	Combat Uniform (RTA Digital/Rolled-Up)
 	Operator Suit (Black)
 	Operator Suit (Rolled, Black)
 	Operator Suit (Green)

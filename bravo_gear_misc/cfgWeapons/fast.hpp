@@ -57,6 +57,11 @@
 		displayName = "FAST Ballistic (Tan Cover/Headset)";
 		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\bravo_gear_misc\assets\fs_cover_tan_co.paa",""};
 	};
+	class bravo_fast_tan_cover : rhsusf_opscore_coy_cover
+	{
+		displayName = "FAST Ballistic (Tan Cover)";
+		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_co.paa","","","","\bravo_gear_misc\assets\fs_cover_tan_co.paa",""};
+	};
 	class bravo_fast_tan_cover_headset_blue : rhsusf_opscore_coy_cover
 	{
 		displayName = "FAST Ballistic (Tan Cover/Headset/Blue Team)";
@@ -118,13 +123,23 @@
 	};
 	class bravo_fast_win_cover_headset : rhsusf_opscore_rg_cover
 	{
-		displayName = "FAST Ballistic (Winter Cover/Headset)";
+		displayName = "FAST Ballistic (White Cover/Headset)";
 		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_fg_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\bravo_gear_misc\assets\fs_cover_win_co.paa",""};
+	};
+	class bravo_fast_win_cover : rhsusf_opscore_rg_cover
+	{
+		displayName = "FAST Ballistic (White Cover)";
+		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_fg_co.paa","","","","\bravo_gear_misc\assets\fs_cover_win_co.paa",""};
 	};
 	class bravo_fast_un_cover_headset : rhsusf_opscore_rg_cover
 	{
 		displayName = "FAST Ballistic (Blue Cover/Headset)";
 		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_fg_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\bravo_gear_misc\assets\fs_cover_un_co.paa",""};
+	};
+	class bravo_fast_un_cover : rhsusf_opscore_rg_cover
+	{
+		displayName = "FAST Ballistic (Blue Cover)";
+		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_fg_co.paa","","","","\bravo_gear_misc\assets\fs_cover_un_co.paa",""};
 	};
 	class bravo_fast_m90_cover_headset : rhsusf_opscore_rg_cover
 	{
@@ -140,6 +155,11 @@
 	{
 		displayName = "FAST Ballistic (Khaki Cover/Headset)";
 		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_fg_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\bravo_gear_misc\assets\fs_cover_khk_co.paa",""};
+	};
+	class bravo_fast_khk_cover : rhsusf_opscore_rg_cover
+	{
+		displayName = "FAST Ballistic (Khaki Cover)";
+		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_fg_co.paa","","","","\bravo_gear_misc\assets\fs_cover_khk_co.paa",""};
 	};
 	class bravo_fast_amc_cover_headset : rhsusf_opscore_rg_cover
 	{
@@ -171,6 +191,17 @@
 		displayName = "FAST Ballistic (Finnish M05 Cover/Headset)";
 		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_fg_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\bravo_gear_misc\assets\fs_cover_f05_co.paa",""};
 	};
+	class bravo_fast_rtad_cover_headset : rhsusf_opscore_rg_cover
+	{
+		displayName = "FAST Ballistic (RTA Digital Cover/Headset)";
+		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_fg_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\bravo_gear_misc\assets\fs_cover_rtad_co.paa",""};
+	};
+	class bravo_fast_rtad_cover : rhsusf_opscore_rg_cover
+	{
+		displayName = "FAST Ballistic (RTA Digital Cover)";
+		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_fg_co.paa","","","","\bravo_gear_misc\assets\fs_cover_rtad_co.paa",""};
+	};
+	
 	class bravo_fast_mcam_cover : rhsusf_opscore_coy_cover
 	{
 		displayName = "FAST Ballistic (Multicam Cover)";

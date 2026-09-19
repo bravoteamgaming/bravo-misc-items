@@ -102,6 +102,17 @@ class gm_ge_army_uniform_soldier_bdu_80_wdl;
 			uniformClass = "bravo_gm_bdu_s2k_unit";
 		};
 	};
+	class bravo_gm_bdu_rtad : gm_xx_uniform_soldier_bdu_80_oli
+	{
+		displayName = "Battle Dress Uniform (Gloves, RTA Digital)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_rtad_co"};
+			uniformClass = "bravo_gm_bdu_rtad_unit";
+		};
+	};
+	
+	// ==================== NOGLOVES
 	
 	class bravo_gm_bdu_nogloves_des : bravo_gm_bdu_des
 	{
@@ -191,6 +202,16 @@ class gm_ge_army_uniform_soldier_bdu_80_wdl;
 			uniformClass = "bravo_gm_bdu_nogloves_s2k_unit";
 		};
 	};
+	class bravo_gm_bdu_nogloves_rtad : bravo_gm_bdu_s2k
+	{
+		displayName = "Battle Dress Uniform (RTA Digital)";
+		class ItemInfo : ItemInfo
+		{
+			uniformClass = "bravo_gm_bdu_nogloves_rtad_unit";
+		};
+	};
+	
+	// =================== ROLLED
 	
 	class gm_ge_army_uniform_soldier_bdu_rolled_80_wdl;
 	class gm_xx_uniform_soldier_bdu_rolled_80_oli : gm_ge_army_uniform_soldier_bdu_rolled_80_wdl
@@ -294,5 +315,14 @@ class gm_ge_army_uniform_soldier_bdu_80_wdl;
 		{
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_s2k_co"};
 			uniformClass = "bravo_gm_bdu_rolled_s2k_unit";
+		};
+	};
+	class bravo_gm_bdu_rolled_rtad : gm_xx_uniform_soldier_bdu_rolled_80_oli
+	{
+		displayName = "Battle Dress Uniform (Rolled, RTA Digital)";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_bdu_rtad_co"};
+			uniformClass = "bravo_gm_bdu_rolled_rtad_unit";
 		};
 	};

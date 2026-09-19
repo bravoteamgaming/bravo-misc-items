@@ -133,6 +133,11 @@
 		displayName = "PASGT (Granite-B)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_granb_co"};
 	};
+	class bravo_pasgt_rtad : rhssaf_helmet_m97_oakleaf
+	{
+		displayName = "PASGT (RTA Digital)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_rtad_co"};
+	};
 	
 	// ============= ESS
 	class rhssaf_helmet_m97_oakleaf_black_ess;
@@ -220,6 +225,11 @@
 	{
 		displayName = "PASGT (Granite-B/ESS)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_granb_co","\rhssaf\addons\rhssaf_t_headgear_m97\data\rhssaf_m97_ess_black_co.paa"};
+	};
+	class bravo_pasgt_rtad_ess : rhssaf_helmet_m97_oakleaf_black_ess
+	{
+		displayName = "PASGT (RTA Digital/ESS)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_rtad_co","\rhssaf\addons\rhssaf_t_headgear_m97\data\rhssaf_m97_ess_black_co.paa"};
 	};
 	
 	// ===================== ESS BARE
@@ -309,6 +319,11 @@
 		displayName = "PASGT (Granite-B/ESS Bare)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_granb_co","\rhssaf\addons\rhssaf_t_headgear_m97\data\rhssaf_m97_ess_black_co.paa"};
 	};
+	class bravo_pasgt_rtad_ess_bare : rhssaf_helmet_m97_oakleaf_black_ess_bare
+	{
+		displayName = "PASGT (RTA Digital/ESS Bare)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_rtad_co","\rhssaf\addons\rhssaf_t_headgear_m97\data\rhssaf_m97_ess_black_co.paa"};
+	};
 	
 	// ================= RHINO
 	class rhsgref_helmet_pasgt_woodland_rhino;
@@ -396,4 +411,9 @@
 	{
 		displayName = "PASGT (Granite-B/Rhino)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_granb_co"};
+	};
+	class bravo_pasgt_rtad_rhino : rhsgref_helmet_pasgt_woodland_rhino
+	{
+		displayName = "PASGT (RTA Digital/Rhino)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_rhs_m97_rtad_co"};
 	};

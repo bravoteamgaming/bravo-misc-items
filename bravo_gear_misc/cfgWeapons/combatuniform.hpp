@@ -399,6 +399,14 @@
 			uniformClass = "bravo_combatuniform_granb_unit";
 		};
 	};
+	class bravo_combatuniform_rtad : u_i_combatuniform
+	{
+		displayName = "Combat Uniform (RTA Digital)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_rtad_unit";
+		};
+	};
 	
 	// =================== ROLLED
 	class bravo_combatuniform_short_dgt : u_i_combatuniform_shortsleeve
@@ -543,6 +551,14 @@
 		class itemInfo : itemInfo
 		{
 			uniformClass = "bravo_combatuniform_short_granb_unit";
+		};
+	};
+	class bravo_combatuniform_short_rtad : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (RTA Digital/Rolled-Up)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_short_rtad_unit";
 		};
 	};
 	
@@ -718,6 +734,15 @@
 			uniformClass = "bravo_combatuniform_tactee_granb_ws_unit";
 		};
 	};
+	class bravo_combatuniform_tactee_rtad_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (RTA Digital/Combat Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tactee_rtad_ws_unit";
+		};
+	};
+	
 	
 	// =================== TSHIRT
 	class bravo_combatuniform_tshirt_cce_ws : u_i_combatuniform_shortsleeve
@@ -760,6 +785,14 @@
 			uniformClass = "bravo_combatuniform_tshirt_des_ws_unit";
 		};
 	};
+	class bravo_combatuniform_tshirt_des_vladpat_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (Tan/VLADPAT/T-Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tshirt_des_vladpat_ws_unit";
+		};
+	};
 	class bravo_combatuniform_tshirt_oli_ws : u_i_combatuniform_shortsleeve
 	{
 		displayName = "Combat Uniform (Olive/T-Shirt)";
@@ -768,12 +801,28 @@
 			uniformClass = "bravo_combatuniform_tshirt_oli_ws_unit";
 		};
 	};
+	class bravo_combatuniform_tshirt_oli_vladpat_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (Olive/VLADPAT/T-Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tshirt_oli_vladpat_ws_unit";
+		};
+	};
 	class bravo_combatuniform_tshirt_win_ws : u_i_combatuniform_shortsleeve
 	{
 		displayName = "Combat Uniform (White/T-Shirt)";
 		class itemInfo : itemInfo
 		{
 			uniformClass = "bravo_combatuniform_tshirt_win_ws_unit";
+		};
+	};
+	class bravo_combatuniform_tshirt_win_vladpat_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (White/VLADPAT/T-Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tshirt_win_vladpat_ws_unit";
 		};
 	};
 	class bravo_combatuniform_tshirt_catw_ws : u_i_combatuniform_shortsleeve
@@ -878,5 +927,13 @@
 		class itemInfo : itemInfo
 		{
 			uniformClass = "bravo_combatuniform_tshirt_granb_ws_unit";
+		};
+	};
+	class bravo_combatuniform_tshirt_rtad_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (RTA Digital/T-Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tshirt_rtad_ws_unit";
 		};
 	};

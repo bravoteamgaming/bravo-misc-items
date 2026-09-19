@@ -86,6 +86,14 @@
 			uniformClass = "bravo_combatfatigues_tshirt_mtp_ws_unit";
 		};
 	};
+	class bravo_combatfatigues_tshirt_mtp_vladpat_ws : U_B_CombatUniform_mcam_vest
+	{
+		displayName = "Combat Fatigues T-Shirt (Multicam/VLADPAT)";
+		class ItemInfo : ItemInfo
+		{
+			uniformClass = "bravo_combatfatigues_tshirt_mtp_vladpat_ws_unit";
+		};
+	};
 	class bravo_combatfatigues_tshirt_mtpw_ws : U_B_CombatUniform_mcam_vest
 	{
 		displayName = "Combat Fatigues T-Shirt (Woodland Multicam)";
