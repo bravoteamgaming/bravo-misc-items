@@ -340,6 +340,15 @@ GEAR MISC
 	Boonie Hat (UNSC Woodland)
 	Boonie Hat (Granite-B)
 	Boonie Hat (RTA Digital)
+	Marine Combat Helmet (Green)
+	Marine Combat Helmet (Basic/Green)
+	Marine Combat Helmet (Full/Green)
+	Marine Combat Helmet (Basic/Multicam)
+	Marine Combat Helmet (Full/Multicam)
+	Marine Combat Helmet (Basic/Blue)
+	Marine Combat Helmet (Full/Blue)
+	Marine Combat Helmet (Basic/Granite-B)
+	Marine Combat Helmet (Full/Granite-B)
 - Add vest variants:
 	CTRG Plate Carrier Rig (Black)
 	CTRG Plate Carrier Rig (Khaki)
@@ -536,6 +545,7 @@ GEAR MISC
 - Enable hidden vest variants:
 	CTRG Carrier Mk. 1 (No Flag)
 	CTRG Carrier Mk. 2 (No Flag)
+	Alt variants of EF Amphibious Assault Vest and Commando Chest Rig
 - Add uniform variants:
 	6Sh122 (Olive/Gloves)
 	G3 Uniform (BravoCam)

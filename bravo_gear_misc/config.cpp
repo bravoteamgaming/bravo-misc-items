@@ -1089,7 +1089,16 @@ class CfgPatches
 			"bravo_ef_ccr_tl_alt_olive",
 			"bravo_ef_ccr_rifleman_alt_coy",
 			"bravo_ef_ccr_scout_alt_coy",
-			"bravo_ef_ccr_tl_alt_coy"
+			"bravo_ef_ccr_tl_alt_coy",
+			"bravo_mch_basic_cover_mcam",
+			"bravo_mch_basic_cover_granb",
+			"bravo_mch_basic_cover_blu",
+			"bravo_mch_full_cover_mcam",
+			"bravo_mch_full_cover_granb",
+			"bravo_mch_full_cover_blu",
+			"bravo_mch_plain_oli",
+			"bravo_mch_basic_oli",
+			"bravo_mch_full_oli"
 		};
 		skipWhenMissingDependencies = 1;
 	};
