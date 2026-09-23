@@ -22,7 +22,7 @@
 	};
 	
 	class ef_v_aav_sailor_black;
-	class bravo_ef_aav_sailor_alt_black : ef_v_aav_sailor_ck
+	class bravo_ef_aav_sailor_alt_black : ef_v_aav_sailor_black
 	{
 		displayName = "Amphibious Assault Vest (Black/Sailor/Alt)";
 		model = "ef/ef_marines/ef_v_aav_sailor_alt.p3d";
@@ -66,7 +66,7 @@
 	};
 	
 	class ef_v_aav_sailor_coy;
-	class bravo_ef_aav_sailor_alt_coy : ef_v_aav_sailor_ck
+	class bravo_ef_aav_sailor_alt_coy : ef_v_aav_sailor_olive
 	{
 		displayName = "Amphibious Assault Vest (Coyote Brown/Sailor/Alt)";
 		model = "ef/ef_marines/ef_v_aav_sailor_alt.p3d";
@@ -110,7 +110,7 @@
 	};
 	
 	class ef_v_aav_sailor_olive;
-	class bravo_ef_aav_sailor_alt_olive : ef_v_aav_sailor_ck
+	class bravo_ef_aav_sailor_alt_olive : ef_v_aav_sailor_olive
 	{
 		displayName = "Amphibious Assault Vest (Olive/Sailor/Alt)";
 		model = "ef/ef_marines/ef_v_aav_sailor_alt.p3d";
