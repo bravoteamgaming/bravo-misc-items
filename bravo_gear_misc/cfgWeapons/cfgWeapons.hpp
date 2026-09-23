@@ -680,6 +680,8 @@ class cfgWeapons
 		};
 	};
 	
+	#include "efvests.hpp"
+	
 	// =========== nightvision
 	class gm_ferod51_oli;
 	class bravo_ferod51_gen2_oli : gm_ferod51_oli

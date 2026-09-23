@@ -6,7 +6,7 @@ class CfgPatches
 		author = "NikkoJT";
 		url = "https://github.com/bravoteamgaming/bravo-misc-items";
 		requiredVersion = 2.00;
-		requiredAddons[] = {"rf_data_loadorder", "UK3CB_Factions_Equipment_Vests","UK3CB_Factions_CST", "UK3CB_BAF_Equipment_Uniforms", "rhssaf_c_gear", "rhsusf_c_troops", "WW2_SPE_Assets_c_Weapons_InfantryWeapons_c", "gm_characters_gc_characters", "gm_characters_ge_characters"};
+		requiredAddons[] = {"rf_data_loadorder", "UK3CB_Factions_Equipment_Vests","UK3CB_Factions_CST", "UK3CB_BAF_Equipment_Uniforms", "rhssaf_c_gear", "rhsusf_c_troops", "WW2_SPE_Assets_c_Weapons_InfantryWeapons_c", "gm_characters_gc_characters", "gm_characters_ge_characters", "ef_data"};
 		units[] = {
 			"bravo_B_SPE_GER_Radio",
 			"bravo_B_SPE_US_Radio_packboard_light",
@@ -1062,7 +1062,34 @@ class CfgPatches
 			"bravo_combatfatigues_tshirt_mtpt_ws",
 			"bravo_combatfatigues_tshirt_des_ws",
 			"bravo_combatfatigues_tshirt_oli_ws",
-			"bravo_combatfatigues_tshirt_blk_ws"
+			"bravo_combatfatigues_tshirt_blk_ws",
+			"bravo_ef_aav_diver_alt_black",
+			"bravo_ef_aav_diver_noreb_alt_black",
+			"bravo_ef_aav_rifleman_alt_black",
+			"bravo_ef_aav_sailor_alt_black",
+			"bravo_ef_aav_scout_alt_black",
+			"bravo_ef_aav_tl_alt_black",
+			"bravo_ef_aav_diver_alt_olive",
+			"bravo_ef_aav_diver_noreb_alt_olive",
+			"bravo_ef_aav_rifleman_alt_olive",
+			"bravo_ef_aav_sailor_alt_olive",
+			"bravo_ef_aav_scout_alt_olive",
+			"bravo_ef_aav_tl_alt_olive",
+			"bravo_ef_aav_diver_alt_coy",
+			"bravo_ef_aav_diver_noreb_alt_coy",
+			"bravo_ef_aav_rifleman_alt_coy",
+			"bravo_ef_aav_sailor_alt_coy",
+			"bravo_ef_aav_scout_alt_coy",
+			"bravo_ef_aav_tl_alt_coy",
+			"bravo_ef_ccr_rifleman_alt_black",
+			"bravo_ef_ccr_scout_alt_black",
+			"bravo_ef_ccr_tl_alt_black",
+			"bravo_ef_ccr_rifleman_alt_olive",
+			"bravo_ef_ccr_scout_alt_olive",
+			"bravo_ef_ccr_tl_alt_olive",
+			"bravo_ef_ccr_rifleman_alt_coy",
+			"bravo_ef_ccr_scout_alt_coy",
+			"bravo_ef_ccr_tl_alt_coy"
 		};
 		skipWhenMissingDependencies = 1;
 	};
