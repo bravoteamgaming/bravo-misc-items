@@ -5,7 +5,7 @@ if !_doCheck exitWith{};
 
 0 spawn {
 	sleep 2;
-
+	if !(isNull (uiNamespace getVariable ["bravo_enforcer_list", controlNull])) exitWith{}; // already running
 	private _requiredModsStr = toLowerANSI (["bravo_enforcer_modlist", "server"] call CBA_settings_fnc_get);
 
 	/*
