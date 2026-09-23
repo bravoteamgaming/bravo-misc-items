@@ -682,6 +682,8 @@ class cfgWeapons
 	
 	#include "efvests.hpp"
 	
+	#include "efmch.hpp"
+	
 	// =========== nightvision
 	class gm_ferod51_oli;
 	class bravo_ferod51_gen2_oli : gm_ferod51_oli
