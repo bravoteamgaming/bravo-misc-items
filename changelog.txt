@@ -435,3 +435,4 @@
 
 2026-09-24
 - MOD ENFORCER: fixed remaining minor script error
+- APS: fixed local effects

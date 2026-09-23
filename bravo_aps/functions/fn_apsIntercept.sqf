@@ -43,7 +43,7 @@ _flare setVelocity (_flareDir vectorMultiply 40);
 	};
 } forEach crew _vehicle;
 
-[_projectilePos, _vehicle, _projectilePosASL] remoteExec ["bravo_fnc_apsLocalEffects"];
+[_projectilePos, _vicPos, _projectilePosASL] remoteExec ["bravo_fnc_apsLocalEffects"];
 playSound3D ["A3\Sounds_F\arsenal\explosives\rockets\Rocket_closeExp_02.wss",_vehicle,false, _vicPos,1,1,150];
 playSound3D ["A3\Sounds_F\arsenal\explosives\rockets\RocketHeavy_tailMeadows_01.wss",_vehicle,false, _vicPos,1,1,150];
 
