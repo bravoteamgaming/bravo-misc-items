@@ -5,9 +5,9 @@ class CfgPatches
 		name = "Bravo Team Misc Items";
 		author = "Jason Olsen";
 		url = "https://github.com/bravoteamgaming/bravo-misc-items";
-		version = 2.3;
-		versionStr = "2.3";
-		versionAr[] = {2,3};
+		version = 2.4;
+		versionStr = "2.4";
+		versionAr[] = {2,4};
 		requiredVersion = 2.00;
 		units[] = {
 			"BVT_Flag_Orange",
