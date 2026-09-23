@@ -66,7 +66,7 @@
 	};
 	
 	class ef_v_aav_sailor_coy;
-	class bravo_ef_aav_sailor_alt_coy : ef_v_aav_sailor_olive
+	class bravo_ef_aav_sailor_alt_coy : ef_v_aav_sailor_coy
 	{
 		displayName = "Amphibious Assault Vest (Coyote Brown/Sailor/Alt)";
 		model = "ef/ef_marines/ef_v_aav_sailor_alt.p3d";
