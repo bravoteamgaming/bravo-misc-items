@@ -1,11 +1,6 @@
-class asdg_OpticRail1913;
 class asdg_OpticRail1913_short;
-class asdg_OpticRail1913_long : asdg_OpticRail1913
-{};
 class asdg_MuzzleSlot_9mm_SMG;
 class asdg_FrontSideRail;
-class asdg_PistolOpticRail1913;
-class asdg_UnderSlot;
 
 class CfgWeapons
 {
