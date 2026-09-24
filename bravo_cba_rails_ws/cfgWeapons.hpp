@@ -5,6 +5,7 @@ class asdg_OpticRail1913_short : asdg_OpticRail1913
 class asdg_MuzzleSlot_556;
 class asdg_MuzzleSlot_762;
 class asdg_MuzzleSlot_762MG;
+class asdg_FrontSideRail;
 
 class CfgMagazineWells
 {
