@@ -21,7 +21,9 @@ class CfgPatches
 			"UK3CB_Factions_Weapons_Browning",
 			"UK3CB_Factions_Weapons2_UK59",
 			"Weapons_1_F_lxWS",
-			"WW2_SPE_Core_a_HipFire_a"
+			"WW2_SPE_Core_a_HipFire_a",
+			"vn_data_f",
+			"vnx_build_number"
 		};
 		units[] = {};
 		weapons[] = {};

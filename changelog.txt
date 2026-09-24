@@ -438,3 +438,4 @@
 - APS: fixed local effects
 - ITEMS: version > 2.5
 - GEAR MISC: added UN Blue MCH
+- SPEHIPFIRE: applied to several guns from SOG and Nickel Steel
