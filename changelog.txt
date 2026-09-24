@@ -441,4 +441,4 @@
 - SPEHIPFIRE: applied to several guns from SOG and Nickel Steel
 - CBA RAILS WS: applied CBA pointer slots to some weapons as appropriate
 - CBA RAILS EF: new addon, CBA compatibility for EF weapons and correct naming for EF coax MGs
-- GEAR MISC: added white cover MCH
+- GEAR MISC: added white cover and khakicover/oli, khakicover/des MCH
