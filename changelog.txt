@@ -439,3 +439,5 @@
 - ITEMS: version > 2.5
 - GEAR MISC: added UN Blue MCH
 - SPEHIPFIRE: applied to several guns from SOG and Nickel Steel
+- CBA RAILS WS: applied CBA pointer slots to some weapons as appropriate
+- CBA RAILS EF: new addon, CBA compatibility for EF weapons and correct naming for EF coax MGs

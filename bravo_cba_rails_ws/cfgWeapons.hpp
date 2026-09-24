@@ -46,13 +46,19 @@ class CfgWeapons
 			{};
 			class MuzzleSlot : asdg_MuzzleSlot_762
 			{};
+			class PointerSlot : asdg_FrontSideRail
+			{};
 		};
 	};
 	class arifle_Velko_base_lxWS : arifle_Galat_base_lxWS
 	{
 		class WeaponSlotsInfo : WeaponSlotsInfo
 		{
+			class CowsSlot : asdg_OpticRail1913_short
+			{};
 			class MuzzleSlot : asdg_MuzzleSlot_556
+			{};
+			class PointerSlot : asdg_FrontSideRail
 			{};
 		};
 	};
@@ -68,6 +74,8 @@ class CfgWeapons
 			class CowsSlot : asdg_OpticRail1913
 			{};
 			class MuzzleSlot : asdg_MuzzleSlot_556
+			{};
+			class PointerSlot : asdg_FrontSideRail
 			{};
 		};
 	};
@@ -96,13 +104,20 @@ class CfgWeapons
 	class arifle_SLR_V_lxWS : arifle_SLR_lxWS
 	{
 		class WeaponSlotsInfo : WeaponSlotsInfo
-		{};
+		{
+			class MuzzleSlot : asdg_MuzzleSlot_762
+			{};
+		};
 	};
 	class arifle_SLR_Para_lxWS : arifle_SLR_V_lxWS
 	{
 		class WeaponSlotsInfo : WeaponSlotsInfo
 		{
 			class CowsSlot : asdg_OpticRail1913
+			{};
+			class PointerSlot : asdg_FrontSideRail
+			{};
+			class MuzzleSlot : asdg_MuzzleSlot_762
 			{};
 		};
 	};
@@ -111,6 +126,8 @@ class CfgWeapons
 		class WeaponSlotsInfo : WeaponSlotsInfo
 		{
 			class CowsSlot : asdg_OpticRail1913_short
+			{};
+			class PointerSlot : asdg_FrontSideRail
 			{};
 		};
 	};
@@ -122,6 +139,8 @@ class CfgWeapons
 			{};
 			class MuzzleSlot : asdg_MuzzleSlot_762MG
 			{};
+			class PointerSlot : asdg_FrontSideRail
+			{};
 		};
 	};
 	class sgun_aa40_base_lxWS : Rifle_Base_F
@@ -129,6 +148,8 @@ class CfgWeapons
 		class WeaponSlotsInfo : WeaponSlotsInfo
 		{
 			class CowsSlot : asdg_OpticRail1913_short
+			{};
+			class PointerSlot : asdg_FrontSideRail
 			{};
 		};
 	};
