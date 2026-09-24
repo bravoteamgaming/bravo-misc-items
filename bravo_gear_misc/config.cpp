@@ -1090,14 +1090,16 @@ class CfgPatches
 			"bravo_ef_ccr_rifleman_alt_coy",
 			"bravo_ef_ccr_scout_alt_coy",
 			"bravo_ef_ccr_tl_alt_coy",
-			"bravo_mch_basic_cover_mcam",
+			"bravo_mch_basic_cover_mcam_w",
+			"bravo_mch_basic_cover_mcam_d",
 			"bravo_mch_basic_cover_granb",
 			"bravo_mch_basic_cover_blu_w",
 			"bravo_mch_basic_cover_blu_d",
 			"bravo_mch_basic_cover_khk_w",
 			"bravo_mch_basic_cover_khk_d",
 			"bravo_mch_basic_cover_win",
-			"bravo_mch_full_cover_mcam",
+			"bravo_mch_full_cover_mcam_w",
+			"bravo_mch_full_cover_mcam_d",
 			"bravo_mch_full_cover_granb",
 			"bravo_mch_full_cover_blu_w",
 			"bravo_mch_full_cover_blu_d",
@@ -1106,7 +1108,11 @@ class CfgPatches
 			"bravo_mch_full_cover_khk_d",
 			"bravo_mch_plain_oli",
 			"bravo_mch_basic_oli",
-			"bravo_mch_full_oli"
+			"bravo_mch_full_oli",
+			"bravo_mch_plain_oli_medic",
+			"bravo_mch_plain_des_medic",
+			"bravo_mch_basic_oli_medic",
+			"bravo_mch_basic_des_medic"
 		};
 		skipWhenMissingDependencies = 1;
 	};

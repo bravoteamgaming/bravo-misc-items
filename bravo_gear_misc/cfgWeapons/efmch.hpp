@@ -1,8 +1,13 @@
 	class ef_h_mch_basicnet_black;
-	class bravo_mch_basic_cover_mcam : ef_h_mch_basicnet_black
+	class bravo_mch_basic_cover_mcam_d : ef_h_mch_basicnet_black
 	{
-		displayName = "Marine Combat Helmet (Basic/Multicam)";
+		displayName = "Marine Combat Helmet (Basic/Multicam/D)";
 		hiddenSelectionsTextures[] = {"\ef\ef_marines\data\mch_base_co.paa","\bravo_gear_misc\assets\mch_cover_mcam_co"};
+	};
+	class bravo_mch_basic_cover_mcam_w : ef_h_mch_basicnet_black
+	{
+		displayName = "Marine Combat Helmet (Basic/Multicam/W)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\mch_base_oli_co","\bravo_gear_misc\assets\mch_cover_mcam_co"};
 	};
 	class bravo_mch_basic_cover_granb : ef_h_mch_basicnet_black
 	{
@@ -36,10 +41,15 @@
 	};
 	
 	class EF_H_MCH_FullCamo_Black;
-	class bravo_mch_full_cover_mcam : ef_h_mch_fullcamo_black
+	class bravo_mch_full_cover_mcam_d : ef_h_mch_fullcamo_black
 	{
-		displayName = "Marine Combat Helmet (Full/Multicam)";
+		displayName = "Marine Combat Helmet (Full/Multicam/D)";
 		hiddenSelectionsTextures[] = {"\ef\ef_marines\data\mch_base_co.paa","\bravo_gear_misc\assets\mch_cover_mcam_co"};
+	};
+	class bravo_mch_full_cover_mcam_w : ef_h_mch_fullcamo_black
+	{
+		displayName = "Marine Combat Helmet (Full/Multicam/W)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\mch_base_oli_co","\bravo_gear_misc\assets\mch_cover_mcam_co"};
 	};
 	class bravo_mch_full_cover_granb : ef_h_mch_fullcamo_black
 	{
@@ -78,12 +88,32 @@
 		displayName = "Marine Combat Helmet (Green)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\mch_base_oli_co"};
 	};
+	class bravo_mch_plain_oli_medic : ef_h_mch
+	{
+		displayName = "Marine Combat Helmet (Green/Medic)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\mch_base_oli_medic_co"};
+	};
+	class bravo_mch_plain_des_medic : ef_h_mch
+	{
+		displayName = "Marine Combat Helmet (Medic)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\mch_base_des_medic_co"};
+	};
 	
 	class ef_h_mch_basic;
 	class bravo_mch_basic_oli : ef_h_mch_basic
 	{
 		displayName = "Marine Combat Helmet (Basic/Green)";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\mch_base_oli_co"};
+	};
+	class bravo_mch_basic_oli_medic : ef_h_mch_basic
+	{
+		displayName = "Marine Combat Helmet (Basic/Green/Medic)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\mch_base_oli_medic_co"};
+	};
+	class bravo_mch_basic_des_medic : ef_h_mch_basic
+	{
+		displayName = "Marine Combat Helmet (Basic/Medic)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\mch_base_des_medic_co"};
 	};
 	
 	class ef_h_mch_full;
