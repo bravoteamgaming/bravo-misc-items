@@ -443,3 +443,4 @@
 - CBA RAILS EF: new addon, CBA compatibility for EF weapons and correct naming for EF coax MGs
 - GEAR MISC: added white cover and khakicover/oli, khakicover/des MCH
 - GEAR MISC: added Medic variants of uncovered MCH (not Full configuration)
+- GEAR MISC: GM Boonie tan and khaki now better match equivalent equipment

@@ -26,19 +26,19 @@
 	class bravo_gm_boonie_des : gm_ge_headgear_hat_boonie_oli
 	{
 		displayName = "Boonie Hat (Tan)";
-		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co"};
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_des_co"};
 		class ItemInfo : ItemInfo
 		{
-			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_des_co"};
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_des_co"};
 		};
 	};
 	class bravo_gm_boonie_khk : gm_ge_headgear_hat_boonie_oli
 	{
 		displayName = "Boonie Hat (Khaki)";
-		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co"};
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_khk_co"};
 		class ItemInfo : ItemInfo
 		{
-			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_ge_splischu_khk_co"};
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_khk_co"};
 		};
 	};
 	class bravo_gm_boonie_cce : gm_ge_headgear_hat_boonie_oli
