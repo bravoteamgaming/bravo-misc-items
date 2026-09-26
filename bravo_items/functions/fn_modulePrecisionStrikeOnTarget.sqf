@@ -1,6 +1,6 @@
 if !(local (_this#0)) exitWith{};
 _this spawn {
-	params ["_module", ["_doText", true], ["_type", missionNamespace getVariable ["bravo_var_precisionStrikeTypeOverride","bo_GBU12_LGB"]]];
+	params ["_module", ["_doText", true], ["_type", missionNamespace getVariable ["bravo_var_precisionStrikeTypeOverride","bo_GBU12_LGB"]], ["_jetType", missionNamespace getVariable ["bravo_var_precisionStrikeJetOverride", "B_Plane_Fighter_01_F"]]];
 
 	private _nearTargets = _module nearEntities [["LaserTargetBase", "NVG_TargetBase"], 100];
 
@@ -43,25 +43,47 @@ _this spawn {
 
 	private _posTarget = getPosASL _nearestTarget;
 	private _posBomb = _posTarget vectorAdd [selectRandom [600, -600], selectRandom [600,-600], 1500];
+	
+	private _posJet = _posTarget getPos [2000, (_posTarget getDir _posBomb)];
+	_posJet set [2, 1000];
+	private _jet = _jetType createVehicle [0,0,500];
+	_jet setPosATL _posJet;
+	private _crew = civilian createVehicleCrew _jet;
+	_jet engineOn true;
+	_jet setDir (_jet getDir _posTarget);
+	_jet setVelocity ((vectorDir _jet) vectorMultiply 100);
+	_jet flyInHeight 800;
+	_crew setCombatBehaviour "CARELESS";
+	_crew setCombatMode "BLUE";
+	_crew move (_posTarget getPos [2000, (_posTarget getDir _posBomb) + 180]);
 
 	private _bomb = _type createVehicle [0,0,500];
 	_bomb setPosASL _posBomb;
+	sleep 0.1;
 	private _vector = _posBomb vectorFromTo _posTarget;
 	_bomb setVectorDir _vector;
-	_bomb setVelocity (_vector vectorMultiply 150);
+	_bomb setVelocity (_vector vectorMultiply (getNumber ((configOf _bomb) >> "maxSpeed")));
+	sleep 0.1;
+	_bomb setMissileTargetPos getPosATL _nearestTarget;
 	_bomb setMissileTarget [_nearestTarget, true];
-	if (_type == "fir_gbu24a_blu109") then {
-		[_bomb] execVM "\FIR_AirWeaponSystem_US\script\WEP\BLU109.sqf";
-	};
+	sleep 0.1;
+	_bomb setMissileTargetPos getPosATL _nearestTarget;
+	_bomb setMissileTarget [_nearestTarget, true];
 	
 	if _doText then {
 		private _timerEh = addMissionEventHandler ["Draw3D", {
 			private _bomb = _thisArgs#0;
 			private _target = missileTarget _bomb;
+			private _targetPos = [];
+			if (isNull _target) then {
+				_targetPos = missileTargetPos _bomb;
+			} else {
+				_targetPos = _target modelToWorldVisual [0,0,1];
+			};
 			drawIcon3D [
 				"\a3\ui_f\data\IGUI\Cfg\Radar\radar_ca.paa",
 				[1, 0.2, 0.2, 1],
-				_target modelToWorldVisual [0,0,1],
+				_targetPos,
 				1,
 				1,
 				0,
@@ -71,4 +93,7 @@ _this spawn {
 		waitUntil {isNull _bomb};
 		removeMissionEventHandler ["Draw3D", _timerEh];
 	};
+	sleep 10;
+	deleteVehicleCrew _jet;
+	deleteVehicle _jet;
 };

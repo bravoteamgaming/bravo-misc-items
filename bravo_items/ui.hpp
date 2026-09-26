@@ -147,9 +147,9 @@ class bravo_precisionStrikeOnTarget_moduleDisplay : RscDisplayEmpty
 	{
 		class group : RscControlsGroup
 		{
-			w = 20 * GUI_GRID_CENTER_W;
+			w = 38.5 * GUI_GRID_CENTER_W;
 			h = 13.5 * GUI_GRID_CENTER_H;
-			x = GUI_GRID_CENTER_X + 10 * GUI_GRID_CENTER_W;
+			x = GUI_GRID_CENTER_X + 5 * GUI_GRID_CENTER_W;
 			y = GUI_GRID_CENTER_Y + 3 * GUI_GRID_CENTER_H;
 			
 			class controls
@@ -160,7 +160,7 @@ class bravo_precisionStrikeOnTarget_moduleDisplay : RscDisplayEmpty
 					idc = -1;
 					style = 0;
 					moving = 0;
-					w = 20 * GUI_GRID_CENTER_W;
+					w = 38.5 * GUI_GRID_CENTER_W;
 					h = 13.5 * GUI_GRID_CENTER_H;
 					x = 0;
 					y = 0;
@@ -176,7 +176,7 @@ class bravo_precisionStrikeOnTarget_moduleDisplay : RscDisplayEmpty
 					idc = -1;
 					style = 0;
 					moving = 0;
-					w = 19 * GUI_GRID_CENTER_W;
+					w = 37.5 * GUI_GRID_CENTER_W;
 					h = 9.5 * GUI_GRID_CENTER_H;
 					x = 0.5 * GUI_GRID_CENTER_W;
 					y = 0.5 * GUI_GRID_CENTER_H;
@@ -189,7 +189,7 @@ class bravo_precisionStrikeOnTarget_moduleDisplay : RscDisplayEmpty
 				class caption : RscTextMulti
 				{
 					onLoad = "(_this select 0) ctrlEnable false";
-					text = "Select ordnance type to deploy.";
+					text = "Select ordnance type and aircraft to deploy.";
 					idc = -1;
 					w = 18 * GUI_GRID_CENTER_W;
 					h = 2 * GUI_GRID_CENTER_H;
@@ -198,12 +198,22 @@ class bravo_precisionStrikeOnTarget_moduleDisplay : RscDisplayEmpty
 				};
 				class data : RscListBox
 				{
-					onLoad = "uiNamespace setVariable ['bravo_precisionStrikeTypeOverride_list', _this select 0]; (_this select 0) call bravo_fnc_precisionStrikeOverrideList";
+					onLoad = "uiNamespace setVariable ['bravo_precisionStrikeTypeOverride_list', _this select 0]; [(_this select 0), 0] call bravo_fnc_precisionStrikeOverrideList";
 					onLBSelChanged = "missionNamespace setVariable ['bravo_var_precisionStrikeTypeOverride', (_this#0) lbData (_this#1)]";
 					idc = -1;
 					w = 18 * GUI_GRID_CENTER_W;
 					h = 6 * GUI_GRID_CENTER_H;
 					x = 1 * GUI_GRID_CENTER_W;
+					y = 3.5 * GUI_GRID_CENTER_H;
+				};
+				class datajet : RscListBox
+				{
+					onLoad = "uiNamespace setVariable ['bravo_precisionStrikeJetOverride_list', _this select 0]; [(_this select 0), 1] call bravo_fnc_precisionStrikeOverrideList";
+					onLBSelChanged = "missionNamespace setVariable ['bravo_var_precisionStrikeJetOverride', (_this#0) lbData (_this#1)]";
+					idc = -1;
+					w = 18 * GUI_GRID_CENTER_W;
+					h = 6 * GUI_GRID_CENTER_H;
+					x = 19 * GUI_GRID_CENTER_W;
 					y = 3.5 * GUI_GRID_CENTER_H;
 				};
 				class buttonOK : RscButton
