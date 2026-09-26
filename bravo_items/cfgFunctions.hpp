@@ -14,6 +14,8 @@ class CfgFunctions
 				postInit = 1;
 			};
 			class logToRPT{};
+			class modulePrecisionStrikeOnTarget{};
+			class precisionStrikeOverrideList{};
 		};
 	};
 };

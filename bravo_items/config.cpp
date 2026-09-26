@@ -29,7 +29,8 @@ class CfgPatches
 			"bravo_sound_radioHalfLife",
 			"bravo_module_cacheSoundSources",
 			"bravo_land_48gb_ddr5",
-			"bravo_land_48gb_ddr5_item"
+			"bravo_land_48gb_ddr5_item",
+			"bravo_module_precisionStrikeOnTarget"
 		};
 		weapons[] = {"BVT_ItemCore","BVT_Item_Intelligence","BVT_Item_KitKat", "bravo_item_48gb_ddr5"};
 		requiredAddons[] = {"A3_Characters_F","A3_Weapons_F","cba_main"};

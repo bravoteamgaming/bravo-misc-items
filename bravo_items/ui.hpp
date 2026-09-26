@@ -43,6 +43,7 @@ class RscStructuredText;
 class RscTextMulti;
 class RscEdit;
 class RscCombo;
+class RscListBox;
 
 class bravo_pasteHideTerrainObjects_moduleDisplay : RscDisplayEmpty
 {
@@ -131,6 +132,99 @@ class bravo_pasteHideTerrainObjects_moduleDisplay : RscDisplayEmpty
 					h = 2.5 * GUI_GRID_CENTER_H;
 					x = 12 * GUI_GRID_CENTER_W;
 					y = 5.5 * GUI_GRID_CENTER_H;
+				};
+			};
+		};
+	};
+};
+
+class bravo_precisionStrikeOnTarget_moduleDisplay : RscDisplayEmpty
+{
+	access = 1;
+	enableSimulation = 1;
+	onLoad = "";
+	class controls
+	{
+		class group : RscControlsGroup
+		{
+			w = 20 * GUI_GRID_CENTER_W;
+			h = 13.5 * GUI_GRID_CENTER_H;
+			x = GUI_GRID_CENTER_X + 10 * GUI_GRID_CENTER_W;
+			y = GUI_GRID_CENTER_Y + 3 * GUI_GRID_CENTER_H;
+			
+			class controls
+			{
+				class bg : RscText
+				{
+					type = 0;
+					idc = -1;
+					style = 0;
+					moving = 0;
+					w = 20 * GUI_GRID_CENTER_W;
+					h = 13.5 * GUI_GRID_CENTER_H;
+					x = 0;
+					y = 0;
+					sizeEx = 1;
+					colorText[] = {0,0,0,0};
+					colorBackground[] = {0,0,0,0.65};
+					text = "";
+					shadow = 0;
+				};
+				class bg2 : RscText
+				{
+					type = 0;
+					idc = -1;
+					style = 0;
+					moving = 0;
+					w = 19 * GUI_GRID_CENTER_W;
+					h = 9.5 * GUI_GRID_CENTER_H;
+					x = 0.5 * GUI_GRID_CENTER_W;
+					y = 0.5 * GUI_GRID_CENTER_H;
+					sizeEx = 1;
+					colorText[] = {0,0,0,0};
+					colorBackground[] = {0,0,0,0.65};
+					text = "";
+					shadow = 0;
+				};
+				class caption : RscTextMulti
+				{
+					onLoad = "(_this select 0) ctrlEnable false";
+					text = "Select ordnance type to deploy.";
+					idc = -1;
+					w = 18 * GUI_GRID_CENTER_W;
+					h = 2 * GUI_GRID_CENTER_H;
+					x = 1 * GUI_GRID_CENTER_W;
+					y = 1 * GUI_GRID_CENTER_H;
+				};
+				class data : RscListBox
+				{
+					onLoad = "uiNamespace setVariable ['bravo_precisionStrikeTypeOverride_list', _this select 0]; (_this select 0) call bravo_fnc_precisionStrikeOverrideList";
+					onLBSelChanged = "missionNamespace setVariable ['bravo_var_precisionStrikeTypeOverride', (_this#0) lbData (_this#1)]";
+					idc = -1;
+					w = 18 * GUI_GRID_CENTER_W;
+					h = 6 * GUI_GRID_CENTER_H;
+					x = 1 * GUI_GRID_CENTER_W;
+					y = 3.5 * GUI_GRID_CENTER_H;
+				};
+				class buttonOK : RscButton
+				{
+					onButtonClick = "[missionNamespace getVariable ['bravo_var_precisionStrikeCurrentModule', objNull]] spawn bravo_fnc_modulePrecisionStrikeOnTarget";
+					text = "OK";
+					idc = 1;
+					w = 7.5 * GUI_GRID_CENTER_W;
+					h = 2.5 * GUI_GRID_CENTER_H;
+					x = 0.5 * GUI_GRID_CENTER_W;
+					y = 10.5 * GUI_GRID_CENTER_H;
+				};
+				class buttonCancel : RscButton
+				{
+					onButtonClick = "ctrlParent (_this select 0) closeDisplay 2; deleteVehicle (missionNamespace getVariable ['bravo_var_precisionStrikeCurrentModule',objNull])";
+					text = "Cancel";
+					idc = 2;
+					w = 7.5 * GUI_GRID_CENTER_W;
+					h = 2.5 * GUI_GRID_CENTER_H;
+					x = 12 * GUI_GRID_CENTER_W;
+					y = 10.5 * GUI_GRID_CENTER_H;
 				};
 			};
 		};

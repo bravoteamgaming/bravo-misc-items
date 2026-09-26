@@ -444,3 +444,6 @@
 - GEAR MISC: added white cover and khakicover/oli, khakicover/des MCH
 - GEAR MISC: added Medic variants of uncovered MCH (not Full configuration)
 - GEAR MISC: GM Boonie tan and khaki now better match equivalent equipment
+
+2026-09-26
+- ITEMS: added Precision Strike On Nearby Laser/Strobe module

@@ -96,6 +96,27 @@ class CfgVehicles
 		curatorCanAttach = 0;
 		curatorInfoType = "";
 	};
+	class bravo_module_precisionStrikeOnTarget : module_f
+	{
+		scope = 1;
+		scopeCurator = 2;
+		displayName = "Precision Strike on nearby laser/strobe";
+		category = "Ordnance";
+		function = "";
+		isGlobal = 1;
+		isTriggerActivated = 0;
+		isDisposable = 1;
+		is3DEN = 0;
+		curatorCanAttach = 0;
+		curatorInfoType = "bravo_precisionStrikeOnTarget_moduleDisplay";
+		class EventHandlers
+		{
+			class bravo_items_init
+			{
+				init = "missionNamespace setVariable ['bravo_var_precisionStrikeCurrentModule',_this#0]";
+			};
+		};
+	};
 	
 	class Items_Base_F;
 	class bravo_land_48gb_ddr5 : Items_Base_F
