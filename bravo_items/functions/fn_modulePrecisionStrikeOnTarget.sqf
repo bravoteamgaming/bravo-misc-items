@@ -93,7 +93,7 @@ _this spawn {
 		waitUntil {isNull _bomb};
 		removeMissionEventHandler ["Draw3D", _timerEh];
 	};
-	sleep 10;
+	sleep 20;
 	deleteVehicleCrew _jet;
 	deleteVehicle _jet;
 };
