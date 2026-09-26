@@ -47,6 +47,7 @@ _this spawn {
 	private _posJet = _posTarget getPos [2000, (_posTarget getDir _posBomb)];
 	_posJet set [2, 1000];
 	private _jet = _jetType createVehicle [0,0,500];
+	_jet allowDamage false;
 	_jet setPosATL _posJet;
 	private _crew = civilian createVehicleCrew _jet;
 	_jet engineOn true;
