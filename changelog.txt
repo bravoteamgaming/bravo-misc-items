@@ -447,3 +447,6 @@
 
 2026-09-26
 - ITEMS: added Precision Strike On Nearby Laser/Strobe module
+
+2026-10-12
+- APS: fixed script error in loading function
