@@ -30,28 +30,154 @@ class CfgSounds
 		sound[] = {"\bravo_aps\assets\aps_activate.ogg", 1.9, 1, 100};
 		titles[] = {};
 	};
-	class bravo_aps_activation_front
+	
+	class bravo_aps_activation_front_0
 	{
-		name = "APS activation front";
-		sound[] = {"\bravo_aps\assets\aps_activate_front.ogg", 2, 1, 100};
+		name = "APS activation front (RU)";
+		sound[] = {"\bravo_aps\assets\aps_activate_front_0.ogg", 2, 1, 100};
 		titles[] = {};
 	};
-	class bravo_aps_activation_rear
+	class bravo_aps_activation_rear_0
 	{
-		name = "APS activation rear";
-		sound[] = {"\bravo_aps\assets\aps_activate_rear.ogg", 2, 1, 100};
+		name = "APS activation rear (RU)";
+		sound[] = {"\bravo_aps\assets\aps_activate_rear_0.ogg", 2, 1, 100};
 		titles[] = {};
 	};
-	class bravo_aps_activation_left
+	class bravo_aps_activation_left_0
 	{
-		name = "APS activation left";
-		sound[] = {"\bravo_aps\assets\aps_activate_left.ogg", 2, 1, 100};
+		name = "APS activation left (RU)";
+		sound[] = {"\bravo_aps\assets\aps_activate_left_0.ogg", 2, 1, 100};
 		titles[] = {};
 	};
-	class bravo_aps_activation_right
+	class bravo_aps_activation_right_0
 	{
-		name = "APS activation right";
-		sound[] = {"\bravo_aps\assets\aps_activate_right.ogg", 2, 1, 100};
+		name = "APS activation right (RU)";
+		sound[] = {"\bravo_aps\assets\aps_activate_right_0.ogg", 2, 1, 100};
+		titles[] = {};
+	};
+	
+	class bravo_aps_activation_front_1
+	{
+		name = "APS activation front (US)";
+		sound[] = {"\bravo_aps\assets\aps_activate_front_1.ogg", 2, 1, 100};
+		titles[] = {};
+	};
+	class bravo_aps_activation_rear_1
+	{
+		name = "APS activation rear (US)";
+		sound[] = {"\bravo_aps\assets\aps_activate_rear_1.ogg", 2, 1, 100};
+		titles[] = {};
+	};
+	class bravo_aps_activation_left_1
+	{
+		name = "APS activation left (US)";
+		sound[] = {"\bravo_aps\assets\aps_activate_left_1.ogg", 2, 1, 100};
+		titles[] = {};
+	};
+	class bravo_aps_activation_right_1
+	{
+		name = "APS activation right (US)";
+		sound[] = {"\bravo_aps\assets\aps_activate_right_1.ogg", 2, 1, 100};
+		titles[] = {};
+	};
+	
+	class bravo_aps_activation_front_2
+	{
+		name = "APS activation front (CN)";
+		sound[] = {"\bravo_aps\assets\aps_activate_front_2.ogg", 2, 1, 100};
+		titles[] = {};
+	};
+	class bravo_aps_activation_rear_2
+	{
+		name = "APS activation rear (CN)";
+		sound[] = {"\bravo_aps\assets\aps_activate_rear_2.ogg", 2, 1, 100};
+		titles[] = {};
+	};
+	class bravo_aps_activation_left_2
+	{
+		name = "APS activation left (CN)";
+		sound[] = {"\bravo_aps\assets\aps_activate_left_2.ogg", 2, 1, 100};
+		titles[] = {};
+	};
+	class bravo_aps_activation_right_2
+	{
+		name = "APS activation right (CN)";
+		sound[] = {"\bravo_aps\assets\aps_activate_right_2.ogg", 2, 1, 100};
+		titles[] = {};
+	};
+	
+	class bravo_aps_activation_front_3
+	{
+		name = "APS activation front (DE)";
+		sound[] = {"\bravo_aps\assets\aps_activate_front_3.ogg", 2, 1, 100};
+		titles[] = {};
+	};
+	class bravo_aps_activation_rear_3
+	{
+		name = "APS activation rear (DE)";
+		sound[] = {"\bravo_aps\assets\aps_activate_rear_3.ogg", 2, 1, 100};
+		titles[] = {};
+	};
+	class bravo_aps_activation_left_3
+	{
+		name = "APS activation left (DE)";
+		sound[] = {"\bravo_aps\assets\aps_activate_left_3.ogg", 2, 1, 100};
+		titles[] = {};
+	};
+	class bravo_aps_activation_right_3
+	{
+		name = "APS activation right (DE)";
+		sound[] = {"\bravo_aps\assets\aps_activate_right_3.ogg", 2, 1, 100};
+		titles[] = {};
+	};
+	
+	class bravo_aps_activation_front_4
+	{
+		name = "APS activation front (SA)";
+		sound[] = {"\bravo_aps\assets\aps_activate_front_4.ogg", 2, 1, 100};
+		titles[] = {};
+	};
+	class bravo_aps_activation_rear_4
+	{
+		name = "APS activation rear (SA)";
+		sound[] = {"\bravo_aps\assets\aps_activate_rear_4.ogg", 2, 1, 100};
+		titles[] = {};
+	};
+	class bravo_aps_activation_left_4
+	{
+		name = "APS activation left (SA)";
+		sound[] = {"\bravo_aps\assets\aps_activate_left_4.ogg", 2, 1, 100};
+		titles[] = {};
+	};
+	class bravo_aps_activation_right_4
+	{
+		name = "APS activation right (SA)";
+		sound[] = {"\bravo_aps\assets\aps_activate_right_4.ogg", 2, 1, 100};
+		titles[] = {};
+	};
+	
+	class bravo_aps_activation_front_5
+	{
+		name = "APS activation front (Blyat)";
+		sound[] = {"\bravo_aps\assets\cyka_blyat.ogg", 2, 1, 100};
+		titles[] = {};
+	};
+	class bravo_aps_activation_rear_5
+	{
+		name = "APS activation rear (Blyat)";
+		sound[] = {"\bravo_aps\assets\cyka_blyat.ogg", 2, 1, 100};
+		titles[] = {};
+	};
+	class bravo_aps_activation_left_5
+	{
+		name = "APS activation left (Blyat)";
+		sound[] = {"\bravo_aps\assets\cyka_blyat.ogg", 2, 1, 100};
+		titles[] = {};
+	};
+	class bravo_aps_activation_right_5
+	{
+		name = "APS activation right (Blyat)";
+		sound[] = {"\bravo_aps\assets\cyka_blyat.ogg", 2, 1, 100};
 		titles[] = {};
 	};
 };

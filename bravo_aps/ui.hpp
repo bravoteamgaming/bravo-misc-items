@@ -14,6 +14,7 @@ class RscText;
 class RscButton;
 class RscControlsGroup;
 class RscStructuredText;
+class RscCombo;
 
 class bravo_aps_hudTextLeft : RscStructuredText
 {
@@ -69,8 +70,8 @@ class bravo_aps_moduleDisplay : RscDisplayEmpty
 		class group : RscControlsGroup
 		{
 			w = 15.5 * GUI_GRID_CENTER_W;
-			h = 10.5 * GUI_GRID_CENTER_H;
-			x = GUI_GRID_CENTER_X + 11 * GUI_GRID_CENTER_W;
+			h = 11.5 * GUI_GRID_CENTER_H;
+			x = GUI_GRID_CENTER_X + 7.75 * GUI_GRID_CENTER_W;
 			y = GUI_GRID_CENTER_Y + 0 * GUI_GRID_CENTER_H;
 			
 			class controls
@@ -82,7 +83,7 @@ class bravo_aps_moduleDisplay : RscDisplayEmpty
 					style = 0;
 					moving = 0;
 					w = 15.5 * GUI_GRID_CENTER_W;
-					h = 10.5 * GUI_GRID_CENTER_H;
+					h = 11.5 * GUI_GRID_CENTER_H;
 					x = 0;
 					y = 0;
 					sizeEx = 1;
@@ -169,7 +170,7 @@ class bravo_aps_moduleDisplay : RscDisplayEmpty
 					w = 7 * GUI_GRID_CENTER_W;
 					h = 2.5 * GUI_GRID_CENTER_H;
 					x = 8 * GUI_GRID_CENTER_W;
-					y = 7 * GUI_GRID_CENTER_H;
+					y = 8.5 * GUI_GRID_CENTER_H;
 				};
 				class objectname : RscText
 				{
@@ -180,6 +181,29 @@ class bravo_aps_moduleDisplay : RscDisplayEmpty
 					x = 0.5 * GUI_GRID_CENTER_W;
 					y = 2.5 * GUI_GRID_CENTER_H;
 				};
+				class voicecaption : RscText
+				{
+					text = "Select voice:";
+					idc = -1;
+					w = 7 * GUI_GRID_CENTER_W;
+					h = 1 * GUI_GRID_CENTER_H;
+					x = 0.5 * GUI_GRID_CENTER_W;
+					y = 8.5 * GUI_GRID_CENTER_H;
+				};
+				class voiceBox : RscCombo
+				{
+					idc = -1;
+					w = 7 * GUI_GRID_CENTER_W;
+					h = 1 * GUI_GRID_CENTER_H;
+					x = 0.5 * GUI_GRID_CENTER_W;
+					y = 10 * GUI_GRID_CENTER_H;
+					onLoad = "uiNamespace setVariable ['bravo_aps_voiceBox', _this select 0];";
+					onLBSelChanged = "(uiNamespace getVariable ['bravo_aps_currentObject', objNull]) setVariable ['bravo_var_apsvoicetype', lbCurSel (_this#0), true]";
+					columns[] = {0,0.2,0.9};
+					colorBackground[] = {0,0,0,1};
+					colorSelectBackground[] = {1,1,1,1};
+					colorSelectBackground2[] = {1,1,1,1};
+				}
 			};
 		};
 	};

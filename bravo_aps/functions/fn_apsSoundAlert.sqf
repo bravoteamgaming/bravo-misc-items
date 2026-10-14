@@ -5,6 +5,7 @@ if (_mode == 1) then {
 
 	private _centre = getDir _vehicle;
 	private _sound2 = "";
+	private _voice = _vehicle getVariable ["bravo_var_APSvoiceType", 1];
 
 	switch (true) do {
 		case ([_vicPos, _centre, 90, _projectilePos] call BIS_fnc_inAngleSector) : {
@@ -21,7 +22,7 @@ if (_mode == 1) then {
 		};
 	};
 	sleep 2;
-	playSound [_sound2,2];
+	playSound [format ["%1_%2", _sound2, _voice], 2];
 };
 
 if (_mode == 0) then {
