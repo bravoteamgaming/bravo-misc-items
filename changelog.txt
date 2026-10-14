@@ -450,3 +450,6 @@
 
 2026-10-12
 - APS: fixed script error in loading function
+
+2026-10-14
+- ITEMS: version > 2.6
