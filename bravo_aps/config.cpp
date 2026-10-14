@@ -34,25 +34,25 @@ class CfgSounds
 	class bravo_aps_activation_front_0
 	{
 		name = "APS activation front (RU)";
-		sound[] = {"\bravo_aps\assets\aps_activate_front_0.ogg", 2, 1, 100};
+		sound[] = {"\bravo_aps\assets\aps_activate_front_0.ogg", 2.1, 1, 100};
 		titles[] = {};
 	};
 	class bravo_aps_activation_rear_0
 	{
 		name = "APS activation rear (RU)";
-		sound[] = {"\bravo_aps\assets\aps_activate_rear_0.ogg", 2, 1, 100};
+		sound[] = {"\bravo_aps\assets\aps_activate_rear_0.ogg", 2.1, 1, 100};
 		titles[] = {};
 	};
 	class bravo_aps_activation_left_0
 	{
 		name = "APS activation left (RU)";
-		sound[] = {"\bravo_aps\assets\aps_activate_left_0.ogg", 2, 1, 100};
+		sound[] = {"\bravo_aps\assets\aps_activate_left_0.ogg", 2.1, 1, 100};
 		titles[] = {};
 	};
 	class bravo_aps_activation_right_0
 	{
 		name = "APS activation right (RU)";
-		sound[] = {"\bravo_aps\assets\aps_activate_right_0.ogg", 2, 1, 100};
+		sound[] = {"\bravo_aps\assets\aps_activate_right_0.ogg", 2.1, 1, 100};
 		titles[] = {};
 	};
 	
@@ -134,25 +134,25 @@ class CfgSounds
 	class bravo_aps_activation_front_4
 	{
 		name = "APS activation front (SA)";
-		sound[] = {"\bravo_aps\assets\aps_activate_front_4.ogg", 2, 1, 100};
+		sound[] = {"\bravo_aps\assets\aps_activate_front_4.ogg", 2.2, 1, 100};
 		titles[] = {};
 	};
 	class bravo_aps_activation_rear_4
 	{
 		name = "APS activation rear (SA)";
-		sound[] = {"\bravo_aps\assets\aps_activate_rear_4.ogg", 2, 1, 100};
+		sound[] = {"\bravo_aps\assets\aps_activate_rear_4.ogg", 2.2, 1, 100};
 		titles[] = {};
 	};
 	class bravo_aps_activation_left_4
 	{
 		name = "APS activation left (SA)";
-		sound[] = {"\bravo_aps\assets\aps_activate_left_4.ogg", 2, 1, 100};
+		sound[] = {"\bravo_aps\assets\aps_activate_left_4.ogg", 2.2, 1, 100};
 		titles[] = {};
 	};
 	class bravo_aps_activation_right_4
 	{
 		name = "APS activation right (SA)";
-		sound[] = {"\bravo_aps\assets\aps_activate_right_4.ogg", 2, 1, 100};
+		sound[] = {"\bravo_aps\assets\aps_activate_right_4.ogg", 2.2, 1, 100};
 		titles[] = {};
 	};
 	
