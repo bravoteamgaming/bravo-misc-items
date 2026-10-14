@@ -1,6 +1,10 @@
 params [["_mode",0], ["_projectilePos",[0,0,0]], ["_vicPos",[0,0,0]], ["_vehicle",objNull]];
 
+if (missionNamespace getVariable ["bravo_var_APSalertPlaying", false) exitWith{};
+
+
 if (_mode == 1) then {
+	bravo_var_APSalertPlaying = true;
 	playSound ["bravo_aps_activation",2];
 
 	private _centre = getDir _vehicle;
@@ -23,6 +27,8 @@ if (_mode == 1) then {
 	};
 	sleep 2;
 	playSound [format ["%1_%2", _sound2, _voice], 2];
+	sleep 1.5;
+	bravo_var_APSalertPlaying = false;
 };
 
 if (_mode == 0) then {
