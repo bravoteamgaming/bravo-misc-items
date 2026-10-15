@@ -33,6 +33,7 @@
 			{};
 		};
 	};
+	class UGL_F;
 	class bravo_type215_gl : arifle_AK12_GL_F
 	{
 		baseWeapon = "bravo_type215_gl";
@@ -41,6 +42,11 @@
 		magazineWell[] = {"CTAR_580x42","CTAR_580x42_Large","CBA_580x42_TYPE95","CBA_580x42_TYPE95_XL"};
 		magazines[] = {"30Rnd_580x42_Mag_F","30Rnd_580x42_Mag_Tracer_F"};
 		recoil = "recoil_spar";
+		class EGLM : UGL_F
+		{
+			magazines[] = {""};
+			magazineWell[] = {"VOG_40mm"};
+		};
 		class WeaponSlotsInfo : WeaponSlotsInfo
 		{
 			class MuzzleSlot : asdg_MuzzleSlot_58
