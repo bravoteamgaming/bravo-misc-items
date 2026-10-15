@@ -155,6 +155,7 @@ class CfgWeapons
 		};
 	};
 
+	class UGL_F;
 	class arifle_Mk20_plain_F;
 	class UK3CB_BAF_L85A2 : arifle_Mk20_plain_F
 	{
@@ -274,7 +275,6 @@ class CfgWeapons
 		picture = "\UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_L115\data\gear_awmFDE_ca.paa";
 	};
 	
-	class UGL_F;
 	class UK3CB_FNFAL_OSW;
 	class UK3CB_FNFAL_OSW_GL : UK3CB_FNFAL_OSW
 	{

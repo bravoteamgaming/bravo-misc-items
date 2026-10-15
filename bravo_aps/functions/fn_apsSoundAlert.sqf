@@ -1,6 +1,6 @@
 params [["_mode",0], ["_projectilePos",[0,0,0]], ["_vicPos",[0,0,0]], ["_vehicle",objNull]];
 
-if (missionNamespace getVariable ["bravo_var_APSalertPlaying", false) exitWith{};
+if (missionNamespace getVariable ["bravo_var_APSalertPlaying", false]) exitWith{};
 
 
 if (_mode == 1) then {
