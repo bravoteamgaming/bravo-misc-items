@@ -4,6 +4,8 @@ class asdg_MuzzleSlot_58;
 class asdg_MuzzleSlot_556;
 class asdg_MuzzleSlot_46;
 class MuzzleSlot_57;
+class Mode_FullAuto;
+class Mode_Burst;
 
 class CfgWeapons
 {	
@@ -105,7 +107,28 @@ class CfgWeapons
 			{};
 		};
 	};
+	
+	
+	class mmg_01_tan_f;
+	class bravo_mg5 : mmg_01_tan_f
+	{
+		baseWeapon = "bravo_mg5";
+		displayName = "MG5";
+		descriptionShort = "Medium Machine Gun<br />Caliber: 7.62x51 mm";
+		magazines[] = {"150Rnd_762x51_Box"};
+		magazineWell[] = {"CBA_762x51_LINKS"};
+		class manual : Mode_FullAuto
+		{
+			dispersion = 0.0007;
+		};
+		class Burst : Mode_Burst
+		{
+			dispersion = 0.0007;
+		};
+	};
+
 };
+
 
 class CfgRecoils
 {

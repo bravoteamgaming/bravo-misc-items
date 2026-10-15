@@ -85,6 +85,12 @@ class cfgMagazines
 		descriptionShort = "Caliber: 4.6x30 mm<br />Rounds: 30<br />Used in: CPW";
 		initSpeed = 691;
 	};
+	
+	class 1Rnd_HE_Grenade_shell;
+	class bravo_1rnd_vog_he : 1Rnd_HE_Grenade_shell
+	{
+		displayName = "40 mm VOG Type 29 HE Round";
+	};
 };
 
 class cfgMagazineWells
@@ -119,6 +125,12 @@ class cfgMagazineWells
 			"bravo_30rnd_46x30mm_jhp_cpw",
 			"bravo_30rnd_46x30mm_fmj_cpw",
 			"bravo_30rnd_46x30mm_ap_cpw"
+		};
+	};
+	class VOG_40mm
+	{
+		bravo_vanillaguns_mags[] = {
+			"bravo_1rnd_vog_he"
 		};
 	};
 };

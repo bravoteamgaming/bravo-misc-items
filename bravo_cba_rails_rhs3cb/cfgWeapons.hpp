@@ -284,6 +284,11 @@ class CfgWeapons
 		};
 	};
 	
+	class mmg_01_base_f : rifle_long_base_f
+	{
+		magazines[] = {"150Rnd_93x64_Mag"};
+	};
+	
 	// =========
 	// Flashlights
 	

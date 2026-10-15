@@ -462,3 +462,7 @@
 - CBA RAILS WS: Velko R5 GL now uses CBA GL magwell
 - CBA RAILS VN: new addon, CBA slot/magwell compatibility for SOG and Nickel Steel weapons
 - CBA RAILS VN: SOG GLs and GL ammo now use CBA GL magwells
+- CBA RAILS RHS3CB: HK121 no longer takes 7.62mm BAF belts
+- VANILLAGUNS: added MG5, 7.62mm version of HK121
+- RHS AMMO: improved dispersion of RHS M249 and PK variants
+- VANILLAGUNS: Type 215 GL now uses VOG grenades. Added Type 29 GL mag (clone of vanilla 40mm HE) so that there actually is a dependency-free VOG round.
