@@ -155,6 +155,16 @@ class CfgWeapons
 		};
 	};
 	
+	class UGL_F;
+	class arifle_VelkoR5_lxWS;
+	class arifle_VelkoR5_GL_lxWS : arifle_VelkoR5_lxWS
+	{
+		class GL203_lxWS : UGL_F
+		{
+			magazineWell[] = { "CBA_40mm_M203", "UGL_40x36" };
+		};
+	};
+	
 	// ====================
 	// Flashlights
 	

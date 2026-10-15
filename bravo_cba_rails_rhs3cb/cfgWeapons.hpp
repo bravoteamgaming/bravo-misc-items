@@ -3,19 +3,19 @@ class CfgMagazineWells
 	class XMS_556x45_Large;
 	class CBA_762x51_FAL
 	{
-		bravo_3cb_mags[] = {"UK3CB_BAF_762_20Rnd","UK3CB_BAF_762_20Rnd_T","UK3CB_BAF_762_20Rnd_Blank"};
+		bravo_cba_rails_rhs3cb_mags[] = {"UK3CB_BAF_762_20Rnd","UK3CB_BAF_762_20Rnd_T","UK3CB_BAF_762_20Rnd_Blank"};
 	};
 	class CBA_762x51_LINKS
 	{
-		bravo_3cb_mags[] = { "UK3CB_BAF_762_100Rnd", "UK3CB_BAF_762_100Rnd_Blank", "UK3CB_BAF_762_100Rnd_T", "UK3CB_BAF_762_200Rnd", "UK3CB_BAF_762_200Rnd_Blank", "UK3CB_BAF_762_200Rnd_T" };
+		bravo_cba_rails_rhs3cb_mags[] = { "UK3CB_BAF_762_100Rnd", "UK3CB_BAF_762_100Rnd_Blank", "UK3CB_BAF_762_100Rnd_T", "UK3CB_BAF_762_200Rnd", "UK3CB_BAF_762_200Rnd_Blank", "UK3CB_BAF_762_200Rnd_T" };
 	};
 	class CBA_556x45_MINIMI
 	{
-		bravo_3cb_mags[] = { "UK3CB_BAF_556_200Rnd","UK3CB_BAF_556_200Rnd_Blank","UK3CB_BAF_556_200Rnd_T","UK3CB_BAF_556_100Rnd","UK3CB_BAF_556_100Rnd_Blank","UK3CB_BAF_556_100Rnd_T","UK3CB_BAF_556_30Rnd","UK3CB_BAF_556_30Rnd_Blank","UK3CB_BAF_556_30Rnd_T" };
+		bravo_cba_rails_rhs3cb_mags[] = { "UK3CB_BAF_556_200Rnd","UK3CB_BAF_556_200Rnd_Blank","UK3CB_BAF_556_200Rnd_T","UK3CB_BAF_556_100Rnd","UK3CB_BAF_556_100Rnd_Blank","UK3CB_BAF_556_100Rnd_T","UK3CB_BAF_556_30Rnd","UK3CB_BAF_556_30Rnd_Blank","UK3CB_BAF_556_30Rnd_T" };
 	};
 	class CBA_57x28_P90
 	{
-		bravo_3cb_mags[] = {
+		bravo_cba_rails_rhs3cb_mags[] = {
 			"UK3CB_P90_50rnd_570x28_Magazine","UK3CB_P90_50rnd_570x28_Magazine_R","UK3CB_P90_50rnd_570x28_Magazine_RM","UK3CB_P90_50rnd_570x28_Magazine_RT","UK3CB_P90_50rnd_570x28_Magazine_G","UK3CB_P90_50rnd_570x28_Magazine_GM","UK3CB_P90_50rnd_570x28_Magazine_GT","UK3CB_P90_50rnd_570x28_Magazine_Y","UK3CB_P90_50rnd_570x28_Magazine_YM","UK3CB_P90_50rnd_570x28_Magazine_YT","UK3CB_P90_50rnd_570x28_Magazine_W","UK3CB_P90_50rnd_570x28_Magazine_WM","UK3CB_P90_50rnd_570x28_Magazine_WT"};
 	};
 	class CBA_762x39_AK
@@ -28,11 +28,15 @@ class CfgMagazineWells
 	};
 	class CBA_338LM_AI
 	{
-		bravo_3cb_mags[] = {"UK3CB_BAF_338_5Rnd","UK3CB_BAF_338_5Rnd_Blank","UK3CB_BAF_338_5Rnd_Tracer"};
+		bravo_cba_rails_rhs3cb_mags[] = {"UK3CB_BAF_338_5Rnd","UK3CB_BAF_338_5Rnd_Blank","UK3CB_BAF_338_5Rnd_Tracer"};
 	};
 	class CBA_762x51_AICS
 	{
-		bravo_3cb_mags[] = {"UK3CB_BAF_762_L42A1_10Rnd","UK3CB_BAF_762_L42A1_10Rnd_Blank","UK3CB_BAF_762_L42A1_10Rnd_T"};
+		bravo_cba_rails_rhs3cb_mags[] = {"UK3CB_BAF_762_L42A1_10Rnd","UK3CB_BAF_762_L42A1_10Rnd_Blank","UK3CB_BAF_762_L42A1_10Rnd_T"};
+	};
+	class UGL_40x36
+	{
+		bravo_cba_rails_rhs3cb_mags[] = {"UK3CB_BAF_1Rnd_HE_Grenade_Shell","UK3CB_BAF_1Rnd_HEDP_Grenade_Shell","UK3CB_BAF_1Rnd_Blank_Grenade_Shell","UK3CB_BAF_UGL_FlareWhite_F","UK3CB_BAF_UGL_FlareRed_F","UK3CB_BAF_UGL_FlareGreen_F","UK3CB_BAF_UGL_FlareYellow_F","UK3CB_BAF_UGL_FlareCIR_F","UK3CB_BAF_1Rnd_Smoke_Grenade_shell","UK3CB_BAF_1Rnd_SmokeRed_Grenade_shell","UK3CB_BAF_1Rnd_SmokeGreen_Grenade_shell","UK3CB_BAF_1Rnd_SmokeYellow_Grenade_shell","UK3CB_BAF_1Rnd_SmokePurple_Grenade_shell","UK3CB_BAF_1Rnd_SmokeBlue_Grenade_shell","UK3CB_BAF_1Rnd_SmokeOrange_Grenade_shell"};
 	};
 };
 class asdg_OpticRail1913_short;
@@ -160,6 +164,10 @@ class CfgWeapons
 			class CowsSlot : asdg_OpticRail1913_short
 			{};
 		};
+		class UK3CB_BAF_L123A2 : UGL_F
+		{
+			magazineWell[] = { "CBA_40mm_EGLM", "UGL_40x36" };
+		};
 	};
 	class UK3CB_BAF_L22 : UK3CB_BAF_L85A2
 	{
@@ -264,6 +272,16 @@ class CfgWeapons
 		displayName = "L115A3 300WM (Sand)";
 		hiddenSelectionsTextures[] = {"\UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_L115\data\awcstock_FDE_co.paa","\UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_L115\data\AWC_Scope_co.paa","\UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_L115\data\Magnumbits_ca.paa"};
 		picture = "\UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_L115\data\gear_awmFDE_ca.paa";
+	};
+	
+	class UGL_F;
+	class UK3CB_FNFAL_OSW;
+	class UK3CB_FNFAL_OSW_GL : UK3CB_FNFAL_OSW
+	{
+		class UK3CB_M203_OSW : UGL_F
+		{
+			magazineWell[] = { "CBA_40mm_M203", "UGL_40x36" };
+		};
 	};
 	
 	// =========

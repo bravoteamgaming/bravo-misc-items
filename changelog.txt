@@ -457,3 +457,8 @@
 
 2026-10-15
 - GEAR MISC: adjusted brightness of multicam VR suit
+- CBA RAILS VANILLA: SPAR-16 GL, Katiba GL, TRG-21 GL, Promet GL now use CBA GL magwells
+- CBA RAILS RHS3CB: FN FAL OSW GL, L85A2 GL, L85A3 GL now use CBA GL magwells; BAF GL mags added to CBA GL magwells
+- CBA RAILS WS: Velko R5 GL now uses CBA GL magwell
+- CBA RAILS VN: new addon, CBA slot/magwell compatibility for SOG and Nickel Steel weapons
+- CBA RAILS VN: SOG GLs and GL ammo now use CBA GL magwells

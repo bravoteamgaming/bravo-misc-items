@@ -214,6 +214,52 @@ class CfgWeapons
 		};
 	};
 	
+	class UGL_F;
+	class mk20_base_F;
+	class arifle_Mk20_GL_F : mk20_base_F
+	{
+		class EGLM : UGL_F
+		{
+			magazineWell[] = { "CBA_40mm_EGLM", "UGL_40x36" };
+		};
+	};
+	
+	class arifle_Katiba_Base_F;
+	class arifle_Katiba_GL_F : arifle_Katiba_Base_F
+	{
+		class EGLM : UGL_F
+		{
+			magazineWell[] = { "CBA_40mm_EGLM", "UGL_40x36" };
+		};
+	};
+	
+	class arifle_TRG21_F;
+	class arifle_TRG21_GL_F : arifle_TRG21_F
+	{
+		class EGLM : UGL_F
+		{
+			magazineWell[] = { "CBA_40mm_EGLM", "UGL_40x36" };
+		};
+	};
+	
+	class arifle_SPAR_01_base_F;
+	class arifle_SPAR_01_GL_base_F : arifle_SPAR_01_base_F
+	{
+		class EGLM : UGL_F
+		{
+			magazineWell[] = { "CBA_40mm_EGLM", "UGL_40x36" };
+		};
+	};
+	
+	class arifle_MSBS65_base_F;
+	class arifle_MSBS65_GL_base_F : arifle_MSBS65_base_F
+	{
+		class UGL : UGL_F
+		{
+			magazineWell[] = { "CBA_40mm_EGLM", "UGL_40x36" };
+		};
+	};
+	
 	// ==================
 	// FLASHLIGHTS
 	#define VANILLA_LIGHT_RIFLE\
