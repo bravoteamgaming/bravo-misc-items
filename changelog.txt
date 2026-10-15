@@ -454,3 +454,6 @@
 2026-10-14
 - ITEMS: version > 2.6
 - APS: added per-vehicle selectable voices for APS alerts (Russian, US English, Mandarin, German, Arabic, Blyat)
+
+2026-10-15
+- GEAR MISC: adjusted brightness of multicam VR suit
