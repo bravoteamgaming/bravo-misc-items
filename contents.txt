@@ -899,14 +899,15 @@ PHONE
 - Add Zeus module: burner phone
 
 CBA RAILS GM
-- Change GM weapons to make use of CBA attachment slots
+- Change GM weapons to make use of CBA attachment slots and magwells
 
 CBA RAILS RF
-- Change RF weapons to make use of CBA attachment slots
+- Change RF weapons to make use of CBA attachment slots and magwells
 - Enable RF models for Katiba with mag proxies
 
 CBA RAILS RHS3CB
 - Change RHS/3CB weapons to make use of CBA attachment slots and magwells
+- Add .300WM variant of 3CB BAF L115A3
 - Adjust flashlight properties
 
 CBA RAILS T1
@@ -914,12 +915,18 @@ CBA RAILS T1
 - Adjust flashlight properties
 
 CBA RAILS VANILLA
-- Change vanilla weapons to make use of CBA attachment slots
+- Change vanilla weapons to make use of CBA attachment slots and magwells
 - Adjust flashlight properties
 
 CBA RAILS WS
-- Change WS weapons to make use of CBA attachment slots
+- Change WS weapons to make use of CBA attachment slots and magwells
 - Adjust flashlight properties
+
+CBA RAILS VN
+- Change SOG Prairie Fire and Nickel Steel weapons to make use of CBA magwells
+
+CBA RAILS SPE
+- Change Spearhead 1944 and SPEX weapons to make use of CBA magwells
 
 RHS AMMO
 - Rebalance penetration and damage of RHS ammunition
@@ -963,3 +970,6 @@ SPEHIPFIRE
 
 MOD ENFORCER
 - Provides a CBA setting for requiring specified mods to be loaded in order to play on the server.
+
+GL BALANCE
+- Add 2 experimental types of 40mm GL ammo
