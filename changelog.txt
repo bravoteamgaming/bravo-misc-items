@@ -466,3 +466,8 @@
 - VANILLAGUNS: added MG5, 7.62mm version of HK121
 - RHS AMMO: improved dispersion of RHS M249 and PK variants
 - VANILLAGUNS: Type 215 GL now uses VOG grenades. Added Type 29 GL mag (clone of vanilla 40mm HE) so that there actually is a dependency-free VOG round.
+
+2026-10-17
+- CBA RAILS WS: SLR GL now compatible with CBA 22mm NATO rifle grenades, WS GL ammo added to magwell
+- CBA RAILS VN: L1A1 GL now compatible with CBA 22mm NATO rifle grenades, VN GL ammo added to magwell
+- CBA RAILS VN: US WW2 GLs now compatible with Spearhead US 22mm rifle grenades, VN GL ammo added to magwell

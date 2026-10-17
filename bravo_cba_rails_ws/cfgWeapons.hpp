@@ -11,7 +11,7 @@ class CfgMagazineWells
 {
 	class CBA_762x51_FAL
 	{
-		bravo_ws_mags[] = {
+		bravo_cba_rails_ws_mags[] = {
 			"20Rnd_762x51_slr_desert_lxWS",
 			"20Rnd_762x51_slr_lxWS",
 			"20Rnd_762x51_slr_desert_reload_tracer_green_lxWS",
@@ -30,10 +30,19 @@ class CfgMagazineWells
 			"30Rnd_762x51_slr_Snake_tracer_Red_lxWS"
 		};
 	};
+	class CBA_22mm_NATO_spigot
+	{
+		bravo_cba_rails_ws_mags[] = {
+			"1Rnd_40mm_HE_lxWS",
+			"1Rnd_58mm_AT_lxWS",
+			"1Rnd_50mm_Smoke_lxWS"
+		};
+	};
 };
 
 class CfgWeapons
 {	
+	class UGL_F;
 	class Rifle;
 	class Rifle_Base_F : Rifle
 	{
@@ -122,6 +131,14 @@ class CfgWeapons
 			{};
 		};
 	};
+	class arifle_SLR_GL_lxWS : arifle_SLR_lxWS
+	{
+		class R_GL_lxWS : UGL_F
+		{
+			magazineWell[] = {"CBA_22mm_NATO_spigot"};
+		};
+	};
+	
 	class glaunch_GLX_base_lxWS : Rifle_Base_F
 	{
 		class WeaponSlotsInfo : WeaponSlotsInfo
@@ -155,7 +172,6 @@ class CfgWeapons
 		};
 	};
 	
-	class UGL_F;
 	class arifle_VelkoR5_lxWS;
 	class arifle_VelkoR5_GL_lxWS : arifle_VelkoR5_lxWS
 	{

@@ -39,6 +39,7 @@ class CfgMagazineWells
 		bravo_cba_rails_rhs3cb_mags[] = {"UK3CB_BAF_1Rnd_HE_Grenade_Shell","UK3CB_BAF_1Rnd_HEDP_Grenade_Shell","UK3CB_BAF_1Rnd_Blank_Grenade_Shell","UK3CB_BAF_UGL_FlareWhite_F","UK3CB_BAF_UGL_FlareRed_F","UK3CB_BAF_UGL_FlareGreen_F","UK3CB_BAF_UGL_FlareYellow_F","UK3CB_BAF_UGL_FlareCIR_F","UK3CB_BAF_1Rnd_Smoke_Grenade_shell","UK3CB_BAF_1Rnd_SmokeRed_Grenade_shell","UK3CB_BAF_1Rnd_SmokeGreen_Grenade_shell","UK3CB_BAF_1Rnd_SmokeYellow_Grenade_shell","UK3CB_BAF_1Rnd_SmokePurple_Grenade_shell","UK3CB_BAF_1Rnd_SmokeBlue_Grenade_shell","UK3CB_BAF_1Rnd_SmokeOrange_Grenade_shell"};
 	};
 };
+
 class asdg_OpticRail1913_short;
 class asdg_OpticRail1913_short_MG : asdg_OpticRail1913_short
 {};
@@ -154,7 +155,8 @@ class CfgWeapons
 			{};
 		};
 	};
-
+	
+	class GrenadeLauncher;
 	class UGL_F;
 	class arifle_Mk20_plain_F;
 	class UK3CB_BAF_L85A2 : arifle_Mk20_plain_F
@@ -288,6 +290,36 @@ class CfgWeapons
 	{
 		magazines[] = {"150Rnd_93x64_Mag"};
 	};
+	
+	/*
+	class bravo_famas_f1_gl : uk3cb_famas_f1
+	{
+		baseWeapon = "bravo_famas_f1_gl";
+		displayName = "FAMAS F1 (GL)";
+		muzzles[] = {"this", "gl_22mm"};
+		class gl_22mm : UGL_F
+		{
+			magazines[] = {};
+			magazineWell[] = {"CBA_22mm_NATO_spigot"};
+			memoryPointCamera = "eye";
+			cameraDir = "eye";
+			displayName = "Rifle grenade";
+			muzzleEnd = "konec hlavne";
+			muzzlePos = "usti hlavne";
+			class Single : Single
+			{
+				class StandardSound
+				{
+					soundSetShot[] = {"Launcher_MRAWS_Shot_SoundSet","Launcher_MRAWS_Tail_SoundSet"};
+				};
+			};
+		};
+		class WeaponSlotsInfo : WeaponSlotsInfo
+		{
+			class MuzzleSlot{};
+		};
+	};
+	*/
 	
 	// =========
 	// Flashlights

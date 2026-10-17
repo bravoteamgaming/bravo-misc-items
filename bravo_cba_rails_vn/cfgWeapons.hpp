@@ -27,5 +27,28 @@ class CfgWeapons
 		{
 			magazineWell[] = { "CBA_40mm_M203", "UGL_40x36" };
 		};
+		
+		class vn_22mm_gl_muzzle;
+		class vn_m4956_22mm_gl_muzzle : vn_22mm_gl_muzzle
+		{
+			magazineWell[] = { "bravo_22mm_us_riflegrenade" };
+		};
+		class vn_m1903_22mm_gl_muzzle : vn_22mm_gl_muzzle
+		{
+			magazineWell[] = { "bravo_22mm_us_riflegrenade" };
+		};
+			
+		class vn_sks_22mm_gl_muzzle;
+		class vn_m1_garand_22mm_gl_muzzle : vn_sks_22mm_gl_muzzle
+		{
+			magazineWell[] = { "bravo_22mm_us_riflegrenade" };
+		};
+		class vn_l1a1_22mm_gl_muzzle : vn_m1_garand_22mm_gl_muzzle
+		{
+			magazineWell[] = { "CBA_22mm_NATO_spigot" };
+		};
+		
+		
+		
 	};
 };

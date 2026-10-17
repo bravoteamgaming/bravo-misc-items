@@ -62,7 +62,8 @@ class CfgPatches
 			"bravo_f2000c_org",
 			"bravo_f2000_gl_org",
 			"bravo_cpw_57",
-			"bravo_cpw_46"
+			"bravo_cpw_46",
+			"bravo_mg5"
 		};
 		skipWhenMissingDependencies = 1;
 	};
