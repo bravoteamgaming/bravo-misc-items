@@ -473,3 +473,5 @@
 - CBA RAILS VN: US WW2 GLs now compatible with Spearhead US 22mm rifle grenades, VN GL ammo added to magwell
 - GL BALANCE: new addon for testing and implementing GL balance changes. Currently only contains 2 extra experimental types.
 - CBA RAILS SPE: new addon, handles CBA compatibility for Spearhead and SPEX
+- CBA RAILS SPE: CBA compatibility for SPEX M1928 Thompsons, rifle grenades
+- CBA RAILS RHS3CB: M60 belts are now in the CBA 7.62x51 belt magwell

@@ -12,6 +12,7 @@ class CfgPatches
 		skipWhenMissingDependencies = 1;
 	};
 };
+#include "cfgWeapons.hpp"
 
 class cfgMagazineWells
 {
