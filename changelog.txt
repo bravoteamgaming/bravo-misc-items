@@ -472,3 +472,4 @@
 - CBA RAILS VN: L1A1 GL now compatible with CBA 22mm NATO rifle grenades, VN GL ammo added to magwell
 - CBA RAILS VN: US WW2 GLs now compatible with Spearhead US 22mm rifle grenades, VN GL ammo added to magwell
 - GL BALANCE: new addon for testing and implementing GL balance changes. Currently only contains 2 extra experimental types.
+- CBA RAILS SPE: new addon, handles CBA compatibility for Spearhead and SPEX

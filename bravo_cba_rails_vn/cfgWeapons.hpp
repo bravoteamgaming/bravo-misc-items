@@ -31,7 +31,7 @@ class CfgWeapons
 		class vn_22mm_gl_muzzle;
 		class vn_m4956_22mm_gl_muzzle : vn_22mm_gl_muzzle
 		{
-			magazineWell[] = { "bravo_22mm_us_riflegrenade" };
+			magazineWell[] = { "CBA_22mm_NATO_spigot" };
 		};
 		class vn_m1903_22mm_gl_muzzle : vn_22mm_gl_muzzle
 		{

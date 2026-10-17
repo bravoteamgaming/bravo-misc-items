@@ -32,7 +32,6 @@ class cfgMagazineWells
 	class bravo_22mm_us_riflegrenade
 	{
 		bravo_cba_rails_vn_mags[] = {"vn_22mm_m1a2_frag_mag","vn_22mm_m17_frag_mag","vn_22mm_m9_heat_mag","vn_22mm_lume_mag","vn_22mm_m22_smoke_mag","vn_22mm_m19_wp_mag","vn_22mm_cs_mag"};
-		bravo_SPE_Magazines[] = {"SPE_1Rnd_G_Mk2","SPE_1Rnd_G_M9A1","SPE_1Rnd_G_M2_AN_M14","SPE_1Rnd_G_M2_ANM8","SPE_1Rnd_G_M2_M18_Red","SPE_1Rnd_G_M2_M18_Green","SPE_1Rnd_G_M2_M18_Yellow","SPE_1Rnd_G_M2_M18_Violet","SPE_1Rnd_G_M17A1","SPE_1Rnd_G_M19A1","SPE_1Rnd_G_M21A1","SPE_1Rnd_G_M51A1"};
 	};
 	class spe_22mm_us_riflegrenade
 	{
