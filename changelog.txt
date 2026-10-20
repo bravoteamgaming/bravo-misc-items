@@ -475,3 +475,6 @@
 - CBA RAILS SPE: new addon, handles CBA compatibility for Spearhead and SPEX
 - CBA RAILS SPE: CBA compatibility for SPEX M1928 Thompsons, rifle grenades
 - CBA RAILS RHS3CB: M60 belts are now in the CBA 7.62x51 belt magwell
+
+2026-10-20
+- CBA RAILS SPE: fixed this addon not being properly applied

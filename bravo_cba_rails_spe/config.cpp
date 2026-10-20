@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class bravo_cba_rails_vn
+	class bravo_cba_rails_spe
 	{
 		name = "CBA Rails Spearhead";
 		author = "NikkoJT";
