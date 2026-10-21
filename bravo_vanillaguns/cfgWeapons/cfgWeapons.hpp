@@ -99,7 +99,7 @@ class CfgWeapons
 		displayName = "CPW 46";
 		descriptionShort = "Submachine Gun<br />Caliber: 4.6x30 mm";
 		magazineWell[] = {"bravo_46x30_cpw"};
-		magazines[] = {"bravo_30rnd_46x30mm_cpw"};
+		magazines[] = {"bravo_30rnd_46x30mm_fmj_cpw"};
 		class WeaponSlotsInfo : WeaponSlotsInfo
 		{
 			mass = 69;
