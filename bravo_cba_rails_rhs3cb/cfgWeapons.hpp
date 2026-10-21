@@ -7,7 +7,7 @@ class CfgMagazineWells
 	};
 	class CBA_762x51_LINKS
 	{
-		bravo_cba_rails_rhs3cb_mags[] = { "UK3CB_BAF_762_100Rnd", "UK3CB_BAF_762_100Rnd_Blank", "UK3CB_BAF_762_100Rnd_T", "UK3CB_BAF_762_200Rnd", "UK3CB_BAF_762_200Rnd_Blank", "UK3CB_BAF_762_200Rnd_T" };
+		bravo_cba_rails_rhs3cb_mags[] = { "UK3CB_100Rnd_762x51_B_M60","UK3CB_100Rnd_762x51_T_M60","UK3CB_M60_100rnd_762x51","UK3CB_M60_100rnd_762x51_R","UK3CB_M60_100rnd_762x51_RM","UK3CB_M60_100rnd_762x51_RT","UK3CB_M60_100rnd_762x51_Y","UK3CB_M60_100rnd_762x51_YM","UK3CB_M60_100rnd_762x51_YT","UK3CB_M60_100rnd_762x51_G","UK3CB_M60_100rnd_762x51_GM","UK3CB_M60_100rnd_762x51_GT","UK3CB_M60_100rnd_762x51_W","UK3CB_M60_100rnd_762x51_WM","UK3CB_M60_100rnd_762x51_WT", "UK3CB_BAF_762_100Rnd", "UK3CB_BAF_762_100Rnd_Blank", "UK3CB_BAF_762_100Rnd_T", "UK3CB_BAF_762_200Rnd", "UK3CB_BAF_762_200Rnd_Blank", "UK3CB_BAF_762_200Rnd_T" };
 	};
 	class CBA_556x45_MINIMI
 	{
@@ -37,6 +37,10 @@ class CfgMagazineWells
 	class UGL_40x36
 	{
 		bravo_cba_rails_rhs3cb_mags[] = {"UK3CB_BAF_1Rnd_HE_Grenade_Shell","UK3CB_BAF_1Rnd_HEDP_Grenade_Shell","UK3CB_BAF_1Rnd_Blank_Grenade_Shell","UK3CB_BAF_UGL_FlareWhite_F","UK3CB_BAF_UGL_FlareRed_F","UK3CB_BAF_UGL_FlareGreen_F","UK3CB_BAF_UGL_FlareYellow_F","UK3CB_BAF_UGL_FlareCIR_F","UK3CB_BAF_1Rnd_Smoke_Grenade_shell","UK3CB_BAF_1Rnd_SmokeRed_Grenade_shell","UK3CB_BAF_1Rnd_SmokeGreen_Grenade_shell","UK3CB_BAF_1Rnd_SmokeYellow_Grenade_shell","UK3CB_BAF_1Rnd_SmokePurple_Grenade_shell","UK3CB_BAF_1Rnd_SmokeBlue_Grenade_shell","UK3CB_BAF_1Rnd_SmokeOrange_Grenade_shell"};
+	};
+	class CBA_9x19_MP5
+	{
+		bravo_cba_rails_rhs3cb_mags[] = {"UK3CB_9x30Rnd","UK3CB_MP5_30Rnd_Magazine","UK3CB_MP5_30Rnd_Magazine_R","UK3CB_MP5_30Rnd_Magazine_RT","UK3CB_MP5_30Rnd_Magazine_Y","UK3CB_MP5_30Rnd_Magazine_YT","UK3CB_MP5_30Rnd_Magazine_G","UK3CB_MP5_30Rnd_Magazine_GT","UK3CB_MP5_30Rnd_Magazine_W","UK3CB_MP5_30Rnd_Magazine_WT","UK3CB_MP5_30Rnd_9x19_Magazine","UK3CB_MP5_30Rnd_9x19_Magazine_R","UK3CB_MP5_30Rnd_9x19_Magazine_RT","UK3CB_MP5_30Rnd_9x19_Magazine_Y","UK3CB_MP5_30Rnd_9x19_Magazine_YT","UK3CB_MP5_30Rnd_9x19_Magazine_G","UK3CB_MP5_30Rnd_9x19_Magazine_GT","UK3CB_MP5_30Rnd_9x19_Magazine_W","UK3CB_MP5_30Rnd_9x19_Magazine_WT"};
 	};
 };
 
@@ -289,6 +293,12 @@ class CfgWeapons
 	class mmg_01_base_f : rifle_long_base_f
 	{
 		magazines[] = {"150Rnd_93x64_Mag"};
+	};
+	
+	class smg_02_f;
+	class uk3cb_mp5_base : smg_02_f
+	{
+		magazineWell[] = {"CBA_9x19_MP5"};
 	};
 	
 	/*
