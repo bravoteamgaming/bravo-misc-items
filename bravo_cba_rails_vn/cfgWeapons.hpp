@@ -47,8 +47,10 @@ class CfgWeapons
 		{
 			magazineWell[] = { "CBA_22mm_NATO_spigot" };
 		};
-		
-		
-		
+	};
+	class vn_lmg;
+	class vn_mg42 : vn_lmg
+	{
+		magazineWell[] = {"CBA_792x57_LINKS"};
 	};
 };

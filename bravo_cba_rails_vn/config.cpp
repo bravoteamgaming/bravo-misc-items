@@ -6,7 +6,7 @@ class CfgPatches
 		author = "NikkoJT";
 		url = "https://github.com/bravoteamgaming/bravo-misc-items";
 		requiredVersion = 2.00;
-		requiredAddons[] = {"cba_jr", "vn_build_number", "vnx_build_number"};
+		requiredAddons[] = {"cba_jr", "loadorder_f_vietnam", "weapons_f_vietnam_07"};
 		units[] = {};
 		weapons[] = {};
 		skipWhenMissingDependencies = 1;

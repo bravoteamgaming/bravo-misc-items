@@ -387,17 +387,17 @@ class CfgWeapons
 	class vn_lmg;
 	class vn_m60 : vn_lmg
 	{
-		SPE_HipfireOnly = 1;
+		SPE_Hipfire_Only = 1;
 		SPE_deployment_animation = "RHS_GestureHoldM240";
 	};
 	class vn_mg42 : vn_lmg
 	{
-		SPE_HipfireOnly = 1;
+		SPE_Hipfire_Only = 1;
 		SPE_deployment_animation = "RHS_GestureHoldMG42";
 	};
 	class vn_pk : vn_lmg
 	{
-		SPE_HipfireOnly = 1;
+		SPE_Hipfire_Only = 1;
 		SPE_deployment_animation = "RHS_GestureHoldPK";
 	};
 	class vn_l4 : vn_lmg
