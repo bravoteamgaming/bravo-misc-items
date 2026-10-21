@@ -486,3 +486,4 @@
 - CBA RAILS VANILLA: Tavor 556 variants now use CBA muzzle slot
 - CBA RAILS VN: added CBA magwell to MG42
 - SPEHIPFIRE: fixed hipfire not being applied to SOGPF weapons
+- ITEMS: version > 2.7
