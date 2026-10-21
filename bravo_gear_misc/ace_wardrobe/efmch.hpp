@@ -1,4 +1,4 @@
-class bravo_mch_plain_oli : bravo_wardrome_helmet_plain
+class bravo_mch_plain_oli : bravo_wardrobe_helmet_plain
 {
 	class modifiableTo
 	{
@@ -6,7 +6,7 @@ class bravo_mch_plain_oli : bravo_wardrome_helmet_plain
 		{};
 	};
 };
-class bravo_mch_plain_oli_medic : bravo_wardrome_helmet_medic
+class bravo_mch_plain_oli_medic : bravo_wardrobe_helmet_medic
 {
 	class modifiableTo
 	{
@@ -15,7 +15,7 @@ class bravo_mch_plain_oli_medic : bravo_wardrome_helmet_medic
 	};
 };
 
-class ef_h_mch : bravo_wardrome_helmet_plain
+class ef_h_mch : bravo_wardrobe_helmet_plain
 {
 	class modifiableTo
 	{
@@ -23,7 +23,7 @@ class ef_h_mch : bravo_wardrome_helmet_plain
 		{};
 	};
 };
-class bravo_mch_plain_des_medic : bravo_wardrome_helmet_medic
+class bravo_mch_plain_des_medic : bravo_wardrobe_helmet_medic
 {
 	class modifiableTo
 	{
@@ -32,7 +32,7 @@ class bravo_mch_plain_des_medic : bravo_wardrome_helmet_medic
 	};
 };
 
-class ef_h_mch_basic : bravo_wardrome_helmet_plain
+class ef_h_mch_basic : bravo_wardrobe_helmet_plain
 {
 	class modifiableTo
 	{
@@ -40,7 +40,7 @@ class ef_h_mch_basic : bravo_wardrome_helmet_plain
 		{};
 	};
 };
-class bravo_mch_basic_des_medic : bravo_wardrome_helmet_medic
+class bravo_mch_basic_des_medic : bravo_wardrobe_helmet_medic
 {
 	class modifiableTo
 	{
@@ -49,7 +49,7 @@ class bravo_mch_basic_des_medic : bravo_wardrome_helmet_medic
 	};
 };
 
-class bravo_mch_basic_oli : bravo_wardrome_helmet_plain
+class bravo_mch_basic_oli : bravo_wardrobe_helmet_plain
 {
 	class modifiableTo
 	{
@@ -57,7 +57,7 @@ class bravo_mch_basic_oli : bravo_wardrome_helmet_plain
 		{};
 	};
 };
-class bravo_mch_basic_oli_medic : bravo_wardrome_helmet_medic
+class bravo_mch_basic_oli_medic : bravo_wardrobe_helmet_medic
 {
 	class modifiableTo
 	{

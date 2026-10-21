@@ -4,7 +4,7 @@ class ace_wardrobe
 	class ace_wardrobe_base_u_sleeves_down;
 	class ace_wardrobe_base_u_sleeves_up;
 	class ace_wardrobe_base_U_gloves_on;
-	class bravo_wardrome_helmet_redteam : ace_wardrobe_base
+	class bravo_wardrobe_helmet_redteam : ace_wardrobe_base
 	{
 		displayName = "Switch to Red Team";
 		gesture = "gestureNod";

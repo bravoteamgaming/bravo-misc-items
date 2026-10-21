@@ -241,7 +241,7 @@ class bravo_combatuniform_short_r2017 : ace_wardrobe_base_u_sleeves_up
 		{};
 	};
 };
-class bravo_combatuniform_short_philar : ace_wardrobe_base_u_sleeves
+class bravo_combatuniform_short_philar : ace_wardrobe_base_u_sleeves_up
 {
 	class modifiableTo
 	{
