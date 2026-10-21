@@ -483,3 +483,4 @@
 - GEAR MISC: added some ACE Wardrobe options to some Bravo equipment
 - VANILLAGUNS: fixed an issue with MG5 firemodes
 - CBA RAILS RHS3CB: 3CB MP5s are now CBA magazine compatible
+- CBA RAILS VANILLA: Tavor 556 variants now use CBA muzzle slot

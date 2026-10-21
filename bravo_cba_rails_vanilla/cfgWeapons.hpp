@@ -233,7 +233,16 @@ class CfgWeapons
 		};
 	};
 	
-	class arifle_TRG21_F;
+	class Tavor_base_F : Rifle_Base_F
+	{
+		class WeaponSlotsInfo : WeaponSlotsInfo
+		{
+			class MuzzleSlot : asdg_MuzzleSlot_556
+			{};
+		};
+	};
+	class arifle_TRG21_F : Tavor_base_F
+	{};
 	class arifle_TRG21_GL_F : arifle_TRG21_F
 	{
 		class EGLM : UGL_F
