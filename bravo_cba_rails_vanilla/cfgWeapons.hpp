@@ -35,6 +35,8 @@ class asdg_MuzzleSlot_762 : asdg_MuzzleSlot
 {};
 class asdg_MuzzleSlot_65 : asdg_MuzzleSlot
 {};
+class asdg_MuzzleSlot_556 : asdg_MuzzleSlot
+{};
 
 class asdg_FrontSideRail;
 
