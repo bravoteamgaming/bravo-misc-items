@@ -130,6 +130,8 @@ class CfgMagazines
 	{
 		displayName = "6.5 mm 5Rnd pprj m/41 Clip";
 		displayNameShort = "AP";
+		ammo = "bravo_bullet_65x55_pprj";
+		initSpeed = 950;
 	};
 };
 
@@ -137,22 +139,22 @@ class CfgMagazineWells
 {
 	class bravo_762x51_mg34
 	{
-		bravo_spemg_mags[] = { "bravo_50rnd_762x51mm_mg34", "bravo_50rnd_762x51mm_mg34_red" };
+		bravo_speguns_mags[] = { "bravo_50rnd_762x51mm_mg34", "bravo_50rnd_762x51mm_mg34_red" };
 	};
 	class bravo_762x63_mg34
 	{
-		bravo_spemg_mags[] = { "bravo_50rnd_762x63mm_mg34", "bravo_50rnd_762x63mm_mg34_red" };
+		bravo_speguns_mags[] = { "bravo_50rnd_762x63mm_mg34", "bravo_50rnd_762x63mm_mg34_red" };
 	};
 	class bravo_65x55_m1919
 	{
-		bravo_spemg_mags[] = { "bravo_50rnd_65x55mm_m1919", "bravo_50rnd_65x55mm_m1919_red", "bravo_100rnd_65x55mm_m1919", "bravo_100rnd_65x55mm_m1919_red" };
+		bravo_speguns_mags[] = { "bravo_50rnd_65x55mm_m1919", "bravo_50rnd_65x55mm_m1919_red", "bravo_100rnd_65x55mm_m1919", "bravo_100rnd_65x55mm_m1919_red" };
 	};
 	class bravo_762x51_m1919
 	{
-		bravo_spemg_mags[] = { "bravo_50rnd_762x51mm_m1919", "bravo_50rnd_762x51mm_m1919_red", "bravo_100rnd_762x51mm_m1919", "bravo_100rnd_762x51mm_m1919_red" };
+		bravo_speguns_mags[] = { "bravo_50rnd_762x51mm_m1919", "bravo_50rnd_762x51mm_m1919_red", "bravo_100rnd_762x51mm_m1919", "bravo_100rnd_762x51mm_m1919_red" };
 	};
 	class bravo_5rnd_65x55_clip
 	{
-		bravo_spemg_mags[] = { "bravo_5rnd_65x55mm_m1941_clip", "bravo_5rnd_65x55mm_pprj_clip", "bravo_5rnd_65x55mm_m1941_red_clip" };
+		bravo_speguns_mags[] = { "bravo_5rnd_65x55mm_m1941_clip", "bravo_5rnd_65x55mm_pprj_clip", "bravo_5rnd_65x55mm_m1941_red_clip" };
 	};
 };

@@ -44,7 +44,7 @@ class CfgWeapons
 		baseWeapon = "bravo_gv1941";
 		displayName = "Gv m/1941";
 		descriptionShort = "Sniper rifle<br />Caliber: 6.5x55 mm Swedish";
-		magazines[] = {"bravo_5rnd_65x55mm_clip"};
+		magazines[] = {"bravo_5rnd_65x55mm_m1941_clip"};
 		magazineWell[] = {"bravo_5rnd_65x55_clip"};
 	};
 };
