@@ -1121,3 +1121,4 @@ class CfgPatches
 #include "cfgVehicles\cfgVehicles.hpp"
 #include "cfgWeapons\cfgWeapons.hpp"
 #include "cfgGlasses.hpp"
+#include "ace_wardrobe\ace_wardrobe.hpp"

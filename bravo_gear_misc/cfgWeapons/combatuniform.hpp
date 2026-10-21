@@ -247,14 +247,6 @@
 			uniformClass = "bravo_combatuniform_cce_unit";
 		};
 	};
-	class bravo_combatuniform_short_cce : u_i_combatuniform_shortsleeve
-	{
-		displayName = "Combat Uniform (CCE/Rolled-Up)";
-		class itemInfo : itemInfo
-		{
-			uniformClass = "bravo_combatuniform_short_cce_unit";
-		};
-	};
 	class bravo_combatuniform_dgt : u_i_combatuniform
 	{
 		displayName = "Combat Uniform (Daguet)";
@@ -409,6 +401,14 @@
 	};
 	
 	// =================== ROLLED
+	class bravo_combatuniform_short_cce : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (CCE/Rolled-Up)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_short_cce_unit";
+		};
+	};
 	class bravo_combatuniform_short_dgt : u_i_combatuniform_shortsleeve
 	{
 		displayName = "Combat Uniform (Daguet/Rolled-Up)";

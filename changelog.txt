@@ -478,3 +478,6 @@
 
 2026-10-20
 - CBA RAILS SPE: fixed this addon not being properly applied
+
+2026-10-21
+- GEAR MISC: added some ACE Wardrobe options to some Bravo equipment
