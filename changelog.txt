@@ -481,3 +481,4 @@
 
 2026-10-21
 - GEAR MISC: added some ACE Wardrobe options to some Bravo equipment
+- VANILLAGUNS: fixed an issue with MG5 firemodes

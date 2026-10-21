@@ -108,8 +108,12 @@ class CfgWeapons
 		};
 	};
 	
-	
-	class mmg_01_tan_f;
+	class mmg_01_hex_f;
+	class mmg_01_tan_f : mmg_01_hex_f
+	{
+		class manual;
+		class burst;
+	};
 	class bravo_mg5 : mmg_01_tan_f
 	{
 		baseWeapon = "bravo_mg5";
@@ -117,11 +121,11 @@ class CfgWeapons
 		descriptionShort = "Medium Machine Gun<br />Caliber: 7.62x51 mm";
 		magazines[] = {"150Rnd_762x51_Box"};
 		magazineWell[] = {"CBA_762x51_LINKS"};
-		class manual : Mode_FullAuto
+		class manual : manual
 		{
 			dispersion = 0.0007;
 		};
-		class Burst : Mode_Burst
+		class Burst : burst
 		{
 			dispersion = 0.0007;
 		};

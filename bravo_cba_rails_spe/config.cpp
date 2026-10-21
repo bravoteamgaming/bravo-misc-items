@@ -6,7 +6,7 @@ class CfgPatches
 		author = "NikkoJT";
 		url = "https://github.com/bravoteamgaming/bravo-misc-items";
 		requiredVersion = 2.00;
-		requiredAddons[] = {"cba_jr", "WW2_SPE_Core_c_Core_c", "WW2_SPEX_Core_c"};
+		requiredAddons[] = {"cba_jr", "WW2_SPE_Core_c_Core_c", "WW2_SPEX_Assets_c_Weapons_InfantryWeapons_c"};
 		units[] = {};
 		weapons[] = {};
 		skipWhenMissingDependencies = 1;
