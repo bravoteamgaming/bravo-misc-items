@@ -361,6 +361,8 @@ GEAR MISC
 	Marine Combat Helmet (Basic/Khaki/D)
 	Marine Combat Helmet (Full/Khaki/W)
 	Marine Combat Helmet (Full/Khaki/D)
+	Marine Combat Helmet (Basic/NFP)
+	Marine Combat Helmet (Full/NFP)
 - Add vest variants:
 	CTRG Plate Carrier Rig (Black)
 	CTRG Plate Carrier Rig (Khaki)

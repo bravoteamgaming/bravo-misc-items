@@ -487,3 +487,7 @@
 - CBA RAILS VN: added CBA magwell to MG42
 - SPEHIPFIRE: fixed hipfire not being applied to SOGPF weapons
 - ITEMS: version > 2.7
+
+2026-10-22
+- GEAR MISC: adjusted texture of NFP MICH2000
+- GEAR MISC: added NFP MCH

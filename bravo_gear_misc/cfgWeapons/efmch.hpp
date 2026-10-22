@@ -39,6 +39,11 @@
 		displayName = "Marine Combat Helmet (Basic/Khaki/D)";
 		hiddenSelectionsTextures[] = {"\ef\ef_marines\data\mch_base_co.paa","\bravo_gear_misc\assets\mch_cover_khk_co"};
 	};
+	class bravo_mch_basic_cover_nfp : ef_h_mch_basicnet_black
+	{
+		displayName = "Marine Combat Helmet (Basic/NFP)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\mch_base_oli_co","\bravo_gear_misc\assets\mch_cover_nfp_co"};
+	};
 	
 	class EF_H_MCH_FullCamo_Black;
 	class bravo_mch_full_cover_mcam_d : ef_h_mch_fullcamo_black
@@ -80,6 +85,11 @@
 	{
 		displayName = "Marine Combat Helmet (Full/Khaki/D)";
 		hiddenSelectionsTextures[] = {"\ef\ef_marines\data\mch_base_co.paa","\bravo_gear_misc\assets\mch_cover_khk_co"};
+	};
+	class bravo_mch_full_cover_nfp : ef_h_mch_fullcamo_black
+	{
+		displayName = "Marine Combat Helmet (Full/NFP)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\mch_base_oli_co","\bravo_gear_misc\assets\mch_cover_nfp_co"};
 	};
 	
 	class ef_h_mch;
