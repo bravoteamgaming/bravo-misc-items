@@ -201,6 +201,16 @@
 		displayName = "FAST Ballistic (RTA Digital Cover)";
 		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_fg_co.paa","","","","\bravo_gear_misc\assets\fs_cover_rtad_co.paa",""};
 	};
+	class bravo_fast_dccu_cover_headset : rhsusf_opscore_rg_cover
+	{
+		displayName = "FAST Ballistic (DCCU Cover/Headset)";
+		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_fg_co.paa","\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa","","","\bravo_gear_misc\assets\fs_cover_dccu_co.paa",""};
+	};
+	class bravo_fast_rtad_cover : rhsusf_opscore_rg_cover
+	{
+		displayName = "FAST Ballistic (DCCU Cover)";
+		hiddenSelectionsTextures[] = {"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\opscore_fg_co.paa","","","","\bravo_gear_misc\assets\fs_cover_dccu_co.paa",""};
+	};
 	
 	class bravo_fast_mcam_cover : rhsusf_opscore_coy_cover
 	{

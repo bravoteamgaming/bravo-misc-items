@@ -491,3 +491,6 @@
 2026-10-22
 - GEAR MISC: adjusted texture of NFP MICH2000
 - GEAR MISC: added NFP MCH
+
+2026-10-23
+- GEAR MISC: added ROC DCCU Combat Uniform, boonie, and FAST

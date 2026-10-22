@@ -230,3 +230,12 @@
 			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_rtad_co"};
 		};
 	};
+	class bravo_gm_boonie_dccu : gm_ge_headgear_hat_boonie_oli
+	{
+		displayName = "Boonie Hat (DCCU)";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_dccu_co"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\bravo_gm_boonie_dccu_co"};
+		};
+	};

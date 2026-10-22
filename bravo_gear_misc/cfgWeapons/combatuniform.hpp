@@ -399,6 +399,14 @@
 			uniformClass = "bravo_combatuniform_rtad_unit";
 		};
 	};
+	class bravo_combatuniform_dccu : u_i_combatuniform
+	{
+		displayName = "Combat Uniform (DCCU)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_dccu_unit";
+		};
+	};
 	
 	// =================== ROLLED
 	class bravo_combatuniform_short_cce : u_i_combatuniform_shortsleeve
@@ -559,6 +567,14 @@
 		class itemInfo : itemInfo
 		{
 			uniformClass = "bravo_combatuniform_short_rtad_unit";
+		};
+	};
+	class bravo_combatuniform_short_dccu : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (DCCU/Rolled-Up)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_short_dccu_unit";
 		};
 	};
 	
@@ -740,6 +756,14 @@
 		class itemInfo : itemInfo
 		{
 			uniformClass = "bravo_combatuniform_tactee_rtad_ws_unit";
+		};
+	};
+	class bravo_combatuniform_tactee_dccu_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (DCCU/Combat Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tactee_dccu_ws_unit";
 		};
 	};
 	
@@ -935,5 +959,13 @@
 		class itemInfo : itemInfo
 		{
 			uniformClass = "bravo_combatuniform_tshirt_rtad_ws_unit";
+		};
+	};
+	class bravo_combatuniform_tshirt_dccu_ws : u_i_combatuniform_shortsleeve
+	{
+		displayName = "Combat Uniform (DCCU/T-Shirt)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_combatuniform_tshirt_dccu_ws_unit";
 		};
 	};

@@ -158,6 +158,14 @@ class bravo_combatuniform_rtad : ace_wardrobe_base_u_sleeves_down
 		{};
 	};
 };
+class bravo_combatuniform_dccu : ace_wardrobe_base_u_sleeves_down
+{
+	class modifiableTo
+	{
+		class bravo_combatuniform_short_dccu
+		{};
+	};
+};
 
 // ===========================
 
@@ -318,6 +326,14 @@ class bravo_combatuniform_short_rtad : ace_wardrobe_base_u_sleeves_up
 	class modifiableTo
 	{
 		class bravo_combatuniform_rtad
+		{};
+	};
+};
+class bravo_combatuniform_short_dccu : ace_wardrobe_base_u_sleeves_up
+{
+	class modifiableTo
+	{
+		class bravo_combatuniform_dccu
 		{};
 	};
 };

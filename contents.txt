@@ -166,6 +166,8 @@ GEAR MISC
 	FAST Ballistic White Cover/Headset
 	FAST Ballistic RTA Digital Cover
 	FAST Ballistic RTA Digital Cover/Headset
+	FAST Ballistic DCCU Cover
+	FAST Ballistic DCCU Cover/Headset
 	LWH MARPAT-D/Headset/ESS/Medic
 	LWH MARPAT-D/Advisory
 	LWH MARPAT-WD/Headset/Tan ESS/Medic
