@@ -401,4 +401,10 @@ class CfgWeapons
 	{
 		handAnim[] = {"OFP2_ManSkeleton","Tier1_Weapons\HK416s\anim\handpose_AFG.rtm"};
 	};
+	
+	class CarHorn;
+	class bravo_clownhorn : CarHorn
+	{
+		drySound[] = {"\bravo_extras\assets\clownhorn.ogg",3,1,500};
+	};
 };

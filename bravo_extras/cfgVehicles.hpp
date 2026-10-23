@@ -61,4 +61,10 @@ class CfgVehicles
 		curatorCanAttach = 0;
 		curatorInfoType = "";
 	};
+	
+	class rhs_btr80_msv;
+	class rhs_btr80a_msv : rhs_btr80_msv
+	{
+		weapons[] = {"bravo_clownhorn"};
+	};
 };
