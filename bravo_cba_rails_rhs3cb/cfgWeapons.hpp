@@ -113,8 +113,8 @@ class CfgWeapons
 			{};
 		};
 	};
-	class UK3CB_BAF_L119A1_Base;
-	class UK3CB_BAF_L119A1 : UK3CB_BAF_L119A1_Base
+	class UK3CB_BAF_L119_Base;
+	class UK3CB_BAF_L119A1 : UK3CB_BAF_L119_Base
 	{
 		class WeaponSlotsInfo
 		{
@@ -122,7 +122,7 @@ class CfgWeapons
 			{};
 		};
 	};
-	class UK3CB_BAF_L119A1_CQB : UK3CB_BAF_L119A1_Base
+	class UK3CB_BAF_L119_CQB : UK3CB_BAF_L119_Base
 	{
 		class WeaponSlotsInfo
 		{
@@ -187,6 +187,14 @@ class CfgWeapons
 	class uk3cb_baf_l85a3 : uk3cb_baf_l85a2
 	{
 		magazineWell[] = {"STANAG_556x45","XMS_556x45_Large","CBA_556x45_STANAG","CBA_556x45_STANAG_L","CBA_556x45_STANAG_XL"};
+	};
+	
+	class UK3CB_BAF_L119A1_UKUGL : UK3CB_BAF_L119_Base
+	{
+		class UK3CB_BAF_L123A2 : UGL_F
+		{
+			magazineWell[] = { "CBA_40mm_EGLM", "UGL_40x36" };
+		};
 	};
 	
 	class EBR_base_F;

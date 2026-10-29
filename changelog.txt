@@ -495,3 +495,7 @@
 2026-10-23
 - GEAR MISC: added ROC DCCU Combat Uniform, boonie, and FAST
 - EXTRAS: added horn to RHS BTR-80A and variants
+
+2026-10-29
+- CBA RAILS RHS3CB: fixed L119A1 and L119A1 CQB being broken
+- CBA RAILS RHS3CB: added CBA GL magwells to L119A1 GL
