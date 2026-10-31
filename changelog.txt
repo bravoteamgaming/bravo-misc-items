@@ -499,3 +499,6 @@
 2026-10-29
 - CBA RAILS RHS3CB: fixed L119A1 and L119A1 CQB being broken
 - CBA RAILS RHS3CB: added CBA GL magwells to L119A1 GL
+
+2026-10-31
+- CBA RAILS RHS3CB: RHS flip-up magnifiers can now use CBA mode keybinds as well as RHS

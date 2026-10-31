@@ -309,6 +309,29 @@ class CfgWeapons
 		magazineWell[] = {"CBA_9x19_MP5"};
 	};
 	
+	class rhsusf_acc_g33_xps3 : ItemCore
+	{
+		MRT_SwitchItemNextClass = "rhsusf_acc_g33_xps3_flip";
+		MRT_SwitchItemPrevClass = "rhsusf_acc_g33_xps3_flip";
+	};
+	class optic_Holosight;
+	class rhsusf_acc_g33_xps3_flip : optic_holoSight
+	{
+		MRT_SwitchItemNextClass = "rhsusf_acc_g33_xps3";
+		MRT_SwitchItemPrevClass = "rhsusf_acc_g33_xps3";
+	};
+	class rhsusf_acc_g33_xps3_tan : rhsusf_acc_g33_xps3
+	{
+		MRT_SwitchItemNextClass = "rhsusf_acc_g33_xps3_tan_flip";
+		MRT_SwitchItemPrevClass = "rhsusf_acc_g33_xps3_tan_flip";
+	};
+	class rhsusf_acc_g33_xps3_tan_flip : rhsusf_acc_g33_xps3_flip
+	{
+		MRT_SwitchItemNextClass = "rhsusf_acc_g33_xps3_tan";
+		MRT_SwitchItemPrevClass = "rhsusf_acc_g33_xps3_tan";
+	};
+	
+	
 	/*
 	class bravo_famas_f1_gl : uk3cb_famas_f1
 	{
