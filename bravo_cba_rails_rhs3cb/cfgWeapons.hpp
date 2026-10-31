@@ -48,6 +48,7 @@ class asdg_OpticRail1913_short;
 class asdg_OpticRail1913_short_MG : asdg_OpticRail1913_short
 {};
 class asdg_UnderSlot;
+class asdg_muzzleSlot_65;
 
 class CfgWeapons
 {	
@@ -307,6 +308,22 @@ class CfgWeapons
 	class uk3cb_mp5_base : smg_02_f
 	{
 		magazineWell[] = {"CBA_9x19_MP5"};
+	};
+	
+	class srifle_ebr_f;
+	class uk3cb_baf_l129a1 : srifle_ebr_f
+	{
+		class WeaponSlotsInfo;
+	};
+	class bravo_l129a2 : uk3cb_baf_l129a1
+	{
+		displayName = "L129A2";
+		magazineWell[] = { "CBA_65C_AR10"};
+		class weaponSlotsInfo : WeaponSlotsInfo
+		{
+			class muzzleSlot : asdg_muzzleSlot_65
+			{};
+		};
 	};
 	
 	class rhsusf_acc_g33_xps3 : ItemCore

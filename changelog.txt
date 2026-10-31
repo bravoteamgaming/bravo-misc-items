@@ -503,3 +503,4 @@
 2026-10-31
 - CBA RAILS RHS3CB: RHS flip-up magnifiers can now use CBA mode keybinds as well as RHS
 - CBA RAILS VANILLA: F2000 now uses CBA muzzle slot
+- CBA RAILS RHS3CB: added L129A2

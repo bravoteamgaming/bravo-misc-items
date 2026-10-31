@@ -8,7 +8,12 @@ class CfgPatches
 		requiredVersion = 2.00;
 		requiredAddons[] = {"cba_jr", "po_factions_me", "rhs_main_loadorder", "rhsgref_main_loadorder", "rhssaf_main_loadorder", "rhsusf_main_loadorder", "uk3cb_baf_weapons_loadorder", "uk3cb_factions_weapons", "uk3cb_factions_weapons2", "uk3cb_factions_weapons2_rk62", "uk3cb_factions_weapons_famas"};
 		units[] = {};
-		weapons[] = {};
+		weapons[] = {
+			"bravo_l129a2",
+			"bravo_l115a3_300wm",
+			"bravo_l115a3_300wm_blk",
+			"bravo_l115a3_300wm_des"
+		};
 		skipWhenMissingDependencies = 1;
 	};
 };
