@@ -217,7 +217,14 @@ class CfgWeapons
 	};
 	
 	class UGL_F;
-	class mk20_base_F;
+	class mk20_base_F : rifle_base_f
+	{
+		class WeaponSlotsInfo : WeaponSlotsInfo
+		{
+			class MuzzleSlot : asdg_muzzleSlot_556
+			{};
+		};
+	};
 	class arifle_Mk20_GL_F : mk20_base_F
 	{
 		class EGLM : UGL_F
