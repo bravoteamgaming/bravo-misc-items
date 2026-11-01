@@ -325,6 +325,165 @@ class CfgWeapons
 			class muzzleSlot : asdg_muzzleSlot_65
 			{};
 		};
+		UK3CB_underbarrel_altWeapon_afg = "bravo_l129a2_AFG";
+		UK3CB_underbarrel_altWeapon_afg_d = "bravo_l129a2_AFG_D";
+		UK3CB_underbarrel_altWeapon_afg_g = "bravo_l129a2_AFG_G";
+		UK3CB_underbarrel_altWeapon_afg_t = "bravo_l129a2_AFG_T";
+		UK3CB_underbarrel_altWeapon_afg_w = "bravo_l129a2_AFG_W";
+		UK3CB_underbarrel_altWeapon_bipod = "bravo_l129a2_Bipod";
+		UK3CB_underbarrel_altWeapon_fgrip = "bravo_l129a2_FGrip";
+		UK3CB_underbarrel_altWeapon_fgrip_bipod = "bravo_l129a2_FGrip_Bipod";
+		UK3CB_underbarrel_altWeapon_grippod = "bravo_l129a2_Grippod";
+		UK3CB_underbarrel_altWeapon_grippod_d = "bravo_l129a2_Grippod_D";
+		UK3CB_underbarrel_altWeapon_grippod_g = "bravo_l129a2_Grippod_G";
+		UK3CB_underbarrel_altWeapon_grippod_t = "bravo_l129a2_Grippod_T";
+		UK3CB_underbarrel_altWeapon_grippod_w = "bravo_l129a2_Grippod_W";
+		UK3CB_underbarrel_baseWeapon = "bravo_l129a2";
+	};
+	class bravo_l129a2_afg : bravo_l129a2
+	{
+		handAnim[] = {"OFP2_ManSkeleton","\UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_L129\anims\L129_handpose_angled.rtm"};
+		class linkeditems
+		{
+			class linkeditemsunderbarrel
+			{
+				item = "UK3CB_underbarrel_acc_afg";
+				slot = "UnderBarrelSlot";
+			};
+		};
+	};
+	class bravo_l129a2_afg_d : bravo_l129a2_afg
+	{
+		class linkeditems
+		{
+			class linkeditemsunderbarrel
+			{
+				item = "UK3CB_underbarrel_acc_afg_d";
+				slot = "UnderBarrelSlot";
+			};
+		};
+	};
+	class bravo_l129a2_afg_g : bravo_l129a2_afg
+	{
+		class linkeditems
+		{
+			class linkeditemsunderbarrel
+			{
+				item = "UK3CB_underbarrel_acc_afg_g";
+				slot = "UnderBarrelSlot";
+			};
+		};
+	};
+	class bravo_l129a2_afg_t : bravo_l129a2_afg
+	{
+		class linkeditems
+		{
+			class linkeditemsunderbarrel
+			{
+				item = "UK3CB_underbarrel_acc_afg_t";
+				slot = "UnderBarrelSlot";
+			};
+		};
+	};
+	class bravo_l129a2_afg_w : bravo_l129a2_afg
+	{
+		class linkeditems
+		{
+			class linkeditemsunderbarrel
+			{
+				item = "UK3CB_underbarrel_acc_afg_w";
+				slot = "UnderBarrelSlot";
+			};
+		};
+	};
+	class bravo_l129a2_bipod : bravo_l129a2
+	{
+		class linkeditems
+		{
+			class linkeditemsunderbarrel
+			{
+				item = "UK3CB_underbarrel_acc_bipod";
+				slot = "UnderBarrelSlot";
+			};
+		};
+	};
+	class bravo_l129a2_fgrip : bravo_l129a2
+	{
+		handAnim[] = {"OFP2_ManSkeleton","\UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_L129\anims\L129_handpose_vertical.rtm"};
+		class linkeditems
+		{
+			class linkeditemsunderbarrel
+			{
+				item = "UK3CB_underbarrel_acc_fgrip";
+				slot = "UnderBarrelSlot";
+			};
+		};
+	};
+	class bravo_l129a2_fgrip_bipod : bravo_l129a2_fgrip
+	{
+		class linkeditems
+		{
+			class linkeditemsunderbarrel
+			{
+				item = "UK3CB_underbarrel_acc_fgrip_bipod";
+				slot = "UnderBarrelSlot";
+			};
+		};
+	};
+	class bravo_l129a2_fgrip_grippod : bravo_l129a2_fgrip
+	{
+		class linkeditems
+		{
+			class linkeditemsunderbarrel
+			{
+				item = "UK3CB_underbarrel_acc_grippod";
+				slot = "UnderBarrelSlot";
+			};
+		};
+	};
+	class bravo_l129a2_fgrip_grippod_d : bravo_l129a2_fgrip
+	{
+		class linkeditems
+		{
+			class linkeditemsunderbarrel
+			{
+				item = "UK3CB_underbarrel_acc_grippod_d";
+				slot = "UnderBarrelSlot";
+			};
+		};
+	};
+	class bravo_l129a2_fgrip_grippod_g : bravo_l129a2_fgrip
+	{
+		class linkeditems
+		{
+			class linkeditemsunderbarrel
+			{
+				item = "UK3CB_underbarrel_acc_grippod_g";
+				slot = "UnderBarrelSlot";
+			};
+		};
+	};
+	class bravo_l129a2_fgrip_grippod_t : bravo_l129a2_fgrip
+	{
+		class linkeditems
+		{
+			class linkeditemsunderbarrel
+			{
+				item = "UK3CB_underbarrel_acc_grippod_t";
+				slot = "UnderBarrelSlot";
+			};
+		};
+	};
+	class bravo_l129a2_fgrip_grippod_w : bravo_l129a2_fgrip
+	{
+		class linkeditems
+		{
+			class linkeditemsunderbarrel
+			{
+				item = "UK3CB_underbarrel_acc_grippod_w";
+				slot = "UnderBarrelSlot";
+			};
+		};
 	};
 	
 	class ItemCore;
