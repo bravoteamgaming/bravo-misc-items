@@ -326,6 +326,7 @@ class CfgWeapons
 		};
 	};
 	
+	class ItemCore;
 	class rhsusf_acc_g33_xps3 : ItemCore
 	{
 		MRT_SwitchItemNextClass = "rhsusf_acc_g33_xps3_flip";
@@ -414,7 +415,6 @@ class CfgWeapons
 			hardLimitEnd = 200;\
 		};
 	
-	class ItemCore;
 	class InventoryFlashLightItem_Base_F;
 	class acc_pointer_IR;
 	class acc_flashlight : ItemCore
