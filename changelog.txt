@@ -504,3 +504,7 @@
 - CBA RAILS RHS3CB: RHS flip-up magnifiers can now use CBA mode keybinds as well as RHS
 - CBA RAILS VANILLA: F2000 now uses CBA muzzle slot
 - CBA RAILS RHS3CB: added L129A2
+
+2026-11-01
+- GEAR MISC: BAF Warrior olive and sand textures now available for vanilla warriors too
+- GEAR MISC: BAF Warriors no longer revert to AAF textures when customised

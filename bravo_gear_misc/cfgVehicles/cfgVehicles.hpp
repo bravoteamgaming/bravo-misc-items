@@ -154,4 +154,37 @@ class cfgVehicles
 	{
 		hiddenSelectionsTextures[] = {"\A3\characters_f\common\data\coveralls_bandit_co.paa"};
 	};
+	
+	// ============= 3CB Warrior skins
+	class Tank_F;
+	class APC_Tracked_03_base_F : Tank_F
+	{
+		class TextureSources
+		{
+			class bravo_3cb_olive
+			{
+				author = "3CB";
+				displayName = "Olive";
+				factions[] = {};
+				textures[] = {"\uk3cb_baf_vehicles\addons\UK3CB_BAF_Vehicles_Warrior_a3\data\apc_tracked_03_ext_baf_co.paa","\uk3cb_baf_vehicles\addons\UK3CB_BAF_Vehicles_Warrior_a3\data\apc_tracked_03_ext2_baf_co.paa","\uk3cb_baf_vehicles\addons\UK3CB_BAF_Vehicles_Warrior_a3\data\camonet_baf_co.paa","\uk3cb_baf_vehicles\addons\UK3CB_BAF_Vehicles_Warrior_a3\data\cage_baf_co.paa"};
+			};
+			class bravo_3cb_sand
+			{
+				author = "3CB";
+				displayName = "Sand";
+				factions[] = {};
+				textures[] = {"\uk3cb_baf_vehicles\addons\UK3CB_BAF_Vehicles_Warrior_a3\data\apc_tracked_03_ext_baf_desert_co.paa","\uk3cb_baf_vehicles\addons\UK3CB_BAF_Vehicles_Warrior_a3\data\apc_tracked_03_ext2_baf_desert_co.paa","\uk3cb_baf_vehicles\addons\UK3CB_BAF_Vehicles_Warrior_a3\data\camonet_baf_desert_co.paa","\uk3cb_baf_vehicles\addons\UK3CB_BAF_Vehicles_Warrior_a3\data\cage_baf_desert_co.paa"};
+			};
+		};
+	};
+	class UK3CB_BAF_Warrior_A3_Base : APC_Tracked_03_base_F
+	{};
+	class UK3CB_BAF_Warrior_A3_W : UK3CB_BAF_Warrior_A3_Base
+	{
+		textureList[] = {"bravo_3cb_olive",1};
+	};
+	class UK3CB_BAF_Warrior_A3_D : UK3CB_BAF_Warrior_A3_Base
+	{
+		textureList[] = {"bravo_3cb_sand",1};
+	};
 };
