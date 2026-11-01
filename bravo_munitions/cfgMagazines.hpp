@@ -511,7 +511,7 @@ class CfgMagazineWells
 			"bravo_30rnd_57x28mm_cpw_type29"
 		};
 	};
-	class gm_magagzineWell_35x228mm_l90
+	class gm_magazineWell_35x228mm_l90_he
 	{
 		bravo_munitions_mags[] = {
 			"bravo_640rnd_35x228mm_airburst"

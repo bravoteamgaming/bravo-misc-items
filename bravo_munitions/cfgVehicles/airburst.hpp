@@ -1,21 +1,28 @@
 // ======== airburst
 	
-	class gm_gepard1a1_base;
-	class gm_ge_army_gepard1a1_base : gm_gepard1a1_base
+	class gm_tracked_Tank_base;
+	class gm_Leopard1_base : gm_tracked_Tank_base
 	{
 		class Turrets;
 	};
-	class gm_ge_army_gepard1a1 : gm_ge_army_gepard1a1_base
+	class gm_Gepard_base : gm_Leopard1_base
 	{
 		class Turrets : Turrets
 		{
 			class MainTurret;
 		};
+	};
+	class gm_Gepard1a1_base : gm_Gepard_base
+	{};
+	class gm_ge_army_gepard1a1_base : gm_Gepard1a1_base
+	{
 		class EventHandlers;
 	};
-	class bravo_gepard1a1_airburst : gm_ge_army_gepard1a1
+	class bravo_gepard1a1_airburst : gm_ge_army_gepard1a1_base
 	{
 		displayName = "FlakPz 1A1 (AB)";
+		scope = 2;
+		scopeCurator = 2;
 		class Turrets : Turrets
 		{
 			class MainTurret : MainTurret

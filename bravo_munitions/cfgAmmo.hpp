@@ -596,6 +596,7 @@ class CfgAmmo
 	class gm_bullet_35x228mm_HEI_T_dm21;
 	class bravo_shell_35x228_airburst : gm_bullet_35x228mm_HEI_T_dm21
 	{
+		EF_AirburstDistance = 10;
 		class EventHandlers
 		{
 			class bravo_munitions
