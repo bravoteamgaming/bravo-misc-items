@@ -403,6 +403,16 @@ class CfgMagazines
 		pylonMirrorClass = "bravo_pylon_lasersensor_rail_l";
 		model = "a3\Weapons_F\DynamicLoadout\PylonPod_ECM_01_R_F.p3d";
 	};
+	
+	// ============= airburst
+	class gm_640rnd_35x228mm_hei_t_dm21;
+	class bravo_640rnd_35x228mm_airburst : gm_640rnd_35x228mm_hei_t_dm21
+	{
+		descriptionShort = "Caliber: 35x228mm HE Airburst<br />Rounds: 640<br />Used in: L/90";
+		displayName = "35mm Airburst";
+		displayNameShort = "AB";
+		ammo = "bravo_shell_35x228_airburst";
+	};
 };
 class CfgMagazineWells
 {
@@ -499,6 +509,12 @@ class CfgMagazineWells
 	{
 		bravo_munitions_mags[] = {
 			"bravo_30rnd_57x28mm_cpw_type29"
+		};
+	};
+	class gm_magagzineWell_35x228mm_l90
+	{
+		bravo_munitions_mags[] = {
+			"bravo_640rnd_35x228mm_airburst"
 		};
 	};
 };

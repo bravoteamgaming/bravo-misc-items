@@ -592,4 +592,17 @@ class CfgAmmo
 			};
 		};
 	};
+	
+	class gm_640Rnd_35x228mm_hei_t_DM21;
+	class bravo_shell_35x228_airburst : gm_640Rnd_35x228mm_hei_t_DM21
+	{
+		class EventHandlers
+		{
+			class bravo_munitions
+			{
+				fired = "_this call EF_fnc_airburst";
+			};
+		};
+	};
+	
 };

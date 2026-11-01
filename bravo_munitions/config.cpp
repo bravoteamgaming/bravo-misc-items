@@ -22,10 +22,16 @@ class CfgPatches
 			"bravo_module_trapped_gun_mine_csat",
 			"bravo_module_trapped_gun_mine_ww2ger",
 			"bravo_module_trapped_gun_mine_ww2allied",
+			"bravo_zsu39_airburst_t",
+			"bravo_zsu39_airburst",
+			"bravo_cheetah_airburst_t",
+			"bravo_cheetah_airburst",
+			"bravo_gepard1a1_airburst"
+		};
+		weapons[] = {
 			"bravo_fgm202",
 			"bravo_fgm202_used"
 		};
-		weapons[] = {};
 		skipWhenMissingDependencies = 1;
 	};
 };
@@ -36,6 +42,6 @@ class CfgPatches
 
 #include "cfgAmmo.hpp"
 
-#include "cfgVehicles.hpp"
+#include "cfgVehicles\cfgVehicles.hpp"
 
 #include "cfgFunctions.hpp"

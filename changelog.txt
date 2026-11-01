@@ -510,3 +510,4 @@
 - GEAR MISC: BAF Warriors no longer revert to AAF textures when customised
 - GEAR MISC: Sand texture now available for Pandur II
 - ITEMS: version > 2.8
+- MUNITIONS: added Gepard, Cheetah, and Tigris with EF drone radar and airburst ammo

@@ -102,4 +102,10 @@ class cfgWeapons
 		baseWeapon = "bravo_fgm202_used";
 		displayName = "FGM-202 Predator-NG (used)";
 	};
+	
+	class CannonCore;
+	class autocannon_35mm : CannonCore
+	{
+		class magazines[] += {"bravo_640rnd_35x228mm_airburst"};
+	};
 };
