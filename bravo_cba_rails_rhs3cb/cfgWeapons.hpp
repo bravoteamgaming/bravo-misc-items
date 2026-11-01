@@ -317,6 +317,7 @@ class CfgWeapons
 	};
 	class bravo_l129a2 : uk3cb_baf_l129a1
 	{
+		baseWeapon = "bravo_l129a2";
 		displayName = "L129A2";
 		magazineWell[] = { "CBA_65C_AR10"};
 		class weaponSlotsInfo : WeaponSlotsInfo
