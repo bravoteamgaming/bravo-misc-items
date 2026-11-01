@@ -106,6 +106,6 @@ class cfgWeapons
 	class CannonCore;
 	class autocannon_35mm : CannonCore
 	{
-		class magazines[] += {"bravo_640rnd_35x228mm_airburst"};
+		magazines[] += {"bravo_640rnd_35x228mm_airburst"};
 	};
 };
