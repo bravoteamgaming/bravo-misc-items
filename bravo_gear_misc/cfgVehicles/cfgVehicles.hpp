@@ -187,4 +187,20 @@ class cfgVehicles
 	{
 		textureList[] = {"bravo_3cb_sand",1};
 	};
+	
+	// ================= Gorgon
+	class Wheeled_APC_F;
+	class APC_Wheeled_03_base_F : Wheeled_APC_F
+	{
+		class TextureSources
+		{
+			class bravo_sand
+			{
+				author = "Bohemia Interactive";
+				displayName = "Sand";
+				factions[] = {};
+				textures[] = {"A3\Armor_F_Gamma\APC_Wheeled_03\Data\apc_wheeled_03_ext_co.paa", "A3\Armor_F_Gamma\APC_Wheeled_03\Data\apc_wheeled_03_ext2_co.paa", "A3\Armor_F_Gamma\APC_Wheeled_03\Data\rcws30_co.paa", "A3\Armor_F_Gamma\APC_Wheeled_03\Data\apc_wheeled_03_ext_alpha_co.paa", "a3\Armor_F\Data\camonet_NATO_Desert_CO.paa", "a3\Armor_F\Data\cage_sand_CO.paa"};
+			};
+		};
+	};
 };
