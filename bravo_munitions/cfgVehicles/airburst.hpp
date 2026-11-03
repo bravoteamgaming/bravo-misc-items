@@ -118,3 +118,20 @@
 		faction = "OPF_T_F";
 		hiddenSelectionsTextures[] = {"A3\Armor_F_Exp\APC_Tracked_02\Data\APC_Tracked_02_ext_01_AA_ghex_CO.paa","A3\Armor_F_Exp\APC_Tracked_02\Data\APC_Tracked_02_ext_02_ghex_CO.paa","A3\Armor_F_Exp\APC_Tracked_02\Data\APC_Tracked_01_AA_Tower_ghex_CO.paa","A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa","A3\armor_f\data\cage_csat_green_CO.paa"};
 	};
+	
+	// just radar for Nyx
+	class Tank_F;
+	class LT_01_base_F : Tank_F
+	{
+		class EventHandlers;
+	};
+	class LT_01_scout_base_F : LT_01_base_F
+	{
+		class EventHandlers : EventHandlers
+		{
+			class bravo_munitions
+			{
+				postInit = "[_this#0,4000] call EF_fnc_antiDroneRadar";
+			};
+		};
+	};
