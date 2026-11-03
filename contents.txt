@@ -912,7 +912,7 @@ CBA RAILS RF
 
 CBA RAILS RHS3CB
 - Change RHS/3CB weapons to make use of CBA attachment slots and magwells
-- Add .300WM variant of 3CB BAF L115A3
+- Add .300WM variant of 3CB BAF L115A3 and 6.5mm L129A2
 - Adjust flashlight properties
 
 CBA RAILS T1
