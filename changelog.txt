@@ -515,3 +515,4 @@
 2026-11-03
 - ITEMS: fixed a texture issue with DDR5 pack
 - MUNITIONS: Nyx Radar gets EF drone radar
+- GEAR MISC: updated texture of CADPAT-MT equipment
