@@ -516,3 +516,6 @@
 - ITEMS: fixed a texture issue with DDR5 pack
 - MUNITIONS: Nyx Radar gets EF drone radar
 - GEAR MISC: updated texture of CADPAT-MT equipment
+
+2026-11-05
+- GEAR MISC: updated 6Sh122 Olive texture and added 6Sh122 Tan

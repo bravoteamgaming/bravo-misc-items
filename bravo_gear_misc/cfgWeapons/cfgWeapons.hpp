@@ -373,6 +373,14 @@ class cfgWeapons
 			uniformClass = "bravo_6sh122_gloves_olive_unit";
 		};
 	};
+	class bravo_6sh122_gloves_des : rhs_uniform_6sh122_gloves_v1
+	{
+		displayName = "6Sh122 (Tan/Gloves)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_6sh122_gloves_des_unit";
+		};
+	};
 	
 	#include "cryeg3.hpp"
 	

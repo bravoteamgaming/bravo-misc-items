@@ -565,6 +565,7 @@ GEAR MISC
 	Alt variants of EF Amphibious Assault Vest and Commando Chest Rig
 - Add uniform variants:
 	6Sh122 (Olive/Gloves)
+	6Sh122 (Tan/Gloves)
 	G3 Uniform (BravoCam)
 	G3 Uniform (BME)
 	G3 Uniform (Flecktarn)
