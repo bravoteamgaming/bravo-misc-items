@@ -208,4 +208,16 @@ class cfgVehicles
 			};
 		};
 	};
+	
+	class Car_F;
+	class MRAP_03_base_F : Car_F
+	{
+		class TextureSources
+		{
+			class Blufor
+			{
+				factions[] = {};
+			};
+		};
+	};
 };

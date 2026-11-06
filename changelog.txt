@@ -519,3 +519,6 @@
 
 2026-11-05
 - GEAR MISC: updated 6Sh122 Olive texture and added 6Sh122 Tan
+
+2026-11-06
+- GEAR MISC: Sand texture for Fennek is no longer faction locked

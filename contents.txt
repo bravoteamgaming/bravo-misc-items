@@ -896,6 +896,10 @@ GEAR MISC
 	SU230A/PVS Coyote [B]
 	SU230/PVS Coyote [B]
 - Change mass of 3CB and GM radio bags and other backpacks
+- Add vehicle texture sources:
+	Pandur II: Sand
+	Fennek: Sand
+	Warrior: Olive, Sand
 
 PHONE
 - Add cellphone tool: Mk 42 Mod 0 ZDAS
