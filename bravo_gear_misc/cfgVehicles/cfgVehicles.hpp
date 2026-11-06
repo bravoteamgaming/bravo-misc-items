@@ -14,6 +14,11 @@ class cfgVehicles
 		uniformClass = "bravo_6sh122_gloves_des";
 		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\6sh122_des_top_co.paa","\bravo_gear_misc\assets\6sh122_des_bottom_co.paa","rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"};
 	};
+	class bravo_6sh122_gloves_blk_unit : rhs_6sh122_gloves_v2_base
+	{
+		uniformClass = "bravo_6sh122_gloves_blk";
+		hiddenSelectionsTextures[] = {"\bravo_gear_misc\assets\6sh122_blk_top_co.paa","\bravo_gear_misc\assets\6sh122_blk_bottom_co.paa","rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"};
+	};
 	
 	#include "combatuniform.hpp"
 	

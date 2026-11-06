@@ -381,6 +381,14 @@ class cfgWeapons
 			uniformClass = "bravo_6sh122_gloves_des_unit";
 		};
 	};
+	class bravo_6sh122_gloves_blk : rhs_uniform_6sh122_gloves_v1
+	{
+		displayName = "6Sh122 (Black/Gloves)";
+		class itemInfo : itemInfo
+		{
+			uniformClass = "bravo_6sh122_gloves_blk_unit";
+		};
+	};
 	
 	#include "cryeg3.hpp"
 	

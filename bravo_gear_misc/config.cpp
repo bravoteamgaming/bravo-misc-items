@@ -324,6 +324,7 @@ class CfgPatches
 			"bravo_carrier_nobelt_ws_des",
 			"bravo_6sh122_gloves_olive",
 			"bravo_6sh122_gloves_des",
+			"bravo_6sh122_gloves_blk",
 			"bravo_cryeg3_bravocam",
 			"bravo_cryeg3_cce",
 			"bravo_cryeg3_dgt",

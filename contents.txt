@@ -566,6 +566,7 @@ GEAR MISC
 - Add uniform variants:
 	6Sh122 (Olive/Gloves)
 	6Sh122 (Tan/Gloves)
+	6Sh122 (Black/Gloves)
 	G3 Uniform (BravoCam)
 	G3 Uniform (BME)
 	G3 Uniform (Flecktarn)
